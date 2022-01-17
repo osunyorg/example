@@ -1,0 +1,18 @@
+languageCode: fr
+params:
+  cookie_page: https://gdpr.eu/cookies/
+defaultContentLanguage: fr
+baseURL:
+languages:
+  fr:
+    title: Osuny template
+theme: osuny-hugo-theme
+paginate: 18
+permalinks:
+  pages:          /pages/:slug/
+taxonomies:
+  administrator:  administrators
+  author:         authors
+  category:       categories
+  researcher:     researchers
+  teacher:        teachers
