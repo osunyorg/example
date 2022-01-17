@@ -25,3 +25,6 @@ Pour lancer le site
 yarn
 hugo server
 ```
+
+
+Pour déployer le site avec Netlify, penser à ajouter la deploy key.
