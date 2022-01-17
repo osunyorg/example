@@ -2,7 +2,10 @@
 module.exports = {
     plugins: {
         '@fullhuman/postcss-purgecss': {
-            content: ['./themes/**/*.html'],
+            content: [
+                './themes/**/*.html',
+                'layouts/**/*.html'
+            ],
             safelist: [
                 'show',
                 'active',
