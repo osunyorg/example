@@ -1,6 +1,7 @@
 languageCode: fr
 params:
   cookie_page: https://gdpr.eu/cookies/
+  default_image:
 defaultContentLanguage: fr
 baseURL:
 languages:
