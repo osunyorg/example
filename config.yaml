@@ -1,8 +1,8 @@
-languageCode: fr
 params:
   cookie_page: https://gdpr.eu/cookies/
+baseURL: /
 defaultContentLanguage: fr
-baseURL:
+languageCode: fr
 languages:
   fr:
     title: Osuny template
