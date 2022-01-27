@@ -24,12 +24,12 @@ git pull --recurse-submodules
 ```
 
 
-## Install
+## Launch
 
 Pour lancer le site
 ```
 yarn
-hugo server
+yarn watch
 ```
 
 
