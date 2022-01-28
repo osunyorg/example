@@ -1,4 +1,4 @@
-# Osuny hugo template
+# Osuny example
 
 
 ## Hugo
@@ -16,7 +16,7 @@ brew upgrade hugo
 
 Pour cloner avec le thème
 ```
-git clone git@github.com:noesya/osuny-hugo-template.git --recurse-submodules
+git clone git@github.com:noesya/osuny-example.git --recurse-submodules
 ```
 Pour récupérer le thème
 ```
