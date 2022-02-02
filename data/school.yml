@@ -1,0 +1,19 @@
+---
+name: >
+  Lorem ipsum
+address: >
+  1 rue du Lorem ipsum
+zipcode: >
+  75001
+city: >
+  Paris
+country: >
+  France
+phone: >
+  
+administrators:
+  - "jean-dupont"
+administrators_description:
+  "jean-dupont": >
+    
+---
