@@ -3,4 +3,8 @@
   target: "/programs/"
   kind: programs
   children: []
+- title: News
+  target: "/posts/"
+  kind: news
+  children: []
 
