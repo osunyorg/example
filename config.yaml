@@ -1,6 +1,6 @@
 params:
   cookie_banner:
-    enable: true
+    enable: false
     blank: true
     page: https://gdpr.eu/cookies/
 baseURL: /
@@ -12,7 +12,12 @@ languages:
 theme: osuny-hugo-theme
 paginate: 18
 permalinks:
-  pages:          /pages/:slug/
+  posts:          /posts/:year/:month/:day/:slug/
+  categories:     /posts/:sections/:slug/
+  persons:        /team/:slug/
+  authors:        /team/:slug/posts/
+  researchers:    /team/:slug/articles/
+  teachers:       /team/:slug/programs/
 taxonomies:
   administrator:  administrators
   author:         authors
