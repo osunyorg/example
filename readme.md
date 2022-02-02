@@ -43,6 +43,12 @@ Dans config.yml
 params:
 ```
 
+### CDN
+
+```
+cdnkey: 
+```
+
 ### Cookie banner
 
 ```
