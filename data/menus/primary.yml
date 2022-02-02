@@ -1,2 +1,6 @@
---- []
+---
+- title: Formations
+  target: "/programs/"
+  kind: programs
+  children: []
 
