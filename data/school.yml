@@ -15,5 +15,10 @@ administrators:
   - "jean-dupont"
 administrators_description:
   "jean-dupont": >
-    
+    Lorem ipsum
+roles:
+  - title: >
+      Lorem ipsum
+    persons:
+      - "jean-dupont"
 ---

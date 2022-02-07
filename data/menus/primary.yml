@@ -1,10 +1,10 @@
 ---
 - title: Formations
-  target: "/programs/"
+  target: "/offre-de-formation/"
   kind: programs
   children: []
 - title: News
-  target: "/posts/"
+  target: "/actualites/"
   kind: news
   children: []
 
