@@ -6,17 +6,29 @@ module.exports = {
                 './themes/**/*.html',
                 'layouts/**/*.html'
             ],
-            safelist: [
+            safelist: {
+              standard: [
                 'show',
                 'active',
                 'collapsed',
-                'nav-level-1',
-                'nav-level-2',
-                'nav-level-3',
+                /^dropdown/,
+                /^nav-level-/,
                 /^is-/,
                 /^has-/,
                 /^js-/
-            ]
+              ],
+              greedy: [
+                /administrators__/,
+                /authors__/,
+                /categories__/,
+                /page__/,
+                /pages__/,
+                /persons__/,
+                /posts__/,
+                /programs__/,
+                /teachers__/
+              ]
+            }
         },
         autoprefixer: {},
         cssnano: {
