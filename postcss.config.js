@@ -19,6 +19,7 @@ module.exports = {
               ],
               greedy: [
                 /administrators__/,
+                /articles__/,
                 /authors__/,
                 /categories__/,
                 /page__/,
@@ -26,7 +27,8 @@ module.exports = {
                 /persons__/,
                 /posts__/,
                 /programs__/,
-                /teachers__/
+                /teachers__/,
+                /volumes__/
               ]
             }
         },
