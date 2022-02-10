@@ -3,7 +3,7 @@ params:
     enable: false
     blank: true
     page: https://gdpr.eu/cookies/
-baseURL: /
+baseURL: https://example.osuny.org/
 defaultContentLanguage: fr
 languageCode: fr
 languages:
