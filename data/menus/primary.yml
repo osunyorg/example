@@ -8,7 +8,7 @@
   kind: news
   children:
   - title: À la une
-    target: "/actualites/categories/a-la-une/"
+    target: "/actualites/a-la-une/"
     kind: news_category
     children: []
 
