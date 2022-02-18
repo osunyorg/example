@@ -1,0 +1,9 @@
+baseURL: /
+theme: osuny-hugo-theme
+
+## LANGUAGE
+defaultContentLanguage: fr
+languageCode: fr
+
+## ADVANCED
+paginate: 18
