@@ -6,5 +6,9 @@
 - title: Actualités
   target: "/actualites/"
   kind: news
-  children: []
+  children:
+  - title: À la une
+    target: "/actualites/a-la-une/"
+    kind: news_category
+    children: []
 
