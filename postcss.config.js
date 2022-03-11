@@ -15,7 +15,8 @@ module.exports = {
                 /^nav-level-/,
                 /^is-/,
                 /^has-/,
-                /^js-/
+                /^js-/,
+                /^splide/
               ],
               greedy: [
                 /__home/,
