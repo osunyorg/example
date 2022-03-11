@@ -18,17 +18,10 @@ module.exports = {
                 /^js-/
               ],
               greedy: [
-                /administrators__/,
-                /articles__/,
-                /authors__/,
-                /categories__/,
-                /page__/,
-                /pages__/,
-                /persons__/,
-                /posts__/,
-                /programs__/,
-                /teachers__/,
-                /volumes__/
+                /__home/,
+                /__page/,
+                /__section/,
+                /__term/
               ]
             }
         },
