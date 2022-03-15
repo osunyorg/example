@@ -26,7 +26,7 @@ jobs:
         fetch-depth: 0 
     # install hugo
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2.5
+      uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: '0.93.1'
         extended: true
