@@ -32,7 +32,7 @@ jobs:
         extended: true
     # build the site
     - name: Build
-      run: npm run build
+      run: npm install && hugo --minify
     # run percy test
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
