@@ -16,6 +16,6 @@
   },
   "scripts": {
     "watch": "hugo server",
-    "build": "hugo --minify && npx percy "
+    "build": "hugo --minify"
   }
 }
