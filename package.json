@@ -5,8 +5,7 @@
   "author": "noesya",
   "license": "MIT",
   "dependencies": {
-    "osuny-hugo-theme": "./themes/osuny-hugo-theme",
-    "percy": "^0.28.7"
+    "osuny-hugo-theme": "./themes/osuny-hugo-theme"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^4.1.3",
