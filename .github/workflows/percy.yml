@@ -33,8 +33,6 @@ jobs:
     # build the site
     - name: Build
       run: npm install && hugo --minify
-      with:
-        cache: 'npm'
     # run percy test
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
