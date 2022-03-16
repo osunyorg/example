@@ -1,2 +1,7 @@
-- http://localhost:8080/
-- http://localhost:8080/a-propos-dosuny/
+snapshots:
+  - name: home
+    url: http://localhost:1313/
+  - name: page
+    url: http://localhost:1313/a-propos-dosuny
+  - name: post
+    url: http://localhost:1313/actualites/2022/02/21/covid-19-informations-vaccination/
