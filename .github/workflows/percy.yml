@@ -41,8 +41,7 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm install -g @percy/cli
-    - run: hugo server
-    - run: percy snapshot snapshots.yml
+    - run: percy snapshot ./public
       env:
         PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
     
