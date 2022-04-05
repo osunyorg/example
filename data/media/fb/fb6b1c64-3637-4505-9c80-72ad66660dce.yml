@@ -1,6 +1,9 @@
 ---
 name: arnaud.jpg
 size: 490605
+width: 1920
+height: 1920
+ratio: 1.0
 url: https://demo.osuny.org/media/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaWxtWWpaaU1XTTJOQzB6TmpNM0xUUTFNRFV0T1dNNE1DMDNNbUZrTmpZMk5qQmtZMlVHT2daRlZBPT0iLCJleHAiOm51bGwsInB1ciI6ImJsb2JfaWQifX0=--68bb636536fab35d95a5f3552b20d4eb77cd5c36/arnaud.jpg
 direct_url: https://osuny.s3.fr-par.scw.cloud/cnj6mdmpewresub7v18sas73a64y?response-content-disposition=inline%3B+filename%3D%22arnaud.jpg%22%3B+filename*%3DUTF-8%27%27arnaud.jpg&response-content-type=image%2Fjpeg
 
