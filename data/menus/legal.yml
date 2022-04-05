@@ -1,2 +1,6 @@
---- []
+---
+- title: À propos d'Osuny
+  target: "/a-propos-dosuny/"
+  kind: page
+  children: []
 
