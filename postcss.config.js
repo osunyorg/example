@@ -1,6 +1,10 @@
-// eslint-disable-next-line no-undef
-module.exports = {
-    plugins: {
+/* eslint-disable no-undef */
+var devPlugins = {},
+    productionPlugins = {
+        autoprefixer: {},
+        cssnano: {
+            preset: 'default'
+        },
         '@fullhuman/postcss-purgecss': {
             content: [
                 './themes/**/*.html',
@@ -55,10 +59,9 @@ module.exports = {
                     /__term/
                 ]
             }
-        },
-        autoprefixer: {},
-        cssnano: {
-            preset: 'default'
         }
-    }
+    };
+
+module.exports = {
+    plugins: process.env.HUGO_ENVIRONMENT === 'production' ? productionPlugins : devPlugins
 };
