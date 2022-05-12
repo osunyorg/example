@@ -104,18 +104,18 @@ blocks:
     position: 7
     data:
       page: /equipe/
-      show_descriptions: false
-      show_images: false
+      show_descriptions: true
+      show_images: true
       pages:
         - slug: /equipe/equipe-de-recherche/
-          show_description: false
-          show_image: false
+          show_description: true
+          show_image: true
         - slug: /equipe/equipe-pedagogique/
-          show_description: false
-          show_image: false
+          show_description: true
+          show_image: true
         - slug: /equipe/equipe-editoriale/
-          show_description: false
-          show_image: false
+          show_description: true
+          show_image: true
   - template: timeline
     title: >
       Timeline
@@ -179,16 +179,33 @@ blocks:
     position: 12
     data:
       images:
-        - alt: >
+        - file: "1e68a5b4-6308-422d-94ba-7f6ab4f235b0"
+          alt: >
+            
+          credit: >
             
           text: >
             
-          file: "1e68a5b4-6308-422d-94ba-7f6ab4f235b0"
-        - alt: >
+          
+        - file: "78c00d24-6b97-4dbb-8830-3b67e091098c"
+          alt: >
             test
+          credit: >
+            
           text: >
             
-          file: "78c00d24-6b97-4dbb-8830-3b67e091098c"
+          
+  - template: image
+    title: >
+      Titre de mon image
+    position: 13
+    data:
+      text: >-
+        <p><b>Un joli </b>texte avec de <i>l'italic. Et aussi <b>du bold</b>.</i></p><p>Et un saut de ligne</p>
+      image:
+        file: "82219b84-7b93-4fd7-8094-746529c1562d"
+        alt: Alternative text
+        credit: Le crédit de l&#39;image
 
 
 ---
