@@ -32,6 +32,7 @@ blocks:
       notes: >-
         <p>Notes de chapitre</p>
       image:
+        id: "290c9549-73a7-412c-b902-92403f486861"
         file: "290c9549-73a7-412c-b902-92403f486861"
         alt: 
         credit: 
@@ -77,46 +78,51 @@ blocks:
     position: 4
     data:
       images:
-        - file: "1587c1df-f29b-451d-bddc-3295a91cf13c"
+        - id: "1587c1df-f29b-451d-bddc-3295a91cf13c"
+          file: "1587c1df-f29b-451d-bddc-3295a91cf13c"
           alt: >
             Alex
           credit: >
             
           text: >
             
-          
-        - file: "fb6b1c64-3637-4505-9c80-72ad66660dce"
+
+        - id: "fb6b1c64-3637-4505-9c80-72ad66660dce"
+          file: "fb6b1c64-3637-4505-9c80-72ad66660dce"
           alt: >
             Arnaud
           credit: >
             
           text: >
             
-          
-        - file: "25502e1a-5ba9-4aca-bef3-54c6568126b1"
+
+        - id: "25502e1a-5ba9-4aca-bef3-54c6568126b1"
+          file: "25502e1a-5ba9-4aca-bef3-54c6568126b1"
           alt: >
             Pierre-André
           credit: >
             
           text: >
             
-          
-        - file: "f529b69c-4513-4596-a39f-c7243e19ed2e"
+
+        - id: "f529b69c-4513-4596-a39f-c7243e19ed2e"
+          file: "f529b69c-4513-4596-a39f-c7243e19ed2e"
           alt: >
             Sébastien
           credit: >
             
           text: >
             
-          
-        - file: "4a59a173-f3a4-468b-8e8c-4baea360769e"
+
+        - id: "4a59a173-f3a4-468b-8e8c-4baea360769e"
+          file: "4a59a173-f3a4-468b-8e8c-4baea360769e"
           alt: >
             Sébastien
           credit: >
             
           text: >
             
-          
+
   - template: partners
     title: >
       Partenaires
@@ -164,6 +170,7 @@ blocks:
       text: >-
         <p>Lorem ipsum</p>
       image:
+        id: "7ce9ae91-3c9a-4700-ac2d-157df2e88855"
         file: "7ce9ae91-3c9a-4700-ac2d-157df2e88855"
         alt: Alternatif text
         credit: 
@@ -201,15 +208,14 @@ blocks:
     position: 11
     data:
       page: /equipe/
+      show_main_description: false
       show_descriptions: true
       show_images: false
       pages:
-        - slug: /equipe/equipe-de-recherche/
-          show_description: true
-          show_image: false
-        - slug: /equipe/equipe-pedagogique/
-          show_description: true
-          show_image: false
+        - page: /equipe/equipe-de-recherche/
+          slug: /equipe/equipe-de-recherche/
+        - page: /equipe/equipe-pedagogique/
+          slug: /equipe/equipe-pedagogique/
   - template: timeline
     title: >
       Timeline
@@ -234,22 +240,24 @@ blocks:
     position: 13
     data:
       images:
-        - file: "8f331c50-7c70-4bcf-b97b-0695fc3d7c64"
+        - id: "8f331c50-7c70-4bcf-b97b-0695fc3d7c64"
+          file: "8f331c50-7c70-4bcf-b97b-0695fc3d7c64"
           alt: >
             Planète
           credit: >
             
           text: >
             Ceci est un test
-          
-        - file: "2b0c40ae-0436-4123-b59a-5e0ef3ca5882"
+
+        - id: "2b0c40ae-0436-4123-b59a-5e0ef3ca5882"
+          file: "2b0c40ae-0436-4123-b59a-5e0ef3ca5882"
           alt: >
             Voice
           credit: >
             
           text: >
             Un autre test
-          
+
   - template: testimonials
     title: >
       1 seul témoignage
@@ -264,35 +272,5 @@ blocks:
               Développeur front
           photo: "ecb2cd83-dcd4-4684-a100-cabfa23bfc47"
 
-  - template: image
-    title: >
-      Titre de mon image
-    position: 13
-    data:
-      text: >-
-        <p><b>Un joli </b>texte avec de <i>l'italic. Et aussi <b>du bold</b>.</i></p><p>Et un saut de ligne</p>
-      image:
-        id: "8f331c50-7c70-4bcf-b97b-0695fc3d7c64"
-        alt: Alternative text
-        credit: Le crédit de l&#39;image
-  - template: video
-    title: >
-      
-    position: 14
-    data:
-  - template: datatable
-    title: >
-      
-    position: 15
-    data:
-  - template: files
-    title: >
-      
-    position: 16
-    data:
-  - template: embed
-    title: >
-      
-    position: 17
-    data:
+
 ---
