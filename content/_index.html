@@ -20,15 +20,24 @@ description: >
   
 description_short: >
   
-header_text: >
+header_text: >-
    
 legacy_text: >
   <p>Ceci est un site de démonstration.<br>Il est pré-compilé et généré par <a href="https://osuny.org">osuny.org</a></p> 
 blocks:
+  - template: posts
+    title: >
+      Actu!
+    position: 1
+    data:
+      posts:
+        - 2022/2022-02-21-covid-19-informations-vaccination
+        - 2022/2022-02-03-inscriptions-administratives
+        - 2022/2022-02-02-lorem-ipsum
   - template: chapter
     title: >
       Chapitre 1
-    position: 1
+    position: 2
     data:
       text: >-
         <p>Mon chapitre</p><p>Chapitre de test sur la home<br></p>
@@ -37,7 +46,7 @@ blocks:
   - template: chapter
     title: >
       Chapitre 2
-    position: 2
+    position: 3
     data:
       text: >-
         <p>Quam ducimus aliquam excepturi eligendi? Ut aliquam dolor minima velit recusandae? Ducimus animi sapiente illum, debitis voluptates quas. Deserunt nisi earum cum.<br></p>
@@ -46,7 +55,7 @@ blocks:
   - template: chapter
     title: >
       Chapitre impair
-    position: 3
+    position: 4
     data:
       text: >-
         <p>Test d'un chapitre col-6 suivi d'autre chose</p>
@@ -55,18 +64,18 @@ blocks:
   - template: organization_chart
     title: >
       Organigramme
-    position: 4
+    position: 5
     data:
       - slug: "pierre-andre-boissinot"
-        role: >
+        role: >-
           Co-founder
       - slug: "alexis-benoit"
-        role: >
+        role: >-
           Co-founder
   - template: definitions
     title: >
       Liste de définition
-    position: 5
+    position: 6
     data:
       - title: >-
           Actionnisme
@@ -79,7 +88,7 @@ blocks:
   - template: call_to_action
     title: >
       Call to action
-    position: 6
+    position: 7
     data:
       text: >-
         <p>Lorem ipsum</p>
@@ -101,31 +110,29 @@ blocks:
   - template: pages
     title: >
       Team
-    position: 7
+    position: 8
     data:
       page: /equipe/
-      show_descriptions: false
-      show_images: false
+      show_main_description: false
+      show_descriptions: true
+      show_images: true
       pages:
-        - slug: /equipe/equipe-de-recherche/
-          show_description: false
-          show_image: false
-        - slug: /equipe/equipe-pedagogique/
-          show_description: false
-          show_image: false
-        - slug: /equipe/equipe-editoriale/
-          show_description: false
-          show_image: false
+        - page: /equipe/equipe-de-recherche/
+          slug: /equipe/equipe-de-recherche/
+        - page: /equipe/equipe-pedagogique/
+          slug: /equipe/equipe-pedagogique/
+        - page: /equipe/equipe-editoriale/
+          slug: /equipe/equipe-editoriale/
   - template: timeline
     title: >
       Timeline
-    position: 8
+    position: 9
     data:
       events:
         - title: >-
             Titre
           text: >-
-            text de l&#39;event
+            text de l'event
         - title: >-
             Event 2
           text: >-
@@ -133,19 +140,19 @@ blocks:
   - template: testimonials
     title: >
       Témoignage
-    position: 9
+    position: 10
     data:
       testimonials:
         - text: >-
             Lorem ispum !
           author: >-
-              John Doe
+            John Doe
           job: >-
-              
+            
   - template: partners
     title: >
       Partners
-    position: 10
+    position: 11
     data:
       - slug: "rose-primaire"
       - slug: "test"
@@ -164,31 +171,91 @@ blocks:
         url: >-
           
         logo: ""
-  - template: posts
-    title: >
-      Actu!
-    position: 11
-    data:
-      posts:
-        - covid-19-informations-vaccination
-        - inscriptions-administratives
-        - lorem-ipsum
   - template: gallery
     title: >
       Galerie
     position: 12
     data:
       images:
-        - alt: >
-            
-          text: >
-            
+        - id: "1e68a5b4-6308-422d-94ba-7f6ab4f235b0"
           file: "1e68a5b4-6308-422d-94ba-7f6ab4f235b0"
-        - alt: >
-            test
+          alt: >
+            
+          credit: >
+            
           text: >
             
+
+        - id: "78c00d24-6b97-4dbb-8830-3b67e091098c"
           file: "78c00d24-6b97-4dbb-8830-3b67e091098c"
+          alt: >
+            test
+          credit: >
+            
+          text: >
+            
+
+  - template: image
+    title: >
+      Titre de mon image
+    position: 13
+    data:
+      text: >-
+        <p><b>Un joli </b>texte avec de <i>l'italic. Et aussi <b>du bold</b>.</i></p><p>Et un saut de ligne</p>
+      image:
+        id: "82219b84-7b93-4fd7-8094-746529c1562d"
+        file: "82219b84-7b93-4fd7-8094-746529c1562d"
+        alt: Alternative text
+        credit: Le crédit de l'image
+  - template: video
+    title: >
+      
+    position: 14
+    data:
+  - template: datatable
+    title: >
+      
+    position: 15
+    data:
+  - template: files
+    title: >
+      
+    position: 16
+    data:
+  - template: embed
+    title: >
+      
+    position: 17
+    data:
+  - template: video
+    title: >
+      
+    position: 18
+    data:
+  - template: key_figures
+    title: >
+      Nos chiffres clés
+    position: 19
+    data:
+      figures:
+        - number: >-
+            10
+          unit: >-
+            
+          description: >-
+            écoles
+        - number: >-
+            3.5
+          unit: >-
+            K
+          description: >-
+            utilisateurs
+        - number: >-
+            30
+          unit: >-
+            tonnes
+          description: >-
+            d'émission eqCO2 évitées
 
 
 ---

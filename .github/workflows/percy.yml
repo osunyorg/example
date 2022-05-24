@@ -4,13 +4,11 @@ name: Percy.io Visual Diff
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches:
+      - 'percy'
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
