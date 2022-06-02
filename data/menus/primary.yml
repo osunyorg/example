@@ -5,11 +5,11 @@
   children: []
 - title: Actualités
   target: "/actualites/"
-  kind: news
+  kind: posts
   children:
   - title: À la une
     target: "/actualites/a-la-une/"
-    kind: news_category
+    kind: category
     children: []
 - title: À propos d'Osuny
   target: "/a-propos-dosuny/"
