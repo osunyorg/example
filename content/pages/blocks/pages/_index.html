@@ -1,49 +1,29 @@
 ---
 title: >
-  Accueil
-breadcrumb_title: "Accueil"
-url: "/"
-position: 2
+  Liste de pages
+breadcrumb_title: "Liste de pages"
+url: "/blocks/pages/"
+position: 3
 bodyclass: 
 
-children:
-  - /a-propos-dosuny/
-  - /mentions-legales/
-  - /plan-du-site/
-  - /politique-de-confidentialite/
-  - /actualites/
-  - /offre-de-formation/
-  - /equipe/
-  - /tierces-parties/
-  - /blocks/
-  - /accessibilite/
 description: >
   
 description_short: >
-  
+  Exemple de block pages
 header_text: >-
-   
+  
 legacy_text: >
-  <p>Ceci est un site de démonstration.<br>Il est pré-compilé et généré par <a href="https://osuny.org">osuny.org</a></p> 
+  
 blocks:
-  - template: posts
-    title: >-
-      Actu!
-    position: 1
-    data:
-      posts:
-        - 2022/2022-02-21-covid-19-informations-vaccination
-        - 2022/2022-02-03-inscriptions-administratives
-        - 2022/2022-02-02-lorem-ipsum
   - template: pages
-    title: >-
-      
-    position: 2
+    title: >
+      Grid
+    position: 1
     data:
       page: /blocks/
       show_main_description: true
       show_descriptions: true
-      show_images: false
+      show_images: true
       layout: grid
       pages:
         - page: /blocks/chapitres/
