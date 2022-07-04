@@ -11,8 +11,4 @@
     target: "/actualites/a-la-une/"
     kind: category
     children: []
-- title: À propos d'Osuny
-  target: "/a-propos-dosuny/"
-  kind: page
-  children: []
 
