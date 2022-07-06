@@ -19,8 +19,4 @@
   target: "/equipe/"
   kind: page
   children: []
-- title: Équipe de recherche
-  target: "/equipe/equipe-de-recherche/"
-  kind: page
-  children: []
 
