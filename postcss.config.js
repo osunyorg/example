@@ -7,9 +7,14 @@ var devPlugins = {},
         },
         '@fullhuman/postcss-purgecss': {
             content: [
+                // './hugo_stats.json',
                 './themes/**/*.html',
                 'layouts/**/*.html'
             ],
+            // defaultExtractor: (content) => {
+            //     let els = JSON.parse(content).htmlElements;
+            //     return els.tags.concat(els.classes, els.ids);
+            // },
             safelist: {
                 standard: [
                     'show',
@@ -57,7 +62,9 @@ var devPlugins = {},
                     /__page/,
                     /__section/,
                     /__term/,
-                    /call_to_action/
+                    /posts/,
+                    /call_to_action/,
+                    /block-timeline/
                 ]
             }
         }
