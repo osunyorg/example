@@ -2,7 +2,11 @@
 - title: L'Offre de formation
   target: "/offre-de-formation/"
   kind: programs
-  children: []
+  children:
+  - title: Éco-conception de service numérique
+    target: "/offre-de-formation/eco-conception-de-service-numerique/"
+    kind: program
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: posts
@@ -11,8 +15,8 @@
     target: "/actualites/a-la-une/"
     kind: category
     children: []
-- title: Éco-conception de service numérique
-  target: "/offre-de-formation/eco-conception-de-service-numerique/"
-  kind: program
+- title: Équipe
+  target: "/equipe/"
+  kind: page
   children: []
 
