@@ -11,4 +11,8 @@
     target: "/actualites/a-la-une/"
     kind: category
     children: []
+- title: Éco-conception de service numérique
+  target: "/offre-de-formation/eco-conception-de-service-numerique/"
+  kind: program
+  children: []
 
