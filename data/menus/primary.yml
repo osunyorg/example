@@ -18,5 +18,9 @@
 - title: Équipe
   target: "/equipe/"
   kind: page
-  children: []
+  children:
+  - title: Équipe pédagogique
+    target: "/equipe/equipe-pedagogique/"
+    kind: page
+    children: []
 
