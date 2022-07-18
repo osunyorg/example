@@ -17,6 +17,24 @@ params:
   _merge: deep
   cookie_banner:
     enable: false
+  algolia:
+    vars:
+      - title
+      - summary
+      - date
+      - publishdate
+      - expirydate
+      - permalink
+    params:
+      - categories
+      - tags
 
 build:
   writeStats: true
+
+outputFormats:
+  Algolia:
+    baseName: algolia
+    isPlainText: true
+    mediaType: application/json
+    notAlternative: true
