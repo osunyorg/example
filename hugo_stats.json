@@ -82,6 +82,7 @@
       "block-pages--list",
       "block-partners",
       "block-posts",
+      "block-programs",
       "block-testimonials",
       "block-timeline",
       "block-timeline--horizontal",
@@ -233,6 +234,7 @@
       "block-28",
       "block-29",
       "block-3",
+      "block-30",
       "block-4",
       "block-5",
       "block-6",
@@ -273,7 +275,8 @@
       "transcription-2",
       "transcription-20",
       "transcription-23",
-      "transcription-3"
+      "transcription-3",
+      "transcription-30"
     ]
   }
 }
