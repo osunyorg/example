@@ -11,6 +11,18 @@
     target: "/offre-de-formation/eco-conception-de-service-numerique/"
     kind: program
     children: []
+  - title: Animation Sociale et Socioculturelle
+    target: "/offre-de-formation/animation-sociale-et-socioculturelle/"
+    kind: program
+    children: []
+  - title: Information - Communication
+    target: "/offre-de-formation/information-communication/"
+    kind: program
+    children: []
+  - title: Coordination de projets de développement social et culturel
+    target: "/offre-de-formation/coordination-de-projets-de-developpement-social-et-culturel/"
+    kind: program
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: posts
