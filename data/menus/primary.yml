@@ -27,4 +27,8 @@
     target: "/equipe/equipe-pedagogique/"
     kind: page
     children: []
+- title: Page test de contenu
+  target: "/test-full/"
+  kind: page
+  children: []
 
