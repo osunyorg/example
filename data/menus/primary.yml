@@ -16,7 +16,7 @@
     kind: program
     children: []
   - title: Information - Communication
-    target: "/offre-de-formation/information-communication-information-communication/"
+    target: "/offre-de-formation/information-communication/"
     kind: program
     children: []
 - title: Actualités
