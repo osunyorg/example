@@ -19,6 +19,7 @@ children:
   - /tierces-parties/
   - /blocks/
   - /accessibilite/
+  - /diplomes/
 description: >
   
 description_short: >
@@ -28,18 +29,52 @@ header_text: >-
 legacy_text: >
   <p>Ceci est un site de démonstration.<br>Il est pré-compilé et généré par <a href="https://osuny.org">osuny.org</a></p> 
 blocks:
-  - template: programs
+  - template: call_to_action
     title: >-
-      
+      Thème AAA
     position: 1
     data:
-      programs:
-        - slug: "eco-conception-de-service-numerique"
+      text: >-
+        <p>Le site example.osuny.org est en cours de migration vers le thème AAA. Si vous voyez des problèmes, n'hésitez pas à les remonter sur GitHub.</p>
+
+
+
+
+      alt: >-
+        
+
+
+      credit: >-
+        
+
+
+      buttons:
+        - title: >-
+            Référentiel GitHub
+
+
+          url: >-
+            https://github.com/noesya/osuny-hugo-theme-AAA
+
+
+          target_blank: true
+
+
+        - title: >-
+            Site de démonstration (WIP)
+
+
+          url: >-
+            https://v2--osuny-example.netlify.app/
+
+
+          target_blank: true
+
 
   - template: posts
     title: >-
       Actu!
-    position: 1
+    position: 2
     data:
       posts:
         - "2022/2022-02-21-covid-19-informations-vaccination"
@@ -47,8 +82,19 @@ blocks:
         - "2022/2022-02-02-lorem-ipsum"
   - template: pages
     title: >-
+      Page dédiée au test de contenu en pleine largeur
+    position: 3
+    data:
+      page: /test-full/
+      show_main_description: true
+      show_descriptions: true
+      show_images: false
+      layout: grid
+      pages:
+  - template: pages
+    title: >-
       
-    position: 2
+    position: 4
     data:
       page: /blocks/
       show_main_description: true
