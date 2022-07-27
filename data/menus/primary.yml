@@ -19,6 +19,10 @@
     target: "/offre-de-formation/information-communication/"
     kind: program
     children: []
+  - title: Coordination de projets de développement social et culturel
+    target: "/offre-de-formation/coordination-de-projets-de-developpement-social-et-culturel/"
+    kind: program
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: posts
