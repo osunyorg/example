@@ -75,4 +75,8 @@
   target: "/diplomes/master/"
   kind: diploma
   children: []
+- title: Doctorat
+  target: "/diplomes/doctorat/"
+  kind: diploma
+  children: []
 
