@@ -26,7 +26,11 @@
   - title: Liste des diplômes
     target: "/diplomes/"
     kind: diplomas
-    children: []
+    children:
+    - title: Licence Profesionnelle
+      target: "/diplomes/licence-profesionnelle/"
+      kind: diploma
+      children: []
 - title: Actualités
   target: "/actualites/"
   kind: posts
@@ -77,10 +81,6 @@
   children: []
 - title: Doctorat
   target: "/diplomes/doctorat/"
-  kind: diploma
-  children: []
-- title: Licence Profesionnelle
-  target: "/diplomes/licence-profesionnelle/"
   kind: diploma
   children: []
 
