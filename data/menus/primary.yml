@@ -6,22 +6,22 @@
   - title: Liste des formations
     target: "/offre-de-formation/"
     kind: programs
-    children: []
+    children:
+    - title: Animation Sociale et Socioculturelle
+      target: "/offre-de-formation/animation-sociale-et-socioculturelle/"
+      kind: program
+      children: []
+    - title: Coordination de projets de développement social et culturel
+      target: "/offre-de-formation/coordination-de-projets-de-developpement-social-et-culturel/"
+      kind: program
+      children: []
+    - title: Doctorat Sciences de l'Information et de la Communication
+      target: "/offre-de-formation/doctorat-sciences-de-linformation-et-de-la-communication/"
+      kind: program
+      children: []
   - title: Liste des diplômes
     target: "/diplomes/"
     kind: diplomas
-    children: []
-  - title: Animation Sociale et Socioculturelle
-    target: "/offre-de-formation/animation-sociale-et-socioculturelle/"
-    kind: program
-    children: []
-  - title: Coordination de projets de développement social et culturel
-    target: "/offre-de-formation/coordination-de-projets-de-developpement-social-et-culturel/"
-    kind: program
-    children: []
-  - title: Doctorat Sciences de l'Information et de la Communication
-    target: "/offre-de-formation/doctorat-sciences-de-linformation-et-de-la-communication/"
-    kind: program
     children: []
   - title: Éco-conception de service numérique
     target: "/offre-de-formation/eco-conception-de-service-numerique/"
