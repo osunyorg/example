@@ -87,6 +87,10 @@
   target: "/"
   kind: blank
   children:
+  - title: Tous les blocs
+    target: "/test-1/"
+    kind: page
+    children: []
   - title: Tous les blocs en pleine largeur
     target: "/test-full/"
     kind: page
