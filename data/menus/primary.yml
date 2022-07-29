@@ -19,13 +19,13 @@
       target: "/offre-de-formation/doctorat-sciences-de-linformation-et-de-la-communication/"
       kind: program
       children: []
+    - title: Éco-conception de service numérique
+      target: "/offre-de-formation/eco-conception-de-service-numerique/"
+      kind: program
+      children: []
   - title: Liste des diplômes
     target: "/diplomes/"
     kind: diplomas
-    children: []
-  - title: Éco-conception de service numérique
-    target: "/offre-de-formation/eco-conception-de-service-numerique/"
-    kind: program
     children: []
 - title: Actualités
   target: "/actualites/"
