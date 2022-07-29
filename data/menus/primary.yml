@@ -83,4 +83,8 @@
     target: "/test-full/"
     kind: page
     children: []
+- title: Blocs
+  target: "/"
+  kind: blank
+  children: []
 
