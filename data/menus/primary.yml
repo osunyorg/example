@@ -31,6 +31,14 @@
       target: "/diplomes/licence-profesionnelle/"
       kind: diploma
       children: []
+    - title: Bachelor Universitaire de Technologie
+      target: "/diplomes/bachelor-universitaire-de-technologie/"
+      kind: diploma
+      children: []
+    - title: Master
+      target: "/diplomes/master/"
+      kind: diploma
+      children: []
 - title: Actualités
   target: "/actualites/"
   kind: posts
@@ -71,14 +79,6 @@
     target: "/test-full/"
     kind: page
     children: []
-- title: Bachelor Universitaire de Technologie
-  target: "/diplomes/bachelor-universitaire-de-technologie/"
-  kind: diploma
-  children: []
-- title: Master
-  target: "/diplomes/master/"
-  kind: diploma
-  children: []
 - title: Doctorat
   target: "/diplomes/doctorat/"
   kind: diploma
