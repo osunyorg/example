@@ -8,8 +8,6 @@ full_width: true
 bodyclass: 
 
 children:
-  - /test-1/
-  - /test-full/
   - /mentions-legales/
   - /plan-du-site/
   - /politique-de-confidentialite/
@@ -20,7 +18,6 @@ children:
   - /blocks/
   - /accessibilite/
   - /diplomes/
-  - /test-novembre/
 description: >
   
 description_short: >
@@ -86,7 +83,6 @@ blocks:
       Page dédiée au test de contenu en pleine largeur
     position: 3
     data:
-      page: /test-full/
       show_main_description: true
       show_descriptions: true
       show_images: false
@@ -103,6 +99,10 @@ blocks:
       show_images: false
       layout: grid
       pages:
+        - page: /blocks/tous-les-blocks/
+          slug: /blocks/tous-les-blocks/
+        - page: /blocks/tous-les-blocks-pleine-largeur/
+          slug: /blocks/tous-les-blocks-pleine-largeur/
         - page: /blocks/blocks-de-base/
           slug: /blocks/blocks-de-base/
         - page: /blocks/blocks-narratifs/
