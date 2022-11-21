@@ -87,4 +87,8 @@
     target: "/blocks/tous-les-blocks/"
     kind: page
     children: []
+  - title: Tous les blocs en pleine largeur
+    target: "/blocks/tous-les-blocks-pleine-largeur/"
+    kind: page
+    children: []
 
