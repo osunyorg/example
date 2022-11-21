@@ -82,5 +82,9 @@
 - title: Blocs
   target: "/"
   kind: blank
-  children: []
+  children:
+  - title: Tous les blocs
+    target: "/blocks/tous-les-blocks/"
+    kind: page
+    children: []
 
