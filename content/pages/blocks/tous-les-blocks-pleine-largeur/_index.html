@@ -14,42 +14,52 @@ description_short: >
 header_text: >-
   
 legacy_text: >
-  <h2><br></h2>
+  <div>   <h2><br></h2> </div>
 blocks:
-  - template: pages
+  - template: timeline
     title: >-
-      Pages - Grille - Sélection de page - Affichage description courte des pages
-    position: 112
+      Timeline - Horizontal -Titre et texte
+    position: 1
     data:
-      page: /equipe/
-      show_main_description: false
-      show_descriptions: true
-      show_images: false
-      layout: grid
-      pages:
-        - page: /equipe/equipe-de-recherche/
-          slug: /equipe/equipe-de-recherche/
-        - page: /equipe/equipe-pedagogique/
-          slug: /equipe/equipe-pedagogique/
-  - template: pages
-    title: >-
-      Pages - Grille - Sélection de page - Affichage description courte page principale
-    position: 112
-    data:
-      page: /equipe/
-      show_main_description: true
-      show_descriptions: false
-      show_images: false
-      layout: grid
-      pages:
-        - page: /equipe/equipe-de-recherche/
-          slug: /equipe/equipe-de-recherche/
-        - page: /equipe/equipe-pedagogique/
-          slug: /equipe/equipe-pedagogique/
+      layout: horizontal
+
+      events:
+        - title: >-
+            Septembre 2021
+
+
+          text: >-
+            Création Scop noesya
+
+
+        - title: >-
+            Mars 2021
+
+
+          text: >-
+            Dispositif Cifre
+
+
+        - title: >-
+            Mai 2021
+
+
+          text: >-
+            Dispositif JEI
+
+
+        - title: >-
+            Juillet 2021
+
+
+          text: >-
+            Lancement site IUT Bordeaux Montaigne
+
+
   - template: pages
     title: >-
       Pages - Grille- Sélection de page - Affichage image page
-    position: 112
+    position: 2
     data:
       page: /equipe/
       show_main_description: false
@@ -63,8 +73,23 @@ blocks:
           slug: /equipe/equipe-pedagogique/
   - template: pages
     title: >-
+      Pages - Grille - Sélection de page - Affichage description courte page principale
+    position: 3
+    data:
+      page: /equipe/
+      show_main_description: true
+      show_descriptions: false
+      show_images: false
+      layout: grid
+      pages:
+        - page: /equipe/equipe-de-recherche/
+          slug: /equipe/equipe-de-recherche/
+        - page: /equipe/equipe-pedagogique/
+          slug: /equipe/equipe-pedagogique/
+  - template: pages
+    title: >-
       Pages - Grille - Sélection de page - Toutes options d'affichage
-    position: 112
+    position: 4
     data:
       page: /equipe/
       show_main_description: true
@@ -79,7 +104,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Liste- Sélection de page - Sans option
-    position: 112
+    position: 5
     data:
       page: /equipe/
       show_main_description: false
@@ -94,7 +119,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Liste - Sélection de page - Affichage description courte page principale
-    position: 112
+    position: 6
     data:
       page: /equipe/
       show_main_description: true
@@ -109,7 +134,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Liste - Sélection de page - Affichage description courte des pages
-    position: 112
+    position: 7
     data:
       page: /equipe/
       show_main_description: false
@@ -124,7 +149,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Liste- Sélection de page - Affichage image page
-    position: 112
+    position: 8
     data:
       page: /equipe/
       show_main_description: false
@@ -139,7 +164,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Liste - Sélection de page - Toutes options d'affichage
-    position: 112
+    position: 9
     data:
       page: /equipe/
       show_main_description: true
@@ -154,7 +179,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Cartes - Sélection de page - Sans option
-    position: 112
+    position: 10
     data:
       page: /equipe/
       show_main_description: false
@@ -169,7 +194,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Cartes - Sélection de page - Affichage description courte page principale
-    position: 112
+    position: 11
     data:
       page: /equipe/
       show_main_description: false
@@ -184,7 +209,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Cartes - Sélection de page - Affichage description courte des pages
-    position: 112
+    position: 12
     data:
       page: /equipe/
       show_main_description: false
@@ -199,7 +224,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Cartes - Sélection de page - Affichage image page
-    position: 112
+    position: 13
     data:
       page: /equipe/
       show_main_description: false
@@ -214,7 +239,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Cartes - Sélection de page - Toutes options d'affichage
-    position: 112
+    position: 14
     data:
       page: /equipe/
       show_main_description: true
@@ -229,7 +254,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Grille - Page principale et ses enfants - Sans options d'affichage
-    position: 112
+    position: 15
     data:
       page: /equipe/
       show_main_description: false
@@ -246,7 +271,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Grille - Page principale et ses enfants - Description courte page principale
-    position: 112
+    position: 16
     data:
       page: /equipe/
       show_main_description: true
@@ -263,7 +288,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Grille - Page principale et ses enfants - Description courte des pages
-    position: 112
+    position: 17
     data:
       page: /equipe/
       show_main_description: false
@@ -280,7 +305,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Grille - Page principale et ses enfants - Affichage image
-    position: 112
+    position: 18
     data:
       page: /equipe/
       show_main_description: false
@@ -297,7 +322,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Grille - Page principale et ses enfants - Toutes options
-    position: 112
+    position: 19
     data:
       page: /equipe/
       show_main_description: true
@@ -314,7 +339,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Liste - Page principale et ses enfants - Sans options d'affichage
-    position: 112
+    position: 20
     data:
       page: /equipe/
       show_main_description: false
@@ -331,7 +356,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Liste - Page principale et ses enfants - Description courte page principale
-    position: 112
+    position: 21
     data:
       page: /equipe/
       show_main_description: true
@@ -348,7 +373,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Liste - Page principale et ses enfants - Description courte des pages
-    position: 112
+    position: 22
     data:
       page: /equipe/
       show_main_description: false
@@ -365,7 +390,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Liste - Page principale et ses enfants - Affichage image
-    position: 112
+    position: 23
     data:
       page: /equipe/
       show_main_description: false
@@ -382,7 +407,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Liste - Page principale et ses enfants - Toutes options
-    position: 112
+    position: 24
     data:
       page: /equipe/
       show_main_description: true
@@ -399,7 +424,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Cartes - Page principale - Sans options d'affichage
-    position: 112
+    position: 25
     data:
       page: /equipe/
       show_main_description: false
@@ -416,7 +441,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Cartes- Page principale et ses enfants - Description courte page principale
-    position: 112
+    position: 26
     data:
       page: /equipe/
       show_main_description: true
@@ -433,7 +458,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Cartes- Page principale et ses enfants - Description courte des pages
-    position: 112
+    position: 27
     data:
       page: /equipe/
       show_main_description: false
@@ -450,7 +475,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Grille - Page principale et ses enfants - Description courte des pages
-    position: 112
+    position: 28
     data:
       page: /equipe/
       show_main_description: false
@@ -467,7 +492,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Cartes - Page principale et ses enfants - Affichage image
-    position: 112
+    position: 29
     data:
       page: /equipe/
       show_main_description: false
@@ -484,7 +509,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Cartes - Page principale et ses enfants - Toutes options
-    position: 112
+    position: 30
     data:
       page: /equipe/
       show_main_description: true
@@ -501,7 +526,7 @@ blocks:
   - template: files
     title: >-
       Fichiers à télécharger - Un fichier sans description
-    position: 112
+    position: 31
     data:
       description: >-
         
@@ -516,10 +541,25 @@ blocks:
             Un second fichier
 
 
+  - template: pages
+    title: >-
+      Pages - Grille - Sélection de page - Affichage description courte des pages
+    position: 32
+    data:
+      page: /equipe/
+      show_main_description: false
+      show_descriptions: true
+      show_images: false
+      layout: grid
+      pages:
+        - page: /equipe/equipe-de-recherche/
+          slug: /equipe/equipe-de-recherche/
+        - page: /equipe/equipe-pedagogique/
+          slug: /equipe/equipe-pedagogique/
   - template: definitions
     title: >-
       Définition - Plusieurs définitions - Titre + texte
-    position: 112
+    position: 33
     data:
       elements:
         - title: >-
@@ -549,7 +589,7 @@ blocks:
   - template: definitions
     title: >-
       Définition - Plusieurs définitions - Titre sans texte
-    position: 112
+    position: 34
     data:
       elements:
         - title: >-
@@ -579,7 +619,7 @@ blocks:
   - template: definitions
     title: >-
       Définition - Une définition - Titre sans texte
-    position: 112
+    position: 35
     data:
       elements:
         - title: >-
@@ -593,7 +633,7 @@ blocks:
   - template: embed
     title: >-
       Une intégration HTML (embed)
-    position: 112
+    position: 36
     data:
       code: >-
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.5307354985443!2d2.322523615713642!3d48.886221706700525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f39abe9ce7f%3A0x2a5f135e444f9f8b!2sNoesya!5e0!3m2!1sfr!2sfr!4v1652714848109!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -606,7 +646,7 @@ blocks:
   - template: embed
     title: >-
       test html
-    position: 112
+    position: 37
     data:
       code: >-
         <span style="color: red">du texte ici en html</span>
@@ -619,7 +659,7 @@ blocks:
   - template: files
     title: >-
       Fichiers à télécharger - Plusieurs fichiers sans description
-    position: 112
+    position: 38
     data:
       description: >-
         
@@ -653,7 +693,7 @@ blocks:
   - template: files
     title: >-
       Fichiers à télécharger - Un fichier avec description
-    position: 112
+    position: 39
     data:
       description: >-
         <p>Description du fichier à télécharger</p>
@@ -671,7 +711,7 @@ blocks:
   - template: chapter
     title: >-
       Chapitre avec une image
-    position: 112
+    position: 40
     data:
       text: >-
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id felis et nunc euismod consectetur. Maecenas eu tortor nunc. Duis aliquet mauris mauris, in fermentum ex tempus sed.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id felis et nunc euismod consectetur. Maecenas eu tortor nunc. Duis aliquet mauris mauris, in fermentum ex tempus sed.<br></p>
@@ -682,8 +722,8 @@ blocks:
 
 
       image:
-        id: "689a78b3-0a93-4e0b-aae3-5c8f0d4af6bb"
-        file: "689a78b3-0a93-4e0b-aae3-5c8f0d4af6bb"
+        id: "f9c8998b-fbe7-414f-8281-56da837284f5"
+        file: "f9c8998b-fbe7-414f-8281-56da837284f5"
 
 
       alt: >-
@@ -697,7 +737,7 @@ blocks:
   - template: chapter
     title: >-
       Chapitre avec une image et une note
-    position: 112
+    position: 41
     data:
       text: >-
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id felis et nunc euismod consectetur. Maecenas eu tortor nunc. Duis aliquet mauris mauris, in fermentum ex tempus sed.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id felis et nunc euismod consectetur. Maecenas eu tortor nunc. Duis aliquet mauris mauris, in fermentum ex tempus sed.<br></p>
@@ -723,7 +763,7 @@ blocks:
   - template: chapter
     title: >-
       Chapitre
-    position: 112
+    position: 42
     data:
       text: >-
         <p>Suspendisse et laoreet sapien. Mauris quis magna hendrerit, venenatis lorem vitae, ullamcorper urna. Cras non nisl malesuada, pharetra urna et, fringilla justo. Proin lacus mi, fringilla vitae dolor mollis, maximus tempus orci. Phasellus egestas semper felis nec pretium. Curabitur ultrices arcu dolor, nec lacinia ex ornare vitae. Morbi feugiat neque ac maximus mattis. Curabitur non est vitae orci malesuada consectetur.</p>
@@ -746,7 +786,7 @@ blocks:
   - template: chapter
     title: >-
       Chapitre avec une note
-    position: 112
+    position: 43
     data:
       text: >-
         <p>Suspendisse et laoreet sapien. Mauris quis magna hendrerit, venenatis lorem vitae, ullamcorper urna. Cras non nisl malesuada, pharetra urna et, fringilla justo. Proin lacus mi, fringilla vitae dolor mollis, maximus tempus orci. Phasellus egestas semper felis nec pretium. Curabitur ultrices arcu dolor, nec lacinia ex ornare vitae. Morbi feugiat neque ac maximus mattis. Curabitur non est vitae orci malesuada consectetur.</p>
@@ -769,15 +809,15 @@ blocks:
   - template: image
     title: >-
       Image
-    position: 112
+    position: 44
     data:
       text: >-
         
 
 
       image:
-        id: "b868ae2d-6458-452e-a6f5-7d5c589e489e"
-        file: "b868ae2d-6458-452e-a6f5-7d5c589e489e"
+        id: "97d2fb0a-8497-47f5-b2b9-195f38375d71"
+        file: "97d2fb0a-8497-47f5-b2b9-195f38375d71"
 
 
         alt: >-
@@ -791,15 +831,15 @@ blocks:
   - template: image
     title: >-
       Image - Crédit - Texte
-    position: 112
+    position: 45
     data:
       text: >-
-        Café Sol
+        Packaging
 
 
       image:
-        id: "d84eb507-0d20-41fc-9a86-9707efc3c9bf"
-        file: "d84eb507-0d20-41fc-9a86-9707efc3c9bf"
+        id: "349d83c4-4e43-4766-811a-9e117dbdb43d"
+        file: "349d83c4-4e43-4766-811a-9e117dbdb43d"
 
 
         alt: >-
@@ -807,21 +847,21 @@ blocks:
 
 
         credit: >-
-          <p>Unpslash Manuel Asturias</p>
+          <p>DTS</p>
 
 
   - template: image
     title: >-
       Image - Crédit
-    position: 112
+    position: 46
     data:
       text: >-
         
 
 
       image:
-        id: "d84eb507-0d20-41fc-9a86-9707efc3c9bf"
-        file: "d84eb507-0d20-41fc-9a86-9707efc3c9bf"
+        id: "94ed65ce-7da8-4d4c-a1f0-cbebf9b81211"
+        file: "94ed65ce-7da8-4d4c-a1f0-cbebf9b81211"
 
 
         alt: >-
@@ -829,13 +869,13 @@ blocks:
 
 
         credit: >-
-          <p>Unpslash Manuel Asturias</p>
+          <p>DTS</p>
 
 
   - template: video
     title: >-
       Test dailymotion
-    position: 112
+    position: 47
     data:
       url: >-
         https://www.dailymotion.com/video/x6eovv3
@@ -852,7 +892,7 @@ blocks:
   - template: call_to_action
     title: >-
       CTA trois boutons + Texte + image + Crédit
-    position: 112
+    position: 48
     data:
       text: >-
         <p>Découvrez le support Osuny</p>
@@ -908,7 +948,7 @@ blocks:
   - template: testimonials
     title: >-
       1 seul témoignage - Texte court - Sans Auteur.e ni Métier
-    position: 112
+    position: 49
     data:
       testimonials:
         - text: >-
@@ -928,7 +968,7 @@ blocks:
   - template: call_to_action
     title: >-
       CTA deux boutons + Texte + image + Crédit
-    position: 112
+    position: 50
     data:
       text: >-
         <p>Découvrez le support Osuny</p>
@@ -973,7 +1013,7 @@ blocks:
   - template: testimonials
     title: >-
       1 seul témoignage - Texte court - Auteur.e sans Métier
-    position: 112
+    position: 51
     data:
       testimonials:
         - text: >-
@@ -993,7 +1033,7 @@ blocks:
   - template: testimonials
     title: >-
       1 seul témoignage - Texte long - Auteur.e - Métier
-    position: 112
+    position: 52
     data:
       testimonials:
         - text: >-
@@ -1013,7 +1053,7 @@ blocks:
   - template: testimonials
     title: >-
       1 seul témoignage - Texte long - Auteur.e sans Métier
-    position: 112
+    position: 53
     data:
       testimonials:
         - text: >-
@@ -1033,7 +1073,7 @@ blocks:
   - template: testimonials
     title: >-
       1 seul témoignage - Texte court - Auteur.e - Métier - Image
-    position: 112
+    position: 54
     data:
       testimonials:
         - text: >-
@@ -1056,7 +1096,7 @@ blocks:
   - template: testimonials
     title: >-
       1 seul témoignage - Texte court - Métier - Sans Auteur.e
-    position: 112
+    position: 55
     data:
       testimonials:
         - text: >-
@@ -1076,7 +1116,7 @@ blocks:
   - template: testimonials
     title: >-
       1 seul témoignage - Texte long - Sans Auteur.e ni Métier
-    position: 112
+    position: 56
     data:
       testimonials:
         - text: >-
@@ -1096,7 +1136,7 @@ blocks:
   - template: testimonials
     title: >-
       1 seul témoignage - Texte long - Auteur.e - Métier - Image
-    position: 112
+    position: 57
     data:
       testimonials:
         - text: >-
@@ -1119,7 +1159,7 @@ blocks:
   - template: testimonials
     title: >-
       1 seul témoignage - Texte long - Métier - Sans Auteur.e
-    position: 112
+    position: 58
     data:
       testimonials:
         - text: >-
@@ -1139,7 +1179,7 @@ blocks:
   - template: testimonials
     title: >-
       Plusieurs Témoignages - Sans Image - Sans Auteur.e ni métier
-    position: 112
+    position: 59
     data:
       testimonials:
         - text: >-
@@ -1187,7 +1227,7 @@ blocks:
   - template: files
     title: >-
       Fichiers à télécharger - Plusieurs fichiers avec description
-    position: 112
+    position: 60
     data:
       description: >-
         <p>Description du fichier à télécharger<br></p>
@@ -1221,7 +1261,7 @@ blocks:
   - template: timeline
     title: >-
       Timeline - Horinzontal -Titre - Avec et sans texte
-    position: 112
+    position: 61
     data:
       layout: horizontal
 
@@ -1261,7 +1301,7 @@ blocks:
   - template: timeline
     title: >-
       Timeline - Horinzontal-Titre - Sans texte
-    position: 112
+    position: 62
     data:
       layout: horizontal
 
@@ -1301,7 +1341,7 @@ blocks:
   - template: posts
     title: >-
       Actualités - Toutes les actualités
-    position: 112
+    position: 63
     data:
       posts:
         - "2022/2022-02-21-covid-19-informations-vaccination"
@@ -1310,14 +1350,14 @@ blocks:
   - template: posts
     title: >-
       Actualités - Une catégorie spécifique
-    position: 112
+    position: 64
     data:
       category: "/offre-de-formation/animation-sociale-et-socioculturelle/"
       posts:
   - template: video
     title: >-
       Test dailymotion avec titre vidéo
-    position: 112
+    position: 65
     data:
       url: >-
         https://www.dailymotion.com/video/x6eovv3
@@ -1334,7 +1374,7 @@ blocks:
   - template: video
     title: >-
       Test vidéo Youtube
-    position: 112
+    position: 66
     data:
       url: >-
         https://www.youtube.com/watch?v=y3sILyOYEpg
@@ -1351,7 +1391,7 @@ blocks:
   - template: video
     title: >-
       Test vidéo vimeo
-    position: 112
+    position: 67
     data:
       url: >-
         https://vimeo.com/707012696
@@ -1372,7 +1412,7 @@ blocks:
   - template: datatable
     title: >-
       Tableau sans description
-    position: 112
+    position: 68
     data:
 
       columns: ["Magali Anglès", "Doctorante"]
@@ -1406,7 +1446,7 @@ blocks:
   - template: datatable
     title: >-
       Tableau avec description
-    position: 112
+    position: 69
     data:
 
       columns: ["Magali Anglès", "Doctorante"]
@@ -1440,7 +1480,7 @@ blocks:
   - template: key_figures
     title: >-
       Chiffre clé petit
-    position: 112
+    position: 70
     data:
       description: >-
         
@@ -1460,7 +1500,7 @@ blocks:
   - template: key_figures
     title: >-
       Chiffre clé petit + texte
-    position: 112
+    position: 71
     data:
       description: >-
         <p>Le chiffre clé du numérique</p>
@@ -1480,7 +1520,7 @@ blocks:
   - template: key_figures
     title: >-
       Chiffre clé important
-    position: 112
+    position: 72
     data:
       description: >-
         
@@ -1500,7 +1540,7 @@ blocks:
   - template: key_figures
     title: >-
       Chiffre clé important + Texte
-    position: 112
+    position: 73
     data:
       description: >-
         <p>Un chiffre clé important</p>
@@ -1520,7 +1560,7 @@ blocks:
   - template: key_figures
     title: >-
       Plusieurs chiffres clés
-    position: 112
+    position: 74
     data:
       description: >-
         
@@ -1560,7 +1600,7 @@ blocks:
   - template: key_figures
     title: >-
       Plusieurs chiffres clés + texte
-    position: 112
+    position: 75
     data:
       description: >-
         <p>Plusieurs chiffres clés du numérique.</p>
@@ -1600,7 +1640,7 @@ blocks:
   - template: posts
     title: >-
       Actualités - Une sélection d'actualité
-    position: 112
+    position: 76
     data:
       category: "/offre-de-formation/animation-sociale-et-socioculturelle/"
       posts:
@@ -1609,7 +1649,7 @@ blocks:
   - template: definitions
     title: >-
       Définition - Une définition - Titre + texte
-    position: 112
+    position: 77
     data:
       elements:
         - title: >-
@@ -1623,7 +1663,7 @@ blocks:
   - template: gallery
     title: >-
       Galerie Grille
-    position: 112
+    position: 78
     data:
       description: >-
         
@@ -1699,7 +1739,7 @@ blocks:
   - template: gallery
     title: >-
       Galerie Grille + Description
-    position: 112
+    position: 79
     data:
       description: >-
         <p>Mise en page grille de la team noesya</p>
@@ -1775,7 +1815,7 @@ blocks:
   - template: organization_chart
     title: >-
       Organigramme - Personnes
-    position: 112
+    position: 80
     data:
       description: >-
         
@@ -1819,7 +1859,7 @@ blocks:
   - template: organization_chart
     title: >-
       Organigramme - Personnes - Description
-    position: 112
+    position: 81
     data:
       description: >-
         <p>Présentation de la team noesya</p>
@@ -1863,7 +1903,7 @@ blocks:
   - template: organization_chart
     title: >-
       Organigramme - Personnes - Description - Liens cliquables vers personnes
-    position: 112
+    position: 82
     data:
       description: >-
         <p>Présentation de la team noesya</p>
@@ -1907,7 +1947,7 @@ blocks:
   - template: organization_chart
     title: >-
       Organigramme - Personnes - Description - Liens cliquables vers personnes + Portrait
-    position: 112
+    position: 83
     data:
       description: >-
         <p>Présentation de la team noesya</p>
@@ -1951,7 +1991,7 @@ blocks:
   - template: gallery
     title: >-
       Galerie Grille + Description + Texte image
-    position: 112
+    position: 84
     data:
       description: >-
         <p>Mise en page grille de la team noesya</p>
@@ -2027,7 +2067,7 @@ blocks:
   - template: gallery
     title: >-
       Galerie Grille + Description + Texte image + Crédit image
-    position: 112
+    position: 85
     data:
       description: >-
         <p>Mise en page grille de la team noesya</p>
@@ -2103,7 +2143,7 @@ blocks:
   - template: organization_chart
     title: >-
       Organigramme - Personnes - Description - Liens cliquables vers personnes + Portrait + Ordre alphabétique
-    position: 112
+    position: 86
     data:
       description: >-
         <p>Présentation de la team noesya</p>
@@ -2147,7 +2187,7 @@ blocks:
   - template: gallery
     title: >-
       Galerie Carrousel
-    position: 112
+    position: 87
     data:
       description: >-
         
@@ -2223,7 +2263,7 @@ blocks:
   - template: gallery
     title: >-
       Galerie Carrousel + description
-    position: 112
+    position: 88
     data:
       description: >-
         <p>La team noesya en carrousel</p>
@@ -2299,7 +2339,7 @@ blocks:
   - template: partners
     title: >-
       Partenaires
-    position: 112
+    position: 89
     data:
       description: >-
         
@@ -2314,7 +2354,7 @@ blocks:
   - template: partners
     title: >-
       Partenaires - Description
-    position: 112
+    position: 90
     data:
       description: >-
         <p>Les partenaires de noesya</p>
@@ -2329,7 +2369,7 @@ blocks:
   - template: partners
     title: >-
       Partenaires - Description - liens cliquables
-    position: 112
+    position: 91
     data:
       description: >-
         <p>Les partenaires de noesya</p>
@@ -2344,7 +2384,7 @@ blocks:
   - template: partners
     title: >-
       Partenaires - Description - liens cliquables - ordre alphabétique
-    position: 112
+    position: 92
     data:
       description: >-
         <p>Les partenaires de noesya</p>
@@ -2359,7 +2399,7 @@ blocks:
   - template: partners
     title: >-
       Partenaires - longue liste
-    position: 112
+    position: 93
     data:
       description: >-
         
@@ -2379,7 +2419,7 @@ blocks:
   - template: pages
     title: >-
       Pages - Grille - Sélection de page - Sans options d'affichage
-    position: 112
+    position: 94
     data:
       page: /equipe/
       show_main_description: false
@@ -2394,7 +2434,7 @@ blocks:
   - template: gallery
     title: >-
       Galerie Carrousel + description + texte image
-    position: 112
+    position: 95
     data:
       description: >-
         <p>La team noesya en carrousel</p>
@@ -2470,7 +2510,7 @@ blocks:
   - template: gallery
     title: >-
       Galerie Carrousel + description + texte image + crédit
-    position: 112
+    position: 96
     data:
       description: >-
         <p>La team noesya en carrousel</p>
@@ -2546,7 +2586,7 @@ blocks:
   - template: call_to_action
     title: >-
       CTA simple
-    position: 112
+    position: 97
     data:
       text: >-
         
@@ -2577,7 +2617,7 @@ blocks:
   - template: call_to_action
     title: >-
       CTA simple + Texte
-    position: 112
+    position: 98
     data:
       text: >-
         <p>Découvrez le support Osuny</p>
@@ -2608,7 +2648,7 @@ blocks:
   - template: call_to_action
     title: >-
       CTA simple + Texte + image
-    position: 112
+    position: 99
     data:
       text: >-
         <p>Découvrez le support Osuny</p>
@@ -2642,7 +2682,7 @@ blocks:
   - template: call_to_action
     title: >-
       CTA simple + Texte + image + Crédit
-    position: 112
+    position: 100
     data:
       text: >-
         <p>Découvrez le support Osuny</p>
@@ -2676,7 +2716,7 @@ blocks:
   - template: call_to_action
     title: >-
       CTA deux boutons + Texte
-    position: 112
+    position: 101
     data:
       text: >-
         <p>Découvrez le support Osuny</p>
@@ -2718,7 +2758,7 @@ blocks:
   - template: call_to_action
     title: >-
       CTA deux boutons + Texte + Image
-    position: 112
+    position: 102
     data:
       text: >-
         <p>Découvrez le support Osuny</p>
@@ -2763,7 +2803,7 @@ blocks:
   - template: testimonials
     title: >-
       Plusieurs Témoignages - Image - Auteur.e - Métier
-    position: 112
+    position: 103
     data:
       testimonials:
         - text: >-
@@ -2820,7 +2860,7 @@ blocks:
   - template: testimonials
     title: >-
       Plusieurs Témoignages - Image - Sans Auteur.e ni métier
-    position: 112
+    position: 104
     data:
       testimonials:
         - text: >-
@@ -2877,7 +2917,7 @@ blocks:
   - template: testimonials
     title: >-
       Plusieurs Témoignages - Auteur.e
-    position: 112
+    position: 105
     data:
       testimonials:
         - text: >-
@@ -2925,7 +2965,7 @@ blocks:
   - template: testimonials
     title: >-
       Plusieurs Témoignages - Auteur.e - Métier
-    position: 112
+    position: 106
     data:
       testimonials:
         - text: >-
@@ -2973,7 +3013,7 @@ blocks:
   - template: testimonials
     title: >-
       Plusieurs Témoignages - Métier
-    position: 112
+    position: 107
     data:
       testimonials:
         - text: >-
@@ -3021,7 +3061,7 @@ blocks:
   - template: timeline
     title: >-
       Timeline - Vertical -Titre et texte
-    position: 112
+    position: 108
     data:
       layout: vertical
 
@@ -3061,7 +3101,7 @@ blocks:
   - template: timeline
     title: >-
       Timeline - Vertical -Titre - Avec et sans texte
-    position: 112
+    position: 109
     data:
       layout: vertical
 
@@ -3101,7 +3141,7 @@ blocks:
   - template: timeline
     title: >-
       Timeline - Vertical -Titre - Sans texte
-    position: 112
+    position: 110
     data:
       layout: vertical
 
@@ -3138,44 +3178,26 @@ blocks:
             
 
 
-  - template: timeline
+  - template: image
     title: >-
-      Timeline - Horizontal -Titre et texte
-    position: 112
+      
+    position: 111
     data:
-      layout: horizontal
-
-      events:
-        - title: >-
-            Septembre 2021
+      text: >-
+        
 
 
-          text: >-
-            Création Scop noesya
+      image:
+        id: "27582cde-652d-45ad-a174-b6a6596c3039"
+        file: "27582cde-652d-45ad-a174-b6a6596c3039"
 
 
-        - title: >-
-            Mars 2021
+        alt: >-
+          
 
 
-          text: >-
-            Dispositif Cifre
-
-
-        - title: >-
-            Mai 2021
-
-
-          text: >-
-            Dispositif JEI
-
-
-        - title: >-
-            Juillet 2021
-
-
-          text: >-
-            Lancement site IUT Bordeaux Montaigne
+        credit: >-
+          
 
 
 
