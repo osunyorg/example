@@ -18,8 +18,22 @@ legacy_text: >
 blocks:
   - template: pages
     title: >-
-      Sans page principale
+      
     position: 1
+    data:
+      show_main_description: false
+      show_descriptions: false
+      show_images: false
+      layout: grid
+      pages:
+        - page: /tierces-parties/
+          slug: /tierces-parties/
+        - page: /mentions-legales/
+          slug: /mentions-legales/
+  - template: pages
+    title: >-
+      Sans page principale
+    position: 2
     data:
       show_main_description: false
       show_descriptions: false
@@ -33,7 +47,7 @@ blocks:
   - template: pages
     title: >-
       Mise en page Grille
-    position: 2
+    position: 3
     data:
       page: /blocks/
       show_main_description: true
@@ -56,7 +70,7 @@ blocks:
   - template: pages
     title: >-
       Mise en page liste
-    position: 3
+    position: 4
     data:
       page: /blocks/
       show_main_description: true
@@ -79,7 +93,7 @@ blocks:
   - template: pages
     title: >-
       Mise en page cartes
-    position: 4
+    position: 5
     data:
       page: /blocks/
       show_main_description: true
@@ -99,20 +113,6 @@ blocks:
           slug: /blocks/blocks-de-liste/
         - page: /blocks/blocks-techniques/
           slug: /blocks/blocks-techniques/
-  - template: pages
-    title: >-
-      
-    position: 5
-    data:
-      show_main_description: false
-      show_descriptions: false
-      show_images: false
-      layout: grid
-      pages:
-        - page: /tierces-parties/
-          slug: /tierces-parties/
-        - page: /mentions-legales/
-          slug: /mentions-legales/
 
 
 ---
