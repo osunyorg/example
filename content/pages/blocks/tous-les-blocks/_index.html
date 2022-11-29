@@ -70,8 +70,34 @@ blocks:
 
   - template: chapter
     title: >-
-      Chapitre
+      Chapitre avec une image, une note et un crédit
     position: 3
+    data:
+      text: >-
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque odio risus, non consequat ante pellentesque congue. Proin id iaculis elit. Praesent nec ligula viverra mauris viverra consequat ut aliquam libero. Mauris ut fringilla nibh, vitae hendrerit odio. Sed eu ante lacus. Donec ullamcorper pulvinar ligula fermentum ullamcorper. Pellentesque laoreet viverra sapien et semper. Donec scelerisque vulputate vestibulum. Praesent blandit facilisis risus non vestibulum. Curabitur iaculis eros sem, in interdum urna posuere vel. Integer fringilla sollicitudin purus, id tristique risus placerat varius. Cras id risus et massa pulvinar semper non eget dui.</p>
+
+
+      notes: >-
+        <p>Donec egestas risus eget varius bibendum. In volutpat placerat orci, et tincidunt est viverra id. Ut finibus maximus iaculis. Vivamus non mi eu nisl consequat luctus. Cras cursus tincidunt viverra. </p>
+
+
+      image:
+        id: "24e3347a-17e5-4155-9ee0-81f9bada6422"
+        file: "24e3347a-17e5-4155-9ee0-81f9bada6422"
+
+
+      alt: >-
+        Une réunion de travail
+
+
+      credit: >-
+        <p><a href="https://www.instagram.com/daniellfaro/" target="_blank">Daniel Faro</a>, Death to the Stock</p>
+
+
+  - template: chapter
+    title: >-
+      Chapitre
+    position: 4
     data:
       text: >-
         <p>Suspendisse et laoreet sapien. Mauris quis magna hendrerit, venenatis lorem vitae, ullamcorper urna. Cras non nisl malesuada, pharetra urna et, fringilla justo. Proin lacus mi, fringilla vitae dolor mollis, maximus tempus orci. Phasellus egestas semper felis nec pretium. Curabitur ultrices arcu dolor, nec lacinia ex ornare vitae. Morbi feugiat neque ac maximus mattis. Curabitur non est vitae orci malesuada consectetur.</p>
@@ -94,7 +120,7 @@ blocks:
   - template: chapter
     title: >-
       Chapitre avec une note
-    position: 4
+    position: 5
     data:
       text: >-
         <p>Suspendisse et laoreet sapien. Mauris quis magna hendrerit, venenatis lorem vitae, ullamcorper urna. Cras non nisl malesuada, pharetra urna et, fringilla justo. Proin lacus mi, fringilla vitae dolor mollis, maximus tempus orci. Phasellus egestas semper felis nec pretium. Curabitur ultrices arcu dolor, nec lacinia ex ornare vitae. Morbi feugiat neque ac maximus mattis. Curabitur non est vitae orci malesuada consectetur.</p>
@@ -117,7 +143,7 @@ blocks:
   - template: image
     title: >-
       Image
-    position: 5
+    position: 6
     data:
       text: >-
         
@@ -139,7 +165,7 @@ blocks:
   - template: image
     title: >-
       Image - Crédit
-    position: 6
+    position: 7
     data:
       text: >-
         
@@ -161,7 +187,7 @@ blocks:
   - template: image
     title: >-
       Image - Crédit - Texte
-    position: 7
+    position: 8
     data:
       text: >-
         Faro 1
@@ -183,7 +209,7 @@ blocks:
   - template: video
     title: >-
       Test dailymotion
-    position: 8
+    position: 9
     data:
       url: >-
         https://www.dailymotion.com/video/x6eovv3
@@ -200,7 +226,7 @@ blocks:
   - template: video
     title: >-
       Test dailymotion avec titre vidéo
-    position: 9
+    position: 10
     data:
       url: >-
         https://www.dailymotion.com/video/x6eovv3
@@ -217,7 +243,7 @@ blocks:
   - template: video
     title: >-
       Test vidéo Youtube
-    position: 10
+    position: 11
     data:
       url: >-
         https://www.youtube.com/watch?v=y3sILyOYEpg
@@ -234,7 +260,7 @@ blocks:
   - template: video
     title: >-
       Test vidéo vimeo
-    position: 11
+    position: 12
     data:
       url: >-
         https://vimeo.com/707012696
@@ -255,7 +281,7 @@ blocks:
   - template: datatable
     title: >-
       Tableau sans description
-    position: 12
+    position: 13
     data:
 
       columns: ["Nom", "Fonction", ""]
@@ -293,7 +319,7 @@ blocks:
   - template: datatable
     title: >-
       Tableau avec description
-    position: 13
+    position: 14
     data:
 
       columns: ["Nom", "Fonction"]
@@ -331,7 +357,7 @@ blocks:
   - template: key_figures
     title: >-
       Chiffre clé petit
-    position: 14
+    position: 15
     data:
       description: >-
         
@@ -351,7 +377,7 @@ blocks:
   - template: key_figures
     title: >-
       Chiffre clé petit + texte
-    position: 15
+    position: 16
     data:
       description: >-
         <p>Le chiffre clé du numérique</p>
@@ -371,7 +397,7 @@ blocks:
   - template: key_figures
     title: >-
       Chiffre clé important
-    position: 16
+    position: 17
     data:
       description: >-
         
@@ -391,7 +417,7 @@ blocks:
   - template: key_figures
     title: >-
       Chiffre clé important + Texte
-    position: 17
+    position: 18
     data:
       description: >-
         <p>Un chiffre clé important</p>
@@ -411,7 +437,7 @@ blocks:
   - template: key_figures
     title: >-
       Plusieurs chiffres clés
-    position: 18
+    position: 19
     data:
       description: >-
         
@@ -446,32 +472,6 @@ blocks:
 
           description: >-
             Le pourcentage de trafic de téléchargement que représentent les mises à jour logicielles.
-
-
-  - template: chapter
-    title: >-
-      Chapitre avec une image, une note et un crédit
-    position: 19
-    data:
-      text: >-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque odio risus, non consequat ante pellentesque congue. Proin id iaculis elit. Praesent nec ligula viverra mauris viverra consequat ut aliquam libero. Mauris ut fringilla nibh, vitae hendrerit odio. Sed eu ante lacus. Donec ullamcorper pulvinar ligula fermentum ullamcorper. Pellentesque laoreet viverra sapien et semper. Donec scelerisque vulputate vestibulum. Praesent blandit facilisis risus non vestibulum. Curabitur iaculis eros sem, in interdum urna posuere vel. Integer fringilla sollicitudin purus, id tristique risus placerat varius. Cras id risus et massa pulvinar semper non eget dui.</p>
-
-
-      notes: >-
-        <p>Donec egestas risus eget varius bibendum. In volutpat placerat orci, et tincidunt est viverra id. Ut finibus maximus iaculis. Vivamus non mi eu nisl consequat luctus. Cras cursus tincidunt viverra. </p>
-
-
-      image:
-        id: "24e3347a-17e5-4155-9ee0-81f9bada6422"
-        file: "24e3347a-17e5-4155-9ee0-81f9bada6422"
-
-
-      alt: >-
-        Une réunion de travail
-
-
-      credit: >-
-        <p><a href="https://www.instagram.com/daniellfaro/" target="_blank">Daniel Faro</a>, Death to the Stock</p>
 
 
   - template: key_figures
