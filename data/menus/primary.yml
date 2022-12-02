@@ -47,7 +47,7 @@
   target: "/actualites/"
   kind: posts
   children:
-  - title: Liste des actualités
+  - title: Toutes les actualités
     target: "/actualites/"
     kind: posts
     children: []
