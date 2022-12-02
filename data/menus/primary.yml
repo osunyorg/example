@@ -55,6 +55,10 @@
     target: "/actualites/a-la-une/"
     kind: category
     children: []
+  - title: Vie étudiante
+    target: "/actualites/vie-etudiante/"
+    kind: category
+    children: []
 - title: Équipe
   target: "/equipe/"
   kind: page
