@@ -47,12 +47,16 @@
   target: "/actualites/"
   kind: posts
   children:
-  - title: Liste des actualités
+  - title: Toutes les actualités
     target: "/actualites/"
     kind: posts
     children: []
   - title: À la une
     target: "/actualites/a-la-une/"
+    kind: category
+    children: []
+  - title: Vie étudiante
+    target: "/actualites/vie-etudiante/"
     kind: category
     children: []
 - title: Équipe
