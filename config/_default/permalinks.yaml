@@ -1,8 +1,9 @@
-posts:          /actualites/:year/:month/:day/:slug/
-categories:     /actualites/:slug/
-persons:        /equipe/:slug/
-organizations:  /tierces-parties/:slug/
-authors:        /equipe/:slug/actualites/
-diplomas:       /diplomes/:slug/
-teachers:       /equipe/:slug/programs/
-researchers:    /equipe/:slug/papers/
+categories: /actualites/:slug/
+posts: /actualites/:year/:month/:day/:slug/
+diplomas: /diplomes/:slug/
+programs: /offre-de-formation/:slug/
+organizations: /tierces-parties/:slug/
+persons: /equipe/:slug/
+authors: /equipe/:slug/actualites/
+researchers: /equipe/:slug/papers/
+teachers: /equipe/:slug/programs/
