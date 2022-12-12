@@ -1,0 +1,9 @@
+---
+- title: Programs
+  target: "/en/programs/"
+  kind: programs
+  children: []
+- title: News
+  target: "/en/news/"
+  kind: posts
+  children: []

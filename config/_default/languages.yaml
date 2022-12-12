@@ -1,2 +1,6 @@
 fr:
-  title: Osuny example
+  title: Site d'exemple Osuny
+  contentDir: content/fr
+en:
+  title: Osuny example website
+  contentDir: content/en
