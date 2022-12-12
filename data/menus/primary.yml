@@ -63,6 +63,10 @@
   target: "/equipe/"
   kind: page
   children:
+  - title: Toute l'équipe
+    target: "/equipe/"
+    kind: persons
+    children: []
   - title: Équipe éditoriale
     target: "/equipe/equipe-editoriale/"
     kind: authors
