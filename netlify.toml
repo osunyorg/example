@@ -1,5 +1,5 @@
 [build.environment]
-  HUGO_VERSION = "0.105.0"
+  HUGO_VERSION = "0.108.0"
   HUGO_ENV = "staging"
 
 [[headers]]
