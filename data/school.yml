@@ -11,5 +11,18 @@ country: >
   France
 phone: >
   
-roles: []
+administrators:
+  - "magali-angles"
+  - "arnaud-levy"
+administrators_description:
+  "magali-angles": >
+    Direction
+  "arnaud-levy": >
+    Direction
+roles:
+  - title: >
+      Direction
+    persons:
+      - "arnaud-levy"
+      - "magali-angles"
 ---
