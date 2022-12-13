@@ -4,6 +4,7 @@ diplomas: /diplomes/:slug/
 programs: /offre-de-formation/:slug/
 organizations: /tierces-parties/:slug/
 persons: /equipe/:slug/
+administrators: /equipe/:slug/roles/
 authors: /equipe/:slug/actualites/
 researchers: /equipe/:slug/papers/
 teachers: /equipe/:slug/programs/
