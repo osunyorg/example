@@ -58,3 +58,4 @@ cookie_banner:
   blank: true
   page: https://gdpr.eu/cookies/
 ```
+
