@@ -1,2 +1,11 @@
 fr:
   title: Osuny example
+  contentDir: content/fr
+  languageCode: fr
+  languageName: Français
+
+en:
+  title: Osuny example
+  contentDir: content/en
+  languageCode: en
+  languageName: English
