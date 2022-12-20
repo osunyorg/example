@@ -20,3 +20,5 @@ params:
 
 build:
   writeStats: true
+
+removePathAccents: true
