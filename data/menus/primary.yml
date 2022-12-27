@@ -88,7 +88,7 @@
   kind: blank
   children:
   - title: Liste des tierces parties
-    target: "/tierces-parties/"
+    target: "/organisations/"
     kind: organizations
     children: []
 - title: Blocs
