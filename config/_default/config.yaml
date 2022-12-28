@@ -1,7 +1,7 @@
 theme: osuny-hugo-theme-aaa
 
 ## ADVANCED
-paginate: 2
+paginate: 18
 enableRobotsTXT: true
 
 ## MODULE
@@ -13,6 +13,9 @@ params:
   _merge: deep
   cookie_banner:
     enable: false
+  posts:
+    list:
+      show_categories: true
 
 build:
   writeStats: true
