@@ -123,7 +123,7 @@
     target: "/blocks/blocks-de-liste/"
     kind: page
     children:
-    - title: Liste de pages
+    - title: Pages
       target: "/blocks/blocks-de-liste/pages/"
       kind: page
       children: []
