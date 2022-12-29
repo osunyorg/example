@@ -107,4 +107,8 @@
     target: "/blocks/"
     kind: page
     children: []
+- title: Blocs narratifs
+  target: "/blocks/blocks-narratifs/"
+  kind: page
+  children: []
 
