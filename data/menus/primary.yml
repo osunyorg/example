@@ -63,7 +63,7 @@
     target: "/actualites/vie-etudiante/"
     kind: category
     children: []
-- title: Équipe
+- title: Pages spéciales
   target: "/equipe/"
   kind: page
   children:
@@ -83,14 +83,14 @@
     target: "/equipe/equipe-de-recherche/"
     kind: researchers
     children: []
-- title: Autres
-  target: "/"
-  kind: blank
-  children:
-  - title: Liste des tierces parties
+  - title: Organisations
     target: "/organisations/"
     kind: organizations
     children: []
+- title: Autres
+  target: "/"
+  kind: blank
+  children: []
 - title: Blocs
   target: "/"
   kind: blank
