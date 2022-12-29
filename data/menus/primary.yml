@@ -107,7 +107,7 @@
       target: "/blocks/blocks-de-base/tableau/"
       kind: page
       children: []
-  - title: Blocs narratifs
+  - title: Les blocs narratifs
     target: "/blocks/blocks-narratifs/"
     kind: page
     children:
