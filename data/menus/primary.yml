@@ -106,5 +106,9 @@
   - title: Blocs de base
     target: "/blocks/blocks-de-base/"
     kind: page
-    children: []
+    children:
+    - title: Chapitre
+      target: "/blocks/blocks-de-base/chapitres/"
+      kind: page
+      children: []
 
