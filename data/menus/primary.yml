@@ -63,7 +63,7 @@
       target: "/actualites/vie-etudiante/"
       kind: category
       children: []
-  - title: Toute l'équipe
+  - title: Équipe
     target: "/equipe/"
     kind: persons
     children:
