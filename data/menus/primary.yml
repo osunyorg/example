@@ -167,4 +167,8 @@
     target: "/blocks/tous-les-blocks-pleine-largeur/"
     kind: page
     children: []
+  - title: Les blocs
+    target: "/blocks/"
+    kind: page
+    children: []
 
