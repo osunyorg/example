@@ -1,7 +1,7 @@
 theme: osuny-hugo-theme-aaa
 
 ## ADVANCED
-paginate: 2
+paginate: 18
 enableRobotsTXT: true
 
 ## MODULE
