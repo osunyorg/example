@@ -103,6 +103,14 @@
       target: "/blocks/blocks-narratifs/chiffre-cles/"
       kind: page
       children: []
+    - title: Galeries
+      target: "/blocks/blocks-narratifs/galeries/"
+      kind: page
+      children: []
+    - title: Appels à action
+      target: "/blocks/blocks-narratifs/appels-a-action/"
+      kind: page
+      children: []
   - title: Tous les blocs
     target: "/blocks/tous-les-blocks/"
     kind: page
