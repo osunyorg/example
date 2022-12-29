@@ -131,7 +131,7 @@
       target: "/blocks/blocks-narratifs/frise/"
       kind: page
       children: []
-  - title: Les blocs de liste
+  - title: Les blocs de listes
     target: "/blocks/blocks-de-liste/"
     kind: page
     children:
