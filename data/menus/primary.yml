@@ -139,6 +139,10 @@
       target: "/blocks/blocks-de-liste/partenaires/"
       kind: page
       children: []
+    - title: Formations
+      target: "/blocks/blocks-de-liste/programmes/"
+      kind: page
+      children: []
   - title: Tous les blocs
     target: "/blocks/tous-les-blocks/"
     kind: page
