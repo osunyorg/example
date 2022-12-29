@@ -1,5 +1,5 @@
 ---
-- title: L'Offre de formation
+- title: Offre de formation
   target: "/offre-de-formation/"
   kind: programs
   children:
@@ -135,23 +135,23 @@
     target: "/blocks/blocks-de-liste/"
     kind: page
     children:
-    - title: Pages
+    - title: Les pages
       target: "/blocks/blocks-de-liste/pages/"
       kind: page
       children: []
-    - title: Actualités
+    - title: Les actualités
       target: "/blocks/blocks-de-liste/actualites-1/"
       kind: page
       children: []
-    - title: Personnes
+    - title: Les personnes
       target: "/blocks/blocks-de-liste/organigramme/"
       kind: page
       children: []
-    - title: Organisations
+    - title: Les organisations
       target: "/blocks/blocks-de-liste/partenaires/"
       kind: page
       children: []
-    - title: Formations
+    - title: Les formations
       target: "/blocks/blocks-de-liste/programmes/"
       kind: page
       children: []
