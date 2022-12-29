@@ -83,6 +83,10 @@
     target: "/organisations/"
     kind: organizations
     children: []
+  - title: Équipe administrative
+    target: "/equipe/equipe-administrative/"
+    kind: page
+    children: []
 - title: Blocs
   target: "/"
   kind: blank
