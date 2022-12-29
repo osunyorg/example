@@ -122,7 +122,11 @@
   - title: Blocs de liste
     target: "/blocks/blocks-de-liste/"
     kind: page
-    children: []
+    children:
+    - title: Liste de pages
+      target: "/blocks/blocks-de-liste/pages/"
+      kind: page
+      children: []
   - title: Tous les blocs
     target: "/blocks/tous-les-blocks/"
     kind: page
