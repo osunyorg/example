@@ -98,7 +98,11 @@
   - title: Blocs narratifs
     target: "/blocks/blocks-narratifs/"
     kind: page
-    children: []
+    children:
+    - title: Chiffre clés
+      target: "/blocks/blocks-narratifs/chiffre-cles/"
+      kind: page
+      children: []
   - title: Tous les blocs
     target: "/blocks/tous-les-blocks/"
     kind: page
