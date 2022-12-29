@@ -91,8 +91,12 @@
     target: "/blocks/blocks-de-base/"
     kind: page
     children:
-    - title: Chapitre
+    - title: Les chapitres
       target: "/blocks/blocks-de-base/chapitres/"
+      kind: page
+      children: []
+    - title: Les images
+      target: "/blocks/blocks-de-base/image/"
       kind: page
       children: []
   - title: Blocs narratifs
