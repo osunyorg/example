@@ -103,4 +103,8 @@
     target: "/blocks/"
     kind: page
     children: []
+  - title: Blocs de base
+    target: "/blocks/blocks-de-base/"
+    kind: page
+    children: []
 
