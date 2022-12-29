@@ -70,19 +70,19 @@
   - title: Toute l'équipe
     target: "/equipe/"
     kind: persons
-    children: []
-  - title: Équipe éditoriale
-    target: "/equipe/equipe-editoriale/"
-    kind: authors
-    children: []
-  - title: Équipe pédagogique
-    target: "/equipe/equipe-pedagogique/"
-    kind: page
-    children: []
-  - title: Équipe de recherche
-    target: "/equipe/equipe-de-recherche/"
-    kind: researchers
-    children: []
+    children:
+    - title: Équipe éditoriale
+      target: "/equipe/equipe-editoriale/"
+      kind: authors
+      children: []
+    - title: Équipe pédagogique
+      target: "/equipe/equipe-pedagogique/"
+      kind: page
+      children: []
+    - title: Équipe de recherche
+      target: "/equipe/equipe-de-recherche/"
+      kind: researchers
+      children: []
   - title: Organisations
     target: "/organisations/"
     kind: organizations
