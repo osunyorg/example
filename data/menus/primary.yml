@@ -159,16 +159,16 @@
     target: "/blocks/blocks-techniques/"
     kind: page
     children: []
-  - title: En pleine largeur
-    target: "/blocks/tous-les-blocks/"
-    kind: page
-    children: []
-  - title: Tous les blocs en pleine largeur
-    target: "/blocks/tous-les-blocks-pleine-largeur/"
-    kind: page
-    children: []
-  - title: Les blocs
+  - title: Tous les blocs
     target: "/blocks/"
     kind: page
-    children: []
+    children:
+    - title: Tous les blocs en pleine largeur
+      target: "/blocks/tous-les-blocks-pleine-largeur/"
+      kind: page
+      children: []
+    - title: Avec barre latérale
+      target: "/blocks/tous-les-blocks/"
+      kind: page
+      children: []
 
