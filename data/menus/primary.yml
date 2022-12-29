@@ -131,7 +131,7 @@
       target: "/blocks/blocks-de-liste/actualites-1/"
       kind: page
       children: []
-    - title: Organigramme
+    - title: Personnes
       target: "/blocks/blocks-de-liste/organigramme/"
       kind: page
       children: []
