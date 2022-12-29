@@ -55,10 +55,6 @@
     target: "/actualites/"
     kind: posts
     children:
-    - title: Toutes les actualités
-      target: "/actualites/"
-      kind: posts
-      children: []
     - title: À la une
       target: "/actualites/a-la-une/"
       kind: category
