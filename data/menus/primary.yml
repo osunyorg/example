@@ -99,6 +99,14 @@
       target: "/blocks/blocks-de-base/image/"
       kind: page
       children: []
+    - title: Les vidéos
+      target: "/blocks/blocks-de-base/videos/"
+      kind: page
+      children: []
+    - title: Les tableaux
+      target: "/blocks/blocks-de-base/tableau/"
+      kind: page
+      children: []
   - title: Blocs narratifs
     target: "/blocks/blocks-narratifs/"
     kind: page
