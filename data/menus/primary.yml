@@ -163,7 +163,7 @@
     target: "/blocks/"
     kind: page
     children:
-    - title: Tous les blocs en pleine largeur
+    - title: En pleine largeur
       target: "/blocks/tous-les-blocks-pleine-largeur/"
       kind: page
       children: []
