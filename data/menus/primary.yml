@@ -119,15 +119,15 @@
       target: "/blocks/blocks-narratifs/galeries/"
       kind: page
       children: []
-    - title: Appels à action
+    - title: Les appels à action
       target: "/blocks/blocks-narratifs/appels-a-action/"
       kind: page
       children: []
-    - title: Témoignages
+    - title: Les témoignages
       target: "/blocks/blocks-narratifs/temoignages/"
       kind: page
       children: []
-    - title: Frise
+    - title: Les frises
       target: "/blocks/blocks-narratifs/frise/"
       kind: page
       children: []
