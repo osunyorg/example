@@ -115,6 +115,10 @@
       target: "/blocks/blocks-narratifs/temoignages/"
       kind: page
       children: []
+    - title: Frise
+      target: "/blocks/blocks-narratifs/frise/"
+      kind: page
+      children: []
   - title: Tous les blocs
     target: "/blocks/tous-les-blocks/"
     kind: page
