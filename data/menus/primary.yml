@@ -135,6 +135,10 @@
       target: "/blocks/blocks-de-liste/organigramme/"
       kind: page
       children: []
+    - title: Partenaires
+      target: "/blocks/blocks-de-liste/partenaires/"
+      kind: page
+      children: []
   - title: Tous les blocs
     target: "/blocks/tous-les-blocks/"
     kind: page
