@@ -111,6 +111,10 @@
       target: "/blocks/blocks-narratifs/appels-a-action/"
       kind: page
       children: []
+    - title: Témoignages
+      target: "/blocks/blocks-narratifs/temoignages/"
+      kind: page
+      children: []
   - title: Tous les blocs
     target: "/blocks/tous-les-blocks/"
     kind: page
