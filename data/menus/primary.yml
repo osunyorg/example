@@ -155,6 +155,10 @@
       target: "/blocks/blocks-de-liste/programmes/"
       kind: page
       children: []
+  - title: Les blocs techniques
+    target: "/blocks/blocks-techniques/"
+    kind: page
+    children: []
   - title: Tous les blocs
     target: "/blocks/tous-les-blocks/"
     kind: page
