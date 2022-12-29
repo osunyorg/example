@@ -47,26 +47,26 @@
       target: "/diplomes/doctorat/"
       kind: diploma
       children: []
-- title: Actualités
-  target: "/actualites/"
-  kind: posts
-  children:
-  - title: Toutes les actualités
-    target: "/actualites/"
-    kind: posts
-    children: []
-  - title: À la une
-    target: "/actualites/a-la-une/"
-    kind: category
-    children: []
-  - title: Vie étudiante
-    target: "/actualites/vie-etudiante/"
-    kind: category
-    children: []
 - title: Pages spéciales
   target: "/"
   kind: blank
   children:
+  - title: Actualités
+    target: "/actualites/"
+    kind: posts
+    children:
+    - title: Toutes les actualités
+      target: "/actualites/"
+      kind: posts
+      children: []
+    - title: À la une
+      target: "/actualites/a-la-une/"
+      kind: category
+      children: []
+    - title: Vie étudiante
+      target: "/actualites/vie-etudiante/"
+      kind: category
+      children: []
   - title: Toute l'équipe
     target: "/equipe/"
     kind: persons
