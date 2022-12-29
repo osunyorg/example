@@ -87,7 +87,7 @@
   target: "/"
   kind: blank
   children:
-  - title: Blocs de base
+  - title: Les blocs de base
     target: "/blocks/blocks-de-base/"
     kind: page
     children:
