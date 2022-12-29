@@ -64,8 +64,8 @@
     kind: category
     children: []
 - title: Pages spéciales
-  target: "/equipe/"
-  kind: page
+  target: "/"
+  kind: blank
   children:
   - title: Toute l'équipe
     target: "/equipe/"
@@ -87,10 +87,6 @@
     target: "/organisations/"
     kind: organizations
     children: []
-- title: Autres
-  target: "/"
-  kind: blank
-  children: []
 - title: Blocs
   target: "/"
   kind: blank
