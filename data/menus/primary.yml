@@ -159,7 +159,7 @@
     target: "/blocks/blocks-techniques/"
     kind: page
     children: []
-  - title: Tous les blocs
+  - title: En pleine largeur
     target: "/blocks/tous-les-blocks/"
     kind: page
     children: []
