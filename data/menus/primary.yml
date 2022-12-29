@@ -167,6 +167,10 @@
       target: "/blocks/blocks-techniques/definitions/"
       kind: page
       children: []
+    - title: Les intégrations HTML
+      target: "/blocks/blocks-techniques/integration-html/"
+      kind: page
+      children: []
   - title: Tous les blocs
     target: "/blocks/"
     kind: page
