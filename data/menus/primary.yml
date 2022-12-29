@@ -87,6 +87,14 @@
   target: "/"
   kind: blank
   children:
+  - title: Blocs de base
+    target: "/blocks/blocks-de-base/"
+    kind: page
+    children:
+    - title: Chapitre
+      target: "/blocks/blocks-de-base/chapitres/"
+      kind: page
+      children: []
   - title: Tous les blocs
     target: "/blocks/tous-les-blocks/"
     kind: page
@@ -99,12 +107,4 @@
     target: "/blocks/"
     kind: page
     children: []
-  - title: Blocs de base
-    target: "/blocks/blocks-de-base/"
-    kind: page
-    children:
-    - title: Chapitre
-      target: "/blocks/blocks-de-base/chapitres/"
-      kind: page
-      children: []
 
