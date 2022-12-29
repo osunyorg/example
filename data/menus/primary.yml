@@ -158,7 +158,15 @@
   - title: Les blocs techniques
     target: "/blocks/blocks-techniques/"
     kind: page
-    children: []
+    children:
+    - title: Les fichiers
+      target: "/blocks/blocks-techniques/fichiers/"
+      kind: page
+      children: []
+    - title: Les définitions
+      target: "/blocks/blocks-techniques/definitions/"
+      kind: page
+      children: []
   - title: Tous les blocs
     target: "/blocks/"
     kind: page
