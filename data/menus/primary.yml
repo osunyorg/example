@@ -67,25 +67,25 @@
     target: "/equipe/"
     kind: persons
     children:
+    - title: Équipe administrative
+      target: "/equipe/equipe-administrative/"
+      kind: page
+      children: []
     - title: Équipe éditoriale
       target: "/equipe/equipe-editoriale/"
       kind: authors
-      children: []
-    - title: Équipe pédagogique
-      target: "/equipe/equipe-pedagogique/"
-      kind: page
       children: []
     - title: Équipe de recherche
       target: "/equipe/equipe-de-recherche/"
       kind: researchers
       children: []
+    - title: Équipe pédagogique
+      target: "/equipe/equipe-pedagogique/"
+      kind: page
+      children: []
   - title: Organisations
     target: "/organisations/"
     kind: organizations
-    children: []
-  - title: Équipe administrative
-    target: "/equipe/equipe-administrative/"
-    kind: page
     children: []
 - title: Blocs
   target: "/"
