@@ -111,11 +111,11 @@
     target: "/blocks/blocks-narratifs/"
     kind: page
     children:
-    - title: Chiffre clés
+    - title: Les chiffre clés
       target: "/blocks/blocks-narratifs/chiffre-cles/"
       kind: page
       children: []
-    - title: Galeries
+    - title: Les galeries
       target: "/blocks/blocks-narratifs/galeries/"
       kind: page
       children: []
