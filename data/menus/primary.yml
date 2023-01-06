@@ -48,7 +48,7 @@
       kind: diploma
       children: []
 - title: Pages spéciales
-  target: "/"
+  target: ''
   kind: blank
   children:
   - title: Actualités
@@ -88,7 +88,7 @@
     kind: page
     children: []
 - title: Blocs
-  target: "/"
+  target: ''
   kind: blank
   children:
   - title: Les blocs de base
