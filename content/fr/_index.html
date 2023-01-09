@@ -1,8 +1,10 @@
 ---
 title: >
-  Osuny
+  Accueil
 breadcrumb_title: "Accueil"
-url: ""
+url: "/"
+aliases:
+  - /fr/
 
 full_width: true
 design:
@@ -11,54 +13,39 @@ design:
     present: true
     offcanvas: true
 
-position: 10
+position: 2
 bodyclass: 
 
 children:
   - /actualites/
-  - /usages/
-  - /valeurs/
-  - /fonctionnalites/
-  - /gouvernance/
-  - /passer-a-laction/
+  - /blocks/
   - /mentions-legales/
-  - /politique-de-sobriete/
-  - /conditions-d-utilisation/
   - /plan-du-site/
   - /politique-de-confidentialite/
-  - /a11y/
-  - /espace-presse/
+  - /offre-de-formation/
+  - /equipe/
   - /organisations/
+  - /accessibilite/
+  - /diplomes/
 description: >
-  Un commun numérique libre, sobre et accessible pour l'Enseignement Supérieur et la Recherche
+  
 summary: >
-  
+  Ceci est un site de démonstration, pré-compilé et généré par Osuny
 description_short: >
-  
+  Ceci est un site de démonstration, pré-compilé et généré par Osuny
 
 header_text: >-
-  Un commun numérique libre, sobre et accessible pour l'Enseignement Supérieur et la Recherche
+  
 legacy_text: >
-  <div>    </div>
+  <div>   <div>    </div> </div>
 blocks:
-  - template: posts
-    title: >-
-      Références récentes
-    position: 1
-    data:
-      category: "/references/"
-      layout: grid
-      posts:
-        - "2022/2022-11-21-noesya-produit-le-site-web-du-dictionnaire-du-climat-pour-les-nations-unies"
-        - "2022/2022-07-06-l-iut-bordeaux-montaigne-se-dote-d-un-site-sobre-accessible-et-securise"
-        - "2022/2022-05-31-communication-democratie"
   - template: call_to_action
     title: >-
-      Décarbonation
-    position: 2
+      Thème AAA
+    position: 1
     data:
       text: >-
-        <p>Découvrez le plan de décarbonation des sites Web des Universités Françaises : un potentiel de sobriété de plus de 8000 tonnes équivalent CO2?<br></p>
+        <p>Le site example.osuny.org est maintenant appuyé sur le thème AAA. Si vous voyez des problèmes, n'hésitez pas à les remonter sur GitHub :)</p>
 
 
 
@@ -73,117 +60,60 @@ blocks:
 
       buttons:
         - title: >-
-            Consulter le plan
+            Thème
 
 
           url: >-
-            https://carbone.osuny.org/
+            https://github.com/noesya/osuny-hugo-theme-aaa
 
 
-          target_blank: false
+          target_blank: true
 
 
-  - template: pages
+        - title: >-
+            Template
+
+
+          url: >-
+            https://github.com/noesya/osuny-hugo-template-aaa
+
+
+          target_blank: true
+
+
+  - template: posts
     title: >-
-      
-    position: 3
+      Actualités
+    position: 2
     data:
-      page: /usages/
-      show_main_description: true
-      show_descriptions: true
-      show_images: false
       layout: grid
-      pages:
-        - page: /usages/universites/
-          slug: /usages/universites/
-        - page: /usages/laboratoires/
-          slug: /usages/laboratoires/
-        - page: /usages/dsi/
-          slug: /usages/dsi/
-        - page: /usages/ecoles-privees/
-          slug: /usages/ecoles-privees/
+      posts:
+        - "2022/2022-12-01-referentiel-general-decoconception-de-services-numeriques-rgesn"
+        - "2022/2022-12-01-les-cooperatives-energetiques-citoyennes-des-modeles-originaux-pour-plus-de-sobriete"
+        - "2022/2022-02-21-covid-19-informations-vaccination"
   - template: pages
     title: >-
-      Valeurs
+      Blocs
     position: 4
     data:
-      page: /valeurs/
-      show_main_description: true
-      show_descriptions: true
-      show_images: false
-      layout: cards
-      pages:
-        - page: /valeurs/accessibilite/
-          slug: /valeurs/accessibilite/
-        - page: /valeurs/sobriete/
-          slug: /valeurs/sobriete/
-        - page: /valeurs/qualite/
-          slug: /valeurs/qualite/
-        - page: /valeurs/souverainete/
-          slug: /valeurs/souverainete/
-        - page: /valeurs/liberte/
-          slug: /valeurs/liberte/
-        - page: /valeurs/communaute/
-          slug: /valeurs/communaute/
-  - template: pages
-    title: >-
-      Fonctionnalités
-    position: 5
-    data:
-      page: /fonctionnalites/
+      page: /blocks/
       show_main_description: true
       show_descriptions: true
       show_images: false
       layout: grid
       pages:
-        - page: /fonctionnalites/enseignement/
-          slug: /fonctionnalites/enseignement/
-        - page: /fonctionnalites/recherche/
-          slug: /fonctionnalites/recherche/
-        - page: /fonctionnalites/communication/
-          slug: /fonctionnalites/communication/
-        - page: /fonctionnalites/administration/
-          slug: /fonctionnalites/administration/
-        - page: /fonctionnalites/informations-techniques/
-          slug: /fonctionnalites/informations-techniques/
-  - template: pages
-    title: >-
-      Passer à l'action
-    position: 7
-    data:
-      page: /passer-a-laction/
-      show_main_description: false
-      show_descriptions: true
-      show_images: false
-      layout: cards
-      pages:
-        - page: /passer-a-laction/exemples/
-          slug: /passer-a-laction/exemples/
-        - page: /passer-a-laction/budgets/
-          slug: /passer-a-laction/budgets/
-        - page: /passer-a-laction/reseau/
-          slug: /passer-a-laction/reseau/
-  - template: partners
-    title: >-
-      Parties prenantes
-    position: 8
-    data:
-      description: >-
-        
-
-
-      with_link: true
-
-      partners:
-        - slug: "classcode"
-        - slug: "degrowth-journal"
-        - slug: "mica"
-        - slug: "mit-anthropology"
-        - slug: "noesya"
-        - slug: "rose-primaire"
-        - slug: "scaleway"
-        - slug: "scalingo"
-        - slug: "universite-bordeaux-montaigne"
+        - page: /blocks/tous-les-blocks/
+          slug: /blocks/tous-les-blocks/
+        - page: /blocks/tous-les-blocks-pleine-largeur/
+          slug: /blocks/tous-les-blocks-pleine-largeur/
+        - page: /blocks/blocks-de-base/
+          slug: /blocks/blocks-de-base/
+        - page: /blocks/blocks-narratifs/
+          slug: /blocks/blocks-narratifs/
+        - page: /blocks/blocks-de-liste/
+          slug: /blocks/blocks-de-liste/
+        - page: /blocks/blocks-techniques/
+          slug: /blocks/blocks-techniques/
 
 
 ---
