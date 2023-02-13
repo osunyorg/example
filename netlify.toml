@@ -1,6 +1,6 @@
 [build.environment]
   HUGO_VERSION = "0.108.0"
-  HUGO_ENV = "staging"
+  HUGO_ENV = "production"
 
 [[headers]]
   for = "/*"
