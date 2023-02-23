@@ -1,4 +1,6 @@
 ---
+title: Menu principal
+items:
 - title: Offre de formation
   target: "/offre-de-formation/"
   kind: page
