@@ -1,0 +1,173 @@
+@mixin h1
+    font-family: $h1-font-family
+    font-size: $h1-size
+    font-weight: $h1-weight
+    line-height: $h1-line-height
+    text-transform: $h1-text-transform
+    @include media-breakpoint-up(desktop)
+        font-size: $h1-size-desktop
+
+
+@mixin h2
+    font-family: $h2-font-family
+    font-size: $h2-size
+    font-weight: $h2-weight
+    line-height: $h2-line-height
+    text-transform: $h2-text-transform
+    @include media-breakpoint-up(desktop)
+        font-size: $h2-size-desktop
+
+
+@mixin h3
+    font-family: $h3-font-family
+    font-size: $h3-size
+    font-weight: $h3-weight
+    line-height: $h3-line-height
+    text-transform: $h3-text-transform
+    @include media-breakpoint-up(desktop)
+        font-size: $h3-size-desktop
+
+@mixin h4
+    font-family: $h4-font-family
+    font-size: $h4-size
+    font-weight: $h4-weight
+    line-height: $h4-line-height
+    text-transform: $h4-text-transform
+    @include media-breakpoint-up(desktop)
+        font-size: $h4-size-desktop
+
+
+@mixin h5
+    font-family: $h5-font-family
+    font-size: $h5-size
+    font-weight: $h5-weight
+    line-height: $h5-line-height
+    text-transform: $h5-text-transform
+    @include media-breakpoint-up(desktop)
+        font-size: $h5-size-desktop
+    a
+        text-decoration: none
+
+@mixin h6
+    font-family: $h6-font-family
+    font-size: $h6-size
+    font-weight: $h6-weight
+    line-height: $h6-line-height
+    text-transform: $h6-text-transform
+    @include media-breakpoint-up(desktop)
+        font-size: $h6-size-desktop
+
+@mixin lead($handle-sidebar: true)
+    font-family: $lead-font-family
+    font-size: $lead-size
+    font-weight: $lead-weight
+    line-height: $lead-line-height
+    @include media-breakpoint-up(desktop)
+        font-size: $lead-size-desktop
+    @if $handle-sidebar
+        @include in-page-with-sidebar
+            font-family: $lead-sidebar-font-family
+            font-size: $lead-sidebar-size-desktop
+            font-weight: $lead-sidebar-weight
+            line-height: $lead-sidebar-line-height
+
+@mixin body-text
+    font-family: $body-font-family
+    font-size: $body-size
+    @include media-breakpoint-up(desktop)
+        font-size: $body-size-desktop
+
+@mixin meta
+    font-family: $meta-font-family
+    font-size: $meta-size
+    font-weight: $meta-weight
+    line-height: $meta-line-height
+    @include media-breakpoint-up(desktop)
+        font-size: $meta-size-desktop
+
+
+@mixin signature
+    font-family: $signature-font-family
+    font-size: $signature-size
+    font-weight: $signature-weight
+    line-height: $signature-line-height
+    @include media-breakpoint-up(desktop)
+        font-size: $signature-size-desktop
+
+
+@mixin small
+    font-family: $small-font-family
+    font-size: $small-size
+    font-weight: $small-weight
+    line-height: $small-line-height
+    @include media-breakpoint-up(desktop)
+        font-size: $small-size-desktop
+
+@mixin rich-text
+    word-break: break-word
+    h1, h2, h3, h4, h5, h6, p
+        margin-top: 2em
+        &:first-child, meta + &
+            margin-top: 0
+
+
+@mixin inherit-text
+    font-family: inherit
+    font-weight: inherit
+    font-style: inherit
+    font-size: inherit
+    line-height: inherit
+
+@mixin blockquote
+    margin: 0
+    font-family: $quote-font-family
+    font-size: $quote-size
+    font-weight: $quote-weight
+    font-style: $quote-style
+    line-height: $quote-line-height
+    @include media-breakpoint-up(desktop)
+        font-size: $quote-size-desktop-long
+    cite
+        font-size: px2rem(18)
+        font-style: normal
+
+
+@mixin btn
+    font-size: $btn-font-size
+    padding: $btn-padding-y $btn-padding-x
+    text-decoration: none
+    display: inline-block
+    border-radius: $btn-border-radius
+    @include media-breakpoint-up(desktop)
+        font-size: $btn-font-size-desktop
+        padding: $btn-padding-y-desktop $btn-padding-x-desktop
+
+
+@media (prefers-reduced-motion: no-preference)
+    *:focus-visible
+        transition: outline-offset .3s ease
+
+// ICONS
+@font-face
+    font-display: block
+    font-family: 'Icon'
+    font-style: normal
+    font-weight: 400
+    src: url('../fonts/fonticons/IconFont.woff') format("woff")
+
+@each $name, $glyph in $icons
+    .icon-#{$name}
+        @include icon($name, before)
+    .icon-block-#{$name}
+        @include icon-block($name, before)
+    .btn-#{$name}
+        @include icon($name)
+        &::before
+            margin-inline-end: px2rem(5)
+
+.link-more
+    @include link
+    @include icon(arrow, before)
+    &::before
+        font-size: px2rem(10)
+        margin-right: px2rem(5)
