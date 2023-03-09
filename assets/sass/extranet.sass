@@ -39,3 +39,24 @@
 @import "_theme/blocks/testimonials"
 @import "_theme/blocks/timeline"
 @import "_theme/blocks/video"
+
+
+// MISC
+
+
+.avatar
+    background-color: $persons-avatar-background-color
+    border-radius: 50%
+    overflow: hidden
+    position: relative
+    &::before
+        content: ""
+        display: block
+        padding-top: 100%
+    picture, img
+        @include inset(0)
+        height: 100%
+        width: 100%
+        position: absolute
+    img
+        object-fit: cover
