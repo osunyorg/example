@@ -8,47 +8,11 @@ items:
   - title: Liste des formations
     target: "/offre-de-formation/"
     kind: page
-    children:
-    - title: Animation Sociale et Socioculturelle
-      target: "/offre-de-formation/animation-sociale-et-socioculturelle/"
-      kind: program
-      children: []
-    - title: Coordination de projets de développement social et culturel
-      target: "/offre-de-formation/coordination-de-projets-de-developpement-social-et-culturel/"
-      kind: program
-      children: []
-    - title: Doctorat Sciences de l'Information et de la Communication
-      target: "/offre-de-formation/doctorat-sciences-de-linformation-et-de-la-communication/"
-      kind: program
-      children: []
-    - title: Éco-conception de service numérique
-      target: "/offre-de-formation/eco-conception-de-service-numerique/"
-      kind: program
-      children: []
-    - title: Métiers du Multimédia et de l'Internet
-      target: "/offre-de-formation/metiers-du-multimedia-et-de-linternet/"
-      kind: program
-      children: []
+    children: []
   - title: Liste des diplômes
     target: "/diplomes/"
     kind: page
-    children:
-    - title: Licence Profesionnelle
-      target: "/diplomes/licence-profesionnelle/"
-      kind: diploma
-      children: []
-    - title: Bachelor Universitaire de Technologie
-      target: "/diplomes/bachelor-universitaire-de-technologie/"
-      kind: diploma
-      children: []
-    - title: Master
-      target: "/diplomes/master/"
-      kind: diploma
-      children: []
-    - title: Doctorat
-      target: "/diplomes/doctorat/"
-      kind: diploma
-      children: []
+    children: []
 - title: Pages spéciales
   target: ''
   kind: blank
