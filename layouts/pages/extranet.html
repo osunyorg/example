@@ -7,3 +7,6 @@
 {{ $js := resources.Get "js/extranet.js" | js.Build (dict "minify" true) }}
 <link rel="stylesheet" href="{{ $styles.Permalink }}">
 <script src="{{ $js.RelPermalink }}"></script>
+{{ $js = resources.Get "js/preview.js" | js.Build (dict "minify" true) }}
+<script src="{{ $js.RelPermalink }}"></script>
+
