@@ -101,6 +101,10 @@ items:
       target: "/blocks/blocks-narratifs/frise/"
       kind: page
       children: []
+    - title: Les fonctionnalités
+      target: "/blocks/blocks-narratifs/les-fonctionnalites/"
+      kind: page
+      children: []
   - title: Les blocs de listes
     target: "/blocks/blocks-de-liste/"
     kind: page
@@ -157,8 +161,4 @@ items:
       target: "/blocks/tous-les-blocks/"
       kind: page
       children: []
-- title: Les fonctionnalités
-  target: "/blocks/blocks-narratifs/les-fonctionnalites/"
-  kind: page
-  children: []
 
