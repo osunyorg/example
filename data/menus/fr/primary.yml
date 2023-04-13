@@ -106,27 +106,27 @@ items:
       kind: page
       children: []
   - title: Les blocs de listes
-    target: "/blocks/blocks-de-liste/"
+    target: "/blocks/blocs-de-liste/"
     kind: page
     children:
     - title: Les pages
-      target: "/blocks/blocks-de-liste/pages/"
+      target: "/blocks/blocs-de-liste/pages/"
       kind: page
       children: []
     - title: Les actualités
-      target: "/blocks/blocks-de-liste/actualites-1/"
+      target: "/blocks/blocs-de-liste/actualites-1/"
       kind: page
       children: []
     - title: Les personnes
-      target: "/blocks/blocks-de-liste/organigramme/"
+      target: "/blocks/blocs-de-liste/organigramme/"
       kind: page
       children: []
     - title: Les organisations
-      target: "/blocks/blocks-de-liste/partenaires/"
+      target: "/blocks/blocs-de-liste/partenaires/"
       kind: page
       children: []
     - title: Les formations
-      target: "/blocks/blocks-de-liste/programmes/"
+      target: "/blocks/blocs-de-liste/programmes/"
       kind: page
       children: []
   - title: Les blocs techniques
