@@ -1,0 +1,46 @@
+name: Datacampus sFTP deployment
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    concurrency:
+      group: ${{ github.workflow }}
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+          fetch-depth: 1
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: 'yarn'
+
+      - name: Install JS dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build
+        run: hugo -e production --minify
+
+      - name: Sync files
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          server: ${{ secrets.DATACAMPUS_HOST }}
+          username: ${{ secrets.DATACAMPUS_USER }}
+          password: ${{ secrets.DATACAMPUS_PASSWORD }}
+          port: ${{ secrets.DATACAMPUS_PORT }}
+          local_path: ${{ secrets.DATACAMPUS_LOCAL_DIR }}
+          remote_path: ${{ secrets.DATACAMPUS_REMOTE_PATH }}
+          sftp_only: true
