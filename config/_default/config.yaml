@@ -12,3 +12,6 @@ deployment:
 module:
   _merge: deep
 
+params:
+  summary:
+      position: hero # content | hero
