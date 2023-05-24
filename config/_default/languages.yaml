@@ -8,11 +8,9 @@ fr:
   permalinks:
     categories: /actualites/:slug/
     posts: /actualites/:year-:month-:day-:slug/
-    diplomas: /diplomes/:slug/
     programs: /offre-de-formation/:slug/
     organizations: /organisations/:slug/
     persons: /equipe/:slug/
     administrators: /equipe/:slug/roles/
     authors: /equipe/:slug/actualites/
     researchers: /equipe/:slug/papers/
-    teachers: /equipe/:slug/programs/
