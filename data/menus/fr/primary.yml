@@ -1,0 +1,184 @@
+---
+title: Menu principal
+items:
+- title: Offre de formation
+  target: "/offre-de-formation/"
+  kind: page
+  children:
+  - title: Liste des formations
+    target: "/offre-de-formation/"
+    kind: page
+    children:
+    - title: Animation Sociale et Socioculturelle
+      target: "/offre-de-formation/animation-sociale-et-socioculturelle/"
+      kind: program
+      children: []
+    - title: Coordination de projets de développement social et culturel
+      target: "/offre-de-formation/coordination-de-projets-de-developpement-social-et-culturel/"
+      kind: program
+      children: []
+    - title: Doctorat Sciences de l'Information et de la Communication
+      target: "/offre-de-formation/doctorat-sciences-de-linformation-et-de-la-communication/"
+      kind: program
+      children: []
+    - title: Éco-conception de service numérique
+      target: "/offre-de-formation/eco-conception-de-service-numerique/"
+      kind: program
+      children: []
+    - title: Métiers du Multimédia et de l'Internet
+      target: "/offre-de-formation/metiers-du-multimedia-et-de-linternet/"
+      kind: program
+      children: []
+  - title: Liste des diplômes
+    target: "/diplomes/"
+    kind: page
+    children: []
+- title: Pages spéciales
+  target: ''
+  kind: blank
+  children:
+  - title: Actualités
+    target: "/actualites/"
+    kind: page
+    children:
+    - title: À la une
+      target: "/actualites/a-la-une/"
+      kind: category
+      children: []
+    - title: Vie étudiante
+      target: "/actualites/vie-etudiante/"
+      kind: category
+      children: []
+  - title: Équipe
+    target: "/equipe/"
+    kind: page
+    children:
+    - title: Équipe administrative
+      target: "/equipe/equipe-administrative/"
+      kind: page
+      children: []
+    - title: Équipe éditoriale
+      target: "/equipe/equipe-editoriale/"
+      kind: page
+      children: []
+    - title: Équipe de recherche
+      target: "/equipe/equipe-de-recherche/"
+      kind: page
+      children: []
+    - title: Équipe pédagogique
+      target: "/equipe/equipe-pedagogique/"
+      kind: page
+      children: []
+  - title: Organisations
+    target: "/organisations/"
+    kind: page
+    children: []
+- title: Blocs
+  target: ''
+  kind: blank
+  children:
+  - title: Les blocs de base
+    target: "/blocks/blocks-de-base/"
+    kind: page
+    children:
+    - title: Les chapitres
+      target: "/blocks/blocks-de-base/chapitres/"
+      kind: page
+      children: []
+    - title: Les images
+      target: "/blocks/blocks-de-base/image/"
+      kind: page
+      children: []
+    - title: Les vidéos
+      target: "/blocks/blocks-de-base/videos/"
+      kind: page
+      children: []
+    - title: Les tableaux
+      target: "/blocks/blocks-de-base/tableau/"
+      kind: page
+      children: []
+  - title: Les blocs narratifs
+    target: "/blocks/blocks-narratifs/"
+    kind: page
+    children:
+    - title: Les chiffre clés
+      target: "/blocks/blocks-narratifs/chiffre-cles/"
+      kind: page
+      children: []
+    - title: Les galeries
+      target: "/blocks/blocks-narratifs/galeries/"
+      kind: page
+      children: []
+    - title: Les appels à action
+      target: "/blocks/blocks-narratifs/appels-a-action/"
+      kind: page
+      children: []
+    - title: Les témoignages
+      target: "/blocks/blocks-narratifs/temoignages/"
+      kind: page
+      children: []
+    - title: Les frises
+      target: "/blocks/blocks-narratifs/frise/"
+      kind: page
+      children: []
+    - title: Les fonctionnalités
+      target: "/blocks/blocks-narratifs/les-fonctionnalites/"
+      kind: page
+      children: []
+  - title: Les blocs de listes
+    target: "/blocks/blocs-de-liste/"
+    kind: page
+    children:
+    - title: Les pages
+      target: "/blocks/blocs-de-liste/pages/"
+      kind: page
+      children: []
+    - title: Les actualités
+      target: "/blocks/blocs-de-liste/actualites-1/"
+      kind: page
+      children: []
+    - title: Les personnes
+      target: "/blocks/blocs-de-liste/organigramme/"
+      kind: page
+      children: []
+    - title: Les organisations
+      target: "/blocks/blocs-de-liste/partenaires/"
+      kind: page
+      children: []
+    - title: Les formations
+      target: "/blocks/blocs-de-liste/programmes/"
+      kind: page
+      children: []
+  - title: Les blocs techniques
+    target: "/blocks/blocks-techniques/"
+    kind: page
+    children:
+    - title: Les fichiers
+      target: "/blocks/blocks-techniques/fichiers/"
+      kind: page
+      children: []
+    - title: Les définitions
+      target: "/blocks/blocks-techniques/definitions/"
+      kind: page
+      children: []
+    - title: Les intégrations HTML
+      target: "/blocks/blocks-techniques/integration-html/"
+      kind: page
+      children: []
+    - title: Les contacts
+      target: "/blocks/blocks-techniques/contact/"
+      kind: page
+      children: []
+  - title: Tous les blocs
+    target: "/blocks/"
+    kind: page
+    children:
+    - title: En pleine largeur
+      target: "/blocks/tous-les-blocks-pleine-largeur/"
+      kind: page
+      children: []
+    - title: Avec barre latérale
+      target: "/blocks/tous-les-blocks/"
+      kind: page
+      children: []
+
