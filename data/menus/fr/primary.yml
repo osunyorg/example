@@ -97,6 +97,10 @@ items:
       target: "/blocks/blocks-de-base/tableau/"
       kind: page
       children: []
+    - title: Les sons
+      target: "/blocks/blocks-de-base/les-sons/"
+      kind: page
+      children: []
   - title: Les blocs narratifs
     target: "/blocks/blocks-narratifs/"
     kind: page
