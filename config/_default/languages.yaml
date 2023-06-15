@@ -6,13 +6,13 @@ en:
   languageCode: en
   languageName: English
   permalinks:
-    categories: /actualites/:slug/
-    posts: /actualites/:year-:month-:day-:slug/
+    categories: /actualites-1/:slug/
+    posts: /actualites-1/:year-:month-:day-:slug/
     programs: /formations/:slug/
     organizations: /organisations/:slug/
     persons: /equipe/:slug/
     administrators: /equipe/:slug/roles/
-    authors: /equipe/:slug/actualites/
+    authors: /equipe/:slug/actualites-1/
     researchers: /equipe/:slug/papers/
 fr:
   title: Example
