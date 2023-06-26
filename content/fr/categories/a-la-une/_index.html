@@ -9,7 +9,7 @@ full_width: true
 design:
   full_width: true
   toc:
-    present: true
+    present: false
     offcanvas: true
 
 position: 2
@@ -25,6 +25,61 @@ summary: >
   Résumé de la catégorie &quot;À la une&quot;.
 description_short: >
   Résumé de la catégorie &quot;À la une&quot;.
+
+contents:
+  - kind: block
+    template: chapter
+    title: >
+      Les articles à la une
+    position: 1
+    data:
+      layout: no_background
+      text: >-
+        <p>Découvrez les articles à la une</p>
+
+
+      notes: >-
+        
+
+
+
+
+      alt: >-
+        
+
+
+      credit: >-
+        
+
+
+
+
+  - kind: block
+    template: posts
+    title: >
+      Les articles
+    position: 2
+    data:
+      category: "/a-la-une/"
+      layout: grid
+      posts:
+        - "2023/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn"
+        - "2022/2022-02-21-lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique"
+
+
+  - kind: block
+    template: pages
+    title: >
+      Les offres
+    position: 4
+    data:
+      page: /fr/offre-de-formation/
+      show_main_description: true
+      show_descriptions: false
+      show_images: true
+      layout: cards
+      pages:
+
 
 blocks:
   - template: chapter

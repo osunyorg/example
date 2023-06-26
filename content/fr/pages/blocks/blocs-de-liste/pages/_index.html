@@ -13,7 +13,7 @@ full_width: false
 design:
   full_width: false
   toc:
-    present: true
+    present: false
     offcanvas: false
 
 position: 3
@@ -38,8 +38,122 @@ description_short: >
 
 header_text: >-
   
-legacy_text: >
-  
+contents:
+  - kind: block
+    template: pages
+    title: >
+      Sans page principale
+    position: 2
+    data:
+      show_main_description: false
+      show_descriptions: false
+      show_images: false
+      layout: grid
+      pages:
+        - page: /fr/blocks/blocks-narratifs/chiffre-cles/
+          slug: /fr/blocks/blocks-narratifs/chiffre-cles/
+
+
+  - kind: block
+    template: pages
+    title: >
+      Mise en page Grille
+    position: 3
+    data:
+      page: /fr/blocks/
+      show_main_description: true
+      show_descriptions: true
+      show_images: true
+      layout: grid
+      pages:
+        - page: /fr/blocks/tous-les-blocks/
+          slug: /fr/blocks/tous-les-blocks/
+        - page: /fr/blocks/tous-les-blocks-pleine-largeur/
+          slug: /fr/blocks/tous-les-blocks-pleine-largeur/
+        - page: /fr/blocks/blocks-de-base/
+          slug: /fr/blocks/blocks-de-base/
+        - page: /fr/blocks/blocks-narratifs/
+          slug: /fr/blocks/blocks-narratifs/
+        - page: /fr/blocks/blocs-de-liste/
+          slug: /fr/blocks/blocs-de-liste/
+        - page: /fr/blocks/blocks-techniques/
+          slug: /fr/blocks/blocks-techniques/
+        - page: /fr/blocks/tous-les-blocks-pleine-largeur-1/
+          slug: /fr/blocks/tous-les-blocks-pleine-largeur-1/
+
+
+  - kind: block
+    template: pages
+    title: >
+      Mise en page liste
+    position: 4
+    data:
+      page: /fr/blocks/
+      show_main_description: true
+      show_descriptions: false
+      show_images: false
+      layout: list
+      pages:
+        - page: /fr/blocks/tous-les-blocks/
+          slug: /fr/blocks/tous-les-blocks/
+        - page: /fr/blocks/tous-les-blocks-pleine-largeur/
+          slug: /fr/blocks/tous-les-blocks-pleine-largeur/
+        - page: /fr/blocks/blocks-de-base/
+          slug: /fr/blocks/blocks-de-base/
+        - page: /fr/blocks/blocks-narratifs/
+          slug: /fr/blocks/blocks-narratifs/
+        - page: /fr/blocks/blocs-de-liste/
+          slug: /fr/blocks/blocs-de-liste/
+        - page: /fr/blocks/blocks-techniques/
+          slug: /fr/blocks/blocks-techniques/
+        - page: /fr/blocks/tous-les-blocks-pleine-largeur-1/
+          slug: /fr/blocks/tous-les-blocks-pleine-largeur-1/
+
+
+  - kind: block
+    template: pages
+    title: >
+      Mise en page cartes
+    position: 5
+    data:
+      page: /fr/blocks/
+      show_main_description: true
+      show_descriptions: true
+      show_images: true
+      layout: cards
+      pages:
+        - page: /fr/blocks/tous-les-blocks/
+          slug: /fr/blocks/tous-les-blocks/
+        - page: /fr/blocks/tous-les-blocks-pleine-largeur/
+          slug: /fr/blocks/tous-les-blocks-pleine-largeur/
+        - page: /fr/blocks/blocks-de-base/
+          slug: /fr/blocks/blocks-de-base/
+        - page: /fr/blocks/blocks-narratifs/
+          slug: /fr/blocks/blocks-narratifs/
+        - page: /fr/blocks/blocs-de-liste/
+          slug: /fr/blocks/blocs-de-liste/
+        - page: /fr/blocks/blocks-techniques/
+          slug: /fr/blocks/blocks-techniques/
+        - page: /fr/blocks/tous-les-blocks-pleine-largeur-1/
+          slug: /fr/blocks/tous-les-blocks-pleine-largeur-1/
+
+
+  - kind: block
+    template: embed
+    title: >
+      Figma
+    position: 6
+    data:
+      code: >-
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FtQh3oLfNwSt8aoVDuUjQt0%2FTh%25C3%25A8me-Osuny%3Fnode-id%3D15%253A3351%26scaling%3Dscale-down-width%26page-id%3D15%253A2725" allowfullscreen></iframe>
+
+
+      transcription: >-
+        
+
+
+
+
 blocks:
   - template: pages
     title: >-

@@ -8,7 +8,7 @@ full_width: true
 design:
   full_width: true
   toc:
-    present: true
+    present: false
     offcanvas: true
 
 position: 1
@@ -34,8 +34,76 @@ description_short: >
 
 header_text: >-
   
-legacy_text: >
-  
+contents:
+  - kind: block
+    template: posts
+    title: >
+      Actualités
+    position: 1
+    data:
+      all: true
+      layout: grid
+      posts:
+
+
+  - kind: block
+    template: call_to_action
+    title: >
+      Thème AAA
+    position: 2
+    data:
+      text: >-
+        <p>Le site example.osuny.org est maintenant appuyé sur le thème AAA. Si vous voyez des problèmes, n'hésitez pas à les remonter sur GitHub :)</p>
+
+
+
+
+      alt: >-
+        
+
+
+      credit: >-
+        
+
+
+      buttons:
+        - title: >-
+            Thème
+
+
+          url: >-
+            https://github.com/noesya/osuny-hugo-theme-aaa
+
+
+          target_blank: true
+
+
+        - title: >-
+            Template
+
+
+          url: >-
+            https://github.com/noesya/osuny-hugo-template-aaa
+
+
+          target_blank: true
+
+
+
+
+  - kind: block
+    template: pages
+    title: >
+      Blocs
+    position: 4
+    data:
+      show_main_description: true
+      show_descriptions: true
+      show_images: false
+      layout: grid
+      pages:
+
+
 blocks:
   - template: posts
     title: >-

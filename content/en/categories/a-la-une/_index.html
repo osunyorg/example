@@ -9,7 +9,7 @@ full_width: true
 design:
   full_width: true
   toc:
-    present: true
+    present: false
     offcanvas: true
 
 position: 3
@@ -25,6 +25,59 @@ summary: >
   Résumé de la catégorie &quot;À la une&quot;.
 description_short: >
   Résumé de la catégorie &quot;À la une&quot;.
+
+contents:
+  - kind: block
+    template: chapter
+    title: >
+      Les articles à la une
+    position: 1
+    data:
+      layout: no_background
+      text: >-
+        <p>Découvrez les articles à la une</p>
+
+
+      notes: >-
+        
+
+
+
+
+      alt: >-
+        
+
+
+      credit: >-
+        
+
+
+
+
+  - kind: block
+    template: posts
+    title: >
+      Les articles
+    position: 2
+    data:
+      category: "/a-la-une/"
+      layout: grid
+      posts:
+
+
+  - kind: block
+    template: pages
+    title: >
+      Les offres
+    position: 3
+    data:
+      page: /en/formations/
+      show_main_description: true
+      show_descriptions: false
+      show_images: true
+      layout: cards
+      pages:
+
 
 blocks:
   - template: chapter
