@@ -25,10 +25,6 @@ items:
       target: "/fr/offre-de-formation/eco-conception-de-service-numerique/"
       kind: program
       children: []
-    - title: Métiers du Multimédia et de l'Internet
-      target: "/fr/offre-de-formation/metiers-du-multimedia-et-de-linternet/"
-      kind: program
-      children: []
   - title: Liste des diplômes
     target: "/fr/diplomes/"
     kind: page
