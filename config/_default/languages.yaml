@@ -9,11 +9,12 @@ en:
     categories: /actualites-1/:slug/
     posts: /actualites-1/:year-:month-:day-:slug/
     programs: /formations/:slug/
+    publications: /publications/:year-:slug/
     organizations: /organisations/:slug/
     persons: /equipe/:slug/
     administrators: /equipe/:slug/roles/
     authors: /equipe/:slug/actualites-1/
-    researchers: /equipe/:slug/papers/
+    researchers: /equipe/:slug/publications/
 fr:
   title: Example
   contentDir: content/fr
@@ -23,8 +24,9 @@ fr:
     categories: /actualites/:slug/
     posts: /actualites/:year-:month-:day-:slug/
     programs: /offre-de-formation/:slug/
+    publications: /publications/:year-:slug/
     organizations: /organisations/:slug/
     persons: /equipe/:slug/
     administrators: /equipe/:slug/roles/
     authors: /equipe/:slug/actualites/
-    researchers: /equipe/:slug/papers/
+    researchers: /equipe/:slug/publications/
