@@ -9,14 +9,6 @@ items:
     target: "/fr/offre-de-formation/"
     kind: page
     children:
-    - title: Coordination de projets de développement social et culturel
-      target: "/fr/offre-de-formation/coordination-de-projets-de-developpement-social-et-culturel/"
-      kind: program
-      children: []
-    - title: Doctorat Sciences de l'Information et de la Communication
-      target: "/fr/offre-de-formation/doctorat-sciences-de-linformation-et-de-la-communication/"
-      kind: program
-      children: []
     - title: Éco-conception de service numérique
       target: "/fr/offre-de-formation/eco-conception-de-service-numerique/"
       kind: program
