@@ -9,10 +9,6 @@ items:
     target: "/fr/offre-de-formation/"
     kind: page
     children:
-    - title: Animation Sociale et Socioculturelle
-      target: "/fr/offre-de-formation/animation-sociale-et-socioculturelle/"
-      kind: program
-      children: []
     - title: Coordination de projets de développement social et culturel
       target: "/fr/offre-de-formation/coordination-de-projets-de-developpement-social-et-culturel/"
       kind: program
