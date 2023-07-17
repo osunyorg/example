@@ -8,11 +8,7 @@ items:
   - title: Liste des formations
     target: "/fr/offre-de-formation/"
     kind: page
-    children:
-    - title: Éco-conception de service numérique
-      target: "/fr/offre-de-formation/eco-conception-de-service-numerique/"
-      kind: program
-      children: []
+    children: []
   - title: Liste des diplômes
     target: "/fr/diplomes/"
     kind: page
