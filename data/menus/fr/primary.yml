@@ -153,4 +153,8 @@ items:
       target: "/fr/blocks/blocks-techniques/contact/"
       kind: page
       children: []
+- title: Exemples
+  target: ''
+  kind: blank
+  children: []
 
