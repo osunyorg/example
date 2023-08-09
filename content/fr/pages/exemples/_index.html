@@ -33,8 +33,34 @@ header_text: >-
 contents:
   - kind: heading
     title: >-
-      Blocs narratifs
+      Les blocs de listes
+    position: 1
+    level: 2
+  - kind: block
+    template: pages
+    title: >
+      Liste de pages
     position: 0
+    data:
+      page: /fr/blocks/
+      show_main_description: true
+      show_descriptions: false
+      show_images: false
+      layout: list
+      pages:
+        - page: /fr/blocks/tous-les-blocks/
+          slug: /fr/blocks/tous-les-blocks/
+        - page: /fr/blocks/tous-les-blocks-pleine-largeur/
+          slug: /fr/blocks/tous-les-blocks-pleine-largeur/
+        - page: /fr/blocks/blocks-de-base/
+          slug: /fr/blocks/blocks-de-base/
+
+
+
+  - kind: heading
+    title: >-
+      Blocs narratifs
+    position: 2
     level: 2
   - kind: block
     template: testimonials
@@ -254,7 +280,7 @@ contents:
   - kind: heading
     title: >-
       Blocs de base
-    position: 1
+    position: 3
     level: 2
   - kind: block
     template: datatable
