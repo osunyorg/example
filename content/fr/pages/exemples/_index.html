@@ -9,7 +9,7 @@ full_width: false
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 position: 13
@@ -31,11 +31,387 @@ description_short: >
 header_text: >-
   
 contents:
+  - kind: heading
+    title: >-
+      Les blocs de listes
+    position: 0
+    level: 2
+  - kind: block
+    template: organization_chart
+    title: >
+      Liste de personnes
+    position: 0
+    data:
+      description: >-
+        <p>Voici les membres de l'équipe noesya</p>
+
+
+      with_link: false
+
+      with_photo: true
+
+      persons:
+        - slug: "magali-angles"
+          role: >-
+            Doctorante
+
+
+        - slug: "alexis-benoit"
+          role: >-
+            Co-fondateur et développeur front
+
+
+        - slug: "pierre-andre-boissinot"
+          role: >-
+            Co-fondateur et développeur back
+
+
+        - slug: "sebastien-gaya"
+          role: >-
+            Co-fondateur et développeur back
+
+
+        - slug: "arnaud-levy"
+          role: >-
+            Co-fondateur et développeur back
+
+
+        - slug: "olivia-simonet"
+          role: >-
+            Développeuse front
+
+
+
+
+  - kind: block
+    template: posts
+    title: >
+      
+    position: 1
+    data:
+      layout: highlight
+      posts:
+        - "2023/2023-08-02-proposition-de-loi-relative-a-la-responsabilite-des-medias-dans-le-traitement-des-enjeux-environnementaux-et-de-durabilite"
+        - "2023/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn"
+        - "2022/2022-12-01-les-cooperatives-energetiques-citoyennes-des-modeles-originaux-pour-plus-de-sobriete"
+        - "2022/2022-02-21-lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique"
+
+
+  - kind: block
+    template: pages
+    title: >
+      Liste de pages
+    position: 2
+    data:
+      page: /fr/blocks/
+      show_main_description: true
+      show_descriptions: false
+      show_images: false
+      layout: list
+      pages:
+        - page: /fr/blocks/tous-les-blocks/
+          slug: /fr/blocks/tous-les-blocks/
+        - page: /fr/blocks/tous-les-blocks-pleine-largeur/
+          slug: /fr/blocks/tous-les-blocks-pleine-largeur/
+
+
+
+  - kind: heading
+    title: >-
+      Blocs narratifs
+    position: 1
+    level: 2
+  - kind: block
+    template: testimonials
+    title: >
+      Témoignage à propos d'Osuny
+    position: 0
+    data:
+      testimonials:
+        - text: >-
+            Le support Osuny m'aide à composer ma page facilement et de manière agréable.
+
+
+          author: >-
+            Magali Anglès
+
+
+          job: >-
+            Doctorante
+
+
+          photo:
+            id: "e54db17f-53d7-42a1-88c4-2ef81494dd73"
+            file: "e54db17f-53d7-42a1-88c4-2ef81494dd73"
+
+
+
+
+  - kind: block
+    template: timeline
+    title: >
+      Exemple de frise chronologique
+    position: 1
+    data:
+      layout: horizontal
+
+      events:
+        - title: >-
+            Janvier 2022
+
+
+          text: >-
+            Lancement progressif des ateliers de la donnée selon leur création sur les différents sites du territoire.
+
+
+        - title: >-
+            Mars 2022
+
+
+          text: >-
+            Ouverture de l’entrepôt et du catalogue des données
+            
+            Centre de ressources de l’entrepôt et du catalogue
+            
+            Centres de ressources des services d’accompagnement, formation, communication pour l’appropriation des services de dépôt, d’identifiants… des données
+
+
+        - title: >-
+            2022/2023
+
+
+          text: >-
+            Campagnes d’alimentation par les ateliers de la donnée et des acteurs de l’édition et des archives ouvertes.
+
+
+        - title: >-
+            2023/2024
+
+
+          text: >-
+            Moissonnage des entrepôts de données nationaux et internationaux pour signaler les données disciplinaires/thématique.
+
+
+
+
+  - kind: block
+    template: call_to_action
+    title: >
+      Créer un appel à action
+    position: 2
+    data:
+      text: >-
+        <p>Voici un exemple d'appel à action pour interagir avec l'utilisateur.<br></p>
+
+
+
+
+      alt: >-
+        
+
+
+      credit: >-
+        
+
+
+      buttons:
+        - title: >-
+            Support Osuny
+
+
+          url: >-
+            https://support.osuny.org/
+
+
+          target_blank: true
+
+
+        - title: >-
+            Découvrir Osuny
+
+
+          url: >-
+            https://www.osuny.org/
+
+
+          target_blank: true
+
+
+
+
+  - kind: block
+    template: gallery
+    title: >
+      Galerie d'images
+    position: 3
+    data:
+      description: >-
+        <p>Voici une galerie d'images <br></p>
+
+
+      layout: grid
+
+      images:
+        - id: "8cc09275-32d9-4d8f-8059-f40c6eca3280"
+          file: "8cc09275-32d9-4d8f-8059-f40c6eca3280"
+
+
+          alt: >-
+            Deux personnes travaillant sur un ordinateur et montrant la même chose
+
+
+          credit: >-
+            <p>John Schnobrich</p>
+
+
+          text: >-
+            
+
+
+        - id: "7e2e3018-7c09-4bc6-a9e7-04d67bf2fb34"
+          file: "7e2e3018-7c09-4bc6-a9e7-04d67bf2fb34"
+
+
+          alt: >-
+            Plusieurs ordinateurs portables sur une table ainsi que 3 personnes qui travaillent
+
+
+          credit: >-
+            <p>Marvin Meyer</p>
+
+
+          text: >-
+            
+
+
+        - id: "829f0230-4835-4936-bca8-22ebc9b11ba5"
+          file: "829f0230-4835-4936-bca8-22ebc9b11ba5"
+
+
+          alt: >-
+            
+
+
+          credit: >-
+            
+
+
+          text: >-
+            
+
+
+
+
+  - kind: block
+    template: key_figures
+    title: >
+      Quelques chiffres clés
+    position: 4
+    data:
+      description: >-
+        <p>Voici quelques chiffres clés concernant le numérique en France et dans le monde.</p>
+
+
+      figures:
+        - number: 4
+
+          unit: >-
+            %
+
+
+          description: >-
+            des gaz à effet de serre sont dus au numérique
+
+
+        - number: 904000
+
+          unit: >-
+            m2
+
+
+          description: >-
+            C’est la surface estimée du parc datacenter français.
+
+
+
+
+
+  - kind: heading
+    title: >-
+      Blocs de base
+    position: 2
+    level: 2
+  - kind: block
+    template: datatable
+    title: >
+      Présentation de l'équipe noesya
+    position: 0
+    data:
+      description: >-
+        <p>Voici les membres de l'équipe noesya, ainsi que leur rôle au sein de la coopérative.</p>
+
+
+
+      columns: ["Prénom", "Nom", "Rôle"]
+
+
+      rows:
+
+        - ["Alexis", "Benoit", "Développeur Front"]
+
+
+
+        - ["Arnaud", "Levy", "Développeur Back"]
+
+
+
+        - ["Magali", "Anglès", "Doctorante"]
+
+
+
+        - ["Olivia", "Simonet", "Développeuse Front"]
+
+
+
+        - ["Pierre-André", "Boissinot", "Développeur Back"]
+
+
+
+        - ["Sébastien", "Gaya", "Développeur Back"]
+
+
+      caption: >-
+        
+
+
+
+
+  - kind: block
+    template: sound
+    title: >
+      Son d'ambiance
+    position: 1
+    data:
+      file:
+        id: "5c663263-6026-400c-912b-d04959f6118e"
+        file: "5c663263-6026-400c-912b-d04959f6118e"
+
+
+      title: >-
+        Son d'ambiance
+
+
+      transcription: >-
+        Son d'ambiance
+
+
+
+
   - kind: block
     template: video
     title: >
       Astuces pour utiliser Internet de manière éco-responsable
-    position: 0
+    position: 2
     data:
       url: >-
         https://www.youtube.com/watch?v=MvYSV60hbxQ
@@ -110,10 +486,35 @@ contents:
 
 
   - kind: block
+    template: image
+    title: >
+      Peut-on coder proprement ?
+    position: 3
+    data:
+      text: >-
+        
+
+
+      image:
+        id: "443e388c-792c-4861-9fae-81b14d8da16d"
+        file: "443e388c-792c-4861-9fae-81b14d8da16d"
+
+
+        alt: >-
+          Ordinateur portable affichant des lignes de code
+
+
+        credit: >-
+          <p>Image de Clément Hélardot</p>
+
+
+
+
+  - kind: block
     template: chapter
     title: >
       Les communs numériques
-    position: 2
+    position: 4
     data:
       layout: alt_background
       text: >-
@@ -136,96 +537,6 @@ contents:
       credit: >-
         
 
-
-
-
-  - kind: block
-    template: image
-    title: >
-      
-    position: 3
-    data:
-      text: >-
-        
-
-
-
-
-        alt: >-
-          
-
-
-        credit: >-
-          
-
-
-
-
-  - kind: block
-    template: image
-    title: >
-      
-    position: 4
-    data:
-      text: >-
-        
-
-
-
-
-        alt: >-
-          
-
-
-        credit: >-
-          
-
-
-
-
-  - kind: block
-    template: image
-    title: >
-      
-    position: 5
-    data:
-      text: >-
-        
-
-
-
-
-        alt: >-
-          
-
-
-        credit: >-
-          
-
-
-
-
-  - kind: block
-    template: image
-    title: >
-      Peut-on coder proprement ?
-    position: 6
-    data:
-      text: >-
-        
-
-
-      image:
-        id: "443e388c-792c-4861-9fae-81b14d8da16d"
-        file: "443e388c-792c-4861-9fae-81b14d8da16d"
-
-
-        alt: >-
-          Ordinateur portable affichant des lignes de code
-
-
-        credit: >-
-          <p>Image de Clément Hélardot</p>
 
 
 
