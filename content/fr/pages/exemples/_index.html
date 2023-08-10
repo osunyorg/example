@@ -37,10 +37,30 @@ contents:
     position: 0
     level: 2
   - kind: block
+    template: partners
+    title: >
+      Partenaires Osuny
+    position: 0
+    data:
+      layout: grid
+      description: >-
+        <p>Voici la liste des partenaires Osuny</p>
+
+
+      with_link: false
+
+      partners:
+        - slug: "degrowth-journal"
+        - slug: "mica"
+        - slug: "noesya"
+        - slug: "universite-bordeaux-montaigne"
+
+
+  - kind: block
     template: organization_chart
     title: >
       Liste de personnes
-    position: 0
+    position: 1
     data:
       description: >-
         <p>Voici les membres de l'équipe noesya</p>
@@ -81,26 +101,6 @@ contents:
             Développeuse front
 
 
-
-
-  - kind: block
-    template: partners
-    title: >
-      Partenaires Osuny
-    position: 1
-    data:
-      layout: grid
-      description: >-
-        <p>Voici la liste des partenaires Osuny</p>
-
-
-      with_link: false
-
-      partners:
-        - slug: "degrowth-journal"
-        - slug: "mica"
-        - slug: "noesya"
-        - slug: "universite-bordeaux-montaigne"
 
 
   - kind: block
@@ -558,6 +558,15 @@ contents:
         
 
 
+
+
+  - kind: block
+    template: programs
+    title: >
+      
+    position: 5
+    data:
+      programs:
 
 
 
