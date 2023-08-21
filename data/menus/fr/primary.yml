@@ -165,6 +165,10 @@ items:
       target: "/fr/blocks/blocks-techniques/contact/"
       kind: page
       children: []
+  - title: Utiliser Osuny
+    target: ''
+    kind: blank
+    children: []
 - title: Exemples
   target: ''
   kind: blank
