@@ -1,6 +1,10 @@
 ---
 title: Menu principal
 items:
+- title: Composer avec les blocs
+  target: "/fr/exemples/"
+  kind: page
+  children: []
 - title: Offre de formation
   target: "/fr/offre-de-formation/"
   kind: page
