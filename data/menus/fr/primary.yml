@@ -61,6 +61,10 @@ items:
   target: ''
   kind: blank
   children:
+  - title: Composer avec les blocs
+    target: "/fr/exemples/"
+    kind: page
+    children: []
   - title: Les blocs de base
     target: "/fr/blocks/blocks-de-base/"
     kind: page
@@ -157,10 +161,6 @@ items:
       target: "/fr/blocks/blocks-techniques/contact/"
       kind: page
       children: []
-  - title: Composer avec les blocs
-    target: "/fr/exemples/"
-    kind: page
-    children: []
 - title: Exemples
   target: ''
   kind: blank
