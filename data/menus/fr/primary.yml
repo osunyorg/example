@@ -161,6 +161,10 @@ items:
       target: "/fr/blocks/blocks-techniques/contact/"
       kind: page
       children: []
+  - title: Site d'exemples
+    target: https://example.osuny.org/
+    kind: url
+    children: []
 - title: Exemples
   target: ''
   kind: blank
