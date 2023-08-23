@@ -65,10 +65,6 @@ items:
   target: ''
   kind: blank
   children:
-  - title: Utiliser Osuny
-    target: ''
-    kind: blank
-    children: []
   - title: Site d'exemples
     target: https://example.osuny.org/
     kind: url
