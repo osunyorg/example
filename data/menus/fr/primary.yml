@@ -69,10 +69,6 @@ items:
     target: ''
     kind: blank
     children: []
-  - title: Composer avec les blocs
-    target: "/fr/exemples/"
-    kind: page
-    children: []
   - title: Site d'exemples
     target: https://example.osuny.org/
     kind: url
