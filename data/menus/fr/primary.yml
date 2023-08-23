@@ -17,10 +17,6 @@ items:
     target: "/fr/diplomes/"
     kind: page
     children: []
-  - title: Développement de sites web éco-conçus, accessibles et responsables
-    target: "/fr/offre-de-formation/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
-    kind: program
-    children: []
 - title: Pages spéciales
   target: ''
   kind: blank
