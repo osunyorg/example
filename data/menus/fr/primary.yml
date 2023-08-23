@@ -41,10 +41,6 @@ items:
       target: "/fr/actualites/propositions-de-lois/"
       kind: category
       children: []
-    - title: Nouvelle loi
-      target: "/fr/actualites/2023-08-02-proposition-de-loi-relative-a-la-responsabilite-des-medias-dans-le-traitement-des-enjeux-environnementaux-et-de-durabilite/"
-      kind: post
-      children: []
   - title: Équipe
     target: "/fr/equipe/"
     kind: page
