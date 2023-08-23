@@ -33,10 +33,6 @@ items:
       target: "/fr/actualites/vie-etudiante/"
       kind: category
       children: []
-    - title: Propositions de lois
-      target: "/fr/actualites/propositions-de-lois/"
-      kind: category
-      children: []
   - title: Équipe
     target: "/fr/equipe/"
     kind: page
