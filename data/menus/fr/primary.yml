@@ -65,10 +65,6 @@ items:
   target: ''
   kind: blank
   children:
-  - title: Site d'exemples
-    target: https://example.osuny.org/
-    kind: url
-    children: []
   - title: Les blocs de base
     target: "/fr/blocks/blocks-de-base/"
     kind: page
