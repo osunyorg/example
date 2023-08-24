@@ -57,7 +57,7 @@ items:
   target: ''
   kind: blank
   children:
-  - title: Composer avec les blocs
+  - title: Comment composer avec les blocs ?
     target: "/fr/exemples/"
     kind: page
     children: []
