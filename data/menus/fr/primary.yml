@@ -153,6 +153,10 @@ items:
       target: "/fr/blocks/blocks-techniques/contact/"
       kind: page
       children: []
+  - title: Composer avec les blocs
+    target: "/fr/exemples/"
+    kind: page
+    children: []
 - title: Exemples
   target: ''
   kind: blank
