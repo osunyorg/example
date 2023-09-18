@@ -53,6 +53,10 @@ items:
     target: "/fr/organisations/"
     kind: page
     children: []
+  - title: Agenda
+    target: "/fr/agenda/"
+    kind: page
+    children: []
 - title: Blocs
   target: ''
   kind: blank
