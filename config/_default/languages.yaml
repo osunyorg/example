@@ -8,6 +8,7 @@ en:
   permalinks:
     categories: /actualites-1/:slug/
     posts: /actualites-1/:year-:month-:day-:slug/
+    events: /agenda/:year-:month-:day-:slug/
     programs: /formations/:slug/
     publications: /publications/:year-:slug/
     organizations: /organisations/:slug/
@@ -23,6 +24,7 @@ fr:
   permalinks:
     categories: /actualites/:slug/
     posts: /actualites/:year-:month-:day-:slug/
+    events: /agenda/:year-:month-:day-:slug/
     programs: /offre-de-formation/:slug/
     publications: /publications/:year-:slug/
     organizations: /organisations/:slug/
