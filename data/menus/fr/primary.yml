@@ -137,6 +137,10 @@ items:
       target: "/fr/blocks/blocs-de-liste/programmes/"
       kind: page
       children: []
+    - title: 'Les événements '
+      target: "/fr/blocks/blocs-de-liste/agenda-1/"
+      kind: page
+      children: []
   - title: Les blocs techniques
     target: "/fr/blocks/blocks-techniques/"
     kind: page
