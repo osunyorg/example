@@ -7,4 +7,4 @@ node_modules
 /_tmp
 jsconfig.json
 hugo_stats.json
-/static/pagefind
+static/pagefind
