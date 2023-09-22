@@ -16,7 +16,7 @@
   },
   "scripts": {
     "watch": "hugo server",
-    "dev": "hugo server",
+    "dev": "hugo && npx pagefind --site public --output-subdir ../static/pagefind && hugo server",
     "build": "hugo && npm_config_yes=true npx pagefind --site 'public'",
     "update": "git pull --recurse-submodules --depth 1 && git submodule update --remote",
     "setup-example": "git submodule add https://github.com/noesya/osuny-example",
