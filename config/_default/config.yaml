@@ -15,3 +15,6 @@ module:
 params:
   summary:
       position: hero # content | hero
+  search:
+    active: true
+    position: menu
