@@ -15,14 +15,14 @@
     "postcss-sass": "^0.5.0"
   },
   "scripts": {
-    "watch": "hugo server",
-    "dev": "hugo && npx pagefind --site public --output-subdir ../static/pagefind && hugo server",
-    "build": "hugo && npm_config_yes=true npx pagefind --site 'public'",
-    "update": "git pull --recurse-submodules --depth 1 && git submodule update --remote",
-    "setup-example": "git submodule add https://github.com/noesya/osuny-example",
-    "server-example": "hugo server --config 'osuny-example/config/example/config.yaml'",
-    "example": "yarn setup-example > /dev/null || yarn update && yarn server-example",
-    "update-theme": "cd themes/osuny-hugo-theme-aaa && git checkout main && git pull && cd ../.. && yarn upgrade",
+    "watch": "npx osuny-hugo-theme watch",
+    "build": "npx osuny-hugo-theme build",
+    "dev": "npx osuny-hugo-theme dev",
+    "update": "npx osuny-hugo-theme update",
+    "setup-example": "npx osuny-hugo-theme setup-example",
+    "server-example": "npx osuny-hugo-theme server-example",
+    "example": "npx osuny-hugo-theme example",
+    "update-theme": "npx osuny-hugo-theme update-theme",
     "push-theme": "git add . && git commit -m 'theme' && git push",
     "pt": "yarn push-theme",
     "update-deploy": "yarn update-theme && yarn pt"
