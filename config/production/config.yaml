@@ -4,4 +4,5 @@ baseURL: https://example.osuny.org
 
 ## LANGUAGE
 defaultContentLanguage: fr
-defaultContentLanguageInSubdir: false
+defaultContentLanguageInSubdir: true
+
