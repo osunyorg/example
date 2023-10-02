@@ -5,5 +5,5 @@ import './theme/utils/breakpoints';
 import './theme/utils/isReducedMotionPrefered';
 import './theme/utils/number';
 import './theme/blocks/keyFigures';
-import './theme/blocks/partners';
+import './theme/blocks/organizations';
 import './theme/blocks/timeline';
