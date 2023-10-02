@@ -4,4 +4,20 @@ baseURL: https://example.osuny.org
 
 ## LANGUAGE
 defaultContentLanguage: fr
-defaultContentLanguageInSubdir: false
+defaultContentLanguageInSubdir: true
+
+## CACHE
+deployment:
+  matchers:
+    - pattern: "^.+\\.(woff2|woff|svg|ttf|eot|js|css)$"
+      cacheControl: "max-age=31536000, no-transform, public"
+      gzip: true
+    - pattern: "^.+\\.(png|jpg|jpeg|gif|webp)$"
+      cacheControl: "max-age=31536000, no-transform, public"
+      gzip: false
+
+## DEUXFLEURS
+deployment:
+  targets:
+    - name: "production"
+      URL: "s3://example.osuny.org?endpoint=garage.deuxfleurs.fr&s3ForcePathStyle=true&region=garage"
