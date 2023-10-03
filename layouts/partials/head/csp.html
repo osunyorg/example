@@ -1,6 +1,6 @@
 {{- with site.Data.website.external_domains -}}
 <meta http-equiv="Content-Security-Policy"
       content="
-        default-src 'self' {{ delimit . " " }} 'unsafe-inline' 'wasm-unsafe-eval';
+        default-src 'self' {{ delimit . " " }} 'unsafe-inline' 'unsafe-eval';
       " />
 {{- end -}}
