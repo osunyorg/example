@@ -1,0 +1,8 @@
+{{- with site.Data.website.external_domains -}}
+<meta http-equiv="Content-Security-Policy"
+      content="
+        default-src 'self' {{ delimit . " " }}
+        {{- if site.Params.search.active }} 'wasm-unsafe-eval' {{ end -}}
+        {{- if not hugo.IsProduction }} 'unsafe-inline' {{ end -}};
+      " />
+{{- end -}}
