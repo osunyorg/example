@@ -16,11 +16,6 @@ deployment:
       cacheControl: "max-age=31536000, no-transform, public"
       gzip: false
 
-headers:
-- for: /pagefind/pagefind.js
-  values:
-    Content-Security-Policy: script-src https 'unsafe-eval'
-
 ## DEUXFLEURS
 deployment:
   targets:
