@@ -31,7 +31,7 @@ jobs:
         extended: true
 
     - name: Compilation du site
-      run: yarn osuny build
+      run: HUGO_ENVIRONMENT=staging yarn osuny build
 
     - name: Déploiement Garage
       run: hugo deploy --force --maxDeletes -1
