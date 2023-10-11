@@ -8,6 +8,7 @@ external_domains:
   - "dailymotion.com"
   - "www.dailymotion.com"
   - "dai.ly"
+  - "*.dmcdn.net"
   - "vimeo.com"
   - "player.vimeo.com"
   - "vumbnail.com"
