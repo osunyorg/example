@@ -3,4 +3,4 @@ paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
 params:
-  force_debug: true
+  debug: true

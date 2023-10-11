@@ -8,6 +8,7 @@ external_domains:
   - "www.dailymotion.com"
   - "player.vimeo.com"
   - "www.youtube.com"
+  - "peertube.fr"
   - "www.figma.com"
   - "www.google.com"
   - "www.fablabimagesloiretaines.fr"
