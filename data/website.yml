@@ -17,7 +17,7 @@ external_domains:
   - "img.youtube.com"
   - "youtu.be"
   - "peertube.fr"
-  - "www.figma.com"
   - "www.google.com"
+  - "www.figma.com"
   - "www.fablabimagesloiretaines.fr"
 social:
