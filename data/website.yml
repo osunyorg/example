@@ -18,6 +18,7 @@ external_domains:
   - "youtu.be"
   - "peertube.fr"
   - "www.twitch.tv"
+  - "odysee.com"
   - "www.google.com"
   - "www.figma.com"
   - "www.fablabimagesloiretaines.fr"
