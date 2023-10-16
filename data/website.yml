@@ -17,6 +17,7 @@ external_domains:
   - "img.youtube.com"
   - "youtu.be"
   - "peertube.fr"
+  - "www.twitch.tv"
   - "www.google.com"
   - "www.figma.com"
   - "www.fablabimagesloiretaines.fr"
