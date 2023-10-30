@@ -165,8 +165,4 @@ items:
     target: "/fr/exemples/"
     kind: page
     children: []
-- title: Exemples
-  target: ''
-  kind: blank
-  children: []
 
