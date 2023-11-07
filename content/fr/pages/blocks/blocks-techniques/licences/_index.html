@@ -18,7 +18,7 @@ full_width: false
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 position: 5
@@ -45,16 +45,21 @@ description_short: >
 header_text: >-
   
 contents_reading_time:
-  seconds: 13
+  seconds: 14
   text: >-
     moins d'une minute
 contents:
+  - kind: heading
+    title: >-
+      CC0 | Public Domain Dedication
+    position: 0
+    level: 2
   - kind: block
     template: license
     title: >-
       
     position: 0
-    heading_level: 2
+    heading_level: 3
     data:
       type: creative_commons
       creative_commons:
@@ -68,10 +73,11 @@ contents:
         url: https://creativecommons.org/publicdomain/zero/1.0/
         icons: ["cc", "zero"]
 
+
   - kind: heading
     title: >-
       CC BY-NC-SA
-    position: 0
+    position: 1
     level: 2
   - kind: block
     template: license
