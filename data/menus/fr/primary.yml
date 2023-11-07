@@ -161,6 +161,10 @@ items:
       target: "/fr/blocks/blocks-techniques/contact/"
       kind: page
       children: []
+    - title: Les licences
+      target: "/fr/blocks/blocks-techniques/licences/"
+      kind: page
+      children: []
   - title: Comment composer avec les blocs ?
     target: "/fr/exemples/"
     kind: page
