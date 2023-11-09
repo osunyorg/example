@@ -42,13 +42,14 @@ contents:
     title: >-
       Blocs techniques
     position: 1
-    level: 2
+    rank: 2
   - kind: block
     template: embed
     title: >-
       Intégration HTML
     position: 0
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       code: >-
         <!DOCTYPE html>
@@ -85,7 +86,9 @@ contents:
     title: >-
       Exemple de contact
     position: 1
-    heading_level: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       description: >-
         <p>Voici un exemple de contact</p>
@@ -137,7 +140,9 @@ contents:
     title: >-
       Définitions
     position: 2
-    heading_level: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       description: >-
         <p>Exemple de définitions</p>
@@ -162,7 +167,9 @@ contents:
     title: >-
       Référentiel général d'amélioration de l'accessibilité RGAA 4.1
     position: 3
-    heading_level: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       description: >-
         <p>Retrouvez le référentiel général d'amélioration de l'accessibilité RGAA 4.1</p>
@@ -181,13 +188,15 @@ contents:
     title: >-
       Blocs narratifs
     position: 2
-    level: 2
+    rank: 2
   - kind: block
     template: features
     title: >-
       Ajouter une fonctionnalité
     position: 0
-    heading_level: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       description: >-
         <p>Voici un exemple de fonctionnalité</p>
@@ -216,7 +225,9 @@ contents:
     title: >-
       Témoignage à propos d'Osuny
     position: 1
-    heading_level: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       testimonials:
         - text: >-
@@ -239,7 +250,9 @@ contents:
     title: >-
       Exemple de frise chronologique
     position: 2
-    heading_level: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       layout: horizontal
       events:
@@ -278,7 +291,9 @@ contents:
     title: >-
       Créer un appel à action
     position: 3
-    heading_level: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       text: >-
         <p>Voici un exemple d'appel à action pour interagir avec l'utilisateur.<br></p>
@@ -314,7 +329,9 @@ contents:
     title: >-
       Galerie d'images
     position: 4
-    heading_level: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       description: >-
         <p>Voici une galerie d'images <br></p>
@@ -364,7 +381,9 @@ contents:
     title: >-
       Quelques chiffres clés
     position: 5
-    heading_level: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       description: >-
         <p>Voici quelques chiffres clés concernant le numérique en France et dans le monde.</p>
@@ -391,13 +410,15 @@ contents:
     title: >-
       Les blocs de listes
     position: 3
-    level: 2
+    rank: 2
   - kind: block
     template: programs
     title: >-
       Une sélection de formations
     position: 0
-    heading_level: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       programs:
         - path: "/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
@@ -409,7 +430,9 @@ contents:
     title: >-
       Partenaires Osuny
     position: 1
-    heading_level: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       layout: grid
       description: >-
@@ -432,7 +455,9 @@ contents:
     title: >-
       Liste de personnes
     position: 2
-    heading_level: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       description: >-
         <p>Voici les membres de l'équipe noesya</p>
@@ -477,7 +502,9 @@ contents:
     title: >-
       
     position: 3
-    heading_level: 3
+    ranks:
+      self: false
+      children: 3
     data:
       layout: highlight
       posts:
@@ -492,7 +519,9 @@ contents:
     title: >-
       Liste de pages
     position: 4
-    heading_level: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       page: 
         path: "/fr/blocks/"
@@ -518,13 +547,15 @@ contents:
     title: >-
       Blocs de base
     position: 4
-    level: 2
+    rank: 2
   - kind: block
     template: datatable
     title: >-
       Présentation de l'équipe noesya
     position: 0
-    heading_level: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       description: >-
         <p>Voici les membres de l'équipe noesya, ainsi que leur rôle au sein de la coopérative.</p>
@@ -561,7 +592,8 @@ contents:
     title: >-
       Son d'ambiance
     position: 1
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       file:
         id: "5c663263-6026-400c-912b-d04959f6118e"
@@ -580,7 +612,8 @@ contents:
     title: >-
       Astuces pour utiliser Internet de manière éco-responsable
     position: 2
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       url: >-
         https://www.youtube.com/watch?v=MvYSV60hbxQ
@@ -668,7 +701,8 @@ contents:
     title: >-
       Peut-on coder proprement ?
     position: 3
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       text: >-
         
@@ -690,7 +724,8 @@ contents:
     title: >-
       Les communs numériques
     position: 4
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       layout: alt_background
       text: >-

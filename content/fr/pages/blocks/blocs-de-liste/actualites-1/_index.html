@@ -56,7 +56,8 @@ contents:
     title: >-
       Toutes les actualités - Grille
     position: 0
-    heading_level: 2
+    ranks:
+      self: 2
     data:
       all: true
       layout: grid
@@ -71,7 +72,8 @@ contents:
     title: >-
       
     position: 1
-    heading_level: 2
+    ranks:
+      self: false
     data:
       all: true
       layout: list
@@ -85,13 +87,14 @@ contents:
     title: >-
       Une première sélection d'articles
     position: 0
-    level: 2
+    rank: 2
   - kind: block
     template: posts
     title: >-
       Toutes les actualités - Mise en avant
     position: 0
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       all: true
       layout: highlight
@@ -106,7 +109,8 @@ contents:
     title: >-
       Toutes les actualités - Alternance
     position: 1
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       all: true
       layout: alternate
@@ -124,13 +128,14 @@ contents:
     title: >-
       Une seconde sélection d'articles
     position: 1
-    level: 2
+    rank: 2
   - kind: block
     template: posts
     title: >-
       Actualité - catégorie spécifique - Grille
     position: 0
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       category: "/vie-etudiante/"
       layout: grid
@@ -145,7 +150,8 @@ contents:
     title: >-
       Actualité - catégorie spécifique - Liste
     position: 1
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       category: "/vie-etudiante/"
       layout: list
@@ -160,7 +166,8 @@ contents:
     title: >-
       Actualité - catégorie spécifique - Mise en avant
     position: 2
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       category: "/vie-etudiante/"
       layout: highlight
@@ -175,7 +182,9 @@ contents:
     title: >-
       Sélection d'actualités - 1 seul article - Grille
     position: 3
-    heading_level: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       layout: grid
       posts:
@@ -187,7 +196,9 @@ contents:
     title: >-
       Sélection d'actualités - 1 seul article - Liste
     position: 4
-    heading_level: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       layout: list
       posts:
@@ -199,7 +210,9 @@ contents:
     title: >-
       Sélection d'actualités - 1 seul article - Mise en avant
     position: 5
-    heading_level: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       layout: highlight
       posts:
@@ -211,7 +224,9 @@ contents:
     title: >-
       Sélection d'actualités - 2 articles - Grille
     position: 6
-    heading_level: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       layout: grid
       posts:
@@ -224,7 +239,9 @@ contents:
     title: >-
       Sélection d'actualités - 2 articles - Liste
     position: 7
-    heading_level: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       layout: list
       posts:
@@ -237,7 +254,9 @@ contents:
     title: >-
       Sélection d'actualités - 2 articles - Mise en avant
     position: 8
-    heading_level: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       layout: highlight
       posts:
