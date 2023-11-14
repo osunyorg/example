@@ -331,16 +331,56 @@ contents:
   - kind: block
     template: pages
     title: >-
-      
+      Un bloc avec un titre, sans page principale
     position: 3
     ranks:
-      self: false
+      self: 3
+      children: 4
     data:
       show_main_description: false
       show_descriptions: false
       show_images: false
       layout: grid
       pages:
+        - path: "/fr/actualites/"
+          slug: "actualites"
+          file: "content/fr/posts/_index.html"
+          external: false
+        - path: "/fr/agenda/"
+          slug: "agenda"
+          file: "content/fr/events/_index.html"
+          external: false
+        - path: "/fr/blocks/"
+          slug: "blocks"
+          file: "content/fr/pages/blocks/_index.html"
+          external: false
+
+
+  - kind: block
+    template: agenda
+    title: >-
+      
+    position: 4
+    ranks:
+      self: false
+      children: 3
+    data:
+      layout: grid
+      description: >-
+        
+
+      mode: all
+      show_summary: false
+      show_category: false
+      show_status: false
+
+      events:
+        - path: "/fr/agenda/2023-11-09-comite-scientifique-osuny-2/"
+          file: "content/fr/events/2023-11-09-comite-scientifique-osuny-2.html"
+        - path: "/fr/agenda/2023-09-28-troisieme-edition-du-cafe-guichet-vert-numerique-responsable/"
+          file: "content/fr/events/2023-09-28-troisieme-edition-du-cafe-guichet-vert-numerique-responsable.html"
+        - path: "/fr/agenda/2023-10-19-numerique-en-communs/"
+          file: "content/fr/events/archives/2023/2023-10-19-numerique-en-communs.html"
 
 
 
