@@ -133,42 +133,18 @@ contents:
       self: 3
       children: 4
     data:
-      page: 
-        path: "/fr/blocks/"
-        slug: "blocks"
-        file: "content/fr/pages/blocks/_index.html"
       show_main_description: true
       show_descriptions: false
       show_images: false
       layout: list
       pages:
-        - path: "/fr/blocks/tous-les-blocks/"
-          slug: "tous-les-blocks"
-          file: "content/fr/pages/blocks/tous-les-blocks/_index.html"
+        - path: "/fr/actualites/"
+          slug: "actualites"
+          file: "content/fr/posts/_index.html"
           external: false
-        - path: "/fr/blocks/tous-les-blocks-pleine-largeur/"
-          slug: "tous-les-blocks-pleine-largeur"
-          file: "content/fr/pages/blocks/tous-les-blocks-pleine-largeur/_index.html"
-          external: false
-        - path: "/fr/blocks/blocks-de-base/"
-          slug: "blocks-de-base"
-          file: "content/fr/pages/blocks/blocks-de-base/_index.html"
-          external: false
-        - path: "/fr/blocks/blocks-narratifs/"
-          slug: "blocks-narratifs"
-          file: "content/fr/pages/blocks/blocks-narratifs/_index.html"
-          external: false
-        - path: "/fr/blocks/blocs-de-liste/"
-          slug: "blocs-de-liste"
-          file: "content/fr/pages/blocks/blocs-de-liste/_index.html"
-          external: false
-        - path: "/fr/blocks/blocks-techniques/"
-          slug: "blocks-techniques"
-          file: "content/fr/pages/blocks/blocks-techniques/_index.html"
-          external: false
-        - path: "/fr/blocks/tous-les-blocks-pleine-largeur-1/"
-          slug: "tous-les-blocks-pleine-largeur-1"
-          file: "content/fr/pages/blocks/tous-les-blocks-pleine-largeur-1/_index.html"
+        - path: "/fr/blocks/blocks-de-base/chapitres/"
+          slug: "chapitres"
+          file: "content/fr/pages/blocks/blocks-de-base/chapitres/_index.html"
           external: false
 
 
@@ -271,6 +247,148 @@ contents:
         - path: "/fr/blocks/tous-les-blocks-pleine-largeur-1/"
           slug: "tous-les-blocks-pleine-largeur-1"
           file: "content/fr/pages/blocks/tous-les-blocks-pleine-largeur-1/_index.html"
+          external: false
+
+
+
+  - kind: heading
+    title: >-
+      Différents contenus
+    position: 2
+    rank: 2
+  - kind: block
+    template: pages
+    title: >-
+      
+    position: 1
+    ranks:
+      self: false
+      children: 3
+    data:
+      page: 
+        path: "/fr/blocks/blocs-de-liste/"
+        slug: "blocs-de-liste"
+        file: "content/fr/pages/blocks/blocs-de-liste/_index.html"
+      show_main_description: true
+      show_descriptions: false
+      show_images: false
+      layout: grid
+      pages:
+        - path: "/fr/blocks/blocs-de-liste/actualites-1/"
+          slug: "actualites-1"
+          file: "content/fr/pages/blocks/blocs-de-liste/actualites-1/_index.html"
+          external: false
+        - path: "/fr/blocks/blocs-de-liste/agenda-1/"
+          slug: "agenda-1"
+          file: "content/fr/pages/blocks/blocs-de-liste/agenda-1/_index.html"
+          external: false
+
+
+  - kind: block
+    template: pages
+    title: >-
+      
+    position: 2
+    ranks:
+      self: false
+      children: 3
+    data:
+      page: 
+        path: "/fr/blocks/blocks-narratifs/"
+        slug: "blocks-narratifs"
+        file: "content/fr/pages/blocks/blocks-narratifs/_index.html"
+      show_main_description: false
+      show_descriptions: false
+      show_images: false
+      layout: grid
+      pages:
+        - path: "/fr/blocks/blocks-narratifs/chiffre-cles/"
+          slug: "chiffre-cles"
+          file: "content/fr/pages/blocks/blocks-narratifs/chiffre-cles/_index.html"
+          external: false
+        - path: "/fr/blocks/blocks-narratifs/galeries/"
+          slug: "galeries"
+          file: "content/fr/pages/blocks/blocks-narratifs/galeries/_index.html"
+          external: false
+        - path: "/fr/blocks/blocks-narratifs/appels-a-action/"
+          slug: "appels-a-action"
+          file: "content/fr/pages/blocks/blocks-narratifs/appels-a-action/_index.html"
+          external: false
+        - path: "/fr/blocks/blocks-narratifs/temoignages/"
+          slug: "temoignages"
+          file: "content/fr/pages/blocks/blocks-narratifs/temoignages/_index.html"
+          external: false
+        - path: "/fr/blocks/blocks-narratifs/frise/"
+          slug: "frise"
+          file: "content/fr/pages/blocks/blocks-narratifs/frise/_index.html"
+          external: false
+        - path: "/fr/blocks/blocks-narratifs/les-fonctionnalites/"
+          slug: "les-fonctionnalites"
+          file: "content/fr/pages/blocks/blocks-narratifs/les-fonctionnalites/_index.html"
+          external: false
+
+
+  - kind: block
+    template: pages
+    title: >-
+      Un bloc avec un titre, sans page principale
+    position: 3
+    ranks:
+      self: 3
+      children: 4
+    data:
+      show_main_description: false
+      show_descriptions: false
+      show_images: false
+      layout: grid
+      pages:
+        - path: "/fr/actualites/"
+          slug: "actualites"
+          file: "content/fr/posts/_index.html"
+          external: false
+        - path: "/fr/agenda/"
+          slug: "agenda"
+          file: "content/fr/events/_index.html"
+          external: false
+        - path: "/fr/blocks/"
+          slug: "blocks"
+          file: "content/fr/pages/blocks/_index.html"
+          external: false
+
+
+  - kind: block
+    template: pages
+    title: >-
+      Un bloc avec un titre
+    position: 5
+    ranks:
+      self: 3
+      children: 4
+    data:
+      page: 
+        path: "/fr/equipe/"
+        slug: "equipe"
+        file: "content/fr/persons/_index.html"
+      show_main_description: true
+      show_descriptions: true
+      show_images: true
+      layout: grid
+      pages:
+        - path: "/fr/equipe/equipe-de-recherche/"
+          slug: "equipe-de-recherche"
+          file: "content/fr/researchers/_index.html"
+          external: false
+        - path: "/fr/equipe/equipe-pedagogique/"
+          slug: "equipe-pedagogique"
+          file: "content/fr/teachers/_index.html"
+          external: false
+        - path: "/fr/equipe/equipe-editoriale/"
+          slug: "equipe-editoriale"
+          file: "content/fr/authors/_index.html"
+          external: false
+        - path: "/fr/equipe/equipe-administrative/"
+          slug: "equipe-administrative"
+          file: "content/fr/administrators/_index.html"
           external: false
 
 
