@@ -1,25 +1,3 @@
 title: >
   Example
-external_domains:
-  - "osuny-1b4da.kxcdn.com"
-  - "*.osuny.org"
-  - "osuny.s3.fr-par.scw.cloud"
-  - "tile.openstreetmap.org"
-  - "dailymotion.com"
-  - "www.dailymotion.com"
-  - "dai.ly"
-  - "*.dmcdn.net"
-  - "vimeo.com"
-  - "player.vimeo.com"
-  - "vumbnail.com"
-  - "youtube.com"
-  - "www.youtube.com"
-  - "img.youtube.com"
-  - "youtu.be"
-  - "peertube.fr"
-  - "player.twitch.tv"
-  - "odysee.com"
-  - "www.google.com"
-  - "www.figma.com"
-  - "www.fablabimagesloiretaines.fr"
 social:
