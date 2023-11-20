@@ -45,15 +45,50 @@ contents:
     template: pages
     title: >-
       
+<<<<<<< HEAD
     position: 1
     ranks:
       self: false
+=======
+    position: 2
+    ranks:
+      self: false
+      children: 2
+>>>>>>> 1ae8381b3e2e3ac7ecf0c64be47663815099167c
     data:
       show_main_description: false
       show_descriptions: false
       show_images: false
       layout: grid
       pages:
+<<<<<<< HEAD
+=======
+        - path: "/fr/organisations/"
+          slug: "organisations"
+          file: "content/fr/organizations/_index.html"
+          external: false
+        - path: "/fr/mentions-legales/"
+          slug: "mentions-legales"
+          file: "content/fr/pages/mentions-legales/_index.html"
+          external: false
+
+
+  - kind: block
+    template: posts
+    title: >-
+      Toutes les actualités - Grille
+    position: 3
+    ranks:
+      self: 2
+      children: 3
+    data:
+      all: true
+      layout: grid
+      posts:
+        - "2023/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn"
+        - "2023/2023-08-02-proposition-de-loi-relative-a-la-responsabilite-des-medias-dans-le-traitement-des-enjeux-environnementaux-et-de-durabilite"
+        - "2022/2022-12-01-les-cooperatives-energetiques-citoyennes-des-modeles-originaux-pour-plus-de-sobriete"
+>>>>>>> 1ae8381b3e2e3ac7ecf0c64be47663815099167c
 
 
 
