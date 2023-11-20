@@ -44,20 +44,29 @@ contents:
   - kind: block
     template: pages
     title: >-
-      Les chapitres
+      Les blocs de base
     position: 2
     ranks:
       self: 2
+      children: 3
     data:
       page: 
-        path: "/fr/blocks/blocks-de-base/chapitres/"
-        slug: "chapitres"
-        file: "content/fr/pages/blocks/blocks-de-base/chapitres/_index.html"
+        path: "/fr/blocks/blocks-de-base/"
+        slug: "blocks-de-base"
+        file: "content/fr/pages/blocks/blocks-de-base/_index.html"
       show_main_description: true
       show_descriptions: true
       show_images: true
       layout: large
       pages:
+        - path: "/fr/blocks/blocks-de-base/chapitres/"
+          slug: "chapitres"
+          file: "content/fr/pages/blocks/blocks-de-base/chapitres/_index.html"
+          external: false
+        - path: "/fr/blocks/blocks-de-base/image/"
+          slug: "image"
+          file: "content/fr/pages/blocks/blocks-de-base/image/_index.html"
+          external: false
 
 
   - kind: block
