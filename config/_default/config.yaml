@@ -6,3 +6,9 @@ params:
   debug: true
   search:
     active: true
+  organizations:
+    single:
+      backlinks: true
+  persons:
+    single:
+      backlinks: true
