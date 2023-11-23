@@ -1,3 +1,28 @@
+// https://developers.osuny.org/docs/theme/architecture/typographie/
+
+body
+    font-family: $body-font-family
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-size: $body-size
+    font-variant-ligatures: common-ligatures
+    text-rendering: optimizelegibility
+    line-height: $body-line-height
+    @include media-breakpoint-up(desktop)
+        font-size: $body-size-desktop
+
+// Experimental, not implemented yet
+// https://github.com/jantimon/text-box-trim-examples
+p, h1, h2, h3, h4, h5, h6, li, a, th, td, span
+    text-edge: cap alphabetic
+    text-box-edge: cap alphabetic
+    leading-trim: both
+    text-box-trim: both
+
+h1, h2, h3, h4, h5, h6
+    margin-top: 0
+    margin-bottom: 0
+
 @mixin h1
     font-family: $h1-font-family
     font-size: $h1-size
@@ -6,6 +31,9 @@
     text-transform: $h1-text-transform
     @include media-breakpoint-up(desktop)
         font-size: $h1-size-desktop
+
+h1, .h1
+    @include h1
 
 @mixin h2
     font-family: $h2-font-family
@@ -16,6 +44,9 @@
     @include media-breakpoint-up(desktop)
         font-size: $h2-size-desktop
 
+h2, .h2
+    @include h2
+
 @mixin h3
     font-family: $h3-font-family
     font-size: $h3-size
@@ -25,6 +56,9 @@
     @include media-breakpoint-up(desktop)
         font-size: $h3-size-desktop
 
+h3, .h3
+    @include h3
+
 @mixin h4
     font-family: $h4-font-family
     font-size: $h4-size
@@ -33,6 +67,9 @@
     text-transform: $h4-text-transform
     @include media-breakpoint-up(desktop)
         font-size: $h4-size-desktop
+
+h4, .h4
+    @include h4
 
 @mixin h5
     font-family: $h5-font-family
@@ -45,6 +82,9 @@
     a
         text-decoration: none
 
+h5, .h5
+    @include h5
+
 @mixin h6
     font-family: $h6-font-family
     font-size: $h6-size
@@ -53,6 +93,16 @@
     text-transform: $h6-text-transform
     @include media-breakpoint-up(desktop)
         font-size: $h6-size-desktop
+
+h6, .h6
+    @include h6
+
+h1, .h1,
+h2, .h2
+    a
+        text-decoration-color: transparent
+        &:hover
+            text-decoration-color: inherit
 
 @mixin lead($handle-sidebar: true)
     font-family: $lead-font-family
@@ -68,11 +118,28 @@
             font-weight: $lead-sidebar-weight
             line-height: $lead-sidebar-line-height
 
+.lead
+    @include lead
+
+@mixin lead-hero
+    font-family: $lead-hero-font-family
+    font-size: $lead-hero-size
+    font-weight: $lead-hero-weight
+    line-height: $lead-hero-line-height
+    @include media-breakpoint-up(desktop)
+        font-size: $lead-hero-size-desktop
+
+
 @mixin body-text
     font-family: $body-font-family
     font-size: $body-size
+    line-height: $body-line-height
     @include media-breakpoint-up(desktop)
         font-size: $body-size-desktop
+
+.p,
+.li
+    @include body-text
 
 @mixin meta
     font-family: $meta-font-family
@@ -82,6 +149,9 @@
     @include media-breakpoint-up(desktop)
         font-size: $meta-size-desktop
 
+.meta
+    @include meta
+
 @mixin signature
     font-family: $signature-font-family
     font-size: $signature-size
@@ -89,6 +159,9 @@
     line-height: $signature-line-height
     @include media-breakpoint-up(desktop)
         font-size: $signature-size-desktop
+
+.signature
+    @include signature
 
 @mixin small
     font-family: $small-font-family
@@ -98,12 +171,18 @@
     @include media-breakpoint-up(desktop)
         font-size: $small-size-desktop
 
+small, .small
+    @include small
+
 @mixin rich-text
     word-break: break-word
-    h1, h2, h3, h4, h5, h6, p
-        margin-top: 2em
+    h1, h2, h3, h4, h5, h6, p, ul
+        margin-top: $spacing1
         &:first-child, meta + &
             margin-top: 0
+
+.rich-text
+    @include rich-text
 
 @mixin inherit-text
     font-family: inherit
@@ -111,6 +190,9 @@
     font-style: inherit
     font-size: inherit
     line-height: inherit
+
+[itemprop="articleBody"]
+    @include rich-text
 
 @mixin blockquote
     margin: 0
@@ -125,6 +207,43 @@
         font-size: px2rem(18)
         font-style: normal
 
+blockquote, .blockquote
+    @include blockquote
+    font-style: italic
+
+p
+    margin-top: 0
+    margin-bottom: 0
+    + p
+        margin-top: $spacing0
+
+p:empty
+    display: none
+
+p + ul,
+p + ol
+    margin-top: 0
+
+figcaption
+    a
+        color: inherit
+
+address
+    font-style: normal
+
+a,
+.link
+    @include link
+    overflow-wrap: break-word
+    &[target="_blank"]:not(.icon)
+        @include icon(link-blank, after, true)
+            vertical-align: baseline
+    &[href^="mailto"]
+        &::after
+            content: none
+    &.glightbox
+        text-decoration: none
+
 @mixin btn
     font-size: $btn-font-size
     padding: $btn-padding-y $btn-padding-x
@@ -134,6 +253,62 @@
     @include media-breakpoint-up(desktop)
         font-size: $btn-font-size-desktop
         padding: $btn-padding-y-desktop $btn-padding-x-desktop
+
+.btn
+    @include btn
+
+.link-btn
+    @include btn
+    border: $btn-border
+    @include media-breakpoint-up(desktop)
+        padding: $spacing0
+    &[target="_blank"]:not(.icon)
+        display: flex
+        justify-content: space-between
+        align-items: center
+        @include icon-block(link-blank-block, after)
+    &:hover
+        background: $btn-hover-background
+    
+.link-more
+    @include link
+    @include icon(arrow, before)
+    &::before
+        font-size: px2rem(10)
+        margin-right: px2rem(5)
+
+dd
+    margin-bottom: 0.5rem
+    margin-left: 0
+
+abbr, abbr[title]
+    @include text-underline
+    text-decoration-style: dotted
+
+::selection
+    background: rgba($color-text, .7)
+    color: $color-background
+    text-shadow: none
+
+sub,
+sup
+    font-size: 60%
+    margin-left: px2rem(2)
+
+[data-click-to-copy]
+    cursor: pointer
+    text-decoration: none
+    @include icon(copy-inline, after)
+        margin-left: $spacing0
+        vertical-align: text-top
+    &.is-copied
+        @include icon(check-inline, after)
+
+*:focus-visible
+    outline-color: inherit
+    outline-offset: 5px
+    outline-style: dashed
+    outline-width: 1px
 
 @media (prefers-reduced-motion: no-preference)
     *:focus-visible
