@@ -1,14 +1,15 @@
 name: percy
 
 on:
+  workflow_dispatch:
   push:
     branches:
-      - percy
-  # pull_request:
-  #   types:
-  #     - opened
-  #   branches:
-  #     - main
+      - main
+  pull_request:
+    types:
+      - opened
+    branches:
+      - main
 
 jobs:
   build_and_test:
