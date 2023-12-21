@@ -37,9 +37,9 @@ jobs:
         extended: true
 
     - name: Compilation du site
-      run: yarn osuny build
+      run: yarn osuny percy-build
 
     - run: npm install --save-dev @percy/cli
-    - run: npx percy snapshot public/
+    - run: npx percy snapshot snapshots.yml
       env:
         PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
