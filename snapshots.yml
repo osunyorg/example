@@ -3,4 +3,6 @@ snapshots:
   - name: Home
     url: /fr/index.html
   - name: All blocks
-    url: /fr/blocks/index.html
+    url: /fr/blocks/tous-les-blocks/index.html
+  - name: All blocks - full width
+    url: /fr/blocks/tous-les-blocks-pleine-largeur/index.html
