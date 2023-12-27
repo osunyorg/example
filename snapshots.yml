@@ -2,3 +2,5 @@ serve: ./public
 snapshots:
   - name: Home
     url: /fr/index.html
+  - name: All blocks
+    url: /fr/blocks/index.html
