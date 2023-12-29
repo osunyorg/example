@@ -6,8 +6,8 @@ en:
   languageCode: en
   languageName: English
   permalinks:
-    categories: /actualites-1/:slug/
     posts: /actualites-1/:year-:month-:day-:slug/
+    posts_categories: /actualites-1/:slug/
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
     programs: /formations/:slug/
@@ -20,7 +20,6 @@ en:
   taxonomies:
     administrator: administrators
     author: authors
-    category: categories
     posts_category: posts_categories
     events_category: events_categories
     diploma: diplomas
@@ -32,8 +31,8 @@ fr:
   languageCode: fr
   languageName: Français
   permalinks:
-    categories: /actualites/:slug/
     posts: /actualites/:year-:month-:day-:slug/
+    posts_categories: /actualites/:slug/
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
     programs: /offre-de-formation/:slug/
@@ -46,7 +45,6 @@ fr:
   taxonomies:
     administrator: administrators
     author: authors
-    category: categories
     posts_category: posts_categories
     events_category: events_categories
     diploma: diplomas
