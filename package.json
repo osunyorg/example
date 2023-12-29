@@ -9,5 +9,8 @@
   },
   "scripts": {
     "osuny": "npx osuny-hugo-theme"
+  },
+  "devDependencies": {
+    "lost-pixel": "^3.8.2"
   }
 }
