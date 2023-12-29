@@ -10,17 +10,23 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          submodules: true
 
-      - name: Setup Node
+      - name: Installation de Node
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
+          cache: 'yarn'
 
       - name: Install dependencies
-        run: npm install
+        run: yarn install
     
-      - name: Build app
-        run: npm run osuny build
+      - name: Install Hugo
+        uses: peaceiris/actions-hugo@v2.6.0
+        with:
+          hugo-version: 'latest'
+          extended: true
 
       - name: Start server (in background)
         run: npm run osuny dev
