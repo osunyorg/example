@@ -1,7 +1,6 @@
 import './vendors/lightbox';
 import './vendors/carousel';
 import './theme/utils/a11y';
-import './theme/utils/breakpoints';
 import './theme/utils/isReducedMotionPrefered';
 import './theme/utils/number';
 import './theme/blocks/keyFigures';
