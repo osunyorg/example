@@ -2,9 +2,51 @@ serve: ./public
 snapshots:
   - name: Home
     url: /fr/index.html
+  - name: Event
+    url: /fr/agenda/2024-02-03-charbel-joseph-h-boutros-the-sun-is-my-only-ally/index.html
   - name: All blocks
     url: /fr/blocks/tous-les-blocks/index.html
   - name: All blocks - full width
     url: /fr/blocks/tous-les-blocks-pleine-largeur/index.html
-  - name: Event
-    url: /fr/agenda/2024-02-03-charbel-joseph-h-boutros-the-sun-is-my-only-ally/index.html
+  - name: Chapitres
+    url: /fr/blocks/blocks-de-base/chapitres/
+  - name: Images
+    url: /fr/blocks/blocks-de-base/image/
+  - name: Vidéos
+    url: /fr/blocks/blocks-de-base/videos/
+  - name: Tableaux
+    url: /fr/blocks/blocks-de-base/tableau/
+  - name: Sons
+    url: /fr/blocks/blocks-de-base/les-sons/
+  - name: Chiffres clés
+    url: /fr/blocks/blocks-narratifs/chiffre-cles/
+  - name: Galeries
+    url: http://localhost:1313/fr/blocks/blocks-narratifs/galeries/
+  - name: Appels à action
+    url: http://localhost:1313/fr/blocks/blocks-narratifs/appels-a-action/
+  - name: Témoignages
+    url: http://localhost:1313/fr/blocks/blocks-narratifs/temoignages/
+  - name: Frises
+    url: http://localhost:1313/fr/blocks/blocks-narratifs/frise/
+  - name: Fonctionnalités
+    url: http://localhost:1313/fr/blocks/blocks-narratifs/les-fonctionnalites/
+  - name: Pages
+    url: http://localhost:1313/fr/blocks/blocs-de-liste/pages/
+  - name: Actualités
+    url: http://localhost:1313/fr/blocks/blocs-de-liste/actualites-1/
+  - name: Personnes
+    url: http://localhost:1313/fr/blocks/blocs-de-liste/organigramme/
+  - name: Partenaires
+    url: http://localhost:1313/fr/blocks/blocs-de-liste/partenaires/
+  - name: Programmes
+    url: http://localhost:1313/fr/blocks/blocs-de-liste/programmes/
+  - name: Agenda
+    url: http://localhost:1313/fr/blocks/blocs-de-liste/agenda-1/
+  - name: Fichiers
+    url: http://localhost:1313/fr/blocks/blocks-techniques/fichiers/
+  - name: Définitions
+    url: http://localhost:1313/fr/blocks/blocks-techniques/definitions/
+  - name: Contact
+    url: http://localhost:1313/fr/blocks/blocks-techniques/contact/
+  - name: Licences
+    url: http://localhost:1313/fr/blocks/blocks-techniques/licences/
