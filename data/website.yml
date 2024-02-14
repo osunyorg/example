@@ -1,5 +1,6 @@
 title: >
   Example
-default_image:
-  id: d7e183ad-ea73-44a5-85eb-e67f8327d10e
+default:
+  image:
+    id: d7e183ad-ea73-44a5-85eb-e67f8327d10e
 social:
