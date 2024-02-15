@@ -45,11 +45,12 @@ en:
   taxonomies:
     administrator: administrators
     author: authors
-    posts_category: posts_categories
-    events_category: events_categories
     diploma: diplomas
+    events_category: events_categories
+    posts_category: posts_categories
     researcher: researchers
     teacher: teachers
+    volume: volumes
 fr:
   title: >-
     Example
@@ -95,8 +96,9 @@ fr:
   taxonomies:
     administrator: administrators
     author: authors
-    posts_category: posts_categories
-    events_category: events_categories
     diploma: diplomas
+    events_category: events_categories
+    posts_category: posts_categories
     researcher: researchers
     teacher: teachers
+    volume: volumes
