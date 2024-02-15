@@ -5,5 +5,5 @@ width: 6000
 height: 4000
 ratio: 1.5
 url: https://demo.osuny.org/media/eyJfcmFpbHMiOnsiZGF0YSI6IjgyOWYwMjMwLTQ4MzUtNDkzNi1iY2E4LTIyZWJjOWIxMWJhNSIsInB1ciI6ImJsb2JfaWQifX0=--ed66ed17ee7df3571787d03891941fec6e18fd97/image-2.jpg
-direct_url: https://osuny.s3.fr-par.scw.cloud/lk2ai7ninlst2e12f52l389iyo2u
+direct_url: https://osuny.s3.fr-par.scw.cloud/lk2ai7ninlst2e12f52l389iyo2u?response-content-disposition=inline%3B+filename%3D%22image-2.jpg%22%3B+filename*%3DUTF-8%27%27image-2.jpg&response-content-type=image%2Fjpeg
 
