@@ -1,16 +1,11 @@
 ---
-name: >
-  Centre de formation Osuny
-address: >
+name: "Centre de formation Osuny"
+address: >-
   15 rue Hélène
-zipcode: >
-  75017
-city: >
-  Paris
-country: >
-  France
-phone: >
-  
+zipcode: "75017"
+city: "Paris"
+country: "France"
+phone: ""
 administrators:
   - "magali-angles"
   - "arnaud-levy"
