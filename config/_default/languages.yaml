@@ -35,6 +35,7 @@ en:
     posts_categories: /actualites-1/:slug/
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
+    locations: /campus/:slug/
     programs: /formations/:slug/
     publications: /publications/:year-:slug/
     organizations: /organisations/:slug/
@@ -86,6 +87,7 @@ fr:
     posts_categories: /actualites/:slug/
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
+    locations: /campus/:slug/
     programs: /offre-de-formation/:slug/
     publications: /publications/:year-:slug/
     organizations: /organisations/:slug/

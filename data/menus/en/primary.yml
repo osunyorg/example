@@ -29,4 +29,8 @@ items:
   target: "/en/agenda/"
   kind: page
   children: []
+- title: Campus
+  target: "/en/campus/"
+  kind: page
+  children: []
 
