@@ -33,4 +33,8 @@ items:
   target: "/en/campus/"
   kind: page
   children: []
+- title: Diplomas
+  target: "/en/diplomas/"
+  kind: page
+  children: []
 

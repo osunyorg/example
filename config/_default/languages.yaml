@@ -36,6 +36,7 @@ en:
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
     locations: /campus/:slug/
+    diplomas: /diplomas/:slug/
     programs: /formations/:slug/
     publications: /publications/:year-:slug/
     organizations: /organisations/:slug/
@@ -43,6 +44,7 @@ en:
     administrators: /equipe/:slug/roles/
     authors: /equipe/:slug/actualites-1/
     researchers: /equipe/:slug/publications/
+    teachers: /equipe/:slug/programs/
   taxonomies:
     administrator: administrators
     author: authors
@@ -88,6 +90,7 @@ fr:
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
     locations: /campus/:slug/
+    diplomas: /diplomes/:slug/
     programs: /offre-de-formation/:slug/
     publications: /publications/:year-:slug/
     organizations: /organisations/:slug/
@@ -95,6 +98,7 @@ fr:
     administrators: /equipe/:slug/roles/
     authors: /equipe/:slug/actualites/
     researchers: /equipe/:slug/publications/
+    teachers: /equipe/:slug/programs/
   taxonomies:
     administrator: administrators
     author: authors
