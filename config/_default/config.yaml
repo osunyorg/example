@@ -3,7 +3,9 @@ paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
 params:
-  debug: true
+  debug:
+    active: true
+    productionUrl: https://example.osuny.org
   search:
     active: true
   organizations:
