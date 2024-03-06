@@ -6,6 +6,13 @@ params:
   debug:
     active: true
     productionUrl: https://example.osuny.org
+  logo:
+    header:
+      default: "/assets/images/logo.svg"
+      darkmode: "/assets/images/logo-white.svg"
+    footer:
+      default: "/assets/images/logo.svg"
+      darkmode: "/assets/images/logo-white.svg"
   search:
     active: true
   organizations:
