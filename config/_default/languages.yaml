@@ -85,6 +85,8 @@ fr:
       tiktok: >-
         https://www.linkedin.com/company/osuny/
   permalinks:
+    projects: /projects/:year-:month-:day-:slug/
+    projects_categories: /projects/:slug/
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
     events: /agenda/:year-:month-:day-:slug/
@@ -105,6 +107,7 @@ fr:
     diploma: diplomas
     events_category: events_categories
     posts_category: posts_categories
+    projects_category: projects_categories
     researcher: researchers
     teacher: teachers
     volume: volumes
