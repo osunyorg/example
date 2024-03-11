@@ -37,4 +37,8 @@ items:
   target: "/en/diplomas/"
   kind: page
   children: []
+- title: Projects
+  target: "/en/projects/"
+  kind: page
+  children: []
 
