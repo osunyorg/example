@@ -22,7 +22,7 @@ full_width: false
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 position: 10
@@ -43,7 +43,7 @@ description: >
   
 
 summary: >
-  
+  Une liste de projets classés par année
 
 header_text: >-
   
@@ -52,7 +52,7 @@ header_cta:
   label: 
   target: 
 contents_reading_time:
-  seconds: 2
+  seconds: 16
   text: >-
     moins d'une minute
 contents:
@@ -78,7 +78,7 @@ contents:
 
   - kind: heading
     title: >-
-      Catégorie Spécifique - Affichage grille
+      Catégorie Spécifique - Grille
     position: 0
     rank: 2
   - kind: block
@@ -97,6 +97,206 @@ contents:
           file: "projects/2023-dictionnaire-du-climat.html"
         - slug: "alt-shift"
           file: "projects/2022-alt-shift.html"
+
+
+
+  - kind: heading
+    title: >-
+      Catégorie Spécifique - Liste
+    position: 1
+    rank: 2
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: category
+      category: "/design/"
+      layout: list
+      projects:
+        - slug: "dictionnaire-du-climat"
+          file: "projects/2023-dictionnaire-du-climat.html"
+        - slug: "alt-shift"
+          file: "projects/2022-alt-shift.html"
+
+
+
+  - kind: heading
+    title: >-
+      Catégorie Spécifique - Alternance
+    position: 2
+    rank: 2
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: category
+      category: "/design/"
+      layout: alternate
+      projects:
+        - slug: "dictionnaire-du-climat"
+          file: "projects/2023-dictionnaire-du-climat.html"
+        - slug: "alt-shift"
+          file: "projects/2022-alt-shift.html"
+
+
+
+  - kind: heading
+    title: >-
+      Catégorie Spécifique - Grand
+    position: 3
+    rank: 2
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: category
+      category: "/design/"
+      layout: large
+      projects:
+        - slug: "dictionnaire-du-climat"
+          file: "projects/2023-dictionnaire-du-climat.html"
+        - slug: "alt-shift"
+          file: "projects/2022-alt-shift.html"
+
+
+
+  - kind: heading
+    title: >-
+      Sélection de projets - Grille
+    position: 4
+    rank: 2
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: selection
+      layout: grid
+      projects:
+        - slug: "degrowth-journal"
+          file: "projects/2023-degrowth-journal.html"
+        - slug: "alt-shift"
+          file: "projects/2022-alt-shift.html"
+
+
+
+  - kind: heading
+    title: >-
+      Sélection de projets - Liste
+    position: 5
+    rank: 2
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: selection
+      layout: list
+      projects:
+        - slug: "degrowth-journal"
+          file: "projects/2023-degrowth-journal.html"
+        - slug: "alt-shift"
+          file: "projects/2022-alt-shift.html"
+
+
+
+  - kind: heading
+    title: >-
+      Sélection de projets - Alternance
+    position: 6
+    rank: 2
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: selection
+      layout: alternate
+      projects:
+        - slug: "degrowth-journal"
+          file: "projects/2023-degrowth-journal.html"
+        - slug: "alt-shift"
+          file: "projects/2022-alt-shift.html"
+
+
+
+  - kind: heading
+    title: >-
+      Sélection de projets - Grand
+    position: 7
+    rank: 2
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: selection
+      layout: large
+      projects:
+        - slug: "degrowth-journal"
+          file: "projects/2023-degrowth-journal.html"
+        - slug: "alt-shift"
+          file: "projects/2022-alt-shift.html"
+
+
+
+  - kind: heading
+    title: >-
+      Liste des catégories des projets
+    position: 8
+    rank: 2
+  - kind: block
+    template: projects
+    title: >-
+      
+    ranks:
+      self: false
+    data:
+      mode: categories
+      layout: grid
+      projects:
+
+
+
+  - kind: heading
+    title: >-
+      Liste des catégories des projets - Titre
+    position: 9
+    rank: 2
+  - kind: block
+    template: projects
+    title: >-
+      Liste des catégories
+    ranks:
+      self: 3
+    data:
+      mode: categories
+      layout: grid
+      projects:
 
 
 
