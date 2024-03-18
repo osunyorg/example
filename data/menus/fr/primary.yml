@@ -141,6 +141,10 @@ items:
       target: "/fr/blocks/blocs-de-liste/agenda-1/"
       kind: page
       children: []
+    - title: Les projets
+      target: "/fr/blocks/blocs-de-liste/les-projets/"
+      kind: page
+      children: []
   - title: Les blocs techniques
     target: "/fr/blocks/blocks-techniques/"
     kind: page
