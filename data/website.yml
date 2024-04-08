@@ -3,6 +3,8 @@ title: >-
 default:
   image:
     id: d7e183ad-ea73-44a5-85eb-e67f8327d10e
+  shared_image:
+    id: 08f34526-1435-4b21-84af-35ae4ad5167b
 social:
   email: >-
     contact@osuny.org
