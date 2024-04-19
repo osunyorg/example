@@ -42,7 +42,9 @@ en:
     programs: /formations/:slug/
     publications: /publications/:year-:slug/
     organizations: /organisations/:slug/
+    organizations_categories: /organisations/:slug/
     persons: /equipe/:slug/
+    persons_categories: /equipe/:slug/
     administrators: /equipe/:slug/roles/
     authors: /equipe/:slug/actualites-1/
     researchers: /equipe/:slug/publications/
@@ -53,6 +55,8 @@ en:
     diploma: diplomas
     events_category: events_categories
     location: locations
+    organizations_category: organizations_categories
+    persons_category: persons_categories
     posts_category: posts_categories
     projects_category: projects_categories
     researcher: researchers
@@ -100,7 +104,9 @@ fr:
     programs: /offre-de-formation/:slug/
     publications: /publications/:year-:slug/
     organizations: /organisations/:slug/
+    organizations_categories: /organisations/:slug/
     persons: /equipe/:slug/
+    persons_categories: /equipe/:slug/
     administrators: /equipe/:slug/roles/
     authors: /equipe/:slug/actualites/
     researchers: /equipe/:slug/publications/
@@ -111,6 +117,8 @@ fr:
     diploma: diplomas
     events_category: events_categories
     location: locations
+    organizations_category: organizations_categories
+    persons_category: persons_categories
     posts_category: posts_categories
     projects_category: projects_categories
     researcher: researchers
