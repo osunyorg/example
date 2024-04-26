@@ -61,6 +61,10 @@ items:
     target: "/fr/projets/"
     kind: page
     children: []
+  - title: Campus
+    target: "/fr/campus/"
+    kind: page
+    children: []
 - title: Blocs
   target: ''
   kind: blank
