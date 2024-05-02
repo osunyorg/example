@@ -17,3 +17,6 @@ params:
   persons:
     single:
       backlinks: true
+  menu:
+    dropdown:
+      linkToLevel1: false
