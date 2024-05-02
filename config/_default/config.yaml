@@ -7,12 +7,8 @@ params:
     active: true
     productionUrl: https://example.osuny.org
   logo:
-    header:
-      default: "/assets/images/logo.svg"
-      darkmode: "/assets/images/logo-white.svg"
-    footer:
-      default: "/assets/images/logo.svg"
-      darkmode: "/assets/images/logo-white.svg"
+    header: "/assets/images/logo.svg"
+    footer: "/assets/images/monogramme-blanc.svg"
   search:
     active: true
   organizations:
