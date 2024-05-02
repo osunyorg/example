@@ -1,0 +1,262 @@
+main
+    @include media-breakpoint-up(desktop)
+        margin-bottom: space(44)
+
+.heading
+    @include in-page-with-sidebar
+        h2
+            @include h3
+            font-weight: bold
+
+.page__home
+    .hero
+        h1
+            font-weight: normal
+    .block-call_to_action
+        --cta-background-color: #{$color-background}
+    @include media-breakpoint-up(desktop)
+        .hero:not(.hero--with-image)
+            .content
+                .hero-text
+                    width: columns(9)
+        .block-call_to_action:first-child
+            margin-top: -$spacing-5
+
+.posts__page
+    &:not(.full-width)
+        .block-summary
+            background: $color-accent
+            .block-content
+                padding: $spacing-3 0
+            @include media-breakpoint-up(desktop)
+                position: relative
+                z-index: $zindex-aside + 1
+                text-align: center
+                margin-top: -$spacing-5
+                .block-content
+                    padding: $spacing-5 offset(1) !important
+    .hero
+        background: $color-background
+        color: $color-text
+        .breadcrumb li
+            &, a, span
+                color: $color-text
+
+.post-infos
+    a
+        color: inherit
+        text-decoration-color: $color-accent
+        text-decoration-thickness: pxToRem(2)
+
+.post .post-categories, .post-categories
+    a
+        color: inherit
+        text-decoration: none
+        padding: space(2) space(3) 
+        background: $color-background-accent
+        display: inline-block
+        transition: background 0.35s
+        &:hover
+            background: $color-accent
+
+.block-call_to_action
+    .call_to_action
+        .description p
+            @include h3
+        .actions 
+            a:first-child
+                border: $btn-border
+                &::after
+                    display: none
+                &[href^="mailto:"]
+                    &::before
+                        content: url(../images/mail.svg)
+                        display: inline-block
+                        vertical-align: middle
+                        line-height: 1
+                        margin-right: space(3)
+                        transition: 0.3s
+                    &:hover
+                        &::before
+                            filter: invert(1)
+    @include in-page-without-sidebar
+        border-bottom: 1px solid $color-border
+        .block-content
+            padding-top: 0
+            padding-bottom: 0
+            picture
+                grid-column: 7 / 13
+                margin-right: var(--grid-gutter-negative)
+                img
+                    height: 100%
+                    width: 100%
+                    object-fit: cover
+            .call_to_action
+                > div
+                    display: flex
+                    flex-direction: column
+                    justify-content: center
+                    padding-top: $spacing-5
+                    padding-bottom: $spacing-5
+
+.posts.posts--list
+    @include media-breakpoint-down(desktop)
+        article
+            .post-content p:not(.title)
+                display: block
+
+.block-posts .list,
+.posts.posts--list
+    .media
+        display: none
+    @include in-page-without-sidebar
+        article
+            display: block
+        .post-content
+            @include grid(12, false, 0)
+            width: 100%
+            [itemprop='headline']
+                @include h1
+                font-weight: bold
+            .post-meta
+                position: relative
+                grid-row: 2
+                margin-top: $spacing-2
+                text-align: left
+                time
+                    @include h3
+            .post-categories
+                margin-top: space(9)
+            [itemprop='headline'], .post-meta, .post-categories
+                grid-column: 7 span
+                max-width: none
+            [itemprop='articleBody']
+                grid-column: 5 span
+                grid-row: 1 / 5 span
+                order: 4
+                max-width: none
+.block-posts
+    .categories--grid
+        li
+            overflow: hidden
+            background: $color-background-accent
+            border-radius: pxToRem(5)
+            transition: background 0.35s
+            @include media-breakpoint-up(xxl)
+                padding: space(10)
+            &:hover
+                background: $color-accent
+                &::after
+                    transition: -webkit-text-stroke-color 0.35s
+                    -webkit-text-stroke-color: $color-background-accent
+            &::after
+                -webkit-text-stroke-width: pxToRem(5)
+                -webkit-text-stroke-color: $color-accent
+                content: attr(data-title)
+                position: absolute
+                bottom: pxToRem(-25)
+                font-size: pxToRem(120)
+                left: 60%
+                line-height: 1
+                color: transparent
+                white-space: nowrap
+                font-weight: bold
+                opacity: 0.15
+            @include media-breakpoint-up(md)
+                aspect-ratio: 1
+                &::after
+                    font-size: pxToRem(150)
+                    left: 50%
+
+.block-persons
+    @include in-page-without-sidebar
+        .persons
+            grid-template-columns: repeat(3, 1fr) !important
+            .person
+                flex-direction: column
+                gap: $spacing-3
+                .description
+                    text-align: center
+                    @include body-text
+                .avatar
+                    align-self: center
+                    width: 128px !important
+
+.block-chapter
+    @include in-page-with-sidebar
+        &:not(:last-child)
+            .chapter
+                border-bottom: 1px solid $color-border
+                padding-bottom: $spacing-5
+
+.toc
+    ol
+        .active
+            text-decoration: $color-accent underline
+
+.menu
+    @include media-breakpoint-up(desktop)
+        .dropdown-menu 
+            padding-top: space(25)
+            .dropdown-menu-title
+                @include h1
+                font-weight: normal
+        .nav-level-2
+            li
+                margin-bottom: 0 !important
+                > span, > a
+                    line-height: pxToRem(54)
+
+footer#document-footer
+    @include media-breakpoint-down(md)
+        padding-bottom: 0
+        &:after
+            content: ''
+            display: block
+            margin-top: $spacing-5
+            background-color: $color-accent
+            background-image: url('../images/amazon.jpg')
+            width: 100%
+            padding-top: 50%
+            border: $spacing-5 solid transparent
+            background-size: contain
+            background-repeat: no-repeat
+            background-position: center
+            top: 0
+            right: columns(1.5)
+            z-index: 2
+    @include media-breakpoint-down(sm)
+        &:after
+            padding-top: 100%
+            border-width: 0
+    @include media-breakpoint-up(md)
+        position: relative
+        padding-right: columns(7)
+        > .container
+            flex-direction: column
+            gap: $spacing-4
+            + .container
+                align-items: start
+        .footer-social
+            text-align: left
+        &:before
+            content: ''
+            background: $color-accent
+            width: columns(7)
+            position: absolute
+            height: 100%
+            top: 0
+            right: 0
+        &:after
+            content: ''
+            background-image: url('../images/amazon.jpg')
+            width: columns(5)
+            position: absolute
+            height: 100%
+            background-size: contain
+            background-repeat: no-repeat
+            background-position: center
+            top: 0
+            right: columns(1.5)
+            z-index: 2
+

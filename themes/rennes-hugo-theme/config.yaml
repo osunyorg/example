@@ -1,0 +1,19 @@
+theme: osuny-hugo-theme-aaa
+paginate: 18
+enableRobotsTXT: true
+removePathAccents: true
+params:
+  summary:
+    position: content
+  search:
+    active: true
+  logo:
+    header: "/assets/images/logo.svg"
+    footer: "/assets/images/monogramme-blanc.svg"
+  menu:
+    dropdown:
+      linkToLevel1: true
+  posts:
+    index:
+      show_categories: true
+      show_description: true

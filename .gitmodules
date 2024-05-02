@@ -2,3 +2,6 @@
 	path = themes/osuny-hugo-theme-aaa
 	url = git@github.com:noesya/osuny-hugo-theme-aaa.git
   branch = block-heading
+[submodule "rennes-hugo-theme"]
+	path = themes/rennes-hugo-theme
+	url = https://github.com/osunyorg/rennes-theme.git
