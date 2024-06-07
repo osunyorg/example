@@ -10,12 +10,12 @@ administrators:
   - "magali-angles"
   - "arnaud-levy"
 administrators_description:
-  "magali-angles": >
+  "magali-angles": >-
     Direction
-  "arnaud-levy": >
+  "arnaud-levy": >-
     Direction
 roles:
-  - title: >
+  - title: >-
       Direction
     persons:
       - "arnaud-levy"

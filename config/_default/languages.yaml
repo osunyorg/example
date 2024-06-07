@@ -42,9 +42,9 @@ en:
     programs: /formations/:slug/
     publications: /publications/:year-:slug/
     organizations: /organisations/:slug/
-    organizations_categories: /organisations/:slug/
+    organizations_categories: /organisations/categories/:slug/
     persons: /equipe/:slug/
-    persons_categories: /equipe/:slug/
+    persons_categories: /equipe/categories/:slug/
     administrators: /equipe/:slug/roles/
     authors: /equipe/:slug/actualites-1/
     researchers: /equipe/:slug/publications/
@@ -104,9 +104,9 @@ fr:
     programs: /offre-de-formation/:slug/
     publications: /publications/:year-:slug/
     organizations: /organisations/:slug/
-    organizations_categories: /organisations/:slug/
+    organizations_categories: /organisations/categories/:slug/
     persons: /equipe/:slug/
-    persons_categories: /equipe/:slug/
+    persons_categories: /equipe/categories/:slug/
     administrators: /equipe/:slug/roles/
     authors: /equipe/:slug/actualites/
     researchers: /equipe/:slug/publications/
