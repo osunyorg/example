@@ -1,4 +1,4 @@
-[submodule "themes/osuny-hugo-theme-aaa"]
-	path = themes/osuny-hugo-theme-aaa
-	url = git@github.com:noesya/osuny-hugo-theme-aaa.git
+[submodule "themes/osuny"]
+	path = themes/osuny
+	url = git@github.com:osunyorg/theme.git
   branch = block-heading
