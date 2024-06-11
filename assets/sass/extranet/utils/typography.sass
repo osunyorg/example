@@ -236,7 +236,7 @@ a,
     @include link
     overflow-wrap: break-word
     &[target="_blank"]:not(.icon)
-        @include icon(link-blank, after, true)
+        @include icon(external-link-line, after, true)
             vertical-align: baseline
     &[href^="mailto"]
         &::after
@@ -272,7 +272,7 @@ a,
     
 .link-more
     @include link
-    @include icon(arrow, before)
+    @include icon(arrow-right-line, before)
     &::before
         font-size: px2rem(10)
         margin-right: px2rem(5)
@@ -298,11 +298,11 @@ sup
 [data-click-to-copy]
     cursor: pointer
     text-decoration: none
-    @include icon(copy-inline, after)
+    @include icon(file-copy-line, after)
         margin-left: $spacing-2
         vertical-align: text-top
     &.is-copied
-        @include icon(check-inline, after)
+        @include icon(check-line, after)
 
 *:focus-visible
     outline-color: inherit
@@ -334,7 +334,7 @@ sup
 
 .link-more
     @include link
-    @include icon(arrow, before)
+    @include icon(arrow-right-line, before)
     &::before
         font-size: px2rem(10)
         margin-right: px2rem(5)
