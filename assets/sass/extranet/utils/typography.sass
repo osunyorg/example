@@ -236,8 +236,9 @@ a,
     @include link
     overflow-wrap: break-word
     &[target="_blank"]:not(.icon)
-        @include icon(external-link-line, after, true)
+        @include icon(links-line, after, true)
             vertical-align: baseline
+            font-size: 0.8em
     &[href^="mailto"]
         &::after
             content: none
@@ -266,7 +267,7 @@ a,
         display: flex
         justify-content: space-between
         align-items: center
-        @include icon-block(link-blank-block, after)
+        @include icon-block(links-line-block, after)
     &:hover
         background: $btn-hover-background
     
