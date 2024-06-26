@@ -21,3 +21,5 @@ params:
   persons:
     single:
       backlinks: true
+  breadcrumb:
+    position: none
