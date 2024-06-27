@@ -73,3 +73,37 @@
         position: absolute
     img
         object-fit: cover
+
+.block-organizations
+    .organization
+        display: flex
+        flex-direction: column
+        position: relative
+        &-title
+            @include meta
+            a
+                @include stretched-link
+                text-decoration: none
+                display: block
+        .media
+            @include handle-svg-fit
+            background: $organization-background-color
+            margin-bottom: $spacing-2
+            order: -1
+            overflow: hidden
+            padding: $spacing-3
+            picture
+                aspect-ratio: 1
+                display: block
+            img
+                display: block
+                height: 100%
+                object-fit: contain
+                object-position: center
+                width: 100%
+            &:empty
+                position: relative
+                &::after
+                    content: ''
+                    display: block
+                    padding-bottom: 100%
