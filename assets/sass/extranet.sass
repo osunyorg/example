@@ -1,3 +1,6 @@
+$btn-min-width: auto
+$btn-min-width-desktop: auto
+
 // @import _theme/hugo-osuny
 // Settings
 @import _theme/utils
@@ -5,12 +8,11 @@
 
 // Dependencies and tweaks of dependencies
 @import _theme/dependencies/bootstrap-breakpoints
-// @import extranet/utils/typography
 
 @import _theme/variables
 
 // Keep on top
-@import _theme/design-system/typography
+@import extranet/utils/typography
 
 @import glightbox/dist/css/glightbox
 @import @splidejs/splide/dist/css/splide-core.min
@@ -19,10 +21,10 @@
 
 
 // Design System
+// @import _theme/design-system/button
+@import _theme/design-system/layout
+@import _theme/design-system/notes
 @import _theme/design-system/table
-@import _theme/design-system/top
-@import _theme/design-system/button
-
 
 // Blocks
 @import _theme/blocks/base
@@ -39,17 +41,21 @@
 @import _theme/blocks/image
 @import _theme/blocks/key_figures
 @import _theme/blocks/license
+@import _theme/blocks/links
 @import _theme/blocks/organizations
 @import _theme/blocks/pages
 @import _theme/blocks/persons
 @import _theme/blocks/posts
+@import _theme/blocks/projects
 @import _theme/blocks/programs
+@import _theme/blocks/publications
 @import _theme/blocks/sitemap
 @import _theme/blocks/sound
 @import _theme/blocks/summary
 @import _theme/blocks/testimonials
 @import _theme/blocks/timeline
 @import _theme/blocks/video
+@import _theme/blocks/volumes
 
 // MISC
 
@@ -70,3 +76,49 @@
         position: absolute
     img
         object-fit: cover
+
+.block-organizations
+    .organizations
+        max-width: 100%
+        @include grid(2)
+        @include grid(3, md)
+        @include grid(4, lg)
+        @include grid(6, xl)
+        @include in-page-program
+            @include grid(3, md)
+            @include grid(3, lg)
+            @include grid(3, xl)
+        @include media-breakpoint-down(desktop)
+            grid-column-gap: $spacing-3 !important
+    .organization
+        display: flex
+        flex-direction: column
+        position: relative
+        &-title
+            @include meta
+            a
+                @include stretched-link
+                text-decoration: none
+                display: block
+        .media
+            @include handle-svg-fit
+            background: $organization-background-color
+            margin-bottom: $spacing-2
+            order: -1
+            overflow: hidden
+            padding: $spacing-3
+            picture
+                aspect-ratio: 1
+                display: block
+            img
+                display: block
+                height: 100%
+                object-fit: contain
+                object-position: center
+                width: 100%
+            &:empty
+                position: relative
+                &::after
+                    content: ''
+                    display: block
+                    padding-bottom: 100%
