@@ -214,9 +214,8 @@ a,
     @include link
     overflow-wrap: break-word
     &[target="_blank"]:not(.icon)
-        @include icon(links-line, after, true)
+        @include icon(link-blank, after, true)
             vertical-align: baseline
-            font-size: 0.8em
     &[href^="mailto"]
         &::after
             content: none
@@ -237,7 +236,7 @@ a,
 
 .link-more
     @include link
-    @include icon(arrow-right-line, before)
+    @include icon(arrow, before)
     &::before
         font-size: pxToRem(10)
         margin-right: pxToRem(5)
@@ -270,11 +269,11 @@ sup
 [data-click-to-copy]
     cursor: pointer
     text-decoration: none
-    @include icon(file-copy-line, after)
+    @include icon(copy-inline, after)
         margin-left: $spacing-2
         vertical-align: text-top
     &.is-copied
-        @include icon(check-line, after)
+        @include icon(check-inline, after)
 
 *:focus-visible
     outline-color: inherit
@@ -292,8 +291,7 @@ sup
     font-family: 'Icon'
     font-style: normal
     font-weight: 400
-    src: url('/assets/fonts/remixicon/remixicon.eot')
-    src: url('/assets/fonts/remixicon/remixicon.eot#iefix') format('embedded-opentype'), url("/assets/fonts/remixicon/remixicon.woff2") format("woff2"), url("/assets/fonts/remixicon/remixicon.woff") format("woff"), url('/assets/fonts/remixicon/remixicon.ttf') format('truetype'), url('/assets/fonts/remixicon/remixicon.svg#remixicon') format('svg')
+    src: url('https://example.osuny.org/assets/fonts/fonticons/IconFont.woff') format("woff")
 
 @each $name, $glyph in $icons
     .icon-#{$name}
@@ -305,5 +303,6 @@ sup
         &::before
             margin-inline-end: pxToRem(5)
 
+
 .button
-    // still nothing here
+    // present to handle extends sass in other files
