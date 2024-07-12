@@ -73,6 +73,11 @@ contents:
       show_main_description: false
       show_descriptions: false
       show_images: true
+      options:
+        image: true
+        main_summary: false
+        summary: false
+
       layout: cards
       pages:
         - path: "/fr/equipe/equipe-editoriale/"
@@ -100,6 +105,11 @@ contents:
       show_main_description: true
       show_descriptions: true
       show_images: true
+      options:
+        image: true
+        main_summary: true
+        summary: true
+
       layout: list
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -127,6 +137,11 @@ contents:
       show_main_description: false
       show_descriptions: false
       show_images: false
+      options:
+        image: false
+        main_summary: false
+        summary: false
+
       layout: grid
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -162,111 +177,11 @@ contents:
       show_main_description: true
       show_descriptions: false
       show_images: false
-      layout: grid
-      pages:
-        - path: "/fr/equipe/equipe-de-recherche/"
-          slug: "equipe-de-recherche"
-          file: "researchers/_index.html"
-          external: false
-        - path: "/fr/equipe/equipe-pedagogique/"
-          slug: "equipe-pedagogique"
-          file: "teachers/_index.html"
-          external: false
-        - path: "/fr/equipe/equipe-editoriale/"
-          slug: "equipe-editoriale"
-          file: "authors/_index.html"
-          external: false
-        - path: "/fr/equipe/equipe-administrative/"
-          slug: "equipe-administrative"
-          file: "administrators/_index.html"
-          external: false
+      options:
+        image: false
+        main_summary: true
+        summary: false
 
-
-  - kind: block
-    template: pages
-    title: >-
-      Équipe
-    ranks:
-      self: 2
-      children: 3
-    data:
-      page: 
-        path: "/fr/equipe/"
-        slug: "equipe"
-        file: "persons/_index.html"
-      show_main_description: false
-      show_descriptions: true
-      show_images: false
-      layout: grid
-      pages:
-        - path: "/fr/equipe/equipe-de-recherche/"
-          slug: "equipe-de-recherche"
-          file: "researchers/_index.html"
-          external: false
-        - path: "/fr/equipe/equipe-pedagogique/"
-          slug: "equipe-pedagogique"
-          file: "teachers/_index.html"
-          external: false
-        - path: "/fr/equipe/equipe-editoriale/"
-          slug: "equipe-editoriale"
-          file: "authors/_index.html"
-          external: false
-        - path: "/fr/equipe/equipe-administrative/"
-          slug: "equipe-administrative"
-          file: "administrators/_index.html"
-          external: false
-
-
-  - kind: block
-    template: pages
-    title: >-
-      Équipe
-    ranks:
-      self: 2
-      children: 3
-    data:
-      page: 
-        path: "/fr/equipe/"
-        slug: "equipe"
-        file: "persons/_index.html"
-      show_main_description: false
-      show_descriptions: false
-      show_images: true
-      layout: grid
-      pages:
-        - path: "/fr/equipe/equipe-de-recherche/"
-          slug: "equipe-de-recherche"
-          file: "researchers/_index.html"
-          external: false
-        - path: "/fr/equipe/equipe-pedagogique/"
-          slug: "equipe-pedagogique"
-          file: "teachers/_index.html"
-          external: false
-        - path: "/fr/equipe/equipe-editoriale/"
-          slug: "equipe-editoriale"
-          file: "authors/_index.html"
-          external: false
-        - path: "/fr/equipe/equipe-administrative/"
-          slug: "equipe-administrative"
-          file: "administrators/_index.html"
-          external: false
-
-
-  - kind: block
-    template: pages
-    title: >-
-      Équipe
-    ranks:
-      self: 2
-      children: 3
-    data:
-      page: 
-        path: "/fr/equipe/"
-        slug: "equipe"
-        file: "persons/_index.html"
-      show_main_description: true
-      show_descriptions: true
-      show_images: true
       layout: grid
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -302,6 +217,131 @@ contents:
       show_main_description: false
       show_descriptions: true
       show_images: false
+      options:
+        image: false
+        main_summary: false
+        summary: true
+
+      layout: grid
+      pages:
+        - path: "/fr/equipe/equipe-de-recherche/"
+          slug: "equipe-de-recherche"
+          file: "researchers/_index.html"
+          external: false
+        - path: "/fr/equipe/equipe-pedagogique/"
+          slug: "equipe-pedagogique"
+          file: "teachers/_index.html"
+          external: false
+        - path: "/fr/equipe/equipe-editoriale/"
+          slug: "equipe-editoriale"
+          file: "authors/_index.html"
+          external: false
+        - path: "/fr/equipe/equipe-administrative/"
+          slug: "equipe-administrative"
+          file: "administrators/_index.html"
+          external: false
+
+
+  - kind: block
+    template: pages
+    title: >-
+      Équipe
+    ranks:
+      self: 2
+      children: 3
+    data:
+      page: 
+        path: "/fr/equipe/"
+        slug: "equipe"
+        file: "persons/_index.html"
+      show_main_description: false
+      show_descriptions: false
+      show_images: true
+      options:
+        image: true
+        main_summary: false
+        summary: false
+
+      layout: grid
+      pages:
+        - path: "/fr/equipe/equipe-de-recherche/"
+          slug: "equipe-de-recherche"
+          file: "researchers/_index.html"
+          external: false
+        - path: "/fr/equipe/equipe-pedagogique/"
+          slug: "equipe-pedagogique"
+          file: "teachers/_index.html"
+          external: false
+        - path: "/fr/equipe/equipe-editoriale/"
+          slug: "equipe-editoriale"
+          file: "authors/_index.html"
+          external: false
+        - path: "/fr/equipe/equipe-administrative/"
+          slug: "equipe-administrative"
+          file: "administrators/_index.html"
+          external: false
+
+
+  - kind: block
+    template: pages
+    title: >-
+      Équipe
+    ranks:
+      self: 2
+      children: 3
+    data:
+      page: 
+        path: "/fr/equipe/"
+        slug: "equipe"
+        file: "persons/_index.html"
+      show_main_description: true
+      show_descriptions: true
+      show_images: true
+      options:
+        image: true
+        main_summary: true
+        summary: true
+
+      layout: grid
+      pages:
+        - path: "/fr/equipe/equipe-de-recherche/"
+          slug: "equipe-de-recherche"
+          file: "researchers/_index.html"
+          external: false
+        - path: "/fr/equipe/equipe-pedagogique/"
+          slug: "equipe-pedagogique"
+          file: "teachers/_index.html"
+          external: false
+        - path: "/fr/equipe/equipe-editoriale/"
+          slug: "equipe-editoriale"
+          file: "authors/_index.html"
+          external: false
+        - path: "/fr/equipe/equipe-administrative/"
+          slug: "equipe-administrative"
+          file: "administrators/_index.html"
+          external: false
+
+
+  - kind: block
+    template: pages
+    title: >-
+      Équipe
+    ranks:
+      self: 2
+      children: 3
+    data:
+      page: 
+        path: "/fr/equipe/"
+        slug: "equipe"
+        file: "persons/_index.html"
+      show_main_description: false
+      show_descriptions: true
+      show_images: false
+      options:
+        image: false
+        main_summary: false
+        summary: true
+
       layout: list
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -337,6 +377,11 @@ contents:
       show_main_description: true
       show_descriptions: false
       show_images: false
+      options:
+        image: false
+        main_summary: true
+        summary: false
+
       layout: list
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -372,6 +417,11 @@ contents:
       show_main_description: false
       show_descriptions: false
       show_images: true
+      options:
+        image: true
+        main_summary: false
+        summary: false
+
       layout: list
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -407,6 +457,11 @@ contents:
       show_main_description: true
       show_descriptions: true
       show_images: true
+      options:
+        image: true
+        main_summary: true
+        summary: true
+
       layout: list
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -442,6 +497,11 @@ contents:
       show_main_description: true
       show_descriptions: false
       show_images: false
+      options:
+        image: false
+        main_summary: true
+        summary: false
+
       layout: cards
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -477,6 +537,11 @@ contents:
       show_main_description: false
       show_descriptions: true
       show_images: false
+      options:
+        image: false
+        main_summary: false
+        summary: true
+
       layout: grid
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -512,6 +577,11 @@ contents:
       show_main_description: false
       show_descriptions: true
       show_images: false
+      options:
+        image: false
+        main_summary: false
+        summary: true
+
       layout: grid
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -547,6 +617,11 @@ contents:
       show_main_description: true
       show_descriptions: true
       show_images: true
+      options:
+        image: true
+        main_summary: true
+        summary: true
+
       layout: cards
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -601,6 +676,11 @@ contents:
       show_main_description: false
       show_descriptions: true
       show_images: false
+      options:
+        image: false
+        main_summary: false
+        summary: true
+
       layout: grid
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -1106,6 +1186,14 @@ contents:
       hide_date: false
       all: true
       layout: grid
+      options:
+        author: true
+        categories: true
+        date: true
+        image: true
+        reading_time: false
+        summary: true
+
       posts:
         - "2023/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn"
         - "2023/2023-08-02-proposition-de-loi-relative-a-la-responsabilite-des-medias-dans-le-traitement-des-enjeux-environneme"
@@ -1128,6 +1216,14 @@ contents:
       hide_date: false
       category: "/offre-de-formation/animation-sociale-et-socioculturelle/"
       layout: grid
+      options:
+        author: true
+        categories: true
+        date: true
+        image: true
+        reading_time: false
+        summary: true
+
       posts:
         - "2023/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn"
         - "2022/2022-02-21-lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique"
@@ -1442,6 +1538,14 @@ contents:
       hide_author: false
       hide_date: false
       layout: grid
+      options:
+        author: true
+        categories: true
+        date: true
+        image: true
+        reading_time: false
+        summary: true
+
       posts:
         - "2022/2022-02-21-lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique"
         - "2022/2022-02-02-lorem-ipsum"
@@ -1479,6 +1583,11 @@ contents:
 
       with_link: false
       with_photo: false
+      options:
+        image: false
+        summary: true
+        link: false
+
       persons:
         - slug: "pierre-andre-boissinot"
           role: >-
@@ -1519,6 +1628,11 @@ contents:
 
       with_link: false
       with_photo: false
+      options:
+        image: false
+        summary: true
+        link: false
+
       persons:
         - slug: "pierre-andre-boissinot"
           role: >-
@@ -1559,6 +1673,11 @@ contents:
 
       with_link: true
       with_photo: false
+      options:
+        image: false
+        summary: true
+        link: true
+
       persons:
         - slug: "pierre-andre-boissinot"
           role: >-
@@ -1599,6 +1718,11 @@ contents:
 
       with_link: true
       with_photo: true
+      options:
+        image: true
+        summary: true
+        link: true
+
       persons:
         - slug: "pierre-andre-boissinot"
           role: >-
@@ -1639,6 +1763,11 @@ contents:
 
       with_link: true
       with_photo: true
+      options:
+        image: true
+        summary: true
+        link: true
+
       persons:
         - slug: "magali-angles"
           role: >-
@@ -1679,6 +1808,11 @@ contents:
         
 
       with_link: false
+      options:
+        link: false
+        logo: true
+        summary: false
+
       organizations:
         - slug: "mica"
         - slug: "noesya"
@@ -1698,6 +1832,11 @@ contents:
         <p>Les partenaires de noesya</p>
 
       with_link: false
+      options:
+        link: false
+        logo: true
+        summary: false
+
       organizations:
         - slug: "mica"
         - slug: "noesya"
@@ -1717,6 +1856,11 @@ contents:
         <p>Les partenaires de noesya</p>
 
       with_link: true
+      options:
+        link: true
+        logo: true
+        summary: false
+
       organizations:
         - slug: "mica"
         - slug: "noesya"
@@ -1736,6 +1880,11 @@ contents:
         <p>Les partenaires de noesya</p>
 
       with_link: true
+      options:
+        link: true
+        logo: true
+        summary: false
+
       organizations:
         - slug: "mica"
         - slug: "mit-anthropology"
@@ -1757,6 +1906,11 @@ contents:
       show_main_description: false
       show_descriptions: false
       show_images: false
+      options:
+        image: false
+        main_summary: false
+        summary: false
+
       layout: grid
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -2332,6 +2486,11 @@ contents:
       show_main_description: false
       show_descriptions: false
       show_images: false
+      options:
+        image: false
+        main_summary: false
+        summary: false
+
       layout: list
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -2367,6 +2526,11 @@ contents:
       show_main_description: false
       show_descriptions: false
       show_images: false
+      options:
+        image: false
+        main_summary: false
+        summary: false
+
       layout: cards
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -2780,6 +2944,11 @@ contents:
       show_main_description: false
       show_descriptions: false
       show_images: true
+      options:
+        image: true
+        main_summary: false
+        summary: false
+
       layout: cards
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -3050,6 +3219,11 @@ contents:
         
 
       with_link: false
+      options:
+        link: false
+        logo: true
+        summary: false
+
       organizations:
         - slug: "mica"
         - slug: "noesya"
@@ -3349,6 +3523,11 @@ contents:
       show_main_description: false
       show_descriptions: false
       show_images: true
+      options:
+        image: true
+        main_summary: false
+        summary: false
+
       layout: grid
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -3376,6 +3555,11 @@ contents:
       show_main_description: true
       show_descriptions: false
       show_images: false
+      options:
+        image: false
+        main_summary: true
+        summary: false
+
       layout: grid
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -3403,6 +3587,11 @@ contents:
       show_main_description: false
       show_descriptions: false
       show_images: true
+      options:
+        image: true
+        main_summary: false
+        summary: false
+
       layout: list
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -3430,6 +3619,11 @@ contents:
       show_main_description: false
       show_descriptions: true
       show_images: false
+      options:
+        image: false
+        main_summary: false
+        summary: true
+
       layout: list
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -3457,6 +3651,11 @@ contents:
       show_main_description: true
       show_descriptions: false
       show_images: false
+      options:
+        image: false
+        main_summary: true
+        summary: false
+
       layout: list
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -3484,6 +3683,11 @@ contents:
       show_main_description: true
       show_descriptions: true
       show_images: true
+      options:
+        image: true
+        main_summary: true
+        summary: true
+
       layout: grid
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -3511,6 +3715,11 @@ contents:
       show_main_description: false
       show_descriptions: false
       show_images: false
+      options:
+        image: false
+        main_summary: false
+        summary: false
+
       layout: list
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -3538,6 +3747,11 @@ contents:
       show_main_description: true
       show_descriptions: true
       show_images: true
+      options:
+        image: true
+        main_summary: true
+        summary: true
+
       layout: list
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -3565,6 +3779,11 @@ contents:
       show_main_description: false
       show_descriptions: false
       show_images: false
+      options:
+        image: false
+        main_summary: false
+        summary: false
+
       layout: cards
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -3592,6 +3811,11 @@ contents:
       show_main_description: false
       show_descriptions: false
       show_images: false
+      options:
+        image: false
+        main_summary: false
+        summary: false
+
       layout: cards
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
@@ -3619,6 +3843,11 @@ contents:
       show_main_description: false
       show_descriptions: true
       show_images: false
+      options:
+        image: false
+        main_summary: false
+        summary: true
+
       layout: cards
       pages:
         - path: "/fr/equipe/equipe-de-recherche/"
