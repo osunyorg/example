@@ -1327,10 +1327,15 @@ contents:
   - kind: block
     template: pages
     title: >-
-      
+      Pages — layout alternance
     ranks:
-      self: false
+      self: 3
+      children: 4
     data:
+      page: 
+        path: "/fr/blocks/blocs-de-liste/"
+        slug: "blocs-de-liste"
+        file: "pages/blocks/blocs-de-liste/_index.html"
       show_main_description: false
       show_descriptions: false
       show_images: false
@@ -1339,8 +1344,44 @@ contents:
         main_summary: true
         summary: true
 
-      layout: grid
+      layout: alternate
       pages:
+        - path: "/fr/blocks/blocs-de-liste/pages/"
+          slug: "pages"
+          file: "pages/blocks/blocs-de-liste/pages/_index.html"
+          external: false
+        - path: "/fr/blocks/blocs-de-liste/actualites-1/"
+          slug: "actualites-1"
+          file: "pages/blocks/blocs-de-liste/actualites-1/_index.html"
+          external: false
+        - path: "/fr/blocks/blocs-de-liste/organigramme/"
+          slug: "organigramme"
+          file: "pages/blocks/blocs-de-liste/organigramme/_index.html"
+          external: false
+        - path: "/fr/blocks/blocs-de-liste/partenaires/"
+          slug: "partenaires"
+          file: "pages/blocks/blocs-de-liste/partenaires/_index.html"
+          external: false
+        - path: "/fr/blocks/blocs-de-liste/programmes/"
+          slug: "programmes"
+          file: "pages/blocks/blocs-de-liste/programmes/_index.html"
+          external: false
+        - path: "/fr/blocks/blocs-de-liste/agenda-1/"
+          slug: "agenda-1"
+          file: "pages/blocks/blocs-de-liste/agenda-1/_index.html"
+          external: false
+        - path: "/fr/blocks/blocs-de-liste/les-projets/"
+          slug: "les-projets"
+          file: "pages/blocks/blocs-de-liste/les-projets/_index.html"
+          external: false
+        - path: "/fr/blocks/blocs-de-liste/campus-1/"
+          slug: "campus-1"
+          file: "pages/blocks/blocs-de-liste/campus-1/_index.html"
+          external: false
+        - path: "/fr/blocks/blocs-de-liste/les-volumes/"
+          slug: "les-volumes"
+          file: "pages/blocks/blocs-de-liste/les-volumes/_index.html"
+          external: false
 
 
 
