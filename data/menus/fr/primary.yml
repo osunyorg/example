@@ -153,6 +153,10 @@ items:
       target: "/fr/blocks/blocs-de-liste/les-projets/"
       kind: page
       children: []
+    - title: Les campus
+      target: "/fr/blocks/blocs-de-liste/campus-1/"
+      kind: page
+      children: []
   - title: Les blocs techniques
     target: "/fr/blocks/blocks-techniques/"
     kind: page
