@@ -19,6 +19,6 @@ allowed_domains:
   - "peertube.fr"
   - "player.twitch.tv"
   - "odysee.com"
-  - "www.google.com"
   - "www.figma.com"
+  - "www.google.com"
   - "www.fablabimagesloiretaines.fr"
