@@ -1,23 +1,5 @@
-theme: osuny
-paginate: 18
-enableRobotsTXT: true
-removePathAccents: true
+theme: bordeaux-hugo-theme
 params:
   debug:
     active: true
     productionUrl: https://example.osuny.org
-  logo:
-    header:
-      default: "/assets/images/logo.svg"
-      darkmode: "/assets/images/logo-white.svg"
-    footer:
-      default: "/assets/images/logo.svg"
-      darkmode: "/assets/images/logo-white.svg"
-  search:
-    active: true
-  organizations:
-    single:
-      backlinks: true
-  persons:
-    single:
-      backlinks: true

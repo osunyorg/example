@@ -3,9 +3,3 @@ baseURL: /
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: true
-
-## DEUXFLEURS
-deployment:
-  targets:
-    - name: "production"
-      URL: "s3://example.osuny.org?endpoint=garage.deuxfleurs.fr&s3ForcePathStyle=true&region=garage&awssdk=v1"
