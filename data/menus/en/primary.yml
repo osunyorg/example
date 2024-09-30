@@ -1,24 +1,24 @@
 ---
 title: Main menu
 items:
-- title: Équipe
-  target: "/en/equipe/"
-  kind: page
-  children: []
 - title: Actualités
-  target: "/en/actualites/"
+  target: "/en/actualites-1/"
   kind: page
   children: []
 - title: Formations
   target: "/en/formations/"
   kind: page
   children: []
+- title: Équipe
+  target: "/en/equipe/"
+  kind: page
+  children: []
 - title: Organisations
   target: "/en/organisations/"
   kind: page
   children: []
-- title: Actualités
-  target: "/en/actualites-1/"
+- title: Diplomas
+  target: "/en/diplomas/"
   kind: page
   children: []
 - title: Publications HAL
@@ -31,10 +31,6 @@ items:
   children: []
 - title: Campus
   target: "/en/campus/"
-  kind: page
-  children: []
-- title: Diplomas
-  target: "/en/diplomas/"
   kind: page
   children: []
 - title: Projects
