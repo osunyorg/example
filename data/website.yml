@@ -5,24 +5,3 @@ default:
     id: d7e183ad-ea73-44a5-85eb-e67f8327d10e
   shared_image:
     id: 08f34526-1435-4b21-84af-35ae4ad5167b
-social:
-  email: >-
-    contact@osuny.org
-  mastodon: >-
-    https://www.linkedin.com/company/osuny/
-  peertube: >-
-    https://www.linkedin.com/company/osuny/
-  x: >-
-    https://x.com/noesya_coop?lang=fr
-  github: >-
-    https://github.com/osunyorg
-  linkedin: >-
-    https://www.linkedin.com/company/osuny/
-  vimeo: >-
-    https://vimeo.com/noesya
-  instagram: >-
-    https://www.linkedin.com/company/osuny/
-  facebook: >-
-    https://www.linkedin.com/company/osuny/
-  tiktok: >-
-    https://www.linkedin.com/company/osuny/

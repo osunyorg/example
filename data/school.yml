@@ -6,6 +6,9 @@ zipcode: "75017"
 city: "Paris"
 country: "France"
 phone: ""
+url: ""
+logo:
+  id: "b4690f78-5ec2-4969-83d3-40399161598c"
 administrators:
   - "magali-angles"
   - "arnaud-levy"
