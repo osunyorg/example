@@ -37,4 +37,12 @@ items:
   target: "/en/projects/"
   kind: page
   children: []
+- title: Volumes
+  target: "/en/volumes/"
+  kind: page
+  children: []
+- title: Papers
+  target: "/en/papers/"
+  kind: page
+  children: []
 
