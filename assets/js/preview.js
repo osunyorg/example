@@ -5,7 +5,7 @@ import './theme/utils/breakpoints';
 import './theme/utils/isReducedMotionPrefered';
 import './theme/utils/number';
 import './theme/design-system/notes';
-import './theme/blocks/campus';
+import './theme/blocks/locations';
 import './theme/blocks/draggableBlocks';
 import './theme/blocks/keyFigures';
 import './theme/blocks/organizations';
