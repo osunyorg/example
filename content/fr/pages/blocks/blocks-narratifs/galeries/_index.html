@@ -61,19 +61,27 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 53
+  seconds: 55
   text: >-
     1 minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Galerie Grille
-    slug: "galerie-grille"
-    position: 1
-    rank: 2
+    slug: >-
+      galerie-grille
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: gallery
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -169,16 +177,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Galerie Carousel
-    slug: "galerie-carousel"
-    position: 2
-    rank: 2
+    slug: >-
+      galerie-carousel
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: gallery
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -274,17 +289,24 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Galerie Large
-    slug: "galerie-large"
-    position: 3
-    rank: 2
+    slug: >-
+      galerie-large
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: gallery
     title: >-
       Galerie large
+    slug: >-
+      galerie-large
     ranks:
       self: 3
     data:
@@ -395,6 +417,8 @@ contents:
     template: gallery
     title: >-
       Test de poids d'image
+    slug: >-
+      test-de-poids-d-image
     ranks:
       self: 3
     data:
@@ -450,7 +474,6 @@ contents:
 
           text: >-
             
-
 
 
 

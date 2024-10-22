@@ -54,20 +54,28 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 18
+  seconds: 23
   text: >-
     moins d'une minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Agenda
-    slug: "agenda"
-    position: 1
-    rank: 2
+    slug: >-
+      agenda
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: agenda
     title: >-
       Les prochains événements
+    slug: >-
+      les-prochains-evenements
     ranks:
       self: 3
       children: 4
@@ -96,16 +104,23 @@ contents:
           file: "events/2024-02-03-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Agenda - Description
-    slug: "agenda-description"
-    position: 2
-    rank: 2
+    slug: >-
+      agenda-description
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: agenda
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -135,17 +150,24 @@ contents:
           file: "events/2024-02-03-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Agenda - Mise en avant
-    slug: "agenda-mise-en-avant"
-    position: 3
-    rank: 2
+    slug: >-
+      agenda-mise-en-avant
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: agenda
     title: >-
       À la une
+    slug: >-
+      a-la-une
     ranks:
       self: 3
       children: 4
@@ -172,16 +194,23 @@ contents:
           file: "events/2024-02-03-anne-charlotte-finel-respiro.html"
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Agenda - Grand
-    slug: "agenda-grand"
-    position: 4
-    rank: 2
+    slug: >-
+      agenda-grand
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: agenda
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -211,16 +240,23 @@ contents:
           file: "events/2024-02-03-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Agenda - Grille
-    slug: "agenda-grille"
-    position: 5
-    rank: 2
+    slug: >-
+      agenda-grille
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: agenda
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -250,16 +286,23 @@ contents:
           file: "events/2024-02-03-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Agenda - Liste
-    slug: "agenda-liste"
-    position: 6
-    rank: 2
+    slug: >-
+      agenda-liste
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: agenda
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -289,16 +332,23 @@ contents:
           file: "events/2024-02-03-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Agenda - Grand - 2
-    slug: "agenda-grand-2"
-    position: 7
-    rank: 2
+    slug: >-
+      agenda-grand-2
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: agenda
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -328,16 +378,23 @@ contents:
           file: "events/2024-02-03-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Agenda - Grille - 2
-    slug: "agenda-grille-2"
-    position: 8
-    rank: 2
+    slug: >-
+      agenda-grille-2
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: agenda
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -371,6 +428,8 @@ contents:
     template: agenda
     title: >-
       Un agenda vide
+    slug: >-
+      un-agenda-vide
     ranks:
       self: 3
     data:
@@ -394,17 +453,24 @@ contents:
       events:
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Agenda - Grand - Catégorie
-    slug: "agenda-grand-categorie"
-    position: 9
-    rank: 2
+    slug: >-
+      agenda-grand-categorie
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: agenda
     title: >-
       Événements terminés, archivés
+    slug: >-
+      evenements-termines-archives
     ranks:
       self: 3
       children: 4
@@ -436,6 +502,8 @@ contents:
   - kind: block
     template: agenda
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -469,6 +537,8 @@ contents:
     template: agenda
     title: >-
       Catégories des événements
+    slug: >-
+      categories-des-evenements
     ranks:
       self: 3
     data:
@@ -490,7 +560,6 @@ contents:
 
       title_link: "/fr/agenda/"
       events:
-
 
 
 

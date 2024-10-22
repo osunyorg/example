@@ -63,14 +63,16 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 6
+  seconds: 39
   text: >-
-    moins d'une minute
+    1 minute
 contents:
   - kind: block
     template: posts
     title: >-
       Toutes les actualités - Grand
+    slug: >-
+      toutes-les-actualites-grand
     ranks:
       self: 2
       children: 3
@@ -97,6 +99,8 @@ contents:
     template: posts
     title: >-
       Toutes les actualités - Liste
+    slug: >-
+      toutes-les-actualites-liste
     ranks:
       self: 2
       children: 3
@@ -119,16 +123,24 @@ contents:
         - "2022/2022-12-01-les-cooperatives-energetiques-citoyennes-des-modeles-originaux-pour-plus-de-sobriete"
 
 
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Une première sélection d'articles
-    slug: "une-premiere-selection-d-articles"
-    position: 1
-    rank: 2
+    slug: >-
+      une-premiere-selection-d-articles
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: posts
     title: >-
       Toutes les actualités - Mise en avant
+    slug: >-
+      toutes-les-actualites-mise-en-avant
     ranks:
       self: 3
       children: 4
@@ -155,6 +167,8 @@ contents:
     template: posts
     title: >-
       Toutes les actualités - Alternance
+    slug: >-
+      toutes-les-actualites-alternance
     ranks:
       self: 3
       children: 4
@@ -180,17 +194,24 @@ contents:
         - "2022/2022-02-02-lorem-ipsum"
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Une seconde sélection d'articles
-    slug: "une-seconde-selection-d-articles"
-    position: 2
-    rank: 2
+    slug: >-
+      une-seconde-selection-d-articles
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: posts
     title: >-
       Actualité - catégorie spécifique - Grille
+    slug: >-
+      actualite-categorie-specifique-grille
     ranks:
       self: 3
       children: 4
@@ -217,6 +238,8 @@ contents:
     template: posts
     title: >-
       Actualité - catégorie spécifique - Liste
+    slug: >-
+      actualite-categorie-specifique-liste
     ranks:
       self: 3
       children: 4
@@ -243,6 +266,8 @@ contents:
     template: posts
     title: >-
       Actualité - catégorie spécifique - Mise en avant
+    slug: >-
+      actualite-categorie-specifique-mise-en-avant
     ranks:
       self: 3
       children: 4
@@ -269,6 +294,8 @@ contents:
     template: posts
     title: >-
       Sélection d'actualités - 1 seul article - Grille
+    slug: >-
+      selection-d-actualites-1-seul-article-grille
     ranks:
       self: 3
       children: 4
@@ -292,6 +319,8 @@ contents:
     template: posts
     title: >-
       Sélection d'actualités - 1 seul article - Liste
+    slug: >-
+      selection-d-actualites-1-seul-article-liste
     ranks:
       self: 3
       children: 4
@@ -315,6 +344,8 @@ contents:
     template: posts
     title: >-
       Sélection d'actualités - 1 seul article - Mise en avant
+    slug: >-
+      selection-d-actualites-1-seul-article-mise-en-avant
     ranks:
       self: 3
       children: 4
@@ -338,6 +369,8 @@ contents:
     template: posts
     title: >-
       Sélection d'actualités - 2 articles - Grille
+    slug: >-
+      selection-d-actualites-2-articles-grille
     ranks:
       self: 3
       children: 4
@@ -362,6 +395,8 @@ contents:
     template: posts
     title: >-
       Sélection d'actualités - 2 articles - Liste
+    slug: >-
+      selection-d-actualites-2-articles-liste
     ranks:
       self: 3
       children: 4
@@ -386,6 +421,8 @@ contents:
     template: posts
     title: >-
       Sélection d'actualités - 2 articles - Mise en avant
+    slug: >-
+      selection-d-actualites-2-articles-mise-en-avant
     ranks:
       self: 3
       children: 4
@@ -406,16 +443,23 @@ contents:
         - "2022/2022-02-02-lorem-ipsum"
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Une actualité en large
-    slug: "une-actualite-en-large"
-    position: 3
-    rank: 2
+    slug: >-
+      une-actualite-en-large
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: posts
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -436,17 +480,24 @@ contents:
         - "2023/2023-08-02-proposition-de-loi-relative-a-la-responsabilite-des-medias-dans-le-traitement-des-enjeux-environneme"
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Plusieurs actualités en large
-    slug: "plusieurs-actualites-en-large"
-    position: 4
-    rank: 2
+    slug: >-
+      plusieurs-actualites-en-large
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: posts
     title: >-
       À la une
+    slug: >-
+      a-la-une
     ranks:
       self: 3
       children: 4
@@ -473,6 +524,8 @@ contents:
     template: posts
     title: >-
       Toutes les actualités - Carousel
+    slug: >-
+      toutes-les-actualites-carousel
     ranks:
       self: 3
       children: 4
@@ -499,6 +552,8 @@ contents:
     template: posts
     title: >-
       La liste des catégories
+    slug: >-
+      la-liste-des-categories
     ranks:
       self: 3
     data:
@@ -514,7 +569,6 @@ contents:
         summary: true
 
       posts:
-
 
 
 

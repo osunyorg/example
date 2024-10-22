@@ -63,17 +63,19 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 2
+  seconds: 10
   text: >-
     moins d'une minute
 contents:
   - kind: block
     template: pages
     title: >-
-      Les blocs techniques
+      
+    slug: >-
+      
     ranks:
-      self: 2
-      children: 3
+      self: false
+      children: 2
     data:
       page:
         path: "/fr/blocks/blocks-techniques/"
@@ -104,6 +106,8 @@ contents:
     template: pages
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
       children: 2
@@ -121,16 +125,24 @@ contents:
           external: false
 
 
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Contenus similaires
-    slug: "contenus-similaires"
-    position: 1
-    rank: 2
+    slug: >-
+      contenus-similaires
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
       Mise en page Grille
+    slug: >-
+      mise-en-page-grille
     ranks:
       self: 3
     data:
@@ -151,6 +163,8 @@ contents:
     template: pages
     title: >-
       Mise en page liste
+    slug: >-
+      mise-en-page-liste
     ranks:
       self: 3
       children: 4
@@ -184,17 +198,24 @@ contents:
           external: false
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Pour aller plus loin...
-    slug: "pour-aller-plus-loin"
-    position: 2
-    rank: 2
+    slug: >-
+      pour-aller-plus-loin
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
       Mise en page cartes
+    slug: >-
+      mise-en-page-cartes
     ranks:
       self: 3
       children: 4
@@ -252,6 +273,8 @@ contents:
     template: pages
     title: >-
       Mise en page alternance
+    slug: >-
+      mise-en-page-alternance
     ranks:
       self: 3
       children: 4
@@ -305,20 +328,27 @@ contents:
           external: false
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Différents contenus
-    slug: "differents-contenus"
-    position: 3
-    rank: 2
+    slug: >-
+      differents-contenus
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
-      Les blocs de listes
+      
+    slug: >-
+      
     ranks:
-      self: 3
-      children: 4
+      self: false
+      children: 3
     data:
       page:
         path: "/fr/blocks/blocs-de-liste/"
@@ -344,10 +374,12 @@ contents:
   - kind: block
     template: pages
     title: >-
-      Les blocs de listes
+      
+    slug: >-
+      
     ranks:
-      self: 3
-      children: 4
+      self: false
+      children: 3
     data:
       page:
         path: "/fr/blocks/blocs-de-liste/"
@@ -402,6 +434,8 @@ contents:
     template: pages
     title: >-
       Un bloc avec un titre, sans page principale
+    slug: >-
+      un-bloc-avec-un-titre-sans-page-principale
     ranks:
       self: 3
       children: 4
@@ -431,6 +465,8 @@ contents:
     template: pages
     title: >-
       Un bloc avec un titre
+    slug: >-
+      un-bloc-avec-un-titre
     ranks:
       self: 3
       children: 4
@@ -468,6 +504,8 @@ contents:
     template: pages
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
     data:
@@ -478,7 +516,6 @@ contents:
 
       layout: grid
       pages:
-
 
 
 

@@ -61,19 +61,27 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 75
+  seconds: 74
   text: >-
     1 minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Dailymotion
-    slug: "dailymotion"
-    position: 1
-    rank: 2
+    slug: >-
+      dailymotion
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: video
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -107,16 +115,23 @@ contents:
           <iframe class="dailymotion" loading="lazy" src="https://www.dailymotion.com/embed/video/x7g0r3f" title=" Les plus beaux parcs naturels de France"></iframe>
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Vimeo
-    slug: "vimeo"
-    position: 2
-    rank: 2
+    slug: >-
+      vimeo
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: video
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -150,16 +165,23 @@ contents:
           <iframe class="vimeo" loading="lazy" src="https://player.vimeo.com/video/121124509" title="Immersion"></iframe>
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Youtube
-    slug: "youtube"
-    position: 3
-    rank: 2
+    slug: >-
+      youtube
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: video
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -197,6 +219,8 @@ contents:
     template: video
     title: >-
       Youtube avec autoplay
+    slug: >-
+      youtube-avec-autoplay
     ranks:
       self: 3
     data:
@@ -229,16 +253,23 @@ contents:
           <iframe class="youtube" loading="lazy" src="https://www.youtube.com/embed/gUZo1J683nE" title="Video"></iframe>
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Peertube
-    slug: "peertube"
-    position: 4
-    rank: 2
+    slug: >-
+      peertube
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: video
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -272,17 +303,24 @@ contents:
           <iframe class="peertube" loading="lazy" src="https://peertube.fr/videos/embed/4VZnAmM8jUqoBmUWm8Hn7F" title="Video"></iframe>
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Plateformes non prises en charge
-    slug: "plateformes-non-prises-en-charge"
-    position: 5
-    rank: 2
+    slug: >-
+      plateformes-non-prises-en-charge
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: video
     title: >-
       Odysee
+    slug: >-
+      odysee
     ranks:
       self: 3
     data:
@@ -319,6 +357,8 @@ contents:
     template: video
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
     data:
@@ -333,7 +373,6 @@ contents:
 
       transcription: >-
         
-
 
 
 

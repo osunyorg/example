@@ -39,19 +39,27 @@ summary: >-
   <p>Résumé de la catégorie "À la une". </p>
 
 contents_reading_time:
-  seconds: 3
+  seconds: 4
   text: >-
     less than a minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Les articles à la une
-    slug: "les-articles-a-la-une"
-    position: 1
-    rank: 2
+    slug: >-
+      les-articles-a-la-une
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -76,6 +84,8 @@ contents:
     template: posts
     title: >-
       Les articles
+    slug: >-
+      les-articles
     ranks:
       self: 3
     data:
@@ -98,6 +108,8 @@ contents:
     template: pages
     title: >-
       Les offres
+    slug: >-
+      les-offres
     ranks:
       self: 3
     data:
@@ -112,7 +124,6 @@ contents:
 
       layout: cards
       pages:
-
 
 
 

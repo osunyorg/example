@@ -65,15 +65,23 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       CC0 | Public Domain Dedication
-    slug: "cc0-public-domain-dedication"
-    position: 1
-    rank: 2
+    slug: >-
+      cc0-public-domain-dedication
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: license
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -90,16 +98,23 @@ contents:
         url: https://creativecommons.org/publicdomain/zero/1.0/
         icons: ["cc", "zero"]
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       CC BY-NC-SA
-    slug: "cc-by-nc-sa"
-    position: 2
-    rank: 2
+    slug: >-
+      cc-by-nc-sa
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: license
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -115,7 +130,6 @@ contents:
           CC BY-NC-SA 4.0
         url: https://creativecommons.org/licenses/by-nc-sa/4.0/
         icons: ["cc", "by", "nc", "sa"]
-
 
 
 ---

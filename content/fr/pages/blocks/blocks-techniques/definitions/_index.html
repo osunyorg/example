@@ -61,20 +61,28 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 104
+  seconds: 106
   text: >-
     2 minutes
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       1 définition - Texte - Titre
-    slug: "1-definition-texte-titre"
-    position: 1
-    rank: 2
+    slug: >-
+      1-definition-texte-titre
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: definitions
     title: >-
       Test des sauts de ligne
+    slug: >-
+      test-des-sauts-de-ligne
     ranks:
       self: 3
     data:
@@ -90,16 +98,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       1 définition - Titre sans Texte
-    slug: "1-definition-titre-sans-texte"
-    position: 2
-    rank: 2
+    slug: >-
+      1-definition-titre-sans-texte
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: definitions
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -116,16 +131,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       1 définition - Texte sans Titre
-    slug: "1-definition-texte-sans-titre"
-    position: 3
-    rank: 2
+    slug: >-
+      1-definition-texte-sans-titre
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: definitions
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -142,16 +164,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Plusieurs définitions - Texte - Titre
-    slug: "plusieurs-definitions-texte-titre"
-    position: 4
-    rank: 2
+    slug: >-
+      plusieurs-definitions-texte-titre
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: definitions
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -180,16 +209,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Plusieurs définitions - Titre avec et sans Texte
-    slug: "plusieurs-definitions-titre-avec-et-sans-texte"
-    position: 5
-    rank: 2
+    slug: >-
+      plusieurs-definitions-titre-avec-et-sans-texte
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: definitions
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -218,16 +254,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Plusieurs définitions - Texte avec et sans Titre
-    slug: "plusieurs-definitions-texte-avec-et-sans-titre"
-    position: 6
-    rank: 2
+    slug: >-
+      plusieurs-definitions-texte-avec-et-sans-titre
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: definitions
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -253,7 +296,6 @@ contents:
 
           description: >-
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non nisl nec nibh pellentesque scelerisque at at magna. Donec sodales lacus ut lacus ullamcorper ornare. Proin imperdiet in urna vel mattis.</p>
-
 
 
 
