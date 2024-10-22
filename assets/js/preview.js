@@ -1,4 +1,3 @@
-// import './vendors/lightbox';
 import './theme/components/carousel';
 import './theme/utils/a11y';
 import './theme/utils/breakpoints';
