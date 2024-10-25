@@ -1,0 +1,11 @@
+---
+title: Top menu
+items:
+- title: CIDS
+  target: "/fr/"
+  kind: page
+  children: []
+- title: MIDS
+  target: https://mids.cids.osuny.site/
+  kind: url
+  children: []
