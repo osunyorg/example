@@ -5,4 +5,8 @@ items:
   target: "/fr/blocks/blocs-de-mise-en-page/"
   kind: page
   children: []
+- title: Équipe
+  target: "/fr/equipe/"
+  kind: page
+  children: []
 
