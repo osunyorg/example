@@ -1,4 +1,8 @@
 ---
 title: menu test
-items: []
+items:
+- title: Un contenu textuel
+  target: ''
+  kind: blank
+  children: []
 
