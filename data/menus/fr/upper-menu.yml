@@ -1,4 +1,8 @@
 ---
 title: Upper menu
-items: []
+items:
+- title: Blocs de mise en page
+  target: "/fr/blocks/blocs-de-mise-en-page/"
+  kind: page
+  children: []
 
