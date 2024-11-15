@@ -1,0 +1,19 @@
+---
+title: Upper menu
+items:
+- title: Offre de formation
+  target: "/fr/offre-de-formation/"
+  kind: page
+  children: []
+- title: Actualités
+  target: "/fr/actualites/"
+  kind: page
+  children: []
+- title: Équipe pédagogique
+  target: "/fr/equipe/equipe-pedagogique/"
+  kind: page
+  children: []
+- title: Projets
+  target: "/fr/projets/"
+  kind: page
+  children: []
