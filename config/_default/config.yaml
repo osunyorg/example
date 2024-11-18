@@ -1,7 +1,8 @@
 theme: osuny
-paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
+pagination:
+  pagerSize: 36
 params:
   debug:
     active: true
