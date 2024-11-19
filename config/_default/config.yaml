@@ -21,3 +21,9 @@ params:
   persons:
     single:
       backlinks: true
+  blocks:
+    testimonials:
+      slider:
+        pagination: true
+        autoplay: true
+        interval: 2000 # 5000
