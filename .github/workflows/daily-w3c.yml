@@ -1,4 +1,7 @@
 on:
+  push:
+    branches:
+      - w3c-validator
   workflow_dispatch:
   schedule:
     - cron: '0 2 * * *'
