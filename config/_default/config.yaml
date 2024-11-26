@@ -1,8 +1,5 @@
 theme: osuny
-enableRobotsTXT: true
-removePathAccents: true
-pagination:
-  pagerSize: 36
+_merge: deep
 params:
   debug:
     active: true
