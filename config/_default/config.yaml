@@ -16,6 +16,7 @@ params:
       darkmode: "/assets/images/logo-white.svg"
   search:
     active: true
+    position: primary # primary | upper-menu | fixed | footer
   organizations:
     single:
       backlinks: true
