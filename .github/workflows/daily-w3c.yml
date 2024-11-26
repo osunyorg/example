@@ -32,4 +32,4 @@ jobs:
           curl -G "https://validator.w3.org/nu/" --data-urlencode "doc=${{ matrix.url }}" --data-urlencode "out=json" > w3c-response.json
       - name: Send JSON response to webhook
         run: |
-          curl -X POST -H "Content-Type: application/json" -H "X-Secret-Token: ${{ secrets.W3C_CI_API_SECRET }}" -d @w3c-response.json ${{ secrets.W3C_CI_API_URL }}
+          curl --write-out '%{http_code}' --silent --output /dev/null -X POST -H "Content-Type: application/json" -H "X-Secret-Token: ${{ secrets.W3C_CI_API_SECRET }}" -d @w3c-response.json ${{ secrets.W3C_CI_API_URL }}
