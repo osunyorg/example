@@ -10,8 +10,6 @@ import './theme/design-system/Lightbox';
 import './theme/design-system/sliders';
 import './theme/design-system/notes';
 
-import './theme/blocks/locations';
 import './theme/blocks/keyFigures';
-import './theme/blocks/organizations';
 import './theme/blocks/timeline';
 import './theme/blocks/videos';
