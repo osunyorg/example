@@ -49,6 +49,12 @@ roles:
   - title: >-
       Direction
     persons:
-      - "arnaud-levy"
-      - "magali-angles"
+      - permalink: "/fr/equipe/arnaud-levy/"
+        path: "/persons/arnaud-levy"
+        slug: "arnaud-levy"
+        file: "content/fr/persons/arnaud-levy.html"
+      - permalink: "/fr/equipe/magali-angles/"
+        path: "/persons/magali-angles"
+        slug: "magali-angles"
+        file: "content/fr/persons/magali-angles.html"
 ---
