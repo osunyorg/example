@@ -7,27 +7,60 @@ fr:
   languageCode: fr
   languageName: Français
   params:
-    social:
-      email: >-
-        contact@osuny.org
-      mastodon: >-
-        https://www.linkedin.com/company/osuny/
-      peertube: >-
-        https://www.linkedin.com/company/osuny/
-      x: >-
-        https://x.com/noesya_coop?lang=fr
-      github: >-
-        https://github.com/osunyorg
-      linkedin: >-
-        https://www.linkedin.com/company/osuny/
-      vimeo: >-
-        https://vimeo.com/noesya
-      instagram: >-
-        https://www.linkedin.com/company/osuny/
-      facebook: >-
-        https://www.linkedin.com/company/osuny/
-      tiktok: >-
-        https://www.linkedin.com/company/osuny/
+    contact_details:
+      emails:
+        email:
+          label: >-
+            contact@osuny.org
+          value: >-
+            mailto:contact@osuny.org
+      social_networks:
+        facebook:
+          label: >-
+            linkedin.comcompanyosuny
+          value: >-
+            https://www.facebook.com/linkedin.comcompanyosuny
+        github:
+          label: >-
+            osunyorg
+          value: >-
+            https://github.com/osunyorg
+        instagram:
+          label: >-
+            linkedin.comcompanyosuny
+          value: >-
+            https://instagram.com/linkedin.comcompanyosuny
+        linkedin:
+          label: >-
+            osuny
+          value: >-
+            https://www.linkedin.com/company/osuny/
+        mastodon:
+          label: >-
+            www.linkedin.com/company/osuny/
+          value: >-
+            https://www.linkedin.com/company/osuny/
+        peertube:
+          label: >-
+            www.linkedin.com/company/osuny/
+          value: >-
+            https://www.linkedin.com/company/osuny/
+        tiktok:
+          label: >-
+            linkedin.comcompanyosuny
+          value: >-
+            https://www.tiktok.com/@linkedin.comcompanyosuny
+        vimeo:
+          label: >-
+            noesya
+          value: >-
+            https://vimeo.com/noesya
+        x:
+          label: >-
+            noesya_coop?lang=fr
+          value: >-
+            https://x.com/noesya_coop?lang=fr
+
   permalinks:
     locations: /campus/:slug/
     events: /agenda/:year-:month-:day-:slug/
@@ -67,27 +100,60 @@ en:
   languageCode: en
   languageName: English
   params:
-    social:
-      email: >-
-        contact@osuny.org
-      mastodon: >-
-        https://www.linkedin.com/company/osuny/
-      peertube: >-
-        https://www.linkedin.com/company/osuny/
-      x: >-
-        https://x.com/noesya_coop?lang=fr
-      github: >-
-        https://github.com/osunyorg
-      linkedin: >-
-        https://www.linkedin.com/company/osuny/
-      vimeo: >-
-        https://vimeo.com/noesya
-      instagram: >-
-        https://www.linkedin.com/company/osuny/
-      facebook: >-
-        https://www.linkedin.com/company/osuny/
-      tiktok: >-
-        https://www.linkedin.com/company/osuny/
+    contact_details:
+      emails:
+        email:
+          label: >-
+            contact@osuny.org
+          value: >-
+            mailto:contact@osuny.org
+      social_networks:
+        facebook:
+          label: >-
+            linkedin.comcompanyosuny
+          value: >-
+            https://www.facebook.com/linkedin.comcompanyosuny
+        github:
+          label: >-
+            osunyorg
+          value: >-
+            https://github.com/osunyorg
+        instagram:
+          label: >-
+            linkedin.comcompanyosuny
+          value: >-
+            https://instagram.com/linkedin.comcompanyosuny
+        linkedin:
+          label: >-
+            osuny
+          value: >-
+            https://www.linkedin.com/company/osuny/
+        mastodon:
+          label: >-
+            www.linkedin.com/company/osuny/
+          value: >-
+            https://www.linkedin.com/company/osuny/
+        peertube:
+          label: >-
+            www.linkedin.com/company/osuny/
+          value: >-
+            https://www.linkedin.com/company/osuny/
+        tiktok:
+          label: >-
+            linkedin.comcompanyosuny
+          value: >-
+            https://www.tiktok.com/@linkedin.comcompanyosuny
+        vimeo:
+          label: >-
+            noesya
+          value: >-
+            https://vimeo.com/noesya
+        x:
+          label: >-
+            noesya_coop?lang=fr
+          value: >-
+            https://x.com/noesya_coop?lang=fr
+
   permalinks:
     locations: /campus/:slug/
     events: /agenda/:year-:month-:day-:slug/

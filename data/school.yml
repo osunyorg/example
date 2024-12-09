@@ -10,6 +10,8 @@ url: ""
 contact_details:
   postal_address:
     data:
+      address_name: >-
+        
       address: >-
         15 rue Hélène
       address_additional: >-
@@ -18,19 +20,21 @@ contact_details:
         75017
       city: >-
         Paris
-      country: >-
+      country:
         name: >-
           France
         alpha2: >-
           FR
         alpha3: >-
           FRA
-      country: >-
-        France
+    geolocation:
+      latitude: 
+      longitude: 
     text: >-
       15 rue Hélène 75017 Paris FRANCE
     html: >-
       <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">15 rue Hélène</span> <span itemprop="postalCode">75017</span> <span itemprop="addressLocality">Paris</span> <span itemprop="addressCountry">FRANCE</span></address>
+
 logo:
   id: "b4690f78-5ec2-4969-83d3-40399161598c"
 administrators:
