@@ -4,54 +4,63 @@ items:
 - title: Actualités
   target: "/en/actualites-1/"
   kind: page
+  new_tab: false
   children: []
   path: "/posts"
   file: content/en/posts/_index.html
 - title: Formations
   target: "/en/formations/"
   kind: page
+  new_tab: false
   children: []
   path: "/programs"
   file: content/en/programs/_index.html
 - title: Équipe
   target: "/en/equipe/"
   kind: page
+  new_tab: false
   children: []
   path: "/persons"
   file: content/en/persons/_index.html
 - title: Organisations
   target: "/en/organisations/"
   kind: page
+  new_tab: false
   children: []
   path: "/organizations"
   file: content/en/organizations/_index.html
 - title: Diplomas
   target: "/en/diplomas/"
   kind: page
+  new_tab: false
   children: []
   path: "/diplomas"
   file: content/en/diplomas/_index.html
 - title: Publications HAL
   target: "/en/publications/"
   kind: page
+  new_tab: false
   children: []
   path: "/publications"
   file: content/en/publications/_index.html
 - title: Agenda
   target: "/en/agenda/"
   kind: page
+  new_tab: false
   children: []
   path: "/events"
   file: content/en/events/_index.html
 - title: Campus
   target: "/en/campus/"
   kind: page
+  new_tab: false
   children: []
   path: "/locations"
   file: content/en/locations/_index.html
 - title: Projects
   target: "/en/projects/"
   kind: page
+  new_tab: false
   children: []
   path: "/projects"
   file: content/en/projects/_index.html

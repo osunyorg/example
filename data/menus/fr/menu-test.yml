@@ -4,5 +4,6 @@ items:
 - title: Un contenu textuel
   target: ''
   kind: blank
+  new_tab: false
   children: []
 

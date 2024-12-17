@@ -4,16 +4,19 @@ items:
 - title: Offre de formation
   target: "/fr/offre-de-formation/"
   kind: page
+  new_tab: false
   children:
   - title: Liste des formations
     target: "/fr/offre-de-formation/"
     kind: page
+    new_tab: false
     children: []
     path: "/programs"
     file: content/fr/programs/_index.html
   - title: Liste des diplômes
     target: "/fr/diplomes/"
     kind: page
+    new_tab: false
     children: []
     path: "/diplomas"
     file: content/fr/diplomas/_index.html
@@ -22,20 +25,24 @@ items:
 - title: Pages spéciales
   target: ''
   kind: blank
+  new_tab: false
   children:
   - title: Actualités
     target: "/fr/actualites/"
     kind: page
+    new_tab: false
     children:
     - title: À la une
       target: "/fr/actualites/a-la-une/"
       kind: category
+      new_tab: false
       children: []
       path: "/posts_categories/a-la-une"
       file: content/fr/posts_categories/a-la-une/_index.html
     - title: Vie étudiante
       target: "/fr/actualites/vie-etudiante/"
       kind: category
+      new_tab: false
       children: []
       path: "/posts_categories/vie-etudiante"
       file: content/fr/posts_categories/vie-etudiante/_index.html
@@ -44,28 +51,33 @@ items:
   - title: Équipe
     target: "/fr/equipe/"
     kind: page
+    new_tab: false
     children:
     - title: Équipe administrative
       target: "/fr/equipe/equipe-administrative/"
       kind: page
+      new_tab: false
       children: []
       path: "/administrators"
       file: content/fr/administrators/_index.html
     - title: Équipe éditoriale
       target: "/fr/equipe/equipe-editoriale/"
       kind: page
+      new_tab: false
       children: []
       path: "/authors"
       file: content/fr/authors/_index.html
     - title: Équipe de recherche
       target: "/fr/equipe/equipe-de-recherche/"
       kind: page
+      new_tab: false
       children: []
       path: "/researchers"
       file: content/fr/researchers/_index.html
     - title: Équipe pédagogique
       target: "/fr/equipe/equipe-pedagogique/"
       kind: page
+      new_tab: false
       children: []
       path: "/teachers"
       file: content/fr/teachers/_index.html
@@ -74,24 +86,28 @@ items:
   - title: Organisations
     target: "/fr/organisations/"
     kind: page
+    new_tab: false
     children: []
     path: "/organizations"
     file: content/fr/organizations/_index.html
   - title: Agenda
     target: "/fr/agenda/"
     kind: page
+    new_tab: false
     children: []
     path: "/events"
     file: content/fr/events/_index.html
   - title: Projets
     target: "/fr/projets/"
     kind: page
+    new_tab: false
     children: []
     path: "/projects"
     file: content/fr/projects/_index.html
   - title: Campus
     target: "/fr/campus/"
     kind: page
+    new_tab: false
     children: []
     path: "/locations"
     file: content/fr/locations/_index.html
@@ -100,38 +116,45 @@ items:
 - title: Blocs
   target: ''
   kind: blank
+  new_tab: false
   children:
   - title: Les blocs de base
     target: "/fr/blocks/blocks-de-base/"
     kind: page
+    new_tab: false
     children:
     - title: Les chapitres
       target: "/fr/blocks/blocks-de-base/chapitres/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocks-de-base/chapitres"
       file: content/fr/pages/blocks/blocks-de-base/chapitres/_index.html
     - title: Les images
       target: "/fr/blocks/blocks-de-base/image/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocks-de-base/image"
       file: content/fr/pages/blocks/blocks-de-base/image/_index.html
     - title: Les vidéos
       target: "/fr/blocks/blocks-de-base/videos/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocks-de-base/videos"
       file: content/fr/pages/blocks/blocks-de-base/videos/_index.html
     - title: Les tableaux
       target: "/fr/blocks/blocks-de-base/tableau/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocks-de-base/tableau"
       file: content/fr/pages/blocks/blocks-de-base/tableau/_index.html
     - title: Les sons
       target: "/fr/blocks/blocks-de-base/les-sons/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocks-de-base/les-sons"
       file: content/fr/pages/blocks/blocks-de-base/les-sons/_index.html
@@ -140,40 +163,47 @@ items:
   - title: Les blocs narratifs
     target: "/fr/blocks/blocks-narratifs/"
     kind: page
+    new_tab: false
     children:
     - title: Les chiffre clés
       target: "/fr/blocks/blocks-narratifs/chiffre-cles/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocks-narratifs/chiffre-cles"
       file: content/fr/pages/blocks/blocks-narratifs/chiffre-cles/_index.html
     - title: Les galeries
       target: "/fr/blocks/blocks-narratifs/galeries/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocks-narratifs/galeries"
       file: content/fr/pages/blocks/blocks-narratifs/galeries/_index.html
     - title: Les appels à action
       target: "/fr/blocks/blocks-narratifs/appels-a-action/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocks-narratifs/appels-a-action"
       file: content/fr/pages/blocks/blocks-narratifs/appels-a-action/_index.html
     - title: Les témoignages
       target: "/fr/blocks/blocks-narratifs/temoignages/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocks-narratifs/temoignages"
       file: content/fr/pages/blocks/blocks-narratifs/temoignages/_index.html
     - title: Les frises
       target: "/fr/blocks/blocks-narratifs/frise/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocks-narratifs/frise"
       file: content/fr/pages/blocks/blocks-narratifs/frise/_index.html
     - title: Les fonctionnalités
       target: "/fr/blocks/blocks-narratifs/les-fonctionnalites/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocks-narratifs/les-fonctionnalites"
       file: content/fr/pages/blocks/blocks-narratifs/les-fonctionnalites/_index.html
@@ -182,52 +212,61 @@ items:
   - title: Les blocs de listes
     target: "/fr/blocks/blocs-de-liste/"
     kind: page
+    new_tab: false
     children:
     - title: Les pages
       target: "/fr/blocks/blocs-de-liste/pages/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocs-de-liste/pages"
       file: content/fr/pages/blocks/blocs-de-liste/pages/_index.html
     - title: Les actualités
       target: "/fr/blocks/blocs-de-liste/actualites-1/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocs-de-liste/actualites-1"
       file: content/fr/pages/blocks/blocs-de-liste/actualites-1/_index.html
     - title: Les personnes
       target: "/fr/blocks/blocs-de-liste/organigramme/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocs-de-liste/organigramme"
       file: content/fr/pages/blocks/blocs-de-liste/organigramme/_index.html
     - title: Les organisations
       target: "/fr/blocks/blocs-de-liste/partenaires/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocs-de-liste/partenaires"
       file: content/fr/pages/blocks/blocs-de-liste/partenaires/_index.html
     - title: Les formations
       target: "/fr/blocks/blocs-de-liste/programmes/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocs-de-liste/programmes"
       file: content/fr/pages/blocks/blocs-de-liste/programmes/_index.html
     - title: 'Les événements '
       target: "/fr/blocks/blocs-de-liste/agenda-1/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocs-de-liste/agenda-1"
       file: content/fr/pages/blocks/blocs-de-liste/agenda-1/_index.html
     - title: Les projets
       target: "/fr/blocks/blocs-de-liste/les-projets/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocs-de-liste/les-projets"
       file: content/fr/pages/blocks/blocs-de-liste/les-projets/_index.html
     - title: Les campus
       target: "/fr/blocks/blocs-de-liste/campus-1/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocs-de-liste/campus-1"
       file: content/fr/pages/blocks/blocs-de-liste/campus-1/_index.html
@@ -236,40 +275,47 @@ items:
   - title: Les blocs techniques
     target: "/fr/blocks/blocks-techniques/"
     kind: page
+    new_tab: false
     children:
     - title: Les fichiers
       target: "/fr/blocks/blocks-techniques/fichiers/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocks-techniques/fichiers"
       file: content/fr/pages/blocks/blocks-techniques/fichiers/_index.html
     - title: Les définitions
       target: "/fr/blocks/blocks-techniques/definitions/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocks-techniques/definitions"
       file: content/fr/pages/blocks/blocks-techniques/definitions/_index.html
     - title: Les intégrations HTML
       target: "/fr/blocks/blocks-techniques/integration-html/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocks-techniques/integration-html"
       file: content/fr/pages/blocks/blocks-techniques/integration-html/_index.html
     - title: Les contacts
       target: "/fr/blocks/blocks-techniques/contact/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocks-techniques/contact"
       file: content/fr/pages/blocks/blocks-techniques/contact/_index.html
     - title: Les licences
       target: "/fr/blocks/blocks-techniques/licences/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocks-techniques/licences"
       file: content/fr/pages/blocks/blocks-techniques/licences/_index.html
     - title: Les liens
       target: "/fr/blocks/blocks-techniques/liens/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/blocks/blocks-techniques/liens"
       file: content/fr/pages/blocks/blocks-techniques/liens/_index.html
@@ -278,6 +324,7 @@ items:
   - title: Comment composer avec les blocs ?
     target: "/fr/exemples/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/exemples"
     file: content/fr/pages/exemples/_index.html
