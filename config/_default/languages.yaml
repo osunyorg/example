@@ -63,9 +63,9 @@ fr:
 
   permalinks:
     locations: /campus/:slug/
-    events: /agenda/:year-:month-:day-:slug/
-    events_categories: /agenda/:slug/
-    exhibitions: /expositions/:year-:month-:day-:slug/
+    agenda_categories: /agenda/:slug/
+    agenda_events: /agenda/:year-:month-:day-:slug/
+    agenda_exhibitions: /expositions/:year-:month-:day-:slug/
     projects: /projets/:year-:slug/
     projects_categories: /projets/:slug/
     posts: /actualites/:year-:month-:day-:slug/
@@ -157,9 +157,9 @@ en:
 
   permalinks:
     locations: /campus/:slug/
-    events: /agenda/:year-:month-:day-:slug/
-    events_categories: /agenda/:slug/
-    exhibitions: /exhibitions/:year-:month-:day-:slug/
+    agenda_categories: /agenda/:slug/
+    agenda_events: /agenda/:year-:month-:day-:slug/
+    agenda_exhibitions: /exhibitions/:year-:month-:day-:slug/
     projects: /projects/:year-:slug/
     projects_categories: /projects/:slug/
     posts: /actualites-1/:year-:month-:day-:slug/
