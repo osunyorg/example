@@ -20,8 +20,3 @@ params:
   persons:
     single:
       backlinks: true
-  image_sizes:
-    design_system:
-      lightbox:
-        in_gallery:
-          disabled: true
