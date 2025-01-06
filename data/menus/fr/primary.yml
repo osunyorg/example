@@ -1,7 +1,7 @@
 ---
 title: Menu principal
 items:
-- title: Offre de formation
+- title: Les offres de formation
   target: "/fr/offre-de-formation/"
   kind: page
   new_tab: false
