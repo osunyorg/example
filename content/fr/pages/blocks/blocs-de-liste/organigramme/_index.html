@@ -10,7 +10,7 @@ aliases:
   - /blocks/blocs-de-liste/organigramme/
   - /blocks/blocks-de-liste/organigramme/
 date: 2023-11-17T11:39:19+01:00
-lastmod: 2025-01-09T10:06:52+01:00
+lastmod: 2025-01-09T10:07:53+01:00
 meta:
   hugo:
     permalink: "/fr/blocks/blocs-de-liste/organigramme/"
@@ -19,7 +19,7 @@ meta:
     slug: "organigramme"
   dates:
     created_at: 2022-07-12T14:52:18+02:00
-    updated_at: 2025-01-09T10:06:52+01:00
+    updated_at: 2025-01-09T10:07:53+01:00
     published_at: 2023-11-17T11:39:19+01:00
 
 breadcrumbs:
@@ -69,7 +69,7 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 48
+  seconds: 49
   text: >-
     1 minute
 contents:
@@ -429,6 +429,25 @@ contents:
 
 
   - kind: block
+    template: title
+    title: >-
+      Layout "grand"
+    slug: >-
+      layout-grand
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Layout "grand"
+        heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
     template: persons
     title: >-
       
@@ -436,20 +455,28 @@ contents:
       
     ranks:
       base: 3
+      children: 3
     top:
       active: false
     data:
       description: >-
         
 
-      layout: grid
+      layout: large
       options:
         image: true
         summary: true
         link: true
-        contact: false
+        contact: true
 
       persons:
+        - permalink: "/fr/equipe/arnaud-levy/"
+          path: "/persons/arnaud-levy"
+          slug: "arnaud-levy"
+          file: "content/fr/persons/arnaud-levy.html"
+          role: >-
+            Développeur back-end
+
 
 
 
