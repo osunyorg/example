@@ -64,28 +64,47 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 0
+  seconds: 2
   text: >-
     moins d'une minute
 contents:
   - kind: block
     template: pages
     title: >-
-      
+      Les pages de la taxonomie "sujet"
     slug: >-
-      
+      les-pages-de-la-taxonomie-sujet
     ranks:
       base: 2
+      self: 2
+      children: 3
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Les pages de la taxonomie "sujet"
+        heading: 2
+        link: "/fr/une-rubrique-de-pages/"
+      description: >-
+        <p>Pour tester les catégories de pages.</p>
     data:
+      page:
+        permalink: "/fr/une-rubrique-de-pages/"
+        path: "/pages/une-rubrique-de-pages"
+        slug: "une-rubrique-de-pages"
+        file: "content/fr/pages/une-rubrique-de-pages/_index.html"
+      category: "sujet"
       options:
         image: true
         main_summary: true
         summary: true
 
-      layout: grid
+      layout: list
       pages:
+        - permalink: "/fr/une-rubrique-de-pages/une-page-avec-des-categories/"
+          path: "/pages/une-rubrique-de-pages/une-page-avec-des-categories"
+          slug: "une-page-avec-des-categories"
+          file: "content/fr/pages/une-rubrique-de-pages/une-page-avec-des-categories/_index.html"
 
 
 
