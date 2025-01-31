@@ -10,7 +10,7 @@ aliases:
   - /blocks/blocs-de-liste/pages/
   - /blocks/blocks-de-liste/pages/
 date: 2023-11-23T12:43:18+01:00
-lastmod: 2025-01-31T15:15:08+01:00
+lastmod: 2025-01-31T16:12:22+01:00
 meta:
   hugo:
     permalink: "/fr/blocks/blocs-de-liste/pages/"
@@ -19,7 +19,7 @@ meta:
     slug: "pages"
   dates:
     created_at: 2022-05-24T14:16:28+02:00
-    updated_at: 2025-01-31T15:15:08+01:00
+    updated_at: 2025-01-31T16:12:22+01:00
     published_at: 2023-11-23T12:43:18+01:00
 
 breadcrumbs:
@@ -83,7 +83,7 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 14
+  seconds: 15
   text: >-
     moins d'une minute
 contents:
@@ -653,6 +653,37 @@ contents:
   - kind: block
     template: pages
     title: >-
+      Un seul bloc
+    slug: >-
+      un-seul-bloc
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Un seul bloc
+        heading: 3
+    data:
+      options:
+        image: true
+        main_summary: true
+        summary: true
+
+      layout: large
+      pages:
+        - permalink: "/fr/blocks/blocks-de-base/chapitres/"
+          path: "/pages/blocks/blocks-de-base/chapitres"
+          slug: "chapitres"
+          file: "content/fr/pages/blocks/blocks-de-base/chapitres/_index.html"
+
+
+
+  - kind: block
+    template: pages
+    title: >-
       
     slug: >-
       
@@ -669,10 +700,14 @@ contents:
 
       layout: large
       pages:
-        - permalink: "/fr/blocks/blocks-de-base/chapitres/"
-          path: "/pages/blocks/blocks-de-base/chapitres"
-          slug: "chapitres"
-          file: "content/fr/pages/blocks/blocks-de-base/chapitres/_index.html"
+        - permalink: "/fr/une-rubrique-de-pages/"
+          path: "/pages/une-rubrique-de-pages"
+          slug: "une-rubrique-de-pages"
+          file: "content/fr/pages/une-rubrique-de-pages/_index.html"
+        - permalink: "/fr/blocks/blocs-de-mise-en-page/"
+          path: "/pages/blocks/blocs-de-mise-en-page"
+          slug: "blocs-de-mise-en-page"
+          file: "content/fr/pages/blocks/blocs-de-mise-en-page/_index.html"
 
 
 
