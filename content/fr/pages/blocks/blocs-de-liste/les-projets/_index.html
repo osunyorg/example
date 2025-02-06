@@ -6,7 +6,7 @@ title: >-
 url: "/fr/blocks/blocs-de-liste/les-projets/"
 slug: "les-projets"
 date: 2024-03-18T09:09:06+01:00
-lastmod: 2025-02-06T17:35:58+01:00
+lastmod: 2025-02-06T17:36:42+01:00
 meta:
   hugo:
     permalink: "/fr/blocks/blocs-de-liste/les-projets/"
@@ -15,7 +15,7 @@ meta:
     slug: "les-projets"
   dates:
     created_at: 2024-03-18T09:09:06+01:00
-    updated_at: 2025-02-06T17:35:58+01:00
+    updated_at: 2025-02-06T17:36:42+01:00
     published_at: 2024-03-18T09:09:06+01:00
 
 breadcrumbs:
@@ -79,7 +79,7 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 19
+  seconds: 20
   text: >-
     moins d'une minute
 contents:
@@ -447,33 +447,40 @@ contents:
   - kind: block
     template: projects
     title: >-
-      
+      Affichage avec titre seul
     slug: >-
-      
+      affichage-avec-titre-seul
     ranks:
       base: 3
-      children: 3
+      self: 3
+      children: 4
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Affichage avec titre seul
+        heading: 3
+        link: "/fr/projets/"
     data:
-      mode: selection
+      mode: all
+      all: true
       layout: list
       options:
-        categories: true
-        image: true
-        subtitle: true
+        categories: false
+        image: false
+        subtitle: false
         summary: false
-        year: true
+        year: false
 
       projects:
         - permalink: "/fr/projets/2024-degrowth-journal/"
           path: "/projects/2024-degrowth-journal"
           slug: "degrowth-journal"
           file: "content/fr/projects/2024-degrowth-journal.html"
-        - permalink: "/fr/projets/2022-alt-shift/"
-          path: "/projects/2022-alt-shift"
-          slug: "alt-shift"
-          file: "content/fr/projects/2022-alt-shift.html"
+        - permalink: "/fr/projets/2023-dictionnaire-du-climat/"
+          path: "/projects/2023-dictionnaire-du-climat"
+          slug: "dictionnaire-du-climat"
+          file: "content/fr/projects/2023-dictionnaire-du-climat.html"
 
 
   - kind: block
