@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/fr/blocks/blocs-de-liste/les-categories/"
 slug: "les-categories"
 date: 2025-02-13T10:30:34+01:00
-lastmod: 2025-02-13T10:44:00+01:00
+lastmod: 2025-02-13T10:44:43+01:00
 meta:
   hugo:
     permalink: "/fr/blocks/blocs-de-liste/les-categories/"
@@ -17,7 +17,7 @@ meta:
     slug: "les-categories"
   dates:
     created_at: 2025-02-13T10:30:34+01:00
-    updated_at: 2025-02-13T10:44:00+01:00
+    updated_at: 2025-02-13T10:44:43+01:00
     published_at: 2025-02-13T10:30:34+01:00
 
 breadcrumbs:
@@ -99,9 +99,9 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 29
+  seconds: 31
   text: >-
-    moins d'une minute
+    1 minute
 contents:
   - kind: block
     template: title
@@ -648,39 +648,52 @@ contents:
   - kind: block
     template: categories
     title: >-
-      
+      Taxonomie "Lieu" des événements
     slug: >-
-      
+      taxonomie-lieu-des-evenements
     ranks:
       base: 3
+      self: 3
     top:
-      active: false
-    data:
-      layout: grid
+      active: true
+      title: 
+        value: >-
+          Taxonomie "Lieu" des événements
+        heading: 3
       description: >-
-        
+        <p>Avec toutes les options.</p>
+    data:
+      layout: alternate
+      description: >-
+        <p>Avec toutes les options.</p>
 
       options:
         count: true
         image: true
         summary: true
 
-      category_kind: pages
-      taxonomy_id: 
+      category_kind: agenda
+      taxonomy_id: 0c81d15d-edda-4452-9356-bc977ccf0203
 
+      taxonomy:
+        permalink: "/fr/agenda/lieu/"
+        path: "/events_categories/lieu"
+        slug: "lieu"
+        file: "content/fr/events_categories/lieu/_index.html"
+        name: "Lieu"
       categories:
-        - permalink: "/fr/les-communs-numeriques/"
-          path: "/pages_categories/les-communs-numeriques"
-          slug: "les-communs-numeriques"
-          file: "content/fr/pages_categories/les-communs-numeriques/_index.html"
-          name: ""
-          count: 8
-        - permalink: "/fr/types-de-blocs/"
-          path: "/pages_categories/types-de-blocs"
-          slug: "types-de-blocs"
-          file: "content/fr/pages_categories/types-de-blocs/_index.html"
-          name: ""
-          count: 9
+        - permalink: "/fr/agenda/lieu/hors-les-murs/"
+          path: "/events_categories/lieu/hors-les-murs"
+          slug: "lieu/hors-les-murs"
+          file: "content/fr/events_categories/lieu/hors-les-murs/_index.html"
+          name: "Lieu"
+          count: 1
+        - permalink: "/fr/agenda/lieu/dans-les-murs/"
+          path: "/events_categories/lieu/dans-les-murs"
+          slug: "lieu/dans-les-murs"
+          file: "content/fr/events_categories/lieu/dans-les-murs/_index.html"
+          name: "Lieu"
+          count: 1
 
 
 
