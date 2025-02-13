@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/fr/blocks/blocs-de-liste/les-categories/"
 slug: "les-categories"
 date: 2025-02-13T10:30:34+01:00
-lastmod: 2025-02-13T10:44:53+01:00
+lastmod: 2025-02-13T10:45:53+01:00
 meta:
   hugo:
     permalink: "/fr/blocks/blocs-de-liste/les-categories/"
@@ -17,7 +17,7 @@ meta:
     slug: "les-categories"
   dates:
     created_at: 2025-02-13T10:30:34+01:00
-    updated_at: 2025-02-13T10:44:53+01:00
+    updated_at: 2025-02-13T10:45:53+01:00
     published_at: 2025-02-13T10:30:34+01:00
 
 breadcrumbs:
@@ -99,7 +99,7 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 31
+  seconds: 33
   text: >-
     1 minute
 contents:
@@ -699,39 +699,58 @@ contents:
   - kind: block
     template: categories
     title: >-
-      
+      Taxonomie "Sujet" d'actualités
     slug: >-
-      
+      taxonomie-sujet-d-actualites
     ranks:
       base: 3
+      self: 3
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Taxonomie "Sujet" d'actualités
+        heading: 3
+      description: >-
+        <p>Sans description.</p>
     data:
       layout: grid
       description: >-
-        
+        <p>Sans description.</p>
 
       options:
         count: true
         image: true
-        summary: true
+        summary: false
 
-      category_kind: pages
-      taxonomy_id: 
+      category_kind: posts
+      taxonomy_id: 9df47910-87d4-4b44-b339-89ec9d4dcfc6
 
+      taxonomy:
+        permalink: "/fr/actualites/sujet/"
+        path: "/posts_categories/sujet"
+        slug: "sujet"
+        file: "content/fr/posts_categories/sujet/_index.html"
+        name: "Sujet"
       categories:
-        - permalink: "/fr/les-communs-numeriques/"
-          path: "/pages_categories/les-communs-numeriques"
-          slug: "les-communs-numeriques"
-          file: "content/fr/pages_categories/les-communs-numeriques/_index.html"
-          name: ""
-          count: 8
-        - permalink: "/fr/types-de-blocs/"
-          path: "/pages_categories/types-de-blocs"
-          slug: "types-de-blocs"
-          file: "content/fr/pages_categories/types-de-blocs/_index.html"
-          name: ""
-          count: 9
+        - permalink: "/fr/actualites/sujet/numerique-responsable/"
+          path: "/posts_categories/sujet/numerique-responsable"
+          slug: "sujet/numerique-responsable"
+          file: "content/fr/posts_categories/sujet/numerique-responsable/_index.html"
+          name: "Sujet"
+          count: 2
+        - permalink: "/fr/actualites/sujet/veille/"
+          path: "/posts_categories/sujet/veille"
+          slug: "sujet/veille"
+          file: "content/fr/posts_categories/sujet/veille/_index.html"
+          name: "Sujet"
+          count: 2
+        - permalink: "/fr/actualites/sujet/education/"
+          path: "/posts_categories/sujet/education"
+          slug: "sujet/education"
+          file: "content/fr/posts_categories/sujet/education/_index.html"
+          name: "Sujet"
+          count: 1
 
 
 
