@@ -270,6 +270,13 @@ items:
       children: []
       path: "/pages/blocks/blocs-de-liste/campus-1"
       file: content/fr/pages/blocks/blocs-de-liste/campus-1/_index.html
+    - title: Les catégories
+      target: "/fr/blocks/blocs-de-liste/les-categories/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/blocks/blocs-de-liste/les-categories"
+      file: content/fr/pages/blocks/blocs-de-liste/les-categories/_index.html
     path: "/pages/blocks/blocs-de-liste"
     file: content/fr/pages/blocks/blocs-de-liste/_index.html
   - title: Les blocs techniques
