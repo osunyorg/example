@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/fr/blocks/blocs-de-liste/les-categories/"
 slug: "les-categories"
 date: 2025-02-13T10:30:34+01:00
-lastmod: 2025-02-13T10:32:12+01:00
+lastmod: 2025-02-13T10:32:21+01:00
 meta:
   hugo:
     permalink: "/fr/blocks/blocs-de-liste/les-categories/"
@@ -17,7 +17,7 @@ meta:
     slug: "les-categories"
   dates:
     created_at: 2025-02-13T10:30:34+01:00
-    updated_at: 2025-02-13T10:32:12+01:00
+    updated_at: 2025-02-13T10:32:21+01:00
     published_at: 2025-02-13T10:30:34+01:00
 
 breadcrumbs:
@@ -99,11 +99,11 @@ contents_reading_time:
     moins d'une minute
 contents:
   - kind: block
-    template: categories
+    template: title
     title: >-
-      Toutes les catégories d'événements
+      Layout grille
     slug: >-
-      toutes-les-categories-d-evenements
+      layout-grille
     ranks:
       base: 2
       self: 2
@@ -111,8 +111,27 @@ contents:
       active: true
       title: 
         value: >-
-          Toutes les catégories d'événements
+          Layout grille
         heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: categories
+    title: >-
+      Toutes les catégories d'événements
+    slug: >-
+      toutes-les-categories-d-evenements
+    ranks:
+      base: 3
+      self: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Toutes les catégories d'événements
+        heading: 3
       description: >-
         <p>Sans taxonomies, avec toutes les options.</p>
     data:
@@ -144,22 +163,41 @@ contents:
 
 
   - kind: block
-    template: title
+    template: categories
     title: >-
-      Layout grille
+      
     slug: >-
-      layout-grille
+      
     ranks:
-      base: 2
-      self: 2
+      base: 3
     top:
-      active: true
-      title: 
-        value: >-
-          Layout grille
-        heading: 2
+      active: false
     data:
-      layout: classic
+      layout: grid
+      description: >-
+        
+
+      options:
+        count: true
+        image: true
+        summary: true
+
+      category_kind: pages
+      taxonomy_id: 
+
+      categories:
+        - permalink: "/fr/les-communs-numeriques/"
+          path: "/pages_categories/les-communs-numeriques"
+          slug: "les-communs-numeriques"
+          file: "content/fr/pages_categories/les-communs-numeriques/_index.html"
+          name: ""
+          count: 8
+        - permalink: "/fr/types-de-blocs/"
+          path: "/pages_categories/types-de-blocs"
+          slug: "types-de-blocs"
+          file: "content/fr/pages_categories/types-de-blocs/_index.html"
+          name: ""
+          count: 9
 
 
 
