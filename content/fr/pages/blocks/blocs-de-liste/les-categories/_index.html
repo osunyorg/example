@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/fr/blocks/blocs-de-liste/les-categories/"
 slug: "les-categories"
 date: 2025-02-13T10:30:34+01:00
-lastmod: 2025-02-13T10:35:22+01:00
+lastmod: 2025-02-13T10:36:16+01:00
 meta:
   hugo:
     permalink: "/fr/blocks/blocs-de-liste/les-categories/"
@@ -17,7 +17,7 @@ meta:
     slug: "les-categories"
   dates:
     created_at: 2025-02-13T10:30:34+01:00
-    updated_at: 2025-02-13T10:35:22+01:00
+    updated_at: 2025-02-13T10:36:16+01:00
     published_at: 2025-02-13T10:30:34+01:00
 
 breadcrumbs:
@@ -99,7 +99,7 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 9
+  seconds: 12
   text: >-
     moins d'une minute
 contents:
@@ -291,39 +291,46 @@ contents:
   - kind: block
     template: categories
     title: >-
-      
+      Catégories de personnes
     slug: >-
-      
+      categories-de-personnes
     ranks:
       base: 3
+      self: 3
     top:
-      active: false
-    data:
-      layout: grid
+      active: true
+      title: 
+        value: >-
+          Catégories de personnes
+        heading: 3
       description: >-
-        
+        <p>Avec le nombre d'éléments et l'image.</p>
+    data:
+      layout: list
+      description: >-
+        <p>Avec le nombre d'éléments et l'image.</p>
 
       options:
         count: true
         image: true
-        summary: true
+        summary: false
 
-      category_kind: pages
+      category_kind: persons
       taxonomy_id: 
 
       categories:
-        - permalink: "/fr/les-communs-numeriques/"
-          path: "/pages_categories/les-communs-numeriques"
-          slug: "les-communs-numeriques"
-          file: "content/fr/pages_categories/les-communs-numeriques/_index.html"
+        - permalink: "/fr/equipe/categories/gestion-de-projet/"
+          path: "/persons_categories/gestion-de-projet"
+          slug: "gestion-de-projet"
+          file: "content/fr/persons_categories/gestion-de-projet/_index.html"
+          name: ""
+          count: 2
+        - permalink: "/fr/equipe/categories/design/"
+          path: "/persons_categories/design"
+          slug: "design"
+          file: "content/fr/persons_categories/design/_index.html"
           name: ""
           count: 8
-        - permalink: "/fr/types-de-blocs/"
-          path: "/pages_categories/types-de-blocs"
-          slug: "types-de-blocs"
-          file: "content/fr/pages_categories/types-de-blocs/_index.html"
-          name: ""
-          count: 9
 
 
 
