@@ -1,4 +1,4 @@
 [submodule "themes/osuny"]
 	path = themes/osuny
 	url = git@github.com:osunyorg/theme.git
-	branch = main
+	branch = rss-test
