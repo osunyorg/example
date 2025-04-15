@@ -2,3 +2,6 @@
 	path = themes/osuny
 	url = git@github.com:osunyorg/theme.git
 	branch = main
+[submodule "themes/gaitelyrique-www"]
+	path = themes/gaitelyrique-www
+	url = https://github.com/osunyorg/gaitelyrique-www
