@@ -2,3 +2,6 @@
 	path = themes/osuny
 	url = git@github.com:osunyorg/theme.git
 	branch = main
+[submodule "themes/campus-conservatoire-pierre-barbizet"]
+	path = themes/campus-conservatoire-pierre-barbizet
+	url = git@github.com:osunyorg/campus-conservatoire-pierre-barbizet.git
