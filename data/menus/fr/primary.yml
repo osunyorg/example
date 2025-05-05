@@ -335,4 +335,11 @@ items:
     children: []
     path: "/pages/exemples"
     file: content/fr/pages/exemples/_index.html
+- title: Équipe
+  target: "/fr/equipe/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/persons"
+  file: content/fr/persons/_index.html
 
