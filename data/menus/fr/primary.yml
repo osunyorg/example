@@ -20,6 +20,13 @@ items:
     children: []
     path: "/diplomas"
     file: content/fr/diplomas/_index.html
+  - title: Offre de formation
+    target: "/fr/offre-de-formation/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/programs"
+    file: content/fr/programs/_index.html
   path: "/programs"
   file: content/fr/programs/_index.html
 - title: Pages spéciales
