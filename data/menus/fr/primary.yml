@@ -332,7 +332,21 @@ items:
     target: "/fr/exemples/"
     kind: page
     new_tab: false
-    children: []
+    children:
+    - title: Grilles des blocs de liste
+      target: "/fr/exemples/grilles-des-blocs-de-liste/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/exemples/grilles-des-blocs-de-liste"
+      file: content/fr/pages/exemples/grilles-des-blocs-de-liste/_index.html
+    - title: Archives
+      target: "/fr/exemples/grilles-des-blocs-de-liste/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/exemples/grilles-des-blocs-de-liste"
+      file: content/fr/pages/exemples/grilles-des-blocs-de-liste/_index.html
     path: "/pages/exemples"
     file: content/fr/pages/exemples/_index.html
 
