@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/fr/blocks/mises-en-page-speciales/"
 slug: "mises-en-page-speciales"
 date: 2025-05-12T09:53:51+02:00
-lastmod: 2025-05-12T09:54:39+02:00
+lastmod: 2025-05-12T09:56:56+02:00
 meta:
   hugo:
     permalink: "/fr/blocks/mises-en-page-speciales/"
@@ -17,7 +17,7 @@ meta:
     slug: "mises-en-page-speciales"
   dates:
     created_at: 2025-05-12T09:53:51+02:00
-    updated_at: 2025-05-12T09:54:39+02:00
+    updated_at: 2025-05-12T09:56:56+02:00
     published_at: 2025-05-12T09:53:51+02:00
 search:
   id: "1c7f663b-6739-4ff2-b112-7cc4e976f888"
@@ -29,7 +29,7 @@ search:
   summary: >-
     <p>Quelques subtilités permettent d'améliorer l'esthétique de certains blocs.</p>
   body: >-
-    <p>Grilles de 2 ou grilles de 3  <br> Un bloc avec deux pages </p>
+    <p>Grilles de 2 ou grilles de 3  <br>   <br>En fonction du nombre d'éléments dans une liste, nous appliquons un style différent : pour les grilles paires, les blocs seront 2 par lignes, et dans le cas de celles impaires, 3. <br>Ceci n'est valable que pour les écrans au-dessus de 992px et en pleine largeur.</p>  <p> Un bloc avec deux pages </p>  <p> Un bloc avec 3 pages </p>
 
 breadcrumbs:
   - title: >-
@@ -42,10 +42,10 @@ breadcrumbs:
       Mises en page spéciales
 
 design:
-  full_width: false
+  full_width: true
   toc:
     present: false
-    offcanvas: false
+    offcanvas: true
 
 position: 19
 weight: 19
@@ -80,6 +80,11 @@ taxonomies:
 
 translationKey: communication-website-page-cd4c107a-8fdd-4037-841e-44029411e1e7
 
+image:
+  id: "b8d8071d-414c-4cd1-9cab-57b2a2e756d9"
+  alt: ""
+  credit: >-
+    <p>Photo by <a href="https://unsplash.com/@katebranch?utm_source=osuny&utm_medium=referral"> Kate Branch</a> on <a href="https://unsplash.com/?utm_source=osuny&utm_medium=referral">Unsplash</a></p>
 
 
 meta_description: >-
@@ -98,7 +103,7 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 3
+  seconds: 17
   text: >-
     moins d'une minute
 contents:
@@ -119,6 +124,33 @@ contents:
         heading: 2
     data:
       layout: classic
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+    top:
+      active: false
+    data:
+      layout: no_background
+      text: >-
+        <p>En fonction du nombre d'éléments dans une liste, nous appliquons un style différent : pour les grilles paires, les blocs seront 2 par lignes, et dans le cas de celles impaires, 3.</p>
+
+      notes: >-
+        <p>Ceci n'est valable que pour les écrans au-dessus de 992px et en pleine largeur.</p>
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
 
 
   - kind: block
@@ -153,6 +185,45 @@ contents:
           path: "/pages/blocks/blocks-de-base/videos"
           slug: "videos"
           file: "content/fr/pages/blocks/blocks-de-base/videos/_index.html"
+
+
+
+  - kind: block
+    template: pages
+    title: >-
+      Un bloc avec 3 pages
+    slug: >-
+      un-bloc-avec-3-pages
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Un bloc avec 3 pages
+        heading: 3
+    data:
+      options:
+        image: true
+        main_summary: true
+        summary: true
+
+      layout: grid
+      pages:
+        - permalink: "/fr/blocks/blocks-techniques/fichiers/"
+          path: "/pages/blocks/blocks-techniques/fichiers"
+          slug: "fichiers"
+          file: "content/fr/pages/blocks/blocks-techniques/fichiers/_index.html"
+        - permalink: "/fr/blocks/blocks-techniques/contact/"
+          path: "/pages/blocks/blocks-techniques/contact"
+          slug: "contact"
+          file: "content/fr/pages/blocks/blocks-techniques/contact/_index.html"
+        - permalink: "/fr/blocks/blocks-techniques/definitions/"
+          path: "/pages/blocks/blocks-techniques/definitions"
+          slug: "definitions"
+          file: "content/fr/pages/blocks/blocks-techniques/definitions/_index.html"
 
 
 
