@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/fr/blocks/mises-en-page-speciales/"
 slug: "mises-en-page-speciales"
 date: 2025-05-12T09:53:51+02:00
-lastmod: 2025-05-12T10:16:14+02:00
+lastmod: 2025-05-12T10:16:35+02:00
 meta:
   hugo:
     permalink: "/fr/blocks/mises-en-page-speciales/"
@@ -17,7 +17,7 @@ meta:
     slug: "mises-en-page-speciales"
   dates:
     created_at: 2025-05-12T09:53:51+02:00
-    updated_at: 2025-05-12T10:16:14+02:00
+    updated_at: 2025-05-12T10:16:35+02:00
     published_at: 2025-05-12T09:53:51+02:00
 search:
   id: "1c7f663b-6739-4ff2-b112-7cc4e976f888"
@@ -29,7 +29,7 @@ search:
   summary: >-
     <p>Quelques subtilités permettent d'améliorer l'esthétique de certains blocs.</p>
   body: >-
-    <p>Grilles de 2 ou grilles de 3  <br>   <br>En fonction du nombre d'éléments dans une liste, nous appliquons un style différent : pour les grilles paires, les blocs seront 2 par lignes, et dans le cas de celles impaires, 3. <br>Ceci n'est valable que pour les écrans au-dessus de 992px et en pleine largeur.</p>  <p> Un bloc avec deux pages </p>  <p> Un bloc avec 3 pages </p>  <p> Un bloc avec deux actualités </p>  <p> Un bloc avec trois actualités </p>  <p> Un bloc avec deux événements </p>
+    <p>Grilles de 2 ou grilles de 3  <br>   <br>En fonction du nombre d'éléments dans une liste, nous appliquons un style différent : pour les grilles paires, les blocs seront 2 par lignes, et dans le cas de celles impaires, 3. <br>Ceci n'est valable que pour les écrans au-dessus de 992px et en pleine largeur.</p>  <p> Un bloc avec deux pages </p>  <p> Un bloc avec 3 pages </p>  <p> Un bloc avec deux actualités </p>  <p> Un bloc avec trois actualités </p>  <p> Un bloc avec deux événements </p>  <p> Un bloc avec trois événements </p>
 
 breadcrumbs:
   - title: >-
@@ -103,7 +103,7 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 21
+  seconds: 23
   text: >-
     moins d'une minute
 contents:
@@ -366,18 +366,24 @@ contents:
   - kind: block
     template: agenda
     title: >-
-      
+      Un bloc avec trois événements
     slug: >-
-      
+      un-bloc-avec-trois-evenements
     ranks:
       base: 3
-      children: 3
+      self: 3
+      children: 4
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Un bloc avec trois événements
+        heading: 3
+        link: "/fr/agenda/type-devenement/concert/"
     data:
-      mode: all
+      mode: category
       options:
-        categories: false
+        categories: true
         dates: true
         image: true
         subtitle: true
@@ -391,20 +397,25 @@ contents:
       no_event_message: >-
         
 
-      title_link: ""
+      title_link: "/fr/agenda/type-devenement/concert/"
+      category:
+        permalink: "/fr/agenda/type-devenement/concert/"
+        path: "/events_categories/type-devenement/concert"
+        slug: "type-devenement/concert"
+        file: "content/fr/events_categories/type-devenement/concert/_index.html"
       events:
-        - permalink: "/fr/agenda/2024/anne-charlotte-finel-respiro/"
-          path: "/events/2024/02/03-20-00-anne-charlotte-finel-respiro"
-          slug: "anne-charlotte-finel-respiro"
-          file: "content/fr/events/2024/02/03-20-00-anne-charlotte-finel-respiro.html"
-        - permalink: "/fr/agenda/2024/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
-          path: "/events/2024/02/03-charbel-joseph-h-boutros-the-sun-is-my-only-ally"
-          slug: "charbel-joseph-h-boutros-the-sun-is-my-only-ally"
-          file: "content/fr/events/2024/02/03-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
-        - permalink: "/fr/agenda/2025/creer-son-site-avec-osuny/"
-          path: "/events/2025/09/02-creer-son-site-avec-osuny"
-          slug: "creer-son-site-avec-osuny"
-          file: "content/fr/events/2025/09/02-creer-son-site-avec-osuny.html"
+        - permalink: "/fr/agenda/2025/arte-concert-festival-2023/koki-nakano-ft-tess-voelker/"
+          path: "/events/2025/11/02-koki-nakano-ft-tess-voelker"
+          slug: "koki-nakano-ft-tess-voelker"
+          file: "content/fr/events/2025/11/02-koki-nakano-ft-tess-voelker.html"
+        - permalink: "/fr/agenda/2025/arte-concert-festival-2023/kara-jackson/"
+          path: "/events/2025/11/03-20-00-kara-jackson"
+          slug: "kara-jackson"
+          file: "content/fr/events/2025/11/03-20-00-kara-jackson.html"
+        - permalink: "/fr/agenda/2025/arte-concert-festival-2023/alice-phoebe-lou/"
+          path: "/events/2025/11/03-alice-phoebe-lou"
+          slug: "alice-phoebe-lou"
+          file: "content/fr/events/2025/11/03-alice-phoebe-lou.html"
 
 
 
