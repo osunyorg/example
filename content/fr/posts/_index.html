@@ -10,7 +10,7 @@ slug: "actualites"
 aliases:
   - /actualites/
 date: 2022-12-02T07:25:54+01:00
-lastmod: 2025-03-27T17:40:22+01:00
+lastmod: 2025-05-26T23:44:32+02:00
 meta:
   hugo:
     permalink: "/fr/actualites/"
@@ -19,10 +19,11 @@ meta:
     slug: "actualites"
   dates:
     created_at: 2022-04-08T12:05:44+02:00
-    updated_at: 2025-03-27T17:40:22+01:00
+    updated_at: 2025-05-26T23:44:32+02:00
     published_at: 2022-12-02T07:25:54+01:00
 search:
   id: "894e1def-9f80-4192-9c4d-737daea604a3"
+  about_id: "139f7c66-5ee3-4ba9-82e1-04ab05fd7ca6"
   url: "/fr/actualites/"
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
@@ -31,7 +32,7 @@ search:
   summary: >-
     <p>Osuny permet de publier des actualités et de les classer dans des catégories</p>
   body: >-
-    
+    <p>À la une </p>
 
 breadcrumbs:
   - title: >-
@@ -45,6 +46,8 @@ design:
   toc:
     present: false
     offcanvas: true
+
+
 
 position: 1
 weight: 1
@@ -124,6 +127,13 @@ section_taxonomies:
         name: >-
           Osuny
         count: 3
+      - permalink: "/fr/actualites/osuny/fonctionnalite/fondamentale/"
+        path: "/posts_categories/osuny/fonctionnalite/fondamentale"
+        slug: "osuny/fonctionnalite/fondamentale"
+        file: "content/fr/posts_categories/osuny/fonctionnalite/fondamentale/_index.html"
+        name: >-
+          Fondamentale
+        count: 1
       - permalink: "/fr/actualites/osuny/fonctionnalite/avancee/"
         path: "/posts_categories/osuny/fonctionnalite/avancee"
         slug: "osuny/fonctionnalite/avancee"
@@ -247,9 +257,48 @@ section_taxonomies:
         count: 1
 
 contents_reading_time:
-  seconds: 0
+  seconds: 1
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: posts
+    title: >-
+      À la une
+    slug: >-
+      a-la-une
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          À la une
+        heading: 2
+        link: "/fr/actualites/"
+    data:
+      mode: all
+      all: true
+      layout: large
+      options:
+        author: true
+        categories: true
+        date: true
+        image: true
+        reading_time: true
+        subtitle: true
+        summary: true
+
+      posts:
+        - permalink: "/fr/actualites/2025-03-23-vallee-du-silicium/"
+          path: "/posts/2025/2025-03-23-vallee-du-silicium"
+          slug: "vallee-du-silicium"
+          file: "content/fr/posts/2025/2025-03-23-vallee-du-silicium.html"
+
+      quantity: 1
+
+
 
 ---

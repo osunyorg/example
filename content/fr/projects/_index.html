@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/fr/projets/"
 slug: "projets"
 date: 2024-03-11T13:58:02+01:00
-lastmod: 2025-01-31T15:14:29+01:00
+lastmod: 2025-05-26T23:45:35+02:00
 meta:
   hugo:
     permalink: "/fr/projets/"
@@ -17,10 +17,11 @@ meta:
     slug: "projets"
   dates:
     created_at: 2024-03-11T13:58:02+01:00
-    updated_at: 2025-01-31T15:14:29+01:00
+    updated_at: 2025-05-26T23:45:35+02:00
     published_at: 2024-03-11T13:58:02+01:00
 search:
   id: "80603678-ba11-4b0e-a2f0-b7374aa37da9"
+  about_id: "55eb20b1-eae9-4f87-abcc-ace3ad8b1ad8"
   url: "/fr/projets/"
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
@@ -29,7 +30,7 @@ search:
   summary: >-
     
   body: >-
-    
+    <p>Le plus récent </p>
 
 breadcrumbs:
   - title: >-
@@ -44,12 +45,14 @@ design:
     present: false
     offcanvas: true
 
+
+
 position: 16
 weight: 16
 pages_categories:
-  - "sujet/test"
   - "sujet/osuny"
   - "rubriques/comprendre-le-contexte"
+  - "sujet/test"
   - "rubriques/decouvrir-les-bases"
 taxonomies:
   - name: >-
@@ -180,9 +183,45 @@ section_taxonomies:
         count: 1
 
 contents_reading_time:
-  seconds: 0
+  seconds: 1
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: projects
+    title: >-
+      Le plus récent
+    slug: >-
+      le-plus-recent
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Le plus récent
+        heading: 2
+        link: "/fr/projets/"
+    data:
+      mode: all
+      all: true
+      layout: large
+      options:
+        categories: true
+        image: true
+        subtitle: true
+        summary: true
+        year: true
+
+      projects:
+        - permalink: "/fr/projets/2024-degrowth-journal/"
+          path: "/projects/2024-degrowth-journal"
+          slug: "degrowth-journal"
+          file: "content/fr/projects/2024-degrowth-journal.html"
+
+      quantity: 1
+
 
 ---
