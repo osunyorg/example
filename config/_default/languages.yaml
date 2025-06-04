@@ -67,6 +67,8 @@ fr:
     events: /agenda/:year/:slug/
     exhibitions: /expositions/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
+    jobs: /offres-d-emploi/:year/:slug/
+    jobs_categories: /offres-d-emploi/:slug/
     pages_categories: /:slug/
     projects: /projets/:year-:slug/
     projects_categories: /projets/:slug/
@@ -166,6 +168,8 @@ en:
     events: /agenda/:year/:slug/
     exhibitions: /exhibitions/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
+    jobs: /job-offers/:year/:slug/
+    jobs_categories: /job-offers/:slug/
     pages_categories: /:slug/
     projects: /projects/:year-:slug/
     projects_categories: /projects/:slug/
