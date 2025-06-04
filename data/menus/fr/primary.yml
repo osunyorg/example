@@ -111,6 +111,13 @@ items:
     children: []
     path: "/locations"
     file: content/fr/locations/_index.html
+  - title: Offres d'emploi
+    target: "/fr/offres-d-emploi/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/jobs"
+    file: content/fr/jobs/_index.html
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Blocs
