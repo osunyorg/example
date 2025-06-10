@@ -74,6 +74,8 @@ fr:
     projects_categories: /projets/:slug/
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
+    academic_years: /alumni/:year
+    cohorts: /alumni/:year/:program_slug
     diplomas: /diplomes/:slug/
     programs_categories: /offre-de-formation/categories/:slug/
     programs: /offre-de-formation/:slug/
@@ -175,6 +177,8 @@ en:
     projects_categories: /projects/:slug/
     posts: /actualites-1/:year-:month-:day-:slug/
     posts_categories: /actualites-1/:slug/
+    academic_years: /alumni/:year
+    cohorts: /alumni/:year/:program_slug
     diplomas: /diplomas/:slug/
     programs_categories: /formations/categories/:slug/
     programs: /formations/:slug/
