@@ -12,7 +12,7 @@ aliases:
   - /blocks/blocs-de-liste/partenaires/
   - /blocks/blocks-de-liste/partenaires/
 date: 2023-06-26T17:57:43+02:00
-lastmod: 2025-05-13T11:08:21+02:00
+lastmod: 2025-06-17T12:04:44+02:00
 meta:
   hugo:
     permalink: "/fr/blocks/blocs-de-liste/partenaires/"
@@ -21,10 +21,11 @@ meta:
     slug: "partenaires"
   dates:
     created_at: 2022-07-12T14:58:21+02:00
-    updated_at: 2025-05-13T11:08:21+02:00
+    updated_at: 2025-06-17T12:04:44+02:00
     published_at: 2023-06-26T17:57:43+02:00
 search:
   id: "4718a7d8-af7f-42fb-9001-fc58c17d99f8"
+  about_id: "bea1ee54-e143-48a2-8959-a0ccc89f3939"
   url: "/fr/blocks/blocs-de-liste/partenaires/"
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
@@ -33,7 +34,7 @@ search:
   summary: >-
     <p>Une liste de partenaires, avec leur logo, leur site et leur nom</p>
   body: >-
-    <p>Les organisations  <br> Une carte d'organisations </p>  <p>Organisation non enregistrée <br>https://example.osuny.org/fr/</p>  <p> Partenaires - Description  <br>  </p>  <p>Voici la liste des partenaires d'Osuny</p>  <p> Partenaires - Description - Liens cliquables  <br>  </p>  <p>Voici la liste des partenaires d'Osuny</p>  <p> Partenaires - Description - Liens cliquables Partenaires - Description - liens cliquables - ordre alphabétique  <br>  </p>  <p>Voici la liste des partenaires d'Osuny</p>  <p> Partenaires longue liste  <br>  </p>  <p>Voici beaucoup de partenaires </p>  <p> Partenaire non enregistré  <br>  </p>  <p>Lorem ipsum</p>  <p>noesya <br>https://www.noesya.coop</p>
+    <p>Les organisations  <br> Une carte d'organisations </p>  <p>Organisation non enregistrée <br>https://example.osuny.org/fr/</p>  <p> Une liste d'organisation avec leurs adresses </p>  <p>Journal scientifique</p>  <p>Organisation non enregistrée <br>https://example.osuny.org/fr/</p>  <p>Une organisation non enregistrée</p>  <p> Partenaires - Description  <br>  </p>  <p>Voici la liste des partenaires d'Osuny</p>  <p> Partenaires - Description - Liens cliquables  <br>  </p>  <p>Voici la liste des partenaires d'Osuny</p>  <p> Partenaires - Description - Liens cliquables Partenaires - Description - liens cliquables - ordre alphabétique  <br>  </p>  <p>Voici la liste des partenaires d'Osuny</p>  <p> Partenaires longue liste  <br>  </p>  <p>Voici beaucoup de partenaires </p>  <p> Partenaire non enregistré  <br>  </p>  <p>Lorem ipsum</p>  <p>noesya <br>https://www.noesya.coop</p>
 
 breadcrumbs:
   - title: >-
@@ -54,11 +55,12 @@ design:
     present: true
     offcanvas: false
 
+
 position: 6
 weight: 6
 pages_categories:
-  - "blocs/blocs-de-liste"
   - "sujet/osuny"
+  - "blocs/blocs-de-liste"
 taxonomies:
   - name: >-
       Sujet
@@ -110,7 +112,7 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 20
+  seconds: 25
   text: >-
     moins d'une minute
 contents:
@@ -158,28 +160,44 @@ contents:
         link: true
         logo: true
         summary: false
+        address: false
 
       organizations:
         - permalink: "/fr/organisations/degrowth-journal/"
           path: "/organizations/degrowth-journal"
           slug: "degrowth-journal"
           file: "content/fr/organizations/degrowth-journal.html"
+          role: >-
+            
+
         - permalink: "/fr/organisations/rose-primaire/"
           path: "/organizations/rose-primaire"
           slug: "rose-primaire"
           file: "content/fr/organizations/rose-primaire.html"
+          role: >-
+            
+
         - permalink: "/fr/organisations/universite-bordeaux-montaigne/"
           path: "/organizations/universite-bordeaux-montaigne"
           slug: "universite-bordeaux-montaigne"
           file: "content/fr/organizations/universite-bordeaux-montaigne.html"
+          role: >-
+            
+
         - permalink: "/fr/organisations/mica/"
           path: "/organizations/mica"
           slug: "mica"
           file: "content/fr/organizations/mica.html"
+          role: >-
+            
+
         - permalink: "/fr/organisations/noesya/"
           path: "/organizations/noesya"
           slug: "noesya"
           file: "content/fr/organizations/noesya.html"
+          role: >-
+            
+
         - name: >-
             Organisation non enregistrée
 
@@ -188,7 +206,86 @@ contents:
 
           logo: ""
           external: true
+          role: >-
+            
 
+      quantity: 5
+
+  - kind: block
+    template: organizations
+    title: >-
+      Une liste d'organisation avec leurs adresses
+    slug: >-
+      une-liste-d-organisation-avec-leurs-adresses
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Une liste d'organisation avec leurs adresses
+        heading: 3
+    data:
+      layout: grid
+      description: >-
+        
+
+      options:
+        link: true
+        logo: false
+        summary: true
+        address: true
+
+      organizations:
+        - permalink: "/fr/organisations/degrowth-journal/"
+          path: "/organizations/degrowth-journal"
+          slug: "degrowth-journal"
+          file: "content/fr/organizations/degrowth-journal.html"
+          role: >-
+            Journal scientifique
+
+        - permalink: "/fr/organisations/mica/"
+          path: "/organizations/mica"
+          slug: "mica"
+          file: "content/fr/organizations/mica.html"
+          role: >-
+            
+
+        - permalink: "/fr/organisations/noesya/"
+          path: "/organizations/noesya"
+          slug: "noesya"
+          file: "content/fr/organizations/noesya.html"
+          role: >-
+            
+
+        - name: >-
+            Organisation non enregistrée
+
+          url: >-
+            https://example.osuny.org/fr/
+
+          logo: ""
+          external: true
+          role: >-
+            Une organisation non enregistrée
+
+        - permalink: "/fr/organisations/rose-primaire/"
+          path: "/organizations/rose-primaire"
+          slug: "rose-primaire"
+          file: "content/fr/organizations/rose-primaire.html"
+          role: >-
+            
+
+        - permalink: "/fr/organisations/universite-bordeaux-montaigne/"
+          path: "/organizations/universite-bordeaux-montaigne"
+          slug: "universite-bordeaux-montaigne"
+          file: "content/fr/organizations/universite-bordeaux-montaigne.html"
+          role: >-
+            
+
+      quantity: 5
 
   - kind: block
     template: title
@@ -231,25 +328,38 @@ contents:
         link: false
         logo: true
         summary: true
+        address: false
 
       organizations:
         - permalink: "/fr/organisations/degrowth-journal/"
           path: "/organizations/degrowth-journal"
           slug: "degrowth-journal"
           file: "content/fr/organizations/degrowth-journal.html"
+          role: >-
+            
+
         - permalink: "/fr/organisations/mica/"
           path: "/organizations/mica"
           slug: "mica"
           file: "content/fr/organizations/mica.html"
+          role: >-
+            
+
         - permalink: "/fr/organisations/rose-primaire/"
           path: "/organizations/rose-primaire"
           slug: "rose-primaire"
           file: "content/fr/organizations/rose-primaire.html"
+          role: >-
+            
+
         - permalink: "/fr/organisations/universite-bordeaux-montaigne/"
           path: "/organizations/universite-bordeaux-montaigne"
           slug: "universite-bordeaux-montaigne"
           file: "content/fr/organizations/universite-bordeaux-montaigne.html"
+          role: >-
+            
 
+      quantity: 4
 
   - kind: block
     template: title
@@ -292,25 +402,38 @@ contents:
         link: true
         logo: true
         summary: false
+        address: false
 
       organizations:
         - permalink: "/fr/organisations/degrowth-journal/"
           path: "/organizations/degrowth-journal"
           slug: "degrowth-journal"
           file: "content/fr/organizations/degrowth-journal.html"
+          role: >-
+            
+
         - permalink: "/fr/organisations/rose-primaire/"
           path: "/organizations/rose-primaire"
           slug: "rose-primaire"
           file: "content/fr/organizations/rose-primaire.html"
+          role: >-
+            
+
         - permalink: "/fr/organisations/universite-bordeaux-montaigne/"
           path: "/organizations/universite-bordeaux-montaigne"
           slug: "universite-bordeaux-montaigne"
           file: "content/fr/organizations/universite-bordeaux-montaigne.html"
+          role: >-
+            
+
         - permalink: "/fr/organisations/mica/"
           path: "/organizations/mica"
           slug: "mica"
           file: "content/fr/organizations/mica.html"
+          role: >-
+            
 
+      quantity: 4
 
   - kind: block
     template: title
@@ -353,25 +476,38 @@ contents:
         link: true
         logo: true
         summary: false
+        address: false
 
       organizations:
         - permalink: "/fr/organisations/degrowth-journal/"
           path: "/organizations/degrowth-journal"
           slug: "degrowth-journal"
           file: "content/fr/organizations/degrowth-journal.html"
+          role: >-
+            
+
         - permalink: "/fr/organisations/mica/"
           path: "/organizations/mica"
           slug: "mica"
           file: "content/fr/organizations/mica.html"
+          role: >-
+            
+
         - permalink: "/fr/organisations/rose-primaire/"
           path: "/organizations/rose-primaire"
           slug: "rose-primaire"
           file: "content/fr/organizations/rose-primaire.html"
+          role: >-
+            
+
         - permalink: "/fr/organisations/universite-bordeaux-montaigne/"
           path: "/organizations/universite-bordeaux-montaigne"
           slug: "universite-bordeaux-montaigne"
           file: "content/fr/organizations/universite-bordeaux-montaigne.html"
+          role: >-
+            
 
+      quantity: 4
 
   - kind: block
     template: title
@@ -414,37 +550,59 @@ contents:
         link: false
         logo: true
         summary: false
+        address: false
 
       organizations:
         - permalink: "/fr/organisations/class-code/"
           path: "/organizations/class-code"
           slug: "class-code"
           file: "content/fr/organizations/class-code.html"
+          role: >-
+            
+
         - permalink: "/fr/organisations/degrowth-journal/"
           path: "/organizations/degrowth-journal"
           slug: "degrowth-journal"
           file: "content/fr/organizations/degrowth-journal.html"
+          role: >-
+            
+
         - permalink: "/fr/organisations/mica/"
           path: "/organizations/mica"
           slug: "mica"
           file: "content/fr/organizations/mica.html"
+          role: >-
+            
+
         - permalink: "/fr/organisations/mit-anthropology/"
           path: "/organizations/mit-anthropology"
           slug: "mit-anthropology"
           file: "content/fr/organizations/mit-anthropology.html"
+          role: >-
+            
+
         - permalink: "/fr/organisations/noesya/"
           path: "/organizations/noesya"
           slug: "noesya"
           file: "content/fr/organizations/noesya.html"
+          role: >-
+            
+
         - permalink: "/fr/organisations/rose-primaire/"
           path: "/organizations/rose-primaire"
           slug: "rose-primaire"
           file: "content/fr/organizations/rose-primaire.html"
+          role: >-
+            
+
         - permalink: "/fr/organisations/scaleway/"
           path: "/organizations/scaleway"
           slug: "scaleway"
           file: "content/fr/organizations/scaleway.html"
+          role: >-
+            
 
+      quantity: 7
 
   - kind: block
     template: title
@@ -486,6 +644,7 @@ contents:
         link: false
         logo: true
         summary: false
+        address: false
 
       organizations:
         - name: >-
@@ -496,7 +655,10 @@ contents:
 
           logo: "2302dfa2-cd36-4cbe-8b40-3ab19b26228d"
           external: true
+          role: >-
+            
 
+      quantity: 0
 
   - kind: block
     template: organizations
@@ -518,21 +680,31 @@ contents:
         link: true
         logo: true
         summary: false
+        address: false
 
       organizations:
         - permalink: "/fr/organisations/communication-democratie/"
           path: "/organizations/communication-democratie"
           slug: "communication-democratie"
           file: "content/fr/organizations/communication-democratie.html"
+          role: >-
+            
+
         - permalink: "/fr/organisations/ctrl-s/"
           path: "/organizations/ctrl-s"
           slug: "ctrl-s"
           file: "content/fr/organizations/ctrl-s.html"
+          role: >-
+            
+
         - permalink: "/fr/organisations/noesya/"
           path: "/organizations/noesya"
           slug: "noesya"
           file: "content/fr/organizations/noesya.html"
+          role: >-
+            
 
+      quantity: 3
 
 
 ---
