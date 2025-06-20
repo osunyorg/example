@@ -130,6 +130,13 @@ items:
     kind: page
     new_tab: false
     children:
+    - title: Les titres
+      target: "/fr/blocks/blocks-de-base/titres/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/blocks/blocks-de-base/titres"
+      file: content/fr/pages/blocks/blocks-de-base/titres/_index.html
     - title: Les chapitres
       target: "/fr/blocks/blocks-de-base/chapitres/"
       kind: page
