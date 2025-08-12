@@ -368,27 +368,27 @@ items:
     children: []
     path: "/jobs"
     file: content/fr/jobs/_index.html
-  path: "/persons"
-  file: content/fr/persons/_index.html
-- title: Les offres de formation
-  target: "/fr/offre-de-formation/"
-  kind: page
-  new_tab: false
-  children:
-  - title: Liste des formations
+  - title: Les offres de formation
     target: "/fr/offre-de-formation/"
     kind: page
     new_tab: false
-    children: []
+    children:
+    - title: Liste des formations
+      target: "/fr/offre-de-formation/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/programs"
+      file: content/fr/programs/_index.html
+    - title: Liste des diplômes
+      target: "/fr/diplomes/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/diplomas"
+      file: content/fr/diplomas/_index.html
     path: "/programs"
     file: content/fr/programs/_index.html
-  - title: Liste des diplômes
-    target: "/fr/diplomes/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/diplomas"
-    file: content/fr/diplomas/_index.html
-  path: "/programs"
-  file: content/fr/programs/_index.html
+  path: "/persons"
+  file: content/fr/persons/_index.html
 
