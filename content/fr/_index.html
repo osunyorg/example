@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/fr/"
 slug: ""
 date: 2023-08-21T10:19:48+02:00
-lastmod: 2025-08-12T09:50:39+02:00
+lastmod: 2025-08-12T10:01:09+02:00
 meta:
   hugo:
     permalink: "/fr/"
@@ -17,7 +17,7 @@ meta:
     slug: ""
   dates:
     created_at: 2022-04-08T12:05:43+02:00
-    updated_at: 2025-08-12T09:50:39+02:00
+    updated_at: 2025-08-12T10:01:09+02:00
     published_at: 2023-08-21T10:19:48+02:00
 search:
   id: "59290dd3-6a98-4d09-ba97-159299a958bd"
@@ -30,7 +30,7 @@ search:
   summary: >-
     <p>Ceci est un site de démonstration, pré-compilé et généré par Osuny. Il vous permet de découvrir le fonctionnement d'Osuny et de ses blocs. Chaque élément présenté explique sa fonctionnalité. Explorez les pages, découvrez les blocs et inspirez-vous.</p>
   body: >-
-    <p>Actualités </p>  <p> Appel à action  <br>Ce bandeau permet d'afficher un appel à action. Cela signifie que plusieurs boutons d'actions avec liens externes peuvent être générés. Ici, par exemple, un bouton vous permet de vous diriger vers le site de présentation d'Osuny tandis qu'un autre vous dirige vers la page d'accueil du site exemple.</p>  <p>Site de présentation d'Osuny <br>https://www.osuny.org</p>  <p>Site exemple <br>https://example.osuny.org/fr/</p>  <p> Blocs </p>
+    <p>Actualités </p>  <p> Événements </p>  <p>Vous pouvez créer des événements et les afficher sur la page d'accueil.</p>  <p> Appel à action  <br>Ce bandeau permet d'afficher un appel à action. Cela signifie que plusieurs boutons d'actions avec liens externes peuvent être générés. Ici, par exemple, un bouton vous permet de vous diriger vers le site de présentation d'Osuny tandis qu'un autre vous dirige vers la page d'accueil du site exemple.</p>  <p>Site de présentation d'Osuny <br>https://www.osuny.org</p>  <p>Site exemple <br>https://example.osuny.org/fr/</p>  <p> Blocs </p>
 
 breadcrumbs:
   - title: >-
@@ -89,7 +89,7 @@ header_cta:
   external: true
 
 contents_reading_time:
-  seconds: 20
+  seconds: 24
   text: >-
     moins d'une minute
 contents:
@@ -145,6 +145,56 @@ contents:
 
       quantity: 3
 
+
+  - kind: block
+    template: agenda
+    title: >-
+      Événements
+    slug: >-
+      evenements
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Événements
+        heading: 2
+      description: >-
+        <p>Vous pouvez créer des événements et les afficher sur la page d'accueil.</p>
+    data:
+      mode: selection
+      kinds:
+        parent: true
+        child: true
+        recurring: true
+      options:
+        categories: false
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
+        status: false
+
+      layout: grid
+      description: >-
+        <p>Vous pouvez créer des événements et les afficher sur la page d'accueil.</p>
+
+      no_event_message: >-
+        
+
+      title_link: ""
+      events:
+        - permalink: "/fr/agenda/2025/creer-son-site-avec-osuny/"
+          path: "/events/2025/09/02-creer-son-site-avec-osuny"
+          slug: "creer-son-site-avec-osuny"
+          file: "content/fr/events/2025/09/02-creer-son-site-avec-osuny.html"
+          name: >-
+            Créer son site avec Osuny
+
+      quantity: 1
 
   - kind: block
     template: call_to_action
@@ -282,49 +332,6 @@ contents:
 
       quantity: 9
 
-
-  - kind: block
-    template: agenda
-    title: >-
-      
-    slug: >-
-      
-    ranks:
-      base: 2
-      children: 2
-    top:
-      active: false
-    data:
-      mode: all
-      kinds:
-        parent: false
-        child: true
-        recurring: true
-      options:
-        categories: false
-        dates: true
-        image: true
-        subtitle: true
-        summary: true
-        status: false
-
-      layout: grid
-      description: >-
-        
-
-      no_event_message: >-
-        
-
-      title_link: ""
-      events:
-        - permalink: "/fr/agenda/2024/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
-          path: "/events/2024/02/03-charbel-joseph-h-boutros-the-sun-is-my-only-ally"
-          slug: "charbel-joseph-h-boutros-the-sun-is-my-only-ally"
-          file: "content/fr/events/2024/02/03-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
-          name: >-
-            Charbel-joseph H. Boutros
-
-      quantity: 1
 
 
 ---
