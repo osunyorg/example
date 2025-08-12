@@ -1,125 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Les offres de formation
-  target: "/fr/offre-de-formation/"
-  kind: page
-  new_tab: false
-  children:
-  - title: Liste des formations
-    target: "/fr/offre-de-formation/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/programs"
-    file: content/fr/programs/_index.html
-  - title: Liste des diplômes
-    target: "/fr/diplomes/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/diplomas"
-    file: content/fr/diplomas/_index.html
-  path: "/programs"
-  file: content/fr/programs/_index.html
-- title: Pages spéciales
-  target: ''
-  kind: blank
-  new_tab: false
-  children:
-  - title: Actualités
-    target: "/fr/actualites/"
-    kind: page
-    new_tab: false
-    children:
-    - title: À la une
-      target: "/fr/actualites/a-la-une/"
-      kind: category
-      new_tab: false
-      children: []
-      path: "/posts_categories/a-la-une"
-      file: content/fr/posts_categories/a-la-une/_index.html
-    - title: Vie étudiante
-      target: "/fr/actualites/vie-etudiante/"
-      kind: category
-      new_tab: false
-      children: []
-      path: "/posts_categories/vie-etudiante"
-      file: content/fr/posts_categories/vie-etudiante/_index.html
-    path: "/posts"
-    file: content/fr/posts/_index.html
-  - title: Équipe
-    target: "/fr/equipe/"
-    kind: page
-    new_tab: false
-    children:
-    - title: Équipe administrative
-      target: "/fr/equipe/equipe-administrative/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/administrators"
-      file: content/fr/administrators/_index.html
-    - title: Équipe éditoriale
-      target: "/fr/equipe/equipe-editoriale/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/authors"
-      file: content/fr/authors/_index.html
-    - title: Équipe de recherche
-      target: "/fr/equipe/equipe-de-recherche/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/researchers"
-      file: content/fr/researchers/_index.html
-    - title: Équipe pédagogique
-      target: "/fr/equipe/equipe-pedagogique/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/teachers"
-      file: content/fr/teachers/_index.html
-    path: "/persons"
-    file: content/fr/persons/_index.html
-  - title: Organisations
-    target: "/fr/organisations/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/organizations"
-    file: content/fr/organizations/_index.html
-  - title: Agenda
-    target: "/fr/agenda/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/events"
-    file: content/fr/events/_index.html
-  - title: Projets
-    target: "/fr/projets/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/projects"
-    file: content/fr/projects/_index.html
-  - title: Campus
-    target: "/fr/campus/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/locations"
-    file: content/fr/locations/_index.html
-  - title: Offres d'emploi
-    target: "/fr/offres-d-emploi/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/jobs"
-    file: content/fr/jobs/_index.html
-  path: "/persons"
-  file: content/fr/persons/_index.html
 - title: Blocs
   target: ''
   kind: blank
@@ -370,4 +251,123 @@ items:
       file: content/fr/pages/exemples/grilles-des-blocs-de-liste/_index.html
     path: "/pages/exemples"
     file: content/fr/pages/exemples/_index.html
+- title: Pages spéciales
+  target: ''
+  kind: blank
+  new_tab: false
+  children:
+  - title: Actualités
+    target: "/fr/actualites/"
+    kind: page
+    new_tab: false
+    children:
+    - title: À la une
+      target: "/fr/actualites/a-la-une/"
+      kind: category
+      new_tab: false
+      children: []
+      path: "/posts_categories/a-la-une"
+      file: content/fr/posts_categories/a-la-une/_index.html
+    - title: Vie étudiante
+      target: "/fr/actualites/vie-etudiante/"
+      kind: category
+      new_tab: false
+      children: []
+      path: "/posts_categories/vie-etudiante"
+      file: content/fr/posts_categories/vie-etudiante/_index.html
+    path: "/posts"
+    file: content/fr/posts/_index.html
+  - title: Équipe
+    target: "/fr/equipe/"
+    kind: page
+    new_tab: false
+    children:
+    - title: Équipe administrative
+      target: "/fr/equipe/equipe-administrative/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/administrators"
+      file: content/fr/administrators/_index.html
+    - title: Équipe éditoriale
+      target: "/fr/equipe/equipe-editoriale/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/authors"
+      file: content/fr/authors/_index.html
+    - title: Équipe de recherche
+      target: "/fr/equipe/equipe-de-recherche/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/researchers"
+      file: content/fr/researchers/_index.html
+    - title: Équipe pédagogique
+      target: "/fr/equipe/equipe-pedagogique/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/teachers"
+      file: content/fr/teachers/_index.html
+    path: "/persons"
+    file: content/fr/persons/_index.html
+  - title: Organisations
+    target: "/fr/organisations/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/organizations"
+    file: content/fr/organizations/_index.html
+  - title: Agenda
+    target: "/fr/agenda/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/events"
+    file: content/fr/events/_index.html
+  - title: Projets
+    target: "/fr/projets/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/projects"
+    file: content/fr/projects/_index.html
+  - title: Campus
+    target: "/fr/campus/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/locations"
+    file: content/fr/locations/_index.html
+  - title: Offres d'emploi
+    target: "/fr/offres-d-emploi/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/jobs"
+    file: content/fr/jobs/_index.html
+  path: "/persons"
+  file: content/fr/persons/_index.html
+- title: Les offres de formation
+  target: "/fr/offre-de-formation/"
+  kind: page
+  new_tab: false
+  children:
+  - title: Liste des formations
+    target: "/fr/offre-de-formation/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/programs"
+    file: content/fr/programs/_index.html
+  - title: Liste des diplômes
+    target: "/fr/diplomes/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/diplomas"
+    file: content/fr/diplomas/_index.html
+  path: "/programs"
+  file: content/fr/programs/_index.html
 
