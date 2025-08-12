@@ -11,13 +11,6 @@ items:
     kind: page
     new_tab: false
     children:
-    - title: Comment personnaliser le style des blocs ?
-      target: "/fr/blocks/quest-ce-quun-bloc/comment-personnaliser-le-style-des-blocs/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/pages/blocks/quest-ce-quun-bloc/comment-personnaliser-le-style-des-blocs"
-      file: content/fr/pages/blocks/quest-ce-quun-bloc/comment-personnaliser-le-style-des-blocs/_index.html
     - title: Quels sont les avantages des blocs ?
       target: "/fr/blocks/quest-ce-quun-bloc/quels-sont-les-avantages-des-blocs/"
       kind: page
@@ -25,6 +18,13 @@ items:
       children: []
       path: "/pages/blocks/quest-ce-quun-bloc/quels-sont-les-avantages-des-blocs"
       file: content/fr/pages/blocks/quest-ce-quun-bloc/quels-sont-les-avantages-des-blocs/_index.html
+    - title: Comment personnaliser le style des blocs ?
+      target: "/fr/blocks/quest-ce-quun-bloc/comment-personnaliser-le-style-des-blocs/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/blocks/quest-ce-quun-bloc/comment-personnaliser-le-style-des-blocs"
+      file: content/fr/pages/blocks/quest-ce-quun-bloc/comment-personnaliser-le-style-des-blocs/_index.html
     path: "/pages/blocks/quest-ce-quun-bloc"
     file: content/fr/pages/blocks/quest-ce-quun-bloc/_index.html
   - title: Les blocs de base
