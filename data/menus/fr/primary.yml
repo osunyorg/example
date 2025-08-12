@@ -6,6 +6,13 @@ items:
   kind: blank
   new_tab: false
   children:
+  - title: Qu'est-ce qu'un bloc ?
+    target: "/fr/blocks/quest-ce-quun-bloc/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/blocks/quest-ce-quun-bloc"
+    file: content/fr/pages/blocks/quest-ce-quun-bloc/_index.html
   - title: Les blocs de base
     target: "/fr/blocks/blocks-de-base/"
     kind: page

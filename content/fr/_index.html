@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/fr/"
 slug: ""
 date: 2023-08-21T10:19:48+02:00
-lastmod: 2025-08-12T10:23:35+02:00
+lastmod: 2025-08-12T10:51:53+02:00
 meta:
   hugo:
     permalink: "/fr/"
@@ -17,7 +17,7 @@ meta:
     slug: ""
   dates:
     created_at: 2022-04-08T12:05:43+02:00
-    updated_at: 2025-08-12T10:23:35+02:00
+    updated_at: 2025-08-12T10:51:53+02:00
     published_at: 2023-08-21T10:19:48+02:00
 search:
   id: "59290dd3-6a98-4d09-ba97-159299a958bd"
@@ -30,7 +30,7 @@ search:
   summary: >-
     <p>Ceci est un site de démonstration, pré-compilé et généré par Osuny. Il vous permet de découvrir le fonctionnement d'Osuny et de ses blocs. Chaque élément présenté explique sa fonctionnalité. Explorez les pages, découvrez les blocs et inspirez-vous.</p>
   body: >-
-    <p>Actualités </p>  <p> Événements </p>  <p>Vous pouvez créer des événements et les afficher sur la page d'accueil. En cliquant sur l'événement, vous ouvrez sa page.</p>  <p> Appel à action  <br>Ce bandeau permet d'afficher un appel à action. Cela signifie que plusieurs boutons d'actions avec liens externes peuvent être générés. Ici, par exemple, un bouton vous permet de vous diriger vers le site de présentation d'Osuny tandis qu'un autre vous dirige vers la page d'accueil du site exemple.</p>  <p>Site de présentation d'Osuny <br>https://www.osuny.org</p>  <p>Site exemple <br>https://example.osuny.org/fr/</p>  <p> Blocs </p>
+    <p>Actualités </p>  <p> Événements </p>  <p>Vous pouvez créer des événements et les afficher sur la page d'accueil. En cliquant sur l'événement, vous ouvrez sa page.</p>  <p> Appel à action  <br>Ce bandeau permet d'afficher un appel à action. Cela signifie que plusieurs boutons d'actions avec liens externes peuvent être générés. Ici, par exemple, un bouton vous permet de vous diriger vers le site de présentation d'Osuny tandis qu'un autre vous dirige vers la page d'accueil du site exemple.</p>  <p>Site de présentation d'Osuny <br>https://www.osuny.org</p>  <p>Site exemple <br>https://example.osuny.org/fr/</p>  <p> Blocs </p>  <p> Projets </p>
 
 breadcrumbs:
   - title: >-
@@ -89,7 +89,7 @@ header_cta:
   external: true
 
 contents_reading_time:
-  seconds: 26
+  seconds: 27
   text: >-
     moins d'une minute
 contents:
@@ -350,6 +350,54 @@ contents:
 
       quantity: 10
 
+
+  - kind: block
+    template: projects
+    title: >-
+      Projets
+    slug: >-
+      projets
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Projets
+        heading: 2
+    data:
+      mode: selection
+      layout: grid
+      options:
+        categories: true
+        image: true
+        subtitle: true
+        summary: true
+        year: true
+
+      projects:
+        - permalink: "/fr/projets/2025-ceci-est-un-projet/"
+          path: "/projects/2025-ceci-est-un-projet"
+          slug: "ceci-est-un-projet"
+          file: "content/fr/projects/2025-ceci-est-un-projet.html"
+          name: >-
+            Ceci est un projet
+        - permalink: "/fr/projets/2024-degrowth-journal/"
+          path: "/projects/2024-degrowth-journal"
+          slug: "degrowth-journal"
+          file: "content/fr/projects/2024-degrowth-journal.html"
+          name: >-
+            Degrowth Journal
+        - permalink: "/fr/projets/2023-dictionnaire-du-climat/"
+          path: "/projects/2023-dictionnaire-du-climat"
+          slug: "dictionnaire-du-climat"
+          file: "content/fr/projects/2023-dictionnaire-du-climat.html"
+          name: >-
+            Dictionnaire du Climat
+
+      quantity: 3
 
 
 ---
