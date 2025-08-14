@@ -251,7 +251,7 @@ items:
       file: content/fr/pages/blocks/quest-ce-quun-bloc/comment-personnaliser-le-style-des-blocs/_index.html
     path: "/pages/blocks/quest-ce-quun-bloc"
     file: content/fr/pages/blocks/quest-ce-quun-bloc/_index.html
-  - title: Comment composer avec les blocs ?
+  - title: Comment composer avec les blocs ?
     target: "/fr/exemples/"
     kind: page
     new_tab: false
