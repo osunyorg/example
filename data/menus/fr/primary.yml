@@ -179,6 +179,13 @@ items:
       children: []
       path: "/pages/blocks/blocs-de-liste/les-offres-demploi"
       file: content/fr/pages/blocks/blocs-de-liste/les-offres-demploi/_index.html
+    - title: Les expositions
+      target: "/fr/blocks/blocs-de-liste/les-expositions/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/blocks/blocs-de-liste/les-expositions"
+      file: content/fr/pages/blocks/blocs-de-liste/les-expositions/_index.html
     path: "/pages/blocks/blocs-de-liste"
     file: content/fr/pages/blocks/blocs-de-liste/_index.html
   - title: Les blocs techniques
