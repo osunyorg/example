@@ -1,7 +1,10 @@
 ---
 name: 9745202.png
 size: 1148082
-format: square
+width: 2048
+height: 3072
+ratio: 0.6666666666666666
+format: portrait
 url: https://demo.osuny.org/media/eyJfcmFpbHMiOnsiZGF0YSI6ImRiMzZlOWY5LWNjZjktNGJmNy04NDUxLWFjY2VlZmE1ZWIwZSIsInB1ciI6ImJsb2JfaWQifX0=--10bb08be65e795f75ff889ab115e35da62bf4579/9745202.png
 direct_url: https://osuny.s3.fr-par.scw.cloud/88ag255ujo1u8h95w7831sj8o9s3
 download_url: https://demo.osuny.org/media/download/eyJfcmFpbHMiOnsiZGF0YSI6ImRiMzZlOWY5LWNjZjktNGJmNy04NDUxLWFjY2VlZmE1ZWIwZSIsInB1ciI6ImJsb2JfaWQifX0=--10bb08be65e795f75ff889ab115e35da62bf4579

@@ -1,6 +1,9 @@
 ---
 name: android-chrome-512x512.png
 size: 33671
+width: 512
+height: 512
+ratio: 1.0
 format: square
 url: https://demo.osuny.org/media/eyJfcmFpbHMiOnsiZGF0YSI6Ijk4OTAwNmRhLThkZjctNDc3NS05ZDg0LWMzZWMxYmQ0NWQyMCIsInB1ciI6ImJsb2JfaWQifX0=--0bc73f564657ef55050c6d3f76debbea38bd074e/android-chrome-512x512.png
 direct_url: https://osuny.s3.fr-par.scw.cloud/myltm2afq5m2vy46c08swta9h9ga

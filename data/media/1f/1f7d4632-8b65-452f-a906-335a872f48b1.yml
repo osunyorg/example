@@ -1,7 +1,10 @@
 ---
 name: logo.svg
 size: 844
-format: square
+width: 355
+height: 315
+ratio: 1.126984126984127
+format: landscape
 url: https://demo.osuny.org/media/eyJfcmFpbHMiOnsiZGF0YSI6IjFmN2Q0NjMyLThiNjUtNDUyZi1hOTA2LTMzNWE4NzJmNDhiMSIsInB1ciI6ImJsb2JfaWQifX0=--1245df1efddec8ffb4812eb36f9ee493df6001df/logo.svg
 direct_url: https://osuny.s3.fr-par.scw.cloud/ukarwqj5w259jxuhvyjwlhvniez9
 download_url: https://demo.osuny.org/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjFmN2Q0NjMyLThiNjUtNDUyZi1hOTA2LTMzNWE4NzJmNDhiMSIsInB1ciI6ImJsb2JfaWQifX0=--1245df1efddec8ffb4812eb36f9ee493df6001df
