@@ -30,7 +30,7 @@ search:
   summary: >-
     <p>Ceci est un site de démonstration, pré-compilé et généré par Osuny. Il vous permet de découvrir le fonctionnement d'Osuny et de ses blocs. Chaque élément présenté explique sa fonctionnalité. Explorez les pages, découvrez les blocs et inspirez-vous.</p>
   body: >-
-    <p>Actualités </p>  <p> Événements </p>  <p>Vous pouvez créer des événements et les afficher sur la page d'accueil. En cliquant sur l'événement, vous ouvrez sa page.</p>  <p> Projets </p>  <p> Appel à action  <br>Ce bandeau permet d'afficher un appel à action. Cela signifie que plusieurs boutons d'actions avec liens externes peuvent être générés. Ici, par exemple, un bouton vous permet de vous diriger vers le site de présentation d'Osuny tandis qu'un autre vous dirige vers la page d'accueil du site exemple.</p>  <p>Site de présentation d'Osuny <br>https://www.osuny.org</p>  <p>Site exemple <br>https://example.osuny.org/fr/</p>  <p> Blocs </p>
+    <p>Blocs </p>  <p> Actualités </p>  <p> Événements </p>  <p>Vous pouvez créer des événements et les afficher sur la page d'accueil. En cliquant sur l'événement, vous ouvrez sa page.</p>  <p> Projets </p>  <p> Appel à action  <br>Ce bandeau permet d'afficher un appel à action. Cela signifie que plusieurs boutons d'actions avec liens externes peuvent être générés. Ici, par exemple, un bouton vous permet de vous diriger vers le site de présentation d'Osuny tandis qu'un autre vous dirige vers la page d'accueil du site exemple.</p>  <p>Site de présentation d'Osuny <br>https://www.osuny.org</p>  <p>Site exemple <br>https://example.osuny.org/fr/</p>
 
 breadcrumbs:
   - title: >-
@@ -93,6 +93,79 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: pages
+    title: >-
+      Blocs
+    slug: >-
+      blocs
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Blocs
+        heading: 2
+        link: "/fr/blocks/"
+      description: >-
+        <p>Osuny utilise des blocs pour structurer le contenu. Ces blocs intègrent la responsivité, la sobriété et l'accessibilité.</p>
+    data:
+      page:
+        permalink: "/fr/blocks/"
+        path: "/pages/blocks"
+        slug: "blocks"
+        file: "content/fr/pages/blocks/_index.html"
+      options:
+        image: true
+        categories: false
+        main_summary: true
+        summary: true
+
+      layout: cards
+      pages:
+        - permalink: "/fr/blocks/quest-ce-quun-bloc/"
+          path: "/pages/blocks/quest-ce-quun-bloc"
+          slug: "quest-ce-quun-bloc"
+          file: "content/fr/pages/blocks/quest-ce-quun-bloc/_index.html"
+          name: >-
+            Qu'est-ce qu'un bloc ?
+        - permalink: "/fr/blocks/tous-les-blocks/"
+          path: "/pages/blocks/tous-les-blocks"
+          slug: "tous-les-blocks"
+          file: "content/fr/pages/blocks/tous-les-blocks/_index.html"
+          name: >-
+            Aperçu de tous les blocs
+        - permalink: "/fr/blocks/blocks-de-base/"
+          path: "/pages/blocks/blocks-de-base"
+          slug: "blocks-de-base"
+          file: "content/fr/pages/blocks/blocks-de-base/_index.html"
+          name: >-
+            Les blocs de base
+        - permalink: "/fr/blocks/blocks-narratifs/"
+          path: "/pages/blocks/blocks-narratifs"
+          slug: "blocks-narratifs"
+          file: "content/fr/pages/blocks/blocks-narratifs/_index.html"
+          name: >-
+            Les blocs narratifs
+        - permalink: "/fr/blocks/blocs-de-liste/"
+          path: "/pages/blocks/blocs-de-liste"
+          slug: "blocs-de-liste"
+          file: "content/fr/pages/blocks/blocs-de-liste/_index.html"
+          name: >-
+            Les blocs de listes
+        - permalink: "/fr/blocks/blocks-techniques/"
+          path: "/pages/blocks/blocks-techniques"
+          slug: "blocks-techniques"
+          file: "content/fr/pages/blocks/blocks-techniques/_index.html"
+          name: >-
+            Les blocs techniques
+
+      quantity: 6
+
+
   - kind: block
     template: posts
     title: >-
@@ -294,79 +367,6 @@ contents:
             https://example.osuny.org/fr/
 
           target_blank: true
-
-
-  - kind: block
-    template: pages
-    title: >-
-      Blocs
-    slug: >-
-      blocs
-    ranks:
-      base: 2
-      self: 2
-      children: 3
-    top:
-      active: true
-      title: 
-        value: >-
-          Blocs
-        heading: 2
-        link: "/fr/blocks/"
-      description: >-
-        <p>Osuny utilise des blocs pour structurer le contenu. Ces blocs intègrent la responsivité, la sobriété et l'accessibilité.</p>
-    data:
-      page:
-        permalink: "/fr/blocks/"
-        path: "/pages/blocks"
-        slug: "blocks"
-        file: "content/fr/pages/blocks/_index.html"
-      options:
-        image: true
-        categories: false
-        main_summary: true
-        summary: true
-
-      layout: cards
-      pages:
-        - permalink: "/fr/blocks/quest-ce-quun-bloc/"
-          path: "/pages/blocks/quest-ce-quun-bloc"
-          slug: "quest-ce-quun-bloc"
-          file: "content/fr/pages/blocks/quest-ce-quun-bloc/_index.html"
-          name: >-
-            Qu'est-ce qu'un bloc ?
-        - permalink: "/fr/blocks/tous-les-blocks/"
-          path: "/pages/blocks/tous-les-blocks"
-          slug: "tous-les-blocks"
-          file: "content/fr/pages/blocks/tous-les-blocks/_index.html"
-          name: >-
-            Aperçu de tous les blocs
-        - permalink: "/fr/blocks/blocks-de-base/"
-          path: "/pages/blocks/blocks-de-base"
-          slug: "blocks-de-base"
-          file: "content/fr/pages/blocks/blocks-de-base/_index.html"
-          name: >-
-            Les blocs de base
-        - permalink: "/fr/blocks/blocks-narratifs/"
-          path: "/pages/blocks/blocks-narratifs"
-          slug: "blocks-narratifs"
-          file: "content/fr/pages/blocks/blocks-narratifs/_index.html"
-          name: >-
-            Les blocs narratifs
-        - permalink: "/fr/blocks/blocs-de-liste/"
-          path: "/pages/blocks/blocs-de-liste"
-          slug: "blocs-de-liste"
-          file: "content/fr/pages/blocks/blocs-de-liste/_index.html"
-          name: >-
-            Les blocs de listes
-        - permalink: "/fr/blocks/blocks-techniques/"
-          path: "/pages/blocks/blocks-techniques"
-          slug: "blocks-techniques"
-          file: "content/fr/pages/blocks/blocks-techniques/_index.html"
-          name: >-
-            Les blocs techniques
-
-      quantity: 6
 
 
 
