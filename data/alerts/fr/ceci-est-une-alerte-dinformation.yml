@@ -4,10 +4,4 @@ title: >-
 level: info
 content: >-
   <p>Les alertes permettent de diffuser un message sur l'ensemble du site. Elles se déclinent en 3 types : information (bandeau transparent), alerte (bandeau rouge) et alerte rouge (bandeau rouge imposant).</p>
-button:
-  title: >-
-    
-  url: >-
-    
-  target_blank: false
 ---
