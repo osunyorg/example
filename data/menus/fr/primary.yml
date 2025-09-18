@@ -279,7 +279,7 @@ items:
       file: content/fr/pages/exemples/grilles-des-blocs-de-liste/_index.html
     path: "/pages/exemples"
     file: content/fr/pages/exemples/_index.html
-- title: Pages spéciales
+- title: Pages exemples
   target: ''
   kind: blank
   new_tab: false
@@ -396,6 +396,4 @@ items:
       file: content/fr/diplomas/_index.html
     path: "/programs"
     file: content/fr/programs/_index.html
-  path: "/persons"
-  file: content/fr/persons/_index.html
 
