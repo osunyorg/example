@@ -279,7 +279,7 @@ items:
       file: content/fr/pages/exemples/grilles-des-blocs-de-liste/_index.html
     path: "/pages/exemples"
     file: content/fr/pages/exemples/_index.html
-- title: Pages exemples
+- title: Pages spéciales
   target: ''
   kind: blank
   new_tab: false
