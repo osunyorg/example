@@ -347,6 +347,27 @@ items:
       file: content/fr/teachers/_index.html
     path: "/persons"
     file: content/fr/persons/_index.html
+  - title: Offres de formation
+    target: "/fr/offre-de-formation/"
+    kind: page
+    new_tab: false
+    children:
+    - title: Liste des formations
+      target: "/fr/offre-de-formation/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/programs"
+      file: content/fr/programs/_index.html
+    - title: Liste des diplômes
+      target: "/fr/diplomes/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/diplomas"
+      file: content/fr/diplomas/_index.html
+    path: "/programs"
+    file: content/fr/programs/_index.html
   - title: Organisations
     target: "/fr/organisations/"
     kind: page
@@ -382,30 +403,19 @@ items:
     children: []
     path: "/jobs"
     file: content/fr/jobs/_index.html
-  - title: Les offres de formation
-    target: "/fr/offre-de-formation/"
-    kind: page
-    new_tab: false
-    children:
-    - title: Liste des formations
-      target: "/fr/offre-de-formation/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/programs"
-      file: content/fr/programs/_index.html
-    - title: Liste des diplômes
-      target: "/fr/diplomes/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/diplomas"
-      file: content/fr/diplomas/_index.html
-    path: "/programs"
-    file: content/fr/programs/_index.html
-- title: Site support
+- title: Sites produits avec Osuny
+  target: https://showcase.osuny.org
+  kind: url
+  new_tab: true
+  children: []
+- title: Découvrir Osuny
+  target: https://www.osuny.org
+  kind: url
+  new_tab: true
+  children: []
+- title: Support technique
   target: https://support.osuny.org
   kind: url
-  new_tab: false
+  new_tab: true
   children: []
 
