@@ -6,6 +6,48 @@ items:
   kind: blank
   new_tab: false
   children:
+  - title: Qu'est-ce qu'un bloc ?
+    target: "/fr/blocks/quest-ce-quun-bloc/"
+    kind: page
+    new_tab: false
+    children:
+    - title: Quels sont les avantages des blocs ?
+      target: "/fr/blocks/quest-ce-quun-bloc/quels-sont-les-avantages-des-blocs/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/blocks/quest-ce-quun-bloc/quels-sont-les-avantages-des-blocs"
+      file: content/fr/pages/blocks/quest-ce-quun-bloc/quels-sont-les-avantages-des-blocs/_index.html
+    - title: Comment personnaliser le style des blocs ?
+      target: "/fr/blocks/quest-ce-quun-bloc/comment-personnaliser-le-style-des-blocs/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/blocks/quest-ce-quun-bloc/comment-personnaliser-le-style-des-blocs"
+      file: content/fr/pages/blocks/quest-ce-quun-bloc/comment-personnaliser-le-style-des-blocs/_index.html
+    path: "/pages/blocks/quest-ce-quun-bloc"
+    file: content/fr/pages/blocks/quest-ce-quun-bloc/_index.html
+  - title: Comment composer avec les blocs ?
+    target: "/fr/exemples/"
+    kind: page
+    new_tab: false
+    children:
+    - title: Grilles des blocs de liste
+      target: "/fr/exemples/grilles-des-blocs-de-liste/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/exemples/grilles-des-blocs-de-liste"
+      file: content/fr/pages/exemples/grilles-des-blocs-de-liste/_index.html
+    - title: Archives
+      target: "/fr/exemples/grilles-des-blocs-de-liste/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/exemples/grilles-des-blocs-de-liste"
+      file: content/fr/pages/exemples/grilles-des-blocs-de-liste/_index.html
+    path: "/pages/exemples"
+    file: content/fr/pages/exemples/_index.html
   - title: Les blocs de base
     target: "/fr/blocks/blocks-de-base/"
     kind: page
@@ -237,53 +279,18 @@ items:
       file: content/fr/pages/blocks/blocks-techniques/liens/_index.html
     path: "/pages/blocks/blocks-techniques"
     file: content/fr/pages/blocks/blocks-techniques/_index.html
-  - title: Qu'est-ce qu'un bloc ?
-    target: "/fr/blocks/quest-ce-quun-bloc/"
-    kind: page
-    new_tab: false
-    children:
-    - title: Quels sont les avantages des blocs ?
-      target: "/fr/blocks/quest-ce-quun-bloc/quels-sont-les-avantages-des-blocs/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/pages/blocks/quest-ce-quun-bloc/quels-sont-les-avantages-des-blocs"
-      file: content/fr/pages/blocks/quest-ce-quun-bloc/quels-sont-les-avantages-des-blocs/_index.html
-    - title: Comment personnaliser le style des blocs ?
-      target: "/fr/blocks/quest-ce-quun-bloc/comment-personnaliser-le-style-des-blocs/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/pages/blocks/quest-ce-quun-bloc/comment-personnaliser-le-style-des-blocs"
-      file: content/fr/pages/blocks/quest-ce-quun-bloc/comment-personnaliser-le-style-des-blocs/_index.html
-    path: "/pages/blocks/quest-ce-quun-bloc"
-    file: content/fr/pages/blocks/quest-ce-quun-bloc/_index.html
-  - title: Comment composer avec les blocs ?
-    target: "/fr/exemples/"
-    kind: page
-    new_tab: false
-    children:
-    - title: Grilles des blocs de liste
-      target: "/fr/exemples/grilles-des-blocs-de-liste/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/pages/exemples/grilles-des-blocs-de-liste"
-      file: content/fr/pages/exemples/grilles-des-blocs-de-liste/_index.html
-    - title: Archives
-      target: "/fr/exemples/grilles-des-blocs-de-liste/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/pages/exemples/grilles-des-blocs-de-liste"
-      file: content/fr/pages/exemples/grilles-des-blocs-de-liste/_index.html
-    path: "/pages/exemples"
-    file: content/fr/pages/exemples/_index.html
-- title: Pages exemples
+- title: Pages spéciales
   target: ''
   kind: blank
   new_tab: false
   children:
+  - title: Qu'est-ce qu'une page spéciale ?
+    target: "/fr/types-de-pages/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/types-de-pages"
+    file: content/fr/pages/types-de-pages/_index.html
   - title: Actualités
     target: "/fr/actualites/"
     kind: page
@@ -340,6 +347,27 @@ items:
       file: content/fr/teachers/_index.html
     path: "/persons"
     file: content/fr/persons/_index.html
+  - title: Offres de formation
+    target: "/fr/offre-de-formation/"
+    kind: page
+    new_tab: false
+    children:
+    - title: Liste des formations
+      target: "/fr/offre-de-formation/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/programs"
+      file: content/fr/programs/_index.html
+    - title: Liste des diplômes
+      target: "/fr/diplomes/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/diplomas"
+      file: content/fr/diplomas/_index.html
+    path: "/programs"
+    file: content/fr/programs/_index.html
   - title: Organisations
     target: "/fr/organisations/"
     kind: page
@@ -375,25 +403,19 @@ items:
     children: []
     path: "/jobs"
     file: content/fr/jobs/_index.html
-  - title: Les offres de formation
-    target: "/fr/offre-de-formation/"
-    kind: page
-    new_tab: false
-    children:
-    - title: Liste des formations
-      target: "/fr/offre-de-formation/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/programs"
-      file: content/fr/programs/_index.html
-    - title: Liste des diplômes
-      target: "/fr/diplomes/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/diplomas"
-      file: content/fr/diplomas/_index.html
-    path: "/programs"
-    file: content/fr/programs/_index.html
+- title: Sites produits avec Osuny
+  target: https://showcase.osuny.org
+  kind: url
+  new_tab: true
+  children: []
+- title: Découvrir Osuny
+  target: https://www.osuny.org
+  kind: url
+  new_tab: true
+  children: []
+- title: Support technique
+  target: https://support.osuny.org
+  kind: url
+  new_tab: true
+  children: []
 
