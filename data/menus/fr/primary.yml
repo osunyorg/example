@@ -284,7 +284,7 @@ items:
   kind: blank
   new_tab: false
   children:
-  - title: Types de pages
+  - title: Qu'est-ce qu'une page spéciale ?
     target: "/fr/types-de-pages/"
     kind: page
     new_tab: false
@@ -403,4 +403,9 @@ items:
       file: content/fr/diplomas/_index.html
     path: "/programs"
     file: content/fr/programs/_index.html
+- title: Site support
+  target: https://support.osuny.org
+  kind: url
+  new_tab: false
+  children: []
 
