@@ -408,7 +408,7 @@ items:
   kind: blank
   new_tab: false
   children:
-  - title: Sites produits avec Osuny
+  - title: Sites fièrement produits avec Osuny
     target: https://showcase.osuny.org
     kind: url
     new_tab: true
