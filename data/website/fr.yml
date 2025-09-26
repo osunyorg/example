@@ -4,7 +4,7 @@ default:
   image:
     id: d7e183ad-ea73-44a5-85eb-e67f8327d10e
 contents_reading_time:
-  seconds: 4
+  seconds: 9
   text: >-
     moins d'une minute
 contents:
@@ -24,11 +24,11 @@ contents:
           En savoir plus
         heading: 2
       description: >-
-        <p>Sur le commun numérique Osuny</p>
+        <p>Sur le commun numérique Osuny.</p><p>Ceci est un bloc de footer, il s'affiche sur l'ensemble du site, au-dessus du pied de page.</p>
     data:
       layout: no_background
       text: >-
-        <p>Sur le commun numérique Osuny</p>
+        <p>Sur le commun numérique Osuny.</p><p>Ceci est un bloc de footer, il s'affiche sur l'ensemble du site, au-dessus du pied de page.</p>
 
 
       alt: >-
@@ -45,4 +45,6 @@ contents:
             https://www.osuny.org/
 
           target_blank: true
+
+
 
