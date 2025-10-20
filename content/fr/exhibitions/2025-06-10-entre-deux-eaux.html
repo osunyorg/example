@@ -15,7 +15,7 @@ meta:
     slug: "entre-deux-eaux"
   dates:
     created_at: 2025-08-14T15:49:27+02:00
-    updated_at: 2025-08-14T15:50:07+02:00
+    updated_at: 2025-10-20T12:51:59+02:00
     published_at: 2025-08-14T15:49:27+02:00
 search:
   id: "34120816-fb3b-4b16-98c5-1e8ffdd424b7"
@@ -28,7 +28,7 @@ search:
   summary: >-
     <p>Une exposition permet de faire apparaître un événement se répétant tous les jours sur le long terme (quelques mois, une année, etc.). Les exposition sont mises en valeur dans l'<a href="/fr/agenda/">agenda</a> au-dessus des événements classiques.</p>
   body: >-
-    
+    <p>Artiste et commissaire  <br> Avec le soutien de  </p>
 
 breadcrumbs:
   - title: >-
@@ -43,7 +43,7 @@ breadcrumbs:
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
 
 weight: -1
@@ -164,9 +164,106 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 0
+  seconds: 2
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: title
+    title: >-
+      Artiste et commissaire
+    slug: >-
+      artiste-et-commissaire
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Artiste et commissaire
+        heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: persons
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+    data:
+      description: >-
+        
+
+      layout: large
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
+
+      persons:
+        - permalink: "/fr/equipe/arnaud-levy/"
+          path: "/persons/arnaud-levy"
+          slug: "arnaud-levy"
+          file: "content/fr/persons/arnaud-levy.html"
+          role: >-
+            
+
+      quantity: 1
+
+
+  - kind: block
+    template: title
+    title: >-
+      Avec le soutien de
+    slug: >-
+      avec-le-soutien-de
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Avec le soutien de
+        heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: organizations
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+    top:
+      active: false
+    data:
+      layout: grid
+      description: >-
+        
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: false
+        filters: false
+
+      organizations:
+      quantity: 0
+
+
 
 ---
