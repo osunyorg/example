@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/fr/blocks/blocs-de-liste/agenda-1/"
 slug: "agenda-1"
 date: 2023-12-27T16:13:59+01:00
-lastmod: 2025-09-11T11:51:38+02:00
+lastmod: 2025-11-21T10:58:55+01:00
 meta:
   hugo:
     permalink: "/fr/blocks/blocs-de-liste/agenda-1/"
@@ -17,7 +17,7 @@ meta:
     slug: "agenda-1"
   dates:
     created_at: 2023-09-18T15:54:04+02:00
-    updated_at: 2025-09-11T11:51:38+02:00
+    updated_at: 2025-11-21T10:58:55+01:00
     published_at: 2023-12-27T16:13:59+01:00
 search:
   id: "aaf63fbe-8114-48be-86b8-7dee881922f0"
@@ -30,7 +30,7 @@ search:
   summary: >-
     <p>Une liste d'événements, avec image, description et lien vers la page d'événement.</p>
   body: >-
-    <p>Agenda  <br> Les prochains événements </p>  <p> Agenda - Description  <br>  </p>  <p>Donec scelerisque vulputate vestibulum. Praesent blandit facilisis risus non vestibulum. Curabitur iaculis eros sem, in interdum urna posuere vel. Integer fringilla sollicitudin purus, id tristique risus placerat varius.</p>  <p> Agenda - Mise en avant  <br> À la une </p>  <p> Agenda - Grand  <br> Dans les murs </p>  <p> Agenda - Grille  <br> Agenda - Liste  <br> Agenda - Grand - 2  <br> Agenda - Grille - 2  <br>  </p>  <p>Pas d'événements à venir</p>  <p> Un agenda vide </p>  <p>Pas d'événements à venir</p>  <p> Agenda - Grand - Catégorie  <br> Événements terminés, archivés </p>
+    <p>Agenda  <br> Les prochains événements </p>  <p> Agenda - Description  <br>  </p>  <p>Donec scelerisque vulputate vestibulum. Praesent blandit facilisis risus non vestibulum. Curabitur iaculis eros sem, in interdum urna posuere vel. Integer fringilla sollicitudin purus, id tristique risus placerat varius.</p>  <p> Agenda - Mise en avant  <br> À la une </p>  <p> Agenda - Grand  <br> Dans les murs </p>  <p> Agenda - Grille  <br> Agenda - Liste  <br> Agenda - Grand - 2  <br> Sans image </p>  <p> Agenda - Grille - 2  <br>  </p>  <p>Pas d'événements à venir</p>  <p> Un agenda vide </p>  <p>Pas d'événements à venir</p>  <p> Agenda - Grand - Catégorie  <br> Événements terminés, archivés </p>
 
 breadcrumbs:
   - title: >-
@@ -568,14 +568,20 @@ contents:
   - kind: block
     template: agenda
     title: >-
-      
+      Sans image
     slug: >-
-      
+      sans-image
     ranks:
       base: 3
-      children: 3
+      self: 3
+      children: 4
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Sans image
+        heading: 3
+        link: "/fr/agenda/"
     data:
       mode: all
       kinds:
@@ -583,12 +589,12 @@ contents:
         child: true
         recurring: true
       options:
-        categories: false
+        categories: true
         dates: true
-        image: true
+        image: false
         subtitle: true
-        summary: false
-        status: false
+        summary: true
+        status: true
 
       layout: large
       description: >-
