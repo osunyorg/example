@@ -79,20 +79,6 @@ section_taxonomies:
         name: >-
           Propositions de lois
         count: 1
-      - permalink: "/fr/actualites/litterature/science-fiction/"
-        path: "/posts_categories/litterature/science-fiction"
-        slug: "litterature/science-fiction"
-        file: "content/fr/posts_categories/litterature/science-fiction/_index.html"
-        name: >-
-          Science-fiction
-        count: 1
-      - permalink: "/fr/actualites/osuny/fonctionnalite/"
-        path: "/posts_categories/osuny/fonctionnalite"
-        slug: "osuny/fonctionnalite"
-        file: "content/fr/posts_categories/osuny/fonctionnalite/_index.html"
-        name: >-
-          Fonctionnalité
-        count: 3
       - permalink: "/fr/actualites/a-la-une/"
         path: "/posts_categories/a-la-une"
         slug: "a-la-une"
@@ -114,6 +100,15 @@ section_taxonomies:
         name: >-
           Littérature
         count: 1
+        children:
+          - permalink: "/fr/actualites/litterature/science-fiction/"
+            path: "/posts_categories/litterature/science-fiction"
+            slug: "litterature/science-fiction"
+            file: "content/fr/posts_categories/litterature/science-fiction/_index.html"
+            name: >-
+              Science-fiction
+            count: 1
+
       - permalink: "/fr/actualites/osuny/"
         path: "/posts_categories/osuny"
         slug: "osuny"
@@ -121,20 +116,32 @@ section_taxonomies:
         name: >-
           Osuny
         count: 5
-      - permalink: "/fr/actualites/osuny/fonctionnalite/avancee/"
-        path: "/posts_categories/osuny/fonctionnalite/avancee"
-        slug: "osuny/fonctionnalite/avancee"
-        file: "content/fr/posts_categories/osuny/fonctionnalite/avancee/_index.html"
-        name: >-
-          Avancée
-        count: 2
-      - permalink: "/fr/actualites/osuny/fonctionnalite/fondamentale/"
-        path: "/posts_categories/osuny/fonctionnalite/fondamentale"
-        slug: "osuny/fonctionnalite/fondamentale"
-        file: "content/fr/posts_categories/osuny/fonctionnalite/fondamentale/_index.html"
-        name: >-
-          Fondamentale
-        count: 1
+        children:
+          - permalink: "/fr/actualites/osuny/fonctionnalite/"
+            path: "/posts_categories/osuny/fonctionnalite"
+            slug: "osuny/fonctionnalite"
+            file: "content/fr/posts_categories/osuny/fonctionnalite/_index.html"
+            name: >-
+              Fonctionnalité
+            count: 3
+            children:
+              - permalink: "/fr/actualites/osuny/fonctionnalite/avancee/"
+                path: "/posts_categories/osuny/fonctionnalite/avancee"
+                slug: "osuny/fonctionnalite/avancee"
+                file: "content/fr/posts_categories/osuny/fonctionnalite/avancee/_index.html"
+                name: >-
+                  Avancée
+                count: 2
+
+              - permalink: "/fr/actualites/osuny/fonctionnalite/fondamentale/"
+                path: "/posts_categories/osuny/fonctionnalite/fondamentale"
+                slug: "osuny/fonctionnalite/fondamentale"
+                file: "content/fr/posts_categories/osuny/fonctionnalite/fondamentale/_index.html"
+                name: >-
+                  Fondamentale
+                count: 1
+
+
 
   - name: >-
       Offre de formation
@@ -148,13 +155,6 @@ section_taxonomies:
         name: >-
           Animation sociale et socioculturelle
         count: 4
-      - permalink: "/fr/actualites/offre-de-formation/information-communication/lorem-ipsum/"
-        path: "/posts_categories/offre-de-formation/information-communication/lorem-ipsum"
-        slug: "offre-de-formation/information-communication/lorem-ipsum"
-        file: "content/fr/posts_categories/offre-de-formation/information-communication/lorem-ipsum/_index.html"
-        name: >-
-          Éco-conception de service numérique
-        count: 1
       - permalink: "/fr/actualites/offre-de-formation/contribuer-avec-osuny/"
         path: "/posts_categories/offre-de-formation/contribuer-avec-osuny"
         slug: "offre-de-formation/contribuer-avec-osuny"
@@ -183,6 +183,16 @@ section_taxonomies:
         name: >-
           Information - Communication
         count: 2
+        children:
+
+          - permalink: "/fr/actualites/offre-de-formation/information-communication/lorem-ipsum/"
+            path: "/posts_categories/offre-de-formation/information-communication/lorem-ipsum"
+            slug: "offre-de-formation/information-communication/lorem-ipsum"
+            file: "content/fr/posts_categories/offre-de-formation/information-communication/lorem-ipsum/_index.html"
+            name: >-
+              Éco-conception de service numérique
+            count: 1
+
   - name: >-
       Type d'article
     slug: "type-darticle"
@@ -195,26 +205,29 @@ section_taxonomies:
         name: >-
           Billet
         count: 4
-      - permalink: "/fr/actualites/type-darticle/billet/caricature/"
-        path: "/posts_categories/type-darticle/billet/caricature"
-        slug: "type-darticle/billet/caricature"
-        file: "content/fr/posts_categories/type-darticle/billet/caricature/_index.html"
-        name: >-
-          Caricature
-        count: 1
+        children:
+          - permalink: "/fr/actualites/type-darticle/billet/caricature/"
+            path: "/posts_categories/type-darticle/billet/caricature"
+            slug: "type-darticle/billet/caricature"
+            file: "content/fr/posts_categories/type-darticle/billet/caricature/_index.html"
+            name: >-
+              Caricature
+            count: 1
+
+          - permalink: "/fr/actualites/type-darticle/billet/politique/"
+            path: "/posts_categories/type-darticle/billet/politique"
+            slug: "type-darticle/billet/politique"
+            file: "content/fr/posts_categories/type-darticle/billet/politique/_index.html"
+            name: >-
+              Politique
+            count: 1
+
       - permalink: "/fr/actualites/type-darticle/chronique/"
         path: "/posts_categories/type-darticle/chronique"
         slug: "type-darticle/chronique"
         file: "content/fr/posts_categories/type-darticle/chronique/_index.html"
         name: >-
           Chronique
-        count: 1
-      - permalink: "/fr/actualites/type-darticle/billet/politique/"
-        path: "/posts_categories/type-darticle/billet/politique"
-        slug: "type-darticle/billet/politique"
-        file: "content/fr/posts_categories/type-darticle/billet/politique/_index.html"
-        name: >-
-          Politique
         count: 1
       - permalink: "/fr/actualites/type-darticle/reportage/"
         path: "/posts_categories/type-darticle/reportage"
@@ -235,6 +248,8 @@ section_taxonomies:
         name: >-
           Numérique responsable
         count: 3
+        children:
+
       - permalink: "/fr/actualites/sujet/veille/"
         path: "/posts_categories/sujet/veille"
         slug: "sujet/veille"
