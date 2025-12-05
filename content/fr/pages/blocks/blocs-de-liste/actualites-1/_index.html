@@ -12,7 +12,7 @@ aliases:
   - /blocks/blocs-de-liste/actualites-1/
   - /blocks/blocks-de-liste/actualites-1/
 date: 2023-12-11T15:17:06+01:00
-lastmod: 2025-11-10T16:31:23+01:00
+lastmod: 2025-12-05T09:20:45+01:00
 meta:
   hugo:
     permalink: "/fr/blocks/blocs-de-liste/actualites-1/"
@@ -21,7 +21,7 @@ meta:
     slug: "actualites-1"
   dates:
     created_at: 2022-07-12T14:49:02+02:00
-    updated_at: 2025-11-10T16:31:23+01:00
+    updated_at: 2025-12-05T09:20:45+01:00
     published_at: 2023-12-11T15:17:06+01:00
 search:
   id: "d3f14af9-968f-40c0-8128-d90646506362"
@@ -34,7 +34,7 @@ search:
   summary: >-
     <p>Une liste d'actualités mises en avant</p>
   body: >-
-    <p>Toutes les actualités - Grand </p>  <p> Toutes les actualités - Liste </p>  <p> Une première sélection d'articles  <br> Toutes les actualités - Mise en avant </p>  <p> Toutes les actualités - Alternance </p>  <p> Une seconde sélection d'articles  <br> Actualité - catégorie spécifique - Grille </p>  <p> Actualité - catégorie spécifique - Liste </p>  <p> Actualité - catégorie spécifique - Mise en avant </p>  <p> Sélection d'actualités - 1 seul article - Grille </p>  <p> Sélection d'actualités - 1 seul article - Liste </p>  <p> Sélection d'actualités - 1 seul article - Mise en avant </p>  <p> Sélection d'actualités - 2 articles - Grille </p>  <p> Sélection d'actualités - 2 articles - Liste </p>  <p> Sélection d'actualités - 2 articles - Mise en avant </p>  <p> Une actualité en large  <br> Plusieurs actualités en large  <br> À la une </p>  <p> Toutes les actualités - Carousel </p>  <p> Actualités minimalistes (titre + date) </p>
+    <p>Mise en page "liste"  <br> Avec toutes les options </p>  <p> Avec peu d'options </p>  <p> Affichage minimaliste </p>  <p> Mise en page "grille"  <br> Avec toutes les options </p>  <p> Avec peu d'options </p>  <p> Affichage minimaliste </p>  <p> Mise en page "alternance"  <br> Actualité - catégorie spécifique - Grille </p>  <p> Actualité - catégorie spécifique - Liste </p>  <p> Actualité - catégorie spécifique - Mise en avant </p>  <p> Sélection d'actualités - 1 seul article - Grille </p>  <p> Sélection d'actualités - 1 seul article - Liste </p>  <p> Mise en page "large"  <br> Avec toutes les options </p>  <p> Sans image ni temps de lecture </p>  <p> Avec peu d'options </p>
 
 breadcrumbs:
   - title: >-
@@ -108,34 +108,106 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 39
+  seconds: 25
   text: >-
-    1 minute
+    moins d'une minute
 contents:
   - kind: block
-    template: posts
+    template: title
     title: >-
-      Toutes les actualités - Grand
+      Mise en page "liste"
     slug: >-
-      toutes-les-actualites-grand
+      mise-en-page-liste
     ranks:
       base: 2
       self: 2
-      children: 3
     top:
       active: true
       title: 
         value: >-
-          Toutes les actualités - Grand
+          Mise en page "liste"
         heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: posts
+    title: >-
+      Avec toutes les options
+    slug: >-
+      avec-toutes-les-options
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Avec toutes les options
+        heading: 3
         link: "/fr/actualites/"
     data:
       mode: all
       all: true
-      layout: large
+      layout: list
       options:
         author: true
         categories: true
+        date: true
+        image: true
+        reading_time: true
+        subtitle: true
+        summary: true
+
+      posts:
+        - permalink: "/fr/actualites/2025-08-12-voici-comment-apparaissent-les-actualites/"
+          path: "/posts/2025/2025-08-12-voici-comment-apparaissent-les-actualites"
+          slug: "voici-comment-apparaissent-les-actualites"
+          file: "content/fr/posts/2025/2025-08-12-voici-comment-apparaissent-les-actualites.html"
+          name: >-
+            Voici comment apparaissent les actualités
+        - permalink: "/fr/actualites/2025-03-23-vallee-du-silicium/"
+          path: "/posts/2025/2025-03-23-vallee-du-silicium"
+          slug: "vallee-du-silicium"
+          file: "content/fr/posts/2025/2025-03-23-vallee-du-silicium.html"
+          name: >-
+            Vallée du silicium
+        - permalink: "/fr/actualites/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn/"
+          path: "/posts/2023/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn"
+          slug: "referentiel-general-decoconception-de-services-numeriques-rgesn"
+          file: "content/fr/posts/2023/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn.html"
+          name: >-
+            Référentiel général d'écoconception de services numériques (RGESN)
+
+      quantity: 3
+
+
+  - kind: block
+    template: posts
+    title: >-
+      Avec peu d'options
+    slug: >-
+      avec-peu-d-options
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Avec peu d'options
+        heading: 3
+        link: "/fr/actualites/"
+    data:
+      mode: all
+      all: true
+      layout: list
+      options:
+        author: false
+        categories: false
         date: true
         image: true
         reading_time: false
@@ -168,29 +240,29 @@ contents:
   - kind: block
     template: posts
     title: >-
-      Toutes les actualités - Liste
+      Affichage minimaliste
     slug: >-
-      toutes-les-actualites-liste
+      affichage-minimaliste
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
-          Toutes les actualités - Liste
-        heading: 2
+          Affichage minimaliste
+        heading: 3
         link: "/fr/actualites/"
     data:
       mode: all
       all: true
       layout: list
       options:
-        author: true
-        categories: true
+        author: false
+        categories: false
         date: true
-        image: true
+        image: false
         reading_time: false
         subtitle: true
         summary: true
@@ -221,9 +293,9 @@ contents:
   - kind: block
     template: title
     title: >-
-      Une première sélection d'articles
+      Mise en page "grille"
     slug: >-
-      une-premiere-selection-d-articles
+      mise-en-page-grille
     ranks:
       base: 2
       self: 2
@@ -231,7 +303,7 @@ contents:
       active: true
       title: 
         value: >-
-          Une première sélection d'articles
+          Mise en page "grille"
         heading: 2
     data:
       layout: classic
@@ -240,9 +312,9 @@ contents:
   - kind: block
     template: posts
     title: >-
-      Toutes les actualités - Mise en avant
+      Avec toutes les options
     slug: >-
-      toutes-les-actualites-mise-en-avant
+      avec-toutes-les-options
     ranks:
       base: 3
       self: 3
@@ -251,7 +323,7 @@ contents:
       active: true
       title: 
         value: >-
-          Toutes les actualités - Mise en avant
+          Avec toutes les options
         heading: 3
         link: "/fr/actualites/"
     data:
@@ -263,7 +335,7 @@ contents:
         categories: true
         date: true
         image: true
-        reading_time: false
+        reading_time: true
         subtitle: true
         summary: true
 
@@ -286,16 +358,22 @@ contents:
           file: "content/fr/posts/2023/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn.html"
           name: >-
             Référentiel général d'écoconception de services numériques (RGESN)
+        - permalink: "/fr/actualites/2025-05-06-comment-afficher-un-bloc-ailleurs-que-dans-le-contenu-de-la-page/"
+          path: "/posts/2025/2025-05-06-comment-afficher-un-bloc-ailleurs-que-dans-le-contenu-de-la-page"
+          slug: "comment-afficher-un-bloc-ailleurs-que-dans-le-contenu-de-la-page"
+          file: "content/fr/posts/2025/2025-05-06-comment-afficher-un-bloc-ailleurs-que-dans-le-contenu-de-la-page.html"
+          name: >-
+            Comment afficher un bloc ailleurs que dans le contenu de la page ?
 
-      quantity: 3
+      quantity: 4
 
 
   - kind: block
     template: posts
     title: >-
-      Toutes les actualités - Alternance
+      Avec peu d'options
     slug: >-
-      toutes-les-actualites-alternance
+      avec-peu-d-options
     ranks:
       base: 3
       self: 3
@@ -304,16 +382,16 @@ contents:
       active: true
       title: 
         value: >-
-          Toutes les actualités - Alternance
+          Avec peu d'options
         heading: 3
         link: "/fr/actualites/"
     data:
       mode: all
       all: true
-      layout: alternate
+      layout: highlight
       options:
-        author: true
-        categories: true
+        author: false
+        categories: false
         date: true
         image: true
         reading_time: false
@@ -345,28 +423,75 @@ contents:
           file: "content/fr/posts/2025/2025-05-06-comment-afficher-un-bloc-ailleurs-que-dans-le-contenu-de-la-page.html"
           name: >-
             Comment afficher un bloc ailleurs que dans le contenu de la page ?
-        - permalink: "/fr/actualites/2025-04-03-test-de-contrib/"
-          path: "/posts/2025/2025-04-03-test-de-contrib"
-          slug: "test-de-contrib"
-          file: "content/fr/posts/2025/2025-04-03-test-de-contrib.html"
-          name: >-
-            Test de contrib
-        - permalink: "/fr/actualites/2024-11-28-les-carousels-dosuny/"
-          path: "/posts/2024/2024-11-28-les-carousels-dosuny"
-          slug: "les-carousels-dosuny"
-          file: "content/fr/posts/2024/2024-11-28-les-carousels-dosuny.html"
-          name: >-
-            Les carousels d'Osuny
 
-      quantity: 6
+      quantity: 4
+
+
+  - kind: block
+    template: posts
+    title: >-
+      Affichage minimaliste
+    slug: >-
+      affichage-minimaliste
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Affichage minimaliste
+        heading: 3
+        link: "/fr/actualites/"
+    data:
+      mode: all
+      all: true
+      layout: highlight
+      options:
+        author: false
+        categories: false
+        date: true
+        image: false
+        reading_time: false
+        subtitle: true
+        summary: true
+
+      posts:
+        - permalink: "/fr/actualites/2025-08-12-voici-comment-apparaissent-les-actualites/"
+          path: "/posts/2025/2025-08-12-voici-comment-apparaissent-les-actualites"
+          slug: "voici-comment-apparaissent-les-actualites"
+          file: "content/fr/posts/2025/2025-08-12-voici-comment-apparaissent-les-actualites.html"
+          name: >-
+            Voici comment apparaissent les actualités
+        - permalink: "/fr/actualites/2025-03-23-vallee-du-silicium/"
+          path: "/posts/2025/2025-03-23-vallee-du-silicium"
+          slug: "vallee-du-silicium"
+          file: "content/fr/posts/2025/2025-03-23-vallee-du-silicium.html"
+          name: >-
+            Vallée du silicium
+        - permalink: "/fr/actualites/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn/"
+          path: "/posts/2023/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn"
+          slug: "referentiel-general-decoconception-de-services-numeriques-rgesn"
+          file: "content/fr/posts/2023/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn.html"
+          name: >-
+            Référentiel général d'écoconception de services numériques (RGESN)
+        - permalink: "/fr/actualites/2025-05-06-comment-afficher-un-bloc-ailleurs-que-dans-le-contenu-de-la-page/"
+          path: "/posts/2025/2025-05-06-comment-afficher-un-bloc-ailleurs-que-dans-le-contenu-de-la-page"
+          slug: "comment-afficher-un-bloc-ailleurs-que-dans-le-contenu-de-la-page"
+          file: "content/fr/posts/2025/2025-05-06-comment-afficher-un-bloc-ailleurs-que-dans-le-contenu-de-la-page.html"
+          name: >-
+            Comment afficher un bloc ailleurs que dans le contenu de la page ?
+
+      quantity: 4
 
 
   - kind: block
     template: title
     title: >-
-      Une seconde sélection d'articles
+      Mise en page "alternance"
     slug: >-
-      une-seconde-selection-d-articles
+      mise-en-page-alternance
     ranks:
       base: 2
       self: 2
@@ -374,7 +499,7 @@ contents:
       active: true
       title: 
         value: >-
-          Une seconde sélection d'articles
+          Mise en page "alternance"
         heading: 2
     data:
       layout: classic
@@ -618,185 +743,11 @@ contents:
 
 
   - kind: block
-    template: posts
-    title: >-
-      Sélection d'actualités - 1 seul article - Mise en avant
-    slug: >-
-      selection-d-actualites-1-seul-article-mise-en-avant
-    ranks:
-      base: 3
-      self: 3
-      children: 4
-    top:
-      active: true
-      title: 
-        value: >-
-          Sélection d'actualités - 1 seul article - Mise en avant
-        heading: 3
-    data:
-      mode: selection
-      layout: highlight
-      options:
-        author: true
-        categories: true
-        date: true
-        image: true
-        reading_time: false
-        subtitle: true
-        summary: true
-
-      posts:
-        - permalink: "/fr/actualites/2022-02-03-inscriptions-administratives/"
-          path: "/posts/2022/2022-02-03-inscriptions-administratives"
-          slug: "inscriptions-administratives"
-          file: "content/fr/posts/2022/2022-02-03-inscriptions-administratives.html"
-          name: >-
-            Inscriptions administratives
-
-      quantity: 1
-
-
-  - kind: block
-    template: posts
-    title: >-
-      Sélection d'actualités - 2 articles - Grille
-    slug: >-
-      selection-d-actualites-2-articles-grille
-    ranks:
-      base: 3
-      self: 3
-      children: 4
-    top:
-      active: true
-      title: 
-        value: >-
-          Sélection d'actualités - 2 articles - Grille
-        heading: 3
-    data:
-      mode: selection
-      layout: grid
-      options:
-        author: true
-        categories: true
-        date: true
-        image: true
-        reading_time: false
-        subtitle: true
-        summary: true
-
-      posts:
-        - permalink: "/fr/actualites/2022-02-21-lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique/"
-          path: "/posts/2022/2022-02-21-lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique"
-          slug: "lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique"
-          file: "content/fr/posts/2022/2022-02-21-lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique.html"
-          name: >-
-            Lancement d'ARA , l’outil qui va simplifier les audits d’accessibilité numérique
-        - permalink: "/fr/actualites/2022-02-02-lorem-ipsum/"
-          path: "/posts/2022/2022-02-02-lorem-ipsum"
-          slug: "lorem-ipsum"
-          file: "content/fr/posts/2022/2022-02-02-lorem-ipsum.html"
-          name: >-
-            Aide sociale de l'université
-
-      quantity: 2
-
-
-  - kind: block
-    template: posts
-    title: >-
-      Sélection d'actualités - 2 articles - Liste
-    slug: >-
-      selection-d-actualites-2-articles-liste
-    ranks:
-      base: 3
-      self: 3
-      children: 4
-    top:
-      active: true
-      title: 
-        value: >-
-          Sélection d'actualités - 2 articles - Liste
-        heading: 3
-    data:
-      mode: selection
-      layout: list
-      options:
-        author: true
-        categories: true
-        date: true
-        image: true
-        reading_time: false
-        subtitle: true
-        summary: true
-
-      posts:
-        - permalink: "/fr/actualites/2022-02-21-lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique/"
-          path: "/posts/2022/2022-02-21-lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique"
-          slug: "lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique"
-          file: "content/fr/posts/2022/2022-02-21-lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique.html"
-          name: >-
-            Lancement d'ARA , l’outil qui va simplifier les audits d’accessibilité numérique
-        - permalink: "/fr/actualites/2022-02-02-lorem-ipsum/"
-          path: "/posts/2022/2022-02-02-lorem-ipsum"
-          slug: "lorem-ipsum"
-          file: "content/fr/posts/2022/2022-02-02-lorem-ipsum.html"
-          name: >-
-            Aide sociale de l'université
-
-      quantity: 2
-
-
-  - kind: block
-    template: posts
-    title: >-
-      Sélection d'actualités - 2 articles - Mise en avant
-    slug: >-
-      selection-d-actualites-2-articles-mise-en-avant
-    ranks:
-      base: 3
-      self: 3
-      children: 4
-    top:
-      active: true
-      title: 
-        value: >-
-          Sélection d'actualités - 2 articles - Mise en avant
-        heading: 3
-    data:
-      mode: selection
-      layout: highlight
-      options:
-        author: true
-        categories: true
-        date: true
-        image: true
-        reading_time: false
-        subtitle: true
-        summary: true
-
-      posts:
-        - permalink: "/fr/actualites/2022-02-21-lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique/"
-          path: "/posts/2022/2022-02-21-lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique"
-          slug: "lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique"
-          file: "content/fr/posts/2022/2022-02-21-lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique.html"
-          name: >-
-            Lancement d'ARA , l’outil qui va simplifier les audits d’accessibilité numérique
-        - permalink: "/fr/actualites/2022-02-02-lorem-ipsum/"
-          path: "/posts/2022/2022-02-02-lorem-ipsum"
-          slug: "lorem-ipsum"
-          file: "content/fr/posts/2022/2022-02-02-lorem-ipsum.html"
-          name: >-
-            Aide sociale de l'université
-
-      quantity: 2
-
-
-  - kind: block
     template: title
     title: >-
-      Une actualité en large
+      Mise en page "large"
     slug: >-
-      une-actualite-en-large
+      mise-en-page-large
     ranks:
       base: 2
       self: 2
@@ -804,7 +755,7 @@ contents:
       active: true
       title: 
         value: >-
-          Une actualité en large
+          Mise en page "large"
         heading: 2
     data:
       layout: classic
@@ -813,14 +764,19 @@ contents:
   - kind: block
     template: posts
     title: >-
-      
+      Avec toutes les options
     slug: >-
-      
+      avec-toutes-les-options
     ranks:
       base: 3
-      children: 3
+      self: 3
+      children: 4
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Avec toutes les options
+        heading: 3
     data:
       mode: selection
       layout: large
@@ -829,46 +785,33 @@ contents:
         categories: true
         date: true
         image: true
-        reading_time: false
+        reading_time: true
         subtitle: true
         summary: true
 
       posts:
-        - permalink: "/fr/actualites/2023-08-02-proposition-de-loi-relative-a-la-responsabilite-des-medias-dans-le-traitement-des-enjeux-environneme/"
-          path: "/posts/2023/2023-08-02-proposition-de-loi-relative-a-la-responsabilite-des-medias-dans-le-traitement-des-enjeux-environneme"
-          slug: "proposition-de-loi-relative-a-la-responsabilite-des-medias-dans-le-traitement-des-enjeux-environneme"
-          file: "content/fr/posts/2023/2023-08-02-proposition-de-loi-relative-a-la-responsabilite-des-medias-dans-le-traitement-des-enjeux-environneme.html"
+        - permalink: "/fr/actualites/2025-08-12-voici-comment-apparaissent-les-actualites/"
+          path: "/posts/2025/2025-08-12-voici-comment-apparaissent-les-actualites"
+          slug: "voici-comment-apparaissent-les-actualites"
+          file: "content/fr/posts/2025/2025-08-12-voici-comment-apparaissent-les-actualites.html"
           name: >-
-            Responsabilité des médias & enjeux environnementaux
+            Voici comment apparaissent les actualités
+        - permalink: "/fr/actualites/2025-03-23-vallee-du-silicium/"
+          path: "/posts/2025/2025-03-23-vallee-du-silicium"
+          slug: "vallee-du-silicium"
+          file: "content/fr/posts/2025/2025-03-23-vallee-du-silicium.html"
+          name: >-
+            Vallée du silicium
 
-      quantity: 1
-
-
-  - kind: block
-    template: title
-    title: >-
-      Plusieurs actualités en large
-    slug: >-
-      plusieurs-actualites-en-large
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Plusieurs actualités en large
-        heading: 2
-    data:
-      layout: classic
+      quantity: 2
 
 
   - kind: block
     template: posts
     title: >-
-      À la une
+      Sans image ni temps de lecture
     slug: >-
-      a-la-une
+      sans-image-ni-temps-de-lecture
     ranks:
       base: 3
       self: 3
@@ -877,172 +820,65 @@ contents:
       active: true
       title: 
         value: >-
-          À la une
+          Sans image ni temps de lecture
+        heading: 3
+    data:
+      mode: selection
+      layout: large
+      options:
+        author: true
+        categories: true
+        date: true
+        image: false
+        reading_time: false
+        subtitle: true
+        summary: true
+
+      posts:
+        - permalink: "/fr/actualites/2025-08-12-voici-comment-apparaissent-les-actualites/"
+          path: "/posts/2025/2025-08-12-voici-comment-apparaissent-les-actualites"
+          slug: "voici-comment-apparaissent-les-actualites"
+          file: "content/fr/posts/2025/2025-08-12-voici-comment-apparaissent-les-actualites.html"
+          name: >-
+            Voici comment apparaissent les actualités
+        - permalink: "/fr/actualites/2025-03-23-vallee-du-silicium/"
+          path: "/posts/2025/2025-03-23-vallee-du-silicium"
+          slug: "vallee-du-silicium"
+          file: "content/fr/posts/2025/2025-03-23-vallee-du-silicium.html"
+          name: >-
+            Vallée du silicium
+
+      quantity: 2
+
+
+  - kind: block
+    template: posts
+    title: >-
+      Avec peu d'options
+    slug: >-
+      avec-peu-d-options
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Avec peu d'options
         heading: 3
         link: "/fr/actualites/"
     data:
       mode: all
       all: true
       layout: large
-      options:
-        author: true
-        categories: true
-        date: true
-        image: true
-        reading_time: false
-        subtitle: true
-        summary: true
-
-      posts:
-        - permalink: "/fr/actualites/2025-08-12-voici-comment-apparaissent-les-actualites/"
-          path: "/posts/2025/2025-08-12-voici-comment-apparaissent-les-actualites"
-          slug: "voici-comment-apparaissent-les-actualites"
-          file: "content/fr/posts/2025/2025-08-12-voici-comment-apparaissent-les-actualites.html"
-          name: >-
-            Voici comment apparaissent les actualités
-        - permalink: "/fr/actualites/2025-03-23-vallee-du-silicium/"
-          path: "/posts/2025/2025-03-23-vallee-du-silicium"
-          slug: "vallee-du-silicium"
-          file: "content/fr/posts/2025/2025-03-23-vallee-du-silicium.html"
-          name: >-
-            Vallée du silicium
-        - permalink: "/fr/actualites/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn/"
-          path: "/posts/2023/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn"
-          slug: "referentiel-general-decoconception-de-services-numeriques-rgesn"
-          file: "content/fr/posts/2023/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn.html"
-          name: >-
-            Référentiel général d'écoconception de services numériques (RGESN)
-
-      quantity: 3
-
-
-  - kind: block
-    template: posts
-    title: >-
-      Toutes les actualités - Carousel
-    slug: >-
-      toutes-les-actualites-carousel
-    ranks:
-      base: 3
-      self: 3
-      children: 4
-    top:
-      active: true
-      title: 
-        value: >-
-          Toutes les actualités - Carousel
-        heading: 3
-        link: "/fr/actualites/"
-    data:
-      mode: all
-      all: true
-      layout: carousel
-      options:
-        author: true
-        categories: true
-        date: true
-        image: true
-        reading_time: false
-        subtitle: true
-        summary: true
-
-      posts:
-        - permalink: "/fr/actualites/2025-08-12-voici-comment-apparaissent-les-actualites/"
-          path: "/posts/2025/2025-08-12-voici-comment-apparaissent-les-actualites"
-          slug: "voici-comment-apparaissent-les-actualites"
-          file: "content/fr/posts/2025/2025-08-12-voici-comment-apparaissent-les-actualites.html"
-          name: >-
-            Voici comment apparaissent les actualités
-        - permalink: "/fr/actualites/2025-03-23-vallee-du-silicium/"
-          path: "/posts/2025/2025-03-23-vallee-du-silicium"
-          slug: "vallee-du-silicium"
-          file: "content/fr/posts/2025/2025-03-23-vallee-du-silicium.html"
-          name: >-
-            Vallée du silicium
-        - permalink: "/fr/actualites/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn/"
-          path: "/posts/2023/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn"
-          slug: "referentiel-general-decoconception-de-services-numeriques-rgesn"
-          file: "content/fr/posts/2023/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn.html"
-          name: >-
-            Référentiel général d'écoconception de services numériques (RGESN)
-
-      quantity: 3
-
-
-  - kind: block
-    template: posts
-    title: >-
-      
-    slug: >-
-      
-    ranks:
-      base: 3
-      children: 3
-    top:
-      active: false
-    data:
-      mode: all
-      layout: grid
-      options:
-        author: false
-        categories: false
-        date: false
-        image: true
-        reading_time: false
-        subtitle: true
-        summary: true
-
-      posts:
-        - permalink: "/fr/actualites/2025-08-12-voici-comment-apparaissent-les-actualites/"
-          path: "/posts/2025/2025-08-12-voici-comment-apparaissent-les-actualites"
-          slug: "voici-comment-apparaissent-les-actualites"
-          file: "content/fr/posts/2025/2025-08-12-voici-comment-apparaissent-les-actualites.html"
-          name: >-
-            Voici comment apparaissent les actualités
-        - permalink: "/fr/actualites/2025-03-23-vallee-du-silicium/"
-          path: "/posts/2025/2025-03-23-vallee-du-silicium"
-          slug: "vallee-du-silicium"
-          file: "content/fr/posts/2025/2025-03-23-vallee-du-silicium.html"
-          name: >-
-            Vallée du silicium
-        - permalink: "/fr/actualites/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn/"
-          path: "/posts/2023/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn"
-          slug: "referentiel-general-decoconception-de-services-numeriques-rgesn"
-          file: "content/fr/posts/2023/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn.html"
-          name: >-
-            Référentiel général d'écoconception de services numériques (RGESN)
-
-      quantity: 3
-
-
-  - kind: block
-    template: posts
-    title: >-
-      Actualités minimalistes (titre + date)
-    slug: >-
-      actualites-minimalistes-titre-date
-    ranks:
-      base: 3
-      self: 3
-      children: 4
-    top:
-      active: true
-      title: 
-        value: >-
-          Actualités minimalistes (titre + date)
-        heading: 3
-        link: "/fr/actualites/"
-    data:
-      mode: all
-      all: true
-      layout: list
       options:
         author: false
         categories: false
         date: true
         image: false
         reading_time: false
-        subtitle: false
+        subtitle: true
         summary: false
 
       posts:
