@@ -10,7 +10,7 @@ bodyclass: >-
 url: "/fr/blocks/blocs-de-liste/agenda-1/"
 slug: "agenda-1"
 date: 2023-12-27T16:13:59+01:00
-lastmod: 2025-11-21T10:58:55+01:00
+lastmod: 2025-12-08T17:11:54+01:00
 meta:
   hugo:
     permalink: "/fr/blocks/blocs-de-liste/agenda-1/"
@@ -19,7 +19,7 @@ meta:
     slug: "agenda-1"
   dates:
     created_at: 2023-09-18T15:54:04+02:00
-    updated_at: 2025-11-21T10:58:55+01:00
+    updated_at: 2025-12-08T17:11:54+01:00
     published_at: 2023-12-27T16:13:59+01:00
 search:
   id: "aaf63fbe-8114-48be-86b8-7dee881922f0"
@@ -32,7 +32,7 @@ search:
   summary: >-
     <p>Une liste d'événements, avec image, description et lien vers la page d'événement.</p>
   body: >-
-    <p>Agenda  <br> Les prochains événements </p>  <p> Agenda - Description  <br>  </p>  <p>Donec scelerisque vulputate vestibulum. Praesent blandit facilisis risus non vestibulum. Curabitur iaculis eros sem, in interdum urna posuere vel. Integer fringilla sollicitudin purus, id tristique risus placerat varius.</p>  <p> Agenda - Mise en avant  <br> À la une </p>  <p> Agenda - Grand  <br> Dans les murs </p>  <p> Agenda - Grille  <br> Agenda - Liste  <br> Agenda - Grand - 2  <br> Sans image </p>  <p> Agenda - Grille - 2  <br>  </p>  <p>Pas d'événements à venir</p>  <p> Un agenda vide </p>  <p>Pas d'événements à venir</p>  <p> Agenda - Grand - Catégorie  <br> Événements terminés, archivés </p>
+    <p>Layout "grille"  <br> Avec toutes les options </p>  <p> Version minimale </p>  <p>Avec image, titre, date et sous-titre.</p>  <p> Version minimale </p>  <p>Avec image, titre, date et sous-titre.</p>  <p> Agenda - Mise en avant  <br> À la une </p>  <p> Agenda - Grand  <br> Dans les murs </p>  <p> Agenda - Grille  <br> Agenda - Liste  <br> Agenda - Grand - 2  <br> Sans image </p>  <p> Agenda - Grille - 2  <br>  </p>  <p>Pas d'événements à venir</p>  <p> Un agenda vide </p>  <p>Pas d'événements à venir</p>  <p> Agenda - Grand - Catégorie  <br> Événements terminés, archivés </p>
 
 breadcrumbs:
   - title: >-
@@ -93,16 +93,16 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 23
+  seconds: 20
   text: >-
     moins d'une minute
 contents:
   - kind: block
     template: title
     title: >-
-      Agenda
+      Layout "grille"
     slug: >-
-      agenda
+      layout-grille
     ranks:
       base: 2
       self: 2
@@ -110,7 +110,7 @@ contents:
       active: true
       title: 
         value: >-
-          Agenda
+          Layout "grille"
         heading: 2
     data:
       layout: classic
@@ -119,9 +119,9 @@ contents:
   - kind: block
     template: agenda
     title: >-
-      Les prochains événements
+      Avec toutes les options
     slug: >-
-      les-prochains-evenements
+      avec-toutes-les-options
     ranks:
       base: 3
       self: 3
@@ -130,7 +130,7 @@ contents:
       active: true
       title: 
         value: >-
-          Les prochains événements
+          Avec toutes les options
         heading: 3
         link: "/fr/agenda/"
     data:
@@ -140,12 +140,12 @@ contents:
         child: true
         recurring: true
       options:
-        categories: false
+        categories: true
         dates: true
         image: true
         subtitle: true
-        summary: false
-        status: false
+        summary: true
+        status: true
 
       layout: grid
       description: >-
@@ -178,39 +178,26 @@ contents:
       quantity: 3
 
   - kind: block
-    template: title
+    template: agenda
     title: >-
-      Agenda - Description
+      Version minimale
     slug: >-
-      agenda-description
+      version-minimale
     ranks:
-      base: 2
-      self: 2
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
-          Agenda - Description
-        heading: 2
-    data:
-      layout: classic
-
-
-  - kind: block
-    template: agenda
-    title: >-
-      
-    slug: >-
-      
-    ranks:
-      base: 3
-      children: 3
-    top:
-      active: true
+          Version minimale
+        heading: 3
+        link: "/fr/agenda/"
       description: >-
-        <p>Donec scelerisque vulputate vestibulum. Praesent blandit facilisis risus non vestibulum. Curabitur iaculis eros sem, in interdum urna posuere vel. Integer fringilla sollicitudin purus, id tristique risus placerat varius.</p>
+        <p>Avec image, titre, date et sous-titre.</p>
     data:
-      mode: selection
+      mode: all
       kinds:
         parent: false
         child: true
@@ -225,31 +212,94 @@ contents:
 
       layout: grid
       description: >-
-        <p>Donec scelerisque vulputate vestibulum. Praesent blandit facilisis risus non vestibulum. Curabitur iaculis eros sem, in interdum urna posuere vel. Integer fringilla sollicitudin purus, id tristique risus placerat varius.</p>
+        <p>Avec image, titre, date et sous-titre.</p>
 
       no_event_message: >-
         
 
-      title_link: ""
+      title_link: "/fr/agenda/"
       events:
-        - permalink: "/fr/agenda/2023/la-numerisation-des-societes/"
-          path: "/events/2023/06/14-16-00-la-numerisation-des-societes"
-          slug: "la-numerisation-des-societes"
-          file: "content/fr/events/2023/06/14-16-00-la-numerisation-des-societes.html"
+        - permalink: "/fr/agenda/2024/anne-charlotte-finel-respiro/"
+          path: "/events/2026/01/01-20-00-anne-charlotte-finel-respiro"
+          slug: "anne-charlotte-finel-respiro"
+          file: "content/fr/events/2026/01/01-20-00-anne-charlotte-finel-respiro.html"
           name: >-
-            La numérisation des sociétés
-        - permalink: "/fr/agenda/2025/arte-concert-festival-2023/koki-nakano-ft-tess-voelker/"
-          path: "/events/2025/11/02-koki-nakano-ft-tess-voelker"
-          slug: "koki-nakano-ft-tess-voelker"
-          file: "content/fr/events/2025/11/02-koki-nakano-ft-tess-voelker.html"
+            Anne-Charlotte Finel
+        - permalink: "/fr/agenda/2026/anne-charlotte-finel-respiro-1/"
+          path: "/events/2026/02/03-anne-charlotte-finel-respiro-1"
+          slug: "anne-charlotte-finel-respiro-1"
+          file: "content/fr/events/2026/02/03-anne-charlotte-finel-respiro-1.html"
           name: >-
-            Koki Nakano ft. Tess Voelker
-        - permalink: "/fr/agenda/2025/arte-concert-festival-2023/"
-          path: "/events/2025/11/02-arte-concert-festival-2023"
-          slug: "arte-concert-festival-2023"
-          file: "content/fr/events/2025/11/02-arte-concert-festival-2023.html"
+            Anne-Charlotte Finel
+        - permalink: "/fr/agenda/2024/anne-charlotte-finel-respiro/"
+          path: "/events/2026/11/01-20-00-anne-charlotte-finel-respiro"
+          slug: "anne-charlotte-finel-respiro"
+          file: "content/fr/events/2026/11/01-20-00-anne-charlotte-finel-respiro.html"
           name: >-
-            Arte Concert Festival 2023
+            Anne-Charlotte Finel
+
+      quantity: 3
+
+  - kind: block
+    template: agenda
+    title: >-
+      Version minimale
+    slug: >-
+      version-minimale
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Version minimale
+        heading: 3
+        link: "/fr/agenda/"
+      description: >-
+        <p>Avec image, titre, date et sous-titre.</p>
+    data:
+      mode: all
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: false
+        dates: true
+        image: true
+        subtitle: true
+        summary: false
+        status: false
+
+      layout: grid
+      description: >-
+        <p>Avec image, titre, date et sous-titre.</p>
+
+      no_event_message: >-
+        
+
+      title_link: "/fr/agenda/"
+      events:
+        - permalink: "/fr/agenda/2024/anne-charlotte-finel-respiro/"
+          path: "/events/2026/01/01-20-00-anne-charlotte-finel-respiro"
+          slug: "anne-charlotte-finel-respiro"
+          file: "content/fr/events/2026/01/01-20-00-anne-charlotte-finel-respiro.html"
+          name: >-
+            Anne-Charlotte Finel
+        - permalink: "/fr/agenda/2026/anne-charlotte-finel-respiro-1/"
+          path: "/events/2026/02/03-anne-charlotte-finel-respiro-1"
+          slug: "anne-charlotte-finel-respiro-1"
+          file: "content/fr/events/2026/02/03-anne-charlotte-finel-respiro-1.html"
+          name: >-
+            Anne-Charlotte Finel
+        - permalink: "/fr/agenda/2024/anne-charlotte-finel-respiro/"
+          path: "/events/2026/11/01-20-00-anne-charlotte-finel-respiro"
+          slug: "anne-charlotte-finel-respiro"
+          file: "content/fr/events/2026/11/01-20-00-anne-charlotte-finel-respiro.html"
+          name: >-
+            Anne-Charlotte Finel
 
       quantity: 3
 
