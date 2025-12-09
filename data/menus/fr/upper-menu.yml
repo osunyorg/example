@@ -1,0 +1,24 @@
+---
+title: Upper menu
+items:
+- title: Découvrir Osuny
+  target: https://www.osuny.org
+  kind: url
+  new_tab: true
+  children: []
+- title: Site support
+  target: https://support.osuny.org
+  kind: url
+  new_tab: false
+  children: []
+- title: Sites fièrement produits avec Osuny
+  target: https://showcase.osuny.org
+  kind: url
+  new_tab: false
+  children: []
+- title: Transparence financière
+  target: https://transparence.osuny.org
+  kind: url
+  new_tab: false
+  children: []
+
