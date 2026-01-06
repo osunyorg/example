@@ -8,6 +8,13 @@ items:
   children: []
   path: "/posts"
   file: content/en/posts/_index.html
+- title: Schools
+  target: "/en/schools/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/schools"
+  file: content/en/schools/_index.html
 - title: Job offers
   target: "/en/job-offers/"
   kind: page
