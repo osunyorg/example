@@ -3,6 +3,8 @@ breadcrumb_title: >-
   Les pages
 title: >-
   Les pages
+subtitle: >-
+  
 bodyclass: >-
    
 url: "/fr/blocks/blocs-de-liste/pages/"
@@ -12,7 +14,7 @@ aliases:
   - /blocks/blocs-de-liste/pages/
   - /blocks/blocks-de-liste/pages/
 date: 2023-11-23T12:43:18+01:00
-lastmod: 2025-01-31T16:13:00+01:00
+lastmod: 2025-11-25T17:58:45+01:00
 meta:
   hugo:
     permalink: "/fr/blocks/blocs-de-liste/pages/"
@@ -21,19 +23,20 @@ meta:
     slug: "pages"
   dates:
     created_at: 2022-05-24T14:16:28+02:00
-    updated_at: 2025-01-31T16:13:00+01:00
+    updated_at: 2025-11-25T17:58:45+01:00
     published_at: 2023-11-23T12:43:18+01:00
 search:
   id: "d6dd1451-db3e-422f-985e-9aefc63a3221"
+  about_id: "1606b471-9663-4c27-998f-7aebd0c21e56"
   url: "/fr/blocks/blocs-de-liste/pages/"
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
   title: >-
     Les pages
   summary: >-
-    <p>Exemple de block pages</p>
+    <p>Ajoutez des liens vers d'autres pages.</p>
   body: >-
-    <p>Contenus similaires  <br> Mise en page Grille </p>  <p> Mise en page liste </p>  <p> Pour aller plus loin...  <br> Mise en page cartes </p>  <p> Mise en page alternance </p>  <p> Différents contenus  <br> Un bloc avec un titre, sans page principale </p>  <p> Un bloc avec un titre </p>  <p> Pages en layout "grand"  <br> Un seul bloc </p>  <p> Plusieurs pages </p>  <p> Les pages avec catégories  <br> Une sélection de pages "offre de formation" </p>
+    <p>Mise en page "liste"  <br> Sans image ni catégories </p>  <p> Avec toutes les options </p>  <p> Sans option pour les pages enfant </p>  <p> Aucune option </p>  <p> Mise en page "grille"  <br> Avec toutes les options </p>  <p> Sans image </p>  <p> Mise en page "cartes"  <br> Avec toutes les options </p>  <p> Avec seulement le résumé </p>  <p> Mise en page "alternance"  <br> Avec toutes les options </p>  <p> Sans page principale et avec peu d'option </p>  <p> Pages en layout "grand"  <br> Un seul bloc </p>  <p> Plusieurs pages </p>  <p> Pages d'une catégorie  </p>
 
 breadcrumbs:
   - title: >-
@@ -53,6 +56,7 @@ design:
   toc:
     present: true
     offcanvas: false
+
 
 position: 3
 weight: 3
@@ -85,37 +89,127 @@ meta_description: >-
   
 
 summary: >-
-  <p>Exemple de block pages</p>
+  <p>Ajoutez des liens vers d'autres pages.</p>
 
 header_text: >-
   
 header_cta:
-  display: false
-  label: >-
-    
-  target: ""
-  external: false
+
 
 contents_reading_time:
-  seconds: 15
+  seconds: 19
   text: >-
     moins d'une minute
 contents:
   - kind: block
-    template: pages
+    template: title
     title: >-
-      
+      Mise en page "liste"
     slug: >-
-      
+      mise-en-page-liste
     ranks:
       base: 2
-      children: 2
+      self: 2
     top:
       active: true
       title: 
         value: >-
-          Les blocs techniques
+          Mise en page "liste"
         heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: pages
+    title: >-
+      Sans image ni catégories
+    slug: >-
+      sans-image-ni-categories
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    html_class: "block-class-class"
+    top:
+      active: true
+      title: 
+        value: >-
+          Sans image ni catégories
+        heading: 3
+        link: "/fr/blocks/blocks-techniques/"
+      description: >-
+        <p>Des fonctionnalités pratiques, purement utilitaires</p>
+    data:
+      page:
+        permalink: "/fr/blocks/blocks-techniques/"
+        path: "/pages/blocks/blocks-techniques"
+        slug: "blocks-techniques"
+        file: "content/fr/pages/blocks/blocks-techniques/_index.html"
+      options:
+        image: false
+        categories: false
+        main_summary: true
+        summary: true
+
+      layout: list
+      pages:
+        - permalink: "/fr/blocks/blocks-techniques/fichiers/"
+          path: "/pages/blocks/blocks-techniques/fichiers"
+          slug: "fichiers"
+          file: "content/fr/pages/blocks/blocks-techniques/fichiers/_index.html"
+          name: >-
+            Les fichiers
+        - permalink: "/fr/blocks/blocks-techniques/definitions/"
+          path: "/pages/blocks/blocks-techniques/definitions"
+          slug: "definitions"
+          file: "content/fr/pages/blocks/blocks-techniques/definitions/_index.html"
+          name: >-
+            Les définitions
+        - permalink: "/fr/blocks/blocks-techniques/integration-html/"
+          path: "/pages/blocks/blocks-techniques/integration-html"
+          slug: "integration-html"
+          file: "content/fr/pages/blocks/blocks-techniques/integration-html/_index.html"
+          name: >-
+            Les intégrations HTML
+        - permalink: "/fr/blocks/blocks-techniques/contact/"
+          path: "/pages/blocks/blocks-techniques/contact"
+          slug: "contact"
+          file: "content/fr/pages/blocks/blocks-techniques/contact/_index.html"
+          name: >-
+            Les contacts
+        - permalink: "/fr/blocks/blocks-techniques/licences/"
+          path: "/pages/blocks/blocks-techniques/licences"
+          slug: "licences"
+          file: "content/fr/pages/blocks/blocks-techniques/licences/_index.html"
+          name: >-
+            Les licences
+        - permalink: "/fr/blocks/blocks-techniques/liens/"
+          path: "/pages/blocks/blocks-techniques/liens"
+          slug: "liens"
+          file: "content/fr/pages/blocks/blocks-techniques/liens/_index.html"
+          name: >-
+            Les liens
+
+      quantity: 6
+
+
+  - kind: block
+    template: pages
+    title: >-
+      Avec toutes les options
+    slug: >-
+      avec-toutes-les-options
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Avec toutes les options
+        heading: 3
         link: "/fr/blocks/blocks-techniques/"
       description: >-
         <p>Des fonctionnalités pratiques, purement utilitaires</p>
@@ -127,42 +221,200 @@ contents:
         file: "content/fr/pages/blocks/blocks-techniques/_index.html"
       options:
         image: true
+        categories: true
         main_summary: true
         summary: true
 
       layout: list
       pages:
-        - permalink: "/fr/blocks/blocks-de-base/chapitres/"
-          path: "/pages/blocks/blocks-de-base/chapitres"
-          slug: "chapitres"
-          file: "content/fr/pages/blocks/blocks-de-base/chapitres/_index.html"
-        - permalink: "/fr/blocks/blocks-de-base/image/"
-          path: "/pages/blocks/blocks-de-base/image"
-          slug: "image"
-          file: "content/fr/pages/blocks/blocks-de-base/image/_index.html"
-        - permalink: "/fr/blocks/blocks-narratifs/frise/"
-          path: "/pages/blocks/blocks-narratifs/frise"
-          slug: "frise"
-          file: "content/fr/pages/blocks/blocks-narratifs/frise/_index.html"
+        - permalink: "/fr/blocks/blocks-techniques/fichiers/"
+          path: "/pages/blocks/blocks-techniques/fichiers"
+          slug: "fichiers"
+          file: "content/fr/pages/blocks/blocks-techniques/fichiers/_index.html"
+          name: >-
+            Les fichiers
+        - permalink: "/fr/blocks/blocks-techniques/definitions/"
+          path: "/pages/blocks/blocks-techniques/definitions"
+          slug: "definitions"
+          file: "content/fr/pages/blocks/blocks-techniques/definitions/_index.html"
+          name: >-
+            Les définitions
+        - permalink: "/fr/blocks/blocks-techniques/integration-html/"
+          path: "/pages/blocks/blocks-techniques/integration-html"
+          slug: "integration-html"
+          file: "content/fr/pages/blocks/blocks-techniques/integration-html/_index.html"
+          name: >-
+            Les intégrations HTML
+        - permalink: "/fr/blocks/blocks-techniques/contact/"
+          path: "/pages/blocks/blocks-techniques/contact"
+          slug: "contact"
+          file: "content/fr/pages/blocks/blocks-techniques/contact/_index.html"
+          name: >-
+            Les contacts
+        - permalink: "/fr/blocks/blocks-techniques/licences/"
+          path: "/pages/blocks/blocks-techniques/licences"
+          slug: "licences"
+          file: "content/fr/pages/blocks/blocks-techniques/licences/_index.html"
+          name: >-
+            Les licences
+        - permalink: "/fr/blocks/blocks-techniques/liens/"
+          path: "/pages/blocks/blocks-techniques/liens"
+          slug: "liens"
+          file: "content/fr/pages/blocks/blocks-techniques/liens/_index.html"
+          name: >-
+            Les liens
 
+      quantity: 6
 
 
   - kind: block
     template: pages
     title: >-
-      
+      Sans option pour les pages enfant
     slug: >-
-      
+      sans-option-pour-les-pages-enfant
     ranks:
-      base: 2
-      children: 2
+      base: 3
+      self: 3
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Sans option pour les pages enfant
+        heading: 3
     data:
       options:
         image: false
+        categories: false
+        main_summary: true
+        summary: false
+
+      layout: grid
+      pages:
+
+      quantity: 0
+
+
+  - kind: block
+    template: pages
+    title: >-
+      Aucune option
+    slug: >-
+      aucune-option
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Aucune option
+        heading: 3
+        link: "/fr/blocks/blocks-techniques/"
+    data:
+      page:
+        permalink: "/fr/blocks/blocks-techniques/"
+        path: "/pages/blocks/blocks-techniques"
+        slug: "blocks-techniques"
+        file: "content/fr/pages/blocks/blocks-techniques/_index.html"
+      options:
+        image: false
+        categories: false
         main_summary: false
         summary: false
+
+      layout: grid
+      pages:
+        - permalink: "/fr/blocks/blocks-techniques/fichiers/"
+          path: "/pages/blocks/blocks-techniques/fichiers"
+          slug: "fichiers"
+          file: "content/fr/pages/blocks/blocks-techniques/fichiers/_index.html"
+          name: >-
+            Les fichiers
+        - permalink: "/fr/blocks/blocks-techniques/definitions/"
+          path: "/pages/blocks/blocks-techniques/definitions"
+          slug: "definitions"
+          file: "content/fr/pages/blocks/blocks-techniques/definitions/_index.html"
+          name: >-
+            Les définitions
+        - permalink: "/fr/blocks/blocks-techniques/integration-html/"
+          path: "/pages/blocks/blocks-techniques/integration-html"
+          slug: "integration-html"
+          file: "content/fr/pages/blocks/blocks-techniques/integration-html/_index.html"
+          name: >-
+            Les intégrations HTML
+        - permalink: "/fr/blocks/blocks-techniques/contact/"
+          path: "/pages/blocks/blocks-techniques/contact"
+          slug: "contact"
+          file: "content/fr/pages/blocks/blocks-techniques/contact/_index.html"
+          name: >-
+            Les contacts
+        - permalink: "/fr/blocks/blocks-techniques/licences/"
+          path: "/pages/blocks/blocks-techniques/licences"
+          slug: "licences"
+          file: "content/fr/pages/blocks/blocks-techniques/licences/_index.html"
+          name: >-
+            Les licences
+        - permalink: "/fr/blocks/blocks-techniques/liens/"
+          path: "/pages/blocks/blocks-techniques/liens"
+          slug: "liens"
+          file: "content/fr/pages/blocks/blocks-techniques/liens/_index.html"
+          name: >-
+            Les liens
+
+      quantity: 6
+
+
+  - kind: block
+    template: title
+    title: >-
+      Mise en page "grille"
+    slug: >-
+      mise-en-page-grille
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Mise en page "grille"
+        heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: pages
+    title: >-
+      Avec toutes les options
+    slug: >-
+      avec-toutes-les-options
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Avec toutes les options
+        heading: 3
+        link: "/fr/blocks/blocks-narratifs/"
+      description: >-
+        <p>Des outils plus sophistiqués pour articuler et mettre en scène des contenus</p>
+    data:
+      page:
+        permalink: "/fr/blocks/blocks-narratifs/"
+        path: "/pages/blocks/blocks-narratifs"
+        slug: "blocks-narratifs"
+        file: "content/fr/pages/blocks/blocks-narratifs/_index.html"
+      options:
+        image: true
+        categories: true
+        main_summary: true
+        summary: true
 
       layout: grid
       pages:
@@ -170,115 +422,97 @@ contents:
           path: "/pages/blocks/blocks-narratifs/chiffre-cles"
           slug: "chiffre-cles"
           file: "content/fr/pages/blocks/blocks-narratifs/chiffre-cles/_index.html"
+          name: >-
+            Les chiffres clés
+        - permalink: "/fr/blocks/blocks-narratifs/galeries/"
+          path: "/pages/blocks/blocks-narratifs/galeries"
+          slug: "galeries"
+          file: "content/fr/pages/blocks/blocks-narratifs/galeries/_index.html"
+          name: >-
+            Les galeries
+        - permalink: "/fr/blocks/blocks-narratifs/appels-a-action/"
+          path: "/pages/blocks/blocks-narratifs/appels-a-action"
+          slug: "appels-a-action"
+          file: "content/fr/pages/blocks/blocks-narratifs/appels-a-action/_index.html"
+          name: >-
+            Les appels à action
+        - permalink: "/fr/blocks/blocks-narratifs/temoignages/"
+          path: "/pages/blocks/blocks-narratifs/temoignages"
+          slug: "temoignages"
+          file: "content/fr/pages/blocks/blocks-narratifs/temoignages/_index.html"
+          name: >-
+            Les témoignages
+        - permalink: "/fr/blocks/blocks-narratifs/frise/"
+          path: "/pages/blocks/blocks-narratifs/frise"
+          slug: "frise"
+          file: "content/fr/pages/blocks/blocks-narratifs/frise/_index.html"
+          name: >-
+            Les frises
+        - permalink: "/fr/blocks/blocks-narratifs/les-fonctionnalites/"
+          path: "/pages/blocks/blocks-narratifs/les-fonctionnalites"
+          slug: "les-fonctionnalites"
+          file: "content/fr/pages/blocks/blocks-narratifs/les-fonctionnalites/_index.html"
+          name: >-
+            Les fonctionnalités
 
-
-
-  - kind: block
-    template: title
-    title: >-
-      Contenus similaires
-    slug: >-
-      contenus-similaires
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Contenus similaires
-        heading: 2
-    data:
-      layout: classic
+      quantity: 6
 
 
   - kind: block
     template: pages
     title: >-
-      Mise en page Grille
+      Sans image
     slug: >-
-      mise-en-page-grille
+      sans-image
     ranks:
       base: 3
       self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
-          Mise en page Grille
+          Sans image
         heading: 3
-        link: "/fr/blocks/tous-les-blocks/"
+        link: "/fr/une-rubrique-de-pages/"
       description: >-
-        <p>Les pages peuvent être dotées d'une barre latérale contenant la table des matières</p>
+        <p>Pour tester les catégories de pages.</p>
     data:
       page:
-        permalink: "/fr/blocks/tous-les-blocks/"
-        path: "/pages/blocks/tous-les-blocks"
-        slug: "tous-les-blocks"
-        file: "content/fr/pages/blocks/tous-les-blocks/_index.html"
+        permalink: "/fr/une-rubrique-de-pages/"
+        path: "/pages/une-rubrique-de-pages"
+        slug: "une-rubrique-de-pages"
+        file: "content/fr/pages/une-rubrique-de-pages/_index.html"
       options:
-        image: true
+        image: false
+        categories: true
         main_summary: true
         summary: true
 
       layout: grid
       pages:
+        - permalink: "/fr/une-rubrique-de-pages/une-page-avec-des-categories/"
+          path: "/pages/une-rubrique-de-pages/une-page-avec-des-categories"
+          slug: "une-page-avec-des-categories"
+          file: "content/fr/pages/une-rubrique-de-pages/une-page-avec-des-categories/_index.html"
+          name: >-
+            Une page avec des catégories
+        - permalink: "/fr/une-rubrique-de-pages/une-page-avec-une-categorie-libre/"
+          path: "/pages/une-rubrique-de-pages/une-page-avec-une-categorie-libre"
+          slug: "une-page-avec-une-categorie-libre"
+          file: "content/fr/pages/une-rubrique-de-pages/une-page-avec-une-categorie-libre/_index.html"
+          name: >-
+            Une page avec une catégorie libre
 
-
-
-  - kind: block
-    template: pages
-    title: >-
-      Mise en page liste
-    slug: >-
-      mise-en-page-liste
-    ranks:
-      base: 3
-      self: 3
-      children: 4
-    top:
-      active: true
-      title: 
-        value: >-
-          Mise en page liste
-        heading: 3
-    data:
-      options:
-        image: false
-        main_summary: true
-        summary: false
-
-      layout: list
-      pages:
-        - permalink: "/fr/blocks/blocks-de-base/chapitres/"
-          path: "/pages/blocks/blocks-de-base/chapitres"
-          slug: "chapitres"
-          file: "content/fr/pages/blocks/blocks-de-base/chapitres/_index.html"
-        - permalink: "/fr/blocks/blocks-de-base/image/"
-          path: "/pages/blocks/blocks-de-base/image"
-          slug: "image"
-          file: "content/fr/pages/blocks/blocks-de-base/image/_index.html"
-        - permalink: "/fr/blocks/blocks-de-base/videos/"
-          path: "/pages/blocks/blocks-de-base/videos"
-          slug: "videos"
-          file: "content/fr/pages/blocks/blocks-de-base/videos/_index.html"
-        - permalink: "/fr/blocks/blocks-de-base/tableau/"
-          path: "/pages/blocks/blocks-de-base/tableau"
-          slug: "tableau"
-          file: "content/fr/pages/blocks/blocks-de-base/tableau/_index.html"
-        - permalink: "/fr/blocks/blocks-de-base/les-sons/"
-          path: "/pages/blocks/blocks-de-base/les-sons"
-          slug: "les-sons"
-          file: "content/fr/pages/blocks/blocks-de-base/les-sons/_index.html"
-
+      quantity: 2
 
 
   - kind: block
     template: title
     title: >-
-      Pour aller plus loin...
+      Mise en page "cartes"
     slug: >-
-      pour-aller-plus-loin
+      mise-en-page-cartes
     ranks:
       base: 2
       self: 2
@@ -286,7 +520,7 @@ contents:
       active: true
       title: 
         value: >-
-          Pour aller plus loin...
+          Mise en page "cartes"
         heading: 2
     data:
       layout: classic
@@ -295,9 +529,9 @@ contents:
   - kind: block
     template: pages
     title: >-
-      Mise en page cartes
+      Avec toutes les options
     slug: >-
-      mise-en-page-cartes
+      avec-toutes-les-options
     ranks:
       base: 3
       self: 3
@@ -306,69 +540,47 @@ contents:
       active: true
       title: 
         value: >-
-          Mise en page cartes
+          Avec toutes les options
         heading: 3
-        link: "/fr/blocks/"
+        link: "/fr/une-rubrique-de-pages/"
       description: >-
-        <p>Osuny utilise des blocs pour structurer le contenu. Ces blocs intègrent la responsivité, la sobriété et l'accessibilité.</p>
+        <p>Pour tester les catégories de pages.</p>
     data:
       page:
-        permalink: "/fr/blocks/"
-        path: "/pages/blocks"
-        slug: "blocks"
-        file: "content/fr/pages/blocks/_index.html"
+        permalink: "/fr/une-rubrique-de-pages/"
+        path: "/pages/une-rubrique-de-pages"
+        slug: "une-rubrique-de-pages"
+        file: "content/fr/pages/une-rubrique-de-pages/_index.html"
       options:
         image: true
+        categories: true
         main_summary: true
         summary: true
 
       layout: cards
       pages:
-        - permalink: "/fr/blocks/tous-les-blocks/"
-          path: "/pages/blocks/tous-les-blocks"
-          slug: "tous-les-blocks"
-          file: "content/fr/pages/blocks/tous-les-blocks/_index.html"
-        - permalink: "/fr/blocks/tous-les-blocks-pleine-largeur/"
-          path: "/pages/blocks/tous-les-blocks-pleine-largeur"
-          slug: "tous-les-blocks-pleine-largeur"
-          file: "content/fr/pages/blocks/tous-les-blocks-pleine-largeur/_index.html"
-        - permalink: "/fr/blocks/blocks-de-base/"
-          path: "/pages/blocks/blocks-de-base"
-          slug: "blocks-de-base"
-          file: "content/fr/pages/blocks/blocks-de-base/_index.html"
-        - permalink: "/fr/blocks/blocks-narratifs/"
-          path: "/pages/blocks/blocks-narratifs"
-          slug: "blocks-narratifs"
-          file: "content/fr/pages/blocks/blocks-narratifs/_index.html"
-        - permalink: "/fr/blocks/blocs-de-liste/"
-          path: "/pages/blocks/blocs-de-liste"
-          slug: "blocs-de-liste"
-          file: "content/fr/pages/blocks/blocs-de-liste/_index.html"
-        - permalink: "/fr/blocks/blocks-techniques/"
-          path: "/pages/blocks/blocks-techniques"
-          slug: "blocks-techniques"
-          file: "content/fr/pages/blocks/blocks-techniques/_index.html"
-        - permalink: "/fr/blocks/tous-les-blocks-pleine-largeur-1/"
-          path: "/pages/blocks/tous-les-blocks-pleine-largeur-1"
-          slug: "tous-les-blocks-pleine-largeur-1"
-          file: "content/fr/pages/blocks/tous-les-blocks-pleine-largeur-1/_index.html"
-        - permalink: "/fr/blocks/layout-large/"
-          path: "/pages/blocks/layout-large"
-          slug: "layout-large"
-          file: "content/fr/pages/blocks/layout-large/_index.html"
-        - permalink: "/fr/blocks/blocs-de-mise-en-page/"
-          path: "/pages/blocks/blocs-de-mise-en-page"
-          slug: "blocs-de-mise-en-page"
-          file: "content/fr/pages/blocks/blocs-de-mise-en-page/_index.html"
+        - permalink: "/fr/une-rubrique-de-pages/une-page-avec-des-categories/"
+          path: "/pages/une-rubrique-de-pages/une-page-avec-des-categories"
+          slug: "une-page-avec-des-categories"
+          file: "content/fr/pages/une-rubrique-de-pages/une-page-avec-des-categories/_index.html"
+          name: >-
+            Une page avec des catégories
+        - permalink: "/fr/une-rubrique-de-pages/une-page-avec-une-categorie-libre/"
+          path: "/pages/une-rubrique-de-pages/une-page-avec-une-categorie-libre"
+          slug: "une-page-avec-une-categorie-libre"
+          file: "content/fr/pages/une-rubrique-de-pages/une-page-avec-une-categorie-libre/_index.html"
+          name: >-
+            Une page avec une catégorie libre
 
+      quantity: 2
 
 
   - kind: block
     template: pages
     title: >-
-      Mise en page alternance
+      Avec seulement le résumé
     slug: >-
-      mise-en-page-alternance
+      avec-seulement-le-resume
     ranks:
       base: 3
       self: 3
@@ -377,7 +589,85 @@ contents:
       active: true
       title: 
         value: >-
-          Mise en page alternance
+          Avec seulement le résumé
+        heading: 3
+        link: "/fr/equipe/"
+    data:
+      page:
+        permalink: "/fr/equipe/"
+        path: "/persons"
+        slug: "equipe"
+        file: "content/fr/persons/_index.html"
+      options:
+        image: false
+        categories: false
+        main_summary: false
+        summary: true
+
+      layout: cards
+      pages:
+        - permalink: "/fr/equipe/equipe-de-recherche/"
+          path: "/researchers"
+          slug: "equipe-de-recherche"
+          file: "content/fr/researchers/_index.html"
+          name: >-
+            Équipe de recherche
+        - permalink: "/fr/equipe/equipe-pedagogique/"
+          path: "/teachers"
+          slug: "equipe-pedagogique"
+          file: "content/fr/teachers/_index.html"
+          name: >-
+            Équipe pédagogique
+        - permalink: "/fr/equipe/equipe-editoriale/"
+          path: "/authors"
+          slug: "equipe-editoriale"
+          file: "content/fr/authors/_index.html"
+          name: >-
+            Équipe éditoriale
+        - permalink: "/fr/equipe/equipe-administrative/"
+          path: "/administrators"
+          slug: "equipe-administrative"
+          file: "content/fr/administrators/_index.html"
+          name: >-
+            Équipe administrative
+
+      quantity: 4
+
+
+  - kind: block
+    template: title
+    title: >-
+      Mise en page "alternance"
+    slug: >-
+      mise-en-page-alternance
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Mise en page "alternance"
+        heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: pages
+    title: >-
+      Avec toutes les options
+    slug: >-
+      avec-toutes-les-options
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Avec toutes les options
         heading: 3
         link: "/fr/blocks/"
       description: >-
@@ -390,189 +680,82 @@ contents:
         file: "content/fr/pages/blocks/_index.html"
       options:
         image: true
+        categories: true
         main_summary: true
         summary: true
 
       layout: alternate
       pages:
+        - permalink: "/fr/blocks/quest-ce-quun-bloc/"
+          path: "/pages/blocks/quest-ce-quun-bloc"
+          slug: "quest-ce-quun-bloc"
+          file: "content/fr/pages/blocks/quest-ce-quun-bloc/_index.html"
+          name: >-
+            Qu'est-ce qu'un bloc ?
         - permalink: "/fr/blocks/tous-les-blocks/"
           path: "/pages/blocks/tous-les-blocks"
           slug: "tous-les-blocks"
           file: "content/fr/pages/blocks/tous-les-blocks/_index.html"
+          name: >-
+            Aperçu de tous les blocs
         - permalink: "/fr/blocks/tous-les-blocks-pleine-largeur/"
           path: "/pages/blocks/tous-les-blocks-pleine-largeur"
           slug: "tous-les-blocks-pleine-largeur"
           file: "content/fr/pages/blocks/tous-les-blocks-pleine-largeur/_index.html"
+          name: >-
+            Tous les blocs en pleine largeur
         - permalink: "/fr/blocks/blocks-de-base/"
           path: "/pages/blocks/blocks-de-base"
           slug: "blocks-de-base"
           file: "content/fr/pages/blocks/blocks-de-base/_index.html"
+          name: >-
+            Les blocs de base
         - permalink: "/fr/blocks/blocks-narratifs/"
           path: "/pages/blocks/blocks-narratifs"
           slug: "blocks-narratifs"
           file: "content/fr/pages/blocks/blocks-narratifs/_index.html"
+          name: >-
+            Les blocs narratifs
         - permalink: "/fr/blocks/blocs-de-liste/"
           path: "/pages/blocks/blocs-de-liste"
           slug: "blocs-de-liste"
           file: "content/fr/pages/blocks/blocs-de-liste/_index.html"
+          name: >-
+            Les blocs de listes
         - permalink: "/fr/blocks/blocks-techniques/"
           path: "/pages/blocks/blocks-techniques"
           slug: "blocks-techniques"
           file: "content/fr/pages/blocks/blocks-techniques/_index.html"
+          name: >-
+            Les blocs techniques
         - permalink: "/fr/blocks/tous-les-blocks-pleine-largeur-1/"
           path: "/pages/blocks/tous-les-blocks-pleine-largeur-1"
           slug: "tous-les-blocks-pleine-largeur-1"
           file: "content/fr/pages/blocks/tous-les-blocks-pleine-largeur-1/_index.html"
+          name: >-
+            Tous les blocs en pleine largeur - test
         - permalink: "/fr/blocks/layout-large/"
           path: "/pages/blocks/layout-large"
           slug: "layout-large"
           file: "content/fr/pages/blocks/layout-large/_index.html"
+          name: >-
+            Layout large
         - permalink: "/fr/blocks/blocs-de-mise-en-page/"
           path: "/pages/blocks/blocs-de-mise-en-page"
           slug: "blocs-de-mise-en-page"
           file: "content/fr/pages/blocks/blocs-de-mise-en-page/_index.html"
+          name: >-
+            Blocs de mise en page
 
-
-
-  - kind: block
-    template: title
-    title: >-
-      Différents contenus
-    slug: >-
-      differents-contenus
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Différents contenus
-        heading: 2
-    data:
-      layout: classic
+      quantity: 10
 
 
   - kind: block
     template: pages
     title: >-
-      
+      Sans page principale et avec peu d'option
     slug: >-
-      
-    ranks:
-      base: 3
-      children: 3
-    top:
-      active: true
-      title: 
-        value: >-
-          Les blocs de listes
-        heading: 3
-        link: "/fr/blocks/blocs-de-liste/"
-      description: >-
-        <p>Des listes d'autres objets, qui mettent en valeur et créent des liens</p>
-    data:
-      page:
-        permalink: "/fr/blocks/blocs-de-liste/"
-        path: "/pages/blocks/blocs-de-liste"
-        slug: "blocs-de-liste"
-        file: "content/fr/pages/blocks/blocs-de-liste/_index.html"
-      options:
-        image: false
-        main_summary: true
-        summary: false
-
-      layout: grid
-      pages:
-        - permalink: "/fr/blocks/blocs-de-liste/actualites-1/"
-          path: "/pages/blocks/blocs-de-liste/actualites-1"
-          slug: "actualites-1"
-          file: "content/fr/pages/blocks/blocs-de-liste/actualites-1/_index.html"
-        - permalink: "/fr/blocks/blocs-de-liste/agenda-1/"
-          path: "/pages/blocks/blocs-de-liste/agenda-1"
-          slug: "agenda-1"
-          file: "content/fr/pages/blocks/blocs-de-liste/agenda-1/_index.html"
-
-
-
-  - kind: block
-    template: pages
-    title: >-
-      
-    slug: >-
-      
-    ranks:
-      base: 3
-      children: 3
-    top:
-      active: true
-      title: 
-        value: >-
-          Les blocs de listes
-        heading: 3
-        link: "/fr/blocks/blocs-de-liste/"
-    data:
-      page:
-        permalink: "/fr/blocks/blocs-de-liste/"
-        path: "/pages/blocks/blocs-de-liste"
-        slug: "blocs-de-liste"
-        file: "content/fr/pages/blocks/blocs-de-liste/_index.html"
-      options:
-        image: false
-        main_summary: false
-        summary: false
-
-      layout: grid
-      pages:
-        - permalink: "/fr/blocks/blocs-de-liste/pages/"
-          path: "/pages/blocks/blocs-de-liste/pages"
-          slug: "pages"
-          file: "content/fr/pages/blocks/blocs-de-liste/pages/_index.html"
-        - permalink: "/fr/blocks/blocs-de-liste/actualites-1/"
-          path: "/pages/blocks/blocs-de-liste/actualites-1"
-          slug: "actualites-1"
-          file: "content/fr/pages/blocks/blocs-de-liste/actualites-1/_index.html"
-        - permalink: "/fr/blocks/blocs-de-liste/organigramme/"
-          path: "/pages/blocks/blocs-de-liste/organigramme"
-          slug: "organigramme"
-          file: "content/fr/pages/blocks/blocs-de-liste/organigramme/_index.html"
-        - permalink: "/fr/blocks/blocs-de-liste/partenaires/"
-          path: "/pages/blocks/blocs-de-liste/partenaires"
-          slug: "partenaires"
-          file: "content/fr/pages/blocks/blocs-de-liste/partenaires/_index.html"
-        - permalink: "/fr/blocks/blocs-de-liste/programmes/"
-          path: "/pages/blocks/blocs-de-liste/programmes"
-          slug: "programmes"
-          file: "content/fr/pages/blocks/blocs-de-liste/programmes/_index.html"
-        - permalink: "/fr/blocks/blocs-de-liste/agenda-1/"
-          path: "/pages/blocks/blocs-de-liste/agenda-1"
-          slug: "agenda-1"
-          file: "content/fr/pages/blocks/blocs-de-liste/agenda-1/_index.html"
-        - permalink: "/fr/blocks/blocs-de-liste/les-projets/"
-          path: "/pages/blocks/blocs-de-liste/les-projets"
-          slug: "les-projets"
-          file: "content/fr/pages/blocks/blocs-de-liste/les-projets/_index.html"
-        - permalink: "/fr/blocks/blocs-de-liste/campus-1/"
-          path: "/pages/blocks/blocs-de-liste/campus-1"
-          slug: "campus-1"
-          file: "content/fr/pages/blocks/blocs-de-liste/campus-1/_index.html"
-        - permalink: "/fr/blocks/blocs-de-liste/les-volumes/"
-          path: "/pages/blocks/blocs-de-liste/les-volumes"
-          slug: "les-volumes"
-          file: "content/fr/pages/blocks/blocs-de-liste/les-volumes/_index.html"
-        - permalink: "/fr/blocks/blocs-de-liste/les-categories/"
-          path: "/pages/blocks/blocs-de-liste/les-categories"
-          slug: "les-categories"
-          file: "content/fr/pages/blocks/blocs-de-liste/les-categories/_index.html"
-
-
-
-  - kind: block
-    template: pages
-    title: >-
-      Un bloc avec un titre, sans page principale
-    slug: >-
-      un-bloc-avec-un-titre-sans-page-principale
+      sans-page-principale-et-avec-peu-d-option
     ranks:
       base: 3
       self: 3
@@ -581,72 +764,37 @@ contents:
       active: true
       title: 
         value: >-
-          Un bloc avec un titre, sans page principale
+          Sans page principale et avec peu d'option
         heading: 3
     data:
       options:
         image: false
-        main_summary: false
-        summary: false
-
-      layout: grid
-      pages:
-        - permalink: "/fr/actualites/"
-          path: "/posts"
-          slug: "actualites"
-          file: "content/fr/posts/_index.html"
-        - permalink: "/fr/agenda/"
-          path: "/events"
-          slug: "agenda"
-          file: "content/fr/events/_index.html"
-        - permalink: "/fr/blocks/"
-          path: "/pages/blocks"
-          slug: "blocks"
-          file: "content/fr/pages/blocks/_index.html"
-
-
-
-  - kind: block
-    template: pages
-    title: >-
-      Un bloc avec un titre
-    slug: >-
-      un-bloc-avec-un-titre
-    ranks:
-      base: 3
-      self: 3
-      children: 4
-    top:
-      active: true
-      title: 
-        value: >-
-          Un bloc avec un titre
-        heading: 3
-    data:
-      options:
-        image: true
+        categories: false
         main_summary: true
         summary: true
 
-      layout: grid
+      layout: alternate
       pages:
-        - permalink: "/fr/projets/"
-          path: "/projects"
-          slug: "projets"
-          file: "content/fr/projects/_index.html"
-        - permalink: "/fr/blocks/blocs-de-liste/organigramme/"
-          path: "/pages/blocks/blocs-de-liste/organigramme"
-          slug: "organigramme"
-          file: "content/fr/pages/blocks/blocs-de-liste/organigramme/_index.html"
-        - permalink: "/fr/blocks/blocs-de-mise-en-page/"
-          path: "/pages/blocks/blocs-de-mise-en-page"
-          slug: "blocs-de-mise-en-page"
-          file: "content/fr/pages/blocks/blocs-de-mise-en-page/_index.html"
         - permalink: "/fr/une-rubrique-de-pages/"
           path: "/pages/une-rubrique-de-pages"
           slug: "une-rubrique-de-pages"
           file: "content/fr/pages/une-rubrique-de-pages/_index.html"
+          name: >-
+            Une rubrique de pages
+        - permalink: "/fr/une-rubrique-de-pages/une-page-avec-des-categories/"
+          path: "/pages/une-rubrique-de-pages/une-page-avec-des-categories"
+          slug: "une-page-avec-des-categories"
+          file: "content/fr/pages/une-rubrique-de-pages/une-page-avec-des-categories/_index.html"
+          name: >-
+            Une page avec des catégories
+        - permalink: "/fr/une-rubrique-de-pages/une-page-avec-une-categorie-libre/"
+          path: "/pages/une-rubrique-de-pages/une-page-avec-une-categorie-libre"
+          slug: "une-page-avec-une-categorie-libre"
+          file: "content/fr/pages/une-rubrique-de-pages/une-page-avec-une-categorie-libre/_index.html"
+          name: >-
+            Une page avec une catégorie libre
 
+      quantity: 3
 
 
   - kind: block
@@ -687,6 +835,7 @@ contents:
     data:
       options:
         image: true
+        categories: false
         main_summary: true
         summary: true
 
@@ -696,7 +845,10 @@ contents:
           path: "/pages/blocks/blocks-de-base/chapitres"
           slug: "chapitres"
           file: "content/fr/pages/blocks/blocks-de-base/chapitres/_index.html"
+          name: >-
+            Les chapitres
 
+      quantity: 1
 
 
   - kind: block
@@ -718,6 +870,7 @@ contents:
     data:
       options:
         image: true
+        categories: true
         main_summary: true
         summary: true
 
@@ -727,19 +880,24 @@ contents:
           path: "/pages/une-rubrique-de-pages"
           slug: "une-rubrique-de-pages"
           file: "content/fr/pages/une-rubrique-de-pages/_index.html"
+          name: >-
+            Une rubrique de pages
         - permalink: "/fr/blocks/blocs-de-mise-en-page/"
           path: "/pages/blocks/blocs-de-mise-en-page"
           slug: "blocs-de-mise-en-page"
           file: "content/fr/pages/blocks/blocs-de-mise-en-page/_index.html"
+          name: >-
+            Blocs de mise en page
 
+      quantity: 2
 
 
   - kind: block
     template: title
     title: >-
-      Les pages avec catégories
+      Pages d'une catégorie
     slug: >-
-      les-pages-avec-categories
+      pages-d-une-categorie
     ranks:
       base: 2
       self: 2
@@ -747,7 +905,7 @@ contents:
       active: true
       title: 
         value: >-
-          Les pages avec catégories
+          Pages d'une catégorie
         heading: 2
     data:
       layout: classic
@@ -756,28 +914,110 @@ contents:
   - kind: block
     template: pages
     title: >-
-      Une sélection de pages "offre de formation"
+      
     slug: >-
-      une-selection-de-pages-offre-de-formation
+      
     ranks:
       base: 3
-      self: 3
+      children: 3
     top:
-      active: true
-      title: 
-        value: >-
-          Une sélection de pages "offre de formation"
-        heading: 3
+      active: false
     data:
-      category: "offre-de-formation"
+      category: "sujet/osuny"
       options:
-        image: true
+        image: false
+        categories: false
         main_summary: true
-        summary: true
+        summary: false
 
-      layout: large
+      layout: list
       pages:
+        - permalink: "/fr/blocks/tous-les-blocks/"
+          path: "/pages/blocks/tous-les-blocks"
+          slug: "tous-les-blocks"
+          file: "content/fr/pages/blocks/tous-les-blocks/_index.html"
+          name: >-
+            Aperçu de tous les blocs
+        - permalink: "/fr/blocks/blocks-de-base/chapitres/"
+          path: "/pages/blocks/blocks-de-base/chapitres"
+          slug: "chapitres"
+          file: "content/fr/pages/blocks/blocks-de-base/chapitres/_index.html"
+          name: >-
+            Les chapitres
+        - permalink: "/fr/blocks/blocks-de-base/"
+          path: "/pages/blocks/blocks-de-base"
+          slug: "blocks-de-base"
+          file: "content/fr/pages/blocks/blocks-de-base/_index.html"
+          name: >-
+            Les blocs de base
+        - permalink: "/fr/blocks/blocks-narratifs/"
+          path: "/pages/blocks/blocks-narratifs"
+          slug: "blocks-narratifs"
+          file: "content/fr/pages/blocks/blocks-narratifs/_index.html"
+          name: >-
+            Les blocs narratifs
+        - permalink: "/fr/blocks/blocks-de-base/image/"
+          path: "/pages/blocks/blocks-de-base/image"
+          slug: "image"
+          file: "content/fr/pages/blocks/blocks-de-base/image/_index.html"
+          name: >-
+            Les images
+        - permalink: "/fr/blocks/blocs-de-liste/"
+          path: "/pages/blocks/blocs-de-liste"
+          slug: "blocs-de-liste"
+          file: "content/fr/pages/blocks/blocs-de-liste/_index.html"
+          name: >-
+            Les blocs de listes
+        - permalink: "/fr/blocks/blocs-de-liste/organisations-1/"
+          path: "/pages/blocks/blocs-de-liste/organisations-1"
+          slug: "organisations-1"
+          file: "content/fr/pages/blocks/blocs-de-liste/organisations-1/_index.html"
+          name: >-
+            Les organisations
+        - permalink: "/fr/blocks/blocks-de-base/tableau/"
+          path: "/pages/blocks/blocks-de-base/tableau"
+          slug: "tableau"
+          file: "content/fr/pages/blocks/blocks-de-base/tableau/_index.html"
+          name: >-
+            Les tableaux
+        - permalink: "/fr/blocks/blocs-de-mise-en-page/"
+          path: "/pages/blocks/blocs-de-mise-en-page"
+          slug: "blocs-de-mise-en-page"
+          file: "content/fr/pages/blocks/blocs-de-mise-en-page/_index.html"
+          name: >-
+            Blocs de mise en page
+        - permalink: "/fr/blocks/blocs-de-liste/les-categories/"
+          path: "/pages/blocks/blocs-de-liste/les-categories"
+          slug: "les-categories"
+          file: "content/fr/pages/blocks/blocs-de-liste/les-categories/_index.html"
+          name: >-
+            Les catégories
+        - permalink: "/fr/blocks/blocs-de-liste/les-expositions/"
+          path: "/pages/blocks/blocs-de-liste/les-expositions"
+          slug: "les-expositions"
+          file: "content/fr/pages/blocks/blocs-de-liste/les-expositions/_index.html"
+          name: >-
+            Les expositions
+        - permalink: "/fr/projets/"
+          path: "/projects"
+          slug: "projets"
+          file: "content/fr/projects/_index.html"
+          name: >-
+            Projets
+        - permalink: "/fr/une-rubrique-de-pages/une-page-avec-des-categories/"
+          path: "/pages/une-rubrique-de-pages/une-page-avec-des-categories"
+          slug: "une-page-avec-des-categories"
+          file: "content/fr/pages/une-rubrique-de-pages/une-page-avec-des-categories/_index.html"
+          name: >-
+            Une page avec des catégories
+        - permalink: "/fr/une-rubrique-de-pages/"
+          path: "/pages/une-rubrique-de-pages"
+          slug: "une-rubrique-de-pages"
+          file: "content/fr/pages/une-rubrique-de-pages/_index.html"
+          name: >-
+            Une rubrique de pages
 
+      quantity: 14
 
 
 

@@ -1,0 +1,50 @@
+about:
+  label: Centre de formation Osuny
+default:
+  image:
+    id: d7e183ad-ea73-44a5-85eb-e67f8327d10e
+contents_reading_time:
+  seconds: 3
+  text: >-
+    less than a minute
+contents:
+  - kind: block
+    template: call_to_action
+    title: >-
+      Discover more
+    slug: >-
+      discover-more
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Discover more
+        heading: 2
+      description: >-
+        <p>About Osuny</p>
+    data:
+      layout: accent_background
+      text: >-
+        <p>About Osuny</p>
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+      buttons:
+        - title: >-
+            www.osuny.org
+
+          url: >-
+            https://www.osuny.org/
+
+          target_blank: true
+
+
+

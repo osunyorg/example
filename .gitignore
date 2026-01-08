@@ -8,3 +8,4 @@ node_modules
 jsconfig.json
 hugo_stats.json
 static/pagefind
+backstop_data

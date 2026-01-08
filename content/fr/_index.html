@@ -3,12 +3,14 @@ breadcrumb_title: >-
   Accueil
 title: >-
   Accueil
+subtitle: >-
+  
 bodyclass: >-
    
 url: "/fr/"
 slug: ""
 date: 2023-08-21T10:19:48+02:00
-lastmod: 2025-04-14T16:58:53+02:00
+lastmod: 2026-01-06T15:02:43+01:00
 meta:
   hugo:
     permalink: "/fr/"
@@ -17,19 +19,20 @@ meta:
     slug: ""
   dates:
     created_at: 2022-04-08T12:05:43+02:00
-    updated_at: 2025-04-14T16:58:53+02:00
+    updated_at: 2026-01-06T15:02:43+01:00
     published_at: 2023-08-21T10:19:48+02:00
 search:
   id: "59290dd3-6a98-4d09-ba97-159299a958bd"
+  about_id: "cf0f80b6-4e77-433a-af3c-ca494ef1d04a"
   url: "/fr/"
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
   title: >-
     Accueil
   summary: >-
-    <p>Ceci est un site de démonstration, pré-compilé et généré par Osuny</p>
+    <p>Ceci est un site de démonstration, pré-compilé et généré par Osuny. Il vous permet de découvrir le fonctionnement d'Osuny, de ses pages et de ses blocs. Chaque élément présenté explique sa fonctionnalité. Explorez les pages, découvrez les blocs et inspirez-vous.</p>
   body: >-
-    <p>Actualités </p>  <p> Thème AAA  <br>Le site example.osuny.org est maintenant appuyé sur le thème AAA. Si vous voyez des problèmes, n'hésitez pas à les remonter sur GitHub.</p>  <p>Thème <br>https://github.com/noesya/osuny-hugo-theme-aaa</p>  <p>Template <br>https://github.com/noesya/osuny-hugo-template-aaa</p>  <p> Blocs </p>
+    <p>Comment fonctionne ce site ?  <br>Ce site vous permet de découvrir le fonctionnement d'Osuny, de ses pages et de ses blocs. Chaque élément présenté explique sa fonctionnalité. Explorez les pages, découvrez les blocs et inspirez-vous. <br>Vous pouvez utiliser  ctrl+w  pour afficher les pages avec ou sans sidebar.</p>  <p> Pages </p>  <p> Appel à action  <br>Ce bandeau permet d'afficher un appel à action. Cela signifie que plusieurs boutons d'actions avec liens externes peuvent être générés. Ici, par exemple, un bouton vous permet de vous diriger vers le site de présentation d'Osuny tandis qu'un autre vous dirige vers la page d'accueil du site exemple.</p>  <p>Site de présentation d'Osuny <br>https://www.osuny.org</p>  <p>Site exemple <br>https://example.osuny.org/fr/</p>  <p> Blocs </p>  <p> Actualités </p>  <p> Événements </p>  <p>Vous pouvez créer des événements et les afficher sur la page d'accueil. En cliquant sur l'événement, vous ouvrez sa page.</p>  <p> Projets </p>  <p> Thème v.8  <br>Le site example.osuny.org est maintenant appuyé sur la version 8 du thème Osuny. Si vous voyez des problèmes, n'hésitez pas à les remonter sur GitHub.</p>  <p>Thème <br>https://github.com/osunyorg/theme</p>  <p>Template <br>https://github.com/osunyorg/template</p>
 
 breadcrumbs:
   - title: >-
@@ -40,6 +43,8 @@ design:
   toc:
     present: false
     offcanvas: true
+
+
 
 position: 2
 weight: 2
@@ -56,6 +61,9 @@ image:
 children:
   - "posts/_index.html"
   - "pages/blocks/_index.html"
+  - "schools/_index.html"
+  - "jobs/_index.html"
+  - "academic_years/_index.html"
   - "programs/_index.html"
   - "persons/_index.html"
   - "organizations/_index.html"
@@ -68,32 +76,65 @@ children:
   - "pages/une-rubrique-de-pages/_index.html"
   - "exhibitions/_index.html"
   - "pages/consortium-test/_index.html"
+  - "pages/types-de-pages/_index.html"
 meta_description: >-
   
 
 summary: >-
-  <p>Ceci est un site de démonstration, pré-compilé et généré par Osuny</p>
+  <p>Ceci est un site de démonstration, pré-compilé et généré par Osuny. Il vous permet de découvrir le fonctionnement d'Osuny, de ses pages et de ses blocs. Chaque élément présenté explique sa fonctionnalité. Explorez les pages, découvrez les blocs et inspirez-vous.</p>
 
 header_text: >-
   
 header_cta:
-  display: true
   label: >-
     Découvrir Osuny
   target: "https://www.osuny.org/"
   external: true
 
+
 contents_reading_time:
-  seconds: 12
+  seconds: 52
   text: >-
-    moins d'une minute
+    1 minute
 contents:
   - kind: block
-    template: posts
+    template: chapter
     title: >-
-      Actualités
+      Comment fonctionne ce site ?
     slug: >-
-      actualites
+      comment-fonctionne-ce-site
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Comment fonctionne ce site ?
+        heading: 2
+    data:
+      layout: no_background
+      text: >-
+        <p>Ce site vous permet de découvrir le fonctionnement d'Osuny, de ses pages et de ses blocs. Chaque élément présenté explique sa fonctionnalité. Explorez les pages, découvrez les blocs et inspirez-vous.</p>
+
+      notes: >-
+        <p>Vous pouvez utiliser <i>ctrl+w</i> pour afficher les pages avec ou sans sidebar.</p>
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: pages
+    title: >-
+      Pages
+    slug: >-
+      pages
     ranks:
       base: 2
       self: 2
@@ -102,44 +143,47 @@ contents:
       active: true
       title: 
         value: >-
-          Actualités
+          Pages
         heading: 2
-        link: "/fr/actualites/"
+        link: "/fr/types-de-pages/"
+      description: >-
+        <p>Découvrez les deux types de pages qui composent Osuny : les pages natives et les pages spéciales.</p>
     data:
-      mode: all
-      all: true
-      layout: grid
+      page:
+        permalink: "/fr/types-de-pages/"
+        path: "/pages/types-de-pages"
+        slug: "types-de-pages"
+        file: "content/fr/pages/types-de-pages/_index.html"
       options:
-        author: true
-        categories: true
-        date: true
-        image: true
-        reading_time: false
-        subtitle: true
-        summary: true
+        image: false
+        categories: false
+        main_summary: true
+        summary: false
 
-      posts:
-        - permalink: "/fr/actualites/2025-03-22-vallee-du-silicium/"
-          path: "/posts/2025/2025-03-22-vallee-du-silicium"
-          slug: "vallee-du-silicium"
-          file: "content/fr/posts/2025/2025-03-22-vallee-du-silicium.html"
-        - permalink: "/fr/actualites/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn/"
-          path: "/posts/2023/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn"
-          slug: "referentiel-general-decoconception-de-services-numeriques-rgesn"
-          file: "content/fr/posts/2023/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn.html"
-        - permalink: "/fr/actualites/2025-04-03-test-de-contrib/"
-          path: "/posts/2025/2025-04-03-test-de-contrib"
-          slug: "test-de-contrib"
-          file: "content/fr/posts/2025/2025-04-03-test-de-contrib.html"
+      layout: list
+      pages:
+        - permalink: "/fr/types-de-pages/"
+          path: "/pages/types-de-pages"
+          slug: "types-de-pages"
+          file: "content/fr/pages/types-de-pages/_index.html"
+          name: >-
+            Types de pages
+        - permalink: "/fr/blocks/quest-ce-quun-bloc/"
+          path: "/pages/blocks/quest-ce-quun-bloc"
+          slug: "quest-ce-quun-bloc"
+          file: "content/fr/pages/blocks/quest-ce-quun-bloc/_index.html"
+          name: >-
+            Qu'est-ce qu'un bloc ?
 
+      quantity: 2
 
 
   - kind: block
     template: call_to_action
     title: >-
-      Thème AAA
+      Appel à action
     slug: >-
-      theme-aaa
+      appel-a-action
     ranks:
       base: 2
       self: 2
@@ -147,14 +191,14 @@ contents:
       active: true
       title: 
         value: >-
-          Thème AAA
+          Appel à action
         heading: 2
       description: >-
-        <p>Le site example.osuny.org est maintenant appuyé sur le thème AAA. Si vous voyez des problèmes, n'hésitez pas à les remonter sur GitHub.</p>
+        <p>Ce bandeau permet d'afficher un appel à action. Cela signifie que plusieurs boutons d'actions avec liens externes peuvent être générés. Ici, par exemple, un bouton vous permet de vous diriger vers le site de présentation d'Osuny tandis qu'un autre vous dirige vers la page d'accueil du site exemple.</p>
     data:
-      layout: accent_background
+      layout: no_background
       text: >-
-        <p>Le site example.osuny.org est maintenant appuyé sur le thème AAA. Si vous voyez des problèmes, n'hésitez pas à les remonter sur GitHub.</p>
+        <p>Ce bandeau permet d'afficher un appel à action. Cela signifie que plusieurs boutons d'actions avec liens externes peuvent être générés. Ici, par exemple, un bouton vous permet de vous diriger vers le site de présentation d'Osuny tandis qu'un autre vous dirige vers la page d'accueil du site exemple.</p>
 
 
       alt: >-
@@ -165,17 +209,17 @@ contents:
 
       buttons:
         - title: >-
-            Thème
+            Site de présentation d'Osuny
 
           url: >-
-            https://github.com/noesya/osuny-hugo-theme-aaa
+            https://www.osuny.org
 
           target_blank: true
         - title: >-
-            Template
+            Site exemple
 
           url: >-
-            https://github.com/noesya/osuny-hugo-template-aaa
+            https://example.osuny.org/fr/
 
           target_blank: true
 
@@ -206,64 +250,136 @@ contents:
         slug: "blocks"
         file: "content/fr/pages/blocks/_index.html"
       options:
-        image: false
+        image: true
+        categories: false
         main_summary: true
         summary: true
 
       layout: grid
       pages:
-        - permalink: "/fr/blocks/tous-les-blocks/"
-          path: "/pages/blocks/tous-les-blocks"
-          slug: "tous-les-blocks"
-          file: "content/fr/pages/blocks/tous-les-blocks/_index.html"
-        - permalink: "/fr/blocks/tous-les-blocks-pleine-largeur/"
-          path: "/pages/blocks/tous-les-blocks-pleine-largeur"
-          slug: "tous-les-blocks-pleine-largeur"
-          file: "content/fr/pages/blocks/tous-les-blocks-pleine-largeur/_index.html"
         - permalink: "/fr/blocks/blocks-de-base/"
           path: "/pages/blocks/blocks-de-base"
           slug: "blocks-de-base"
           file: "content/fr/pages/blocks/blocks-de-base/_index.html"
+          name: >-
+            Les blocs de base
         - permalink: "/fr/blocks/blocks-narratifs/"
           path: "/pages/blocks/blocks-narratifs"
           slug: "blocks-narratifs"
           file: "content/fr/pages/blocks/blocks-narratifs/_index.html"
+          name: >-
+            Les blocs narratifs
         - permalink: "/fr/blocks/blocs-de-liste/"
           path: "/pages/blocks/blocs-de-liste"
           slug: "blocs-de-liste"
           file: "content/fr/pages/blocks/blocs-de-liste/_index.html"
+          name: >-
+            Les blocs de listes
         - permalink: "/fr/blocks/blocks-techniques/"
           path: "/pages/blocks/blocks-techniques"
           slug: "blocks-techniques"
           file: "content/fr/pages/blocks/blocks-techniques/_index.html"
-        - permalink: "/fr/blocks/tous-les-blocks-pleine-largeur-1/"
-          path: "/pages/blocks/tous-les-blocks-pleine-largeur-1"
-          slug: "tous-les-blocks-pleine-largeur-1"
-          file: "content/fr/pages/blocks/tous-les-blocks-pleine-largeur-1/_index.html"
-        - permalink: "/fr/blocks/layout-large/"
-          path: "/pages/blocks/layout-large"
-          slug: "layout-large"
-          file: "content/fr/pages/blocks/layout-large/_index.html"
-        - permalink: "/fr/blocks/blocs-de-mise-en-page/"
-          path: "/pages/blocks/blocs-de-mise-en-page"
-          slug: "blocs-de-mise-en-page"
-          file: "content/fr/pages/blocks/blocs-de-mise-en-page/_index.html"
+          name: >-
+            Les blocs techniques
+        - permalink: "/fr/blocks/tous-les-blocks/"
+          path: "/pages/blocks/tous-les-blocks"
+          slug: "tous-les-blocks"
+          file: "content/fr/pages/blocks/tous-les-blocks/_index.html"
+          name: >-
+            Aperçu de tous les blocs
+        - permalink: "/fr/blocks/tous-les-blocks-pleine-largeur/"
+          path: "/pages/blocks/tous-les-blocks-pleine-largeur"
+          slug: "tous-les-blocks-pleine-largeur"
+          file: "content/fr/pages/blocks/tous-les-blocks-pleine-largeur/_index.html"
+          name: >-
+            Tous les blocs en pleine largeur
 
+      quantity: 6
+
+
+  - kind: block
+    template: posts
+    title: >-
+      Actualités
+    slug: >-
+      actualites
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Actualités
+        heading: 2
+        link: "/fr/actualites/"
+    data:
+      mode: all
+      all: true
+      layout: highlight
+      options:
+        author: true
+        categories: true
+        date: true
+        image: true
+        reading_time: false
+        subtitle: true
+        summary: true
+
+      posts:
+        - permalink: "/fr/actualites/2025-08-12-voici-comment-apparaissent-les-actualites/"
+          path: "/posts/2025/2025-08-12-voici-comment-apparaissent-les-actualites"
+          slug: "voici-comment-apparaissent-les-actualites"
+          file: "content/fr/posts/2025/2025-08-12-voici-comment-apparaissent-les-actualites.html"
+          name: >-
+            Voici comment apparaissent les actualités
+        - permalink: "/fr/actualites/2025-03-23-vallee-du-silicium/"
+          path: "/posts/2025/2025-03-23-vallee-du-silicium"
+          slug: "vallee-du-silicium"
+          file: "content/fr/posts/2025/2025-03-23-vallee-du-silicium.html"
+          name: >-
+            Vallée du silicium
+        - permalink: "/fr/actualites/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn/"
+          path: "/posts/2023/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn"
+          slug: "referentiel-general-decoconception-de-services-numeriques-rgesn"
+          file: "content/fr/posts/2023/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn.html"
+          name: >-
+            Référentiel général d'écoconception de services numériques (RGESN)
+        - permalink: "/fr/actualites/2025-05-06-comment-afficher-un-bloc-ailleurs-que-dans-le-contenu-de-la-page/"
+          path: "/posts/2025/2025-05-06-comment-afficher-un-bloc-ailleurs-que-dans-le-contenu-de-la-page"
+          slug: "comment-afficher-un-bloc-ailleurs-que-dans-le-contenu-de-la-page"
+          file: "content/fr/posts/2025/2025-05-06-comment-afficher-un-bloc-ailleurs-que-dans-le-contenu-de-la-page.html"
+          name: >-
+            Comment afficher un bloc ailleurs que dans le contenu de la page ?
+
+      quantity: 4
 
 
   - kind: block
     template: agenda
     title: >-
-      
+      Événements
     slug: >-
-      
+      evenements
     ranks:
       base: 2
-      children: 2
+      self: 2
+      children: 3
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Événements
+        heading: 2
+      description: >-
+        <p>Vous pouvez créer des événements et les afficher sur la page d'accueil. En cliquant sur l'événement, vous ouvrez sa page.</p>
     data:
-      mode: all
+      mode: selection
+      kinds:
+        parent: true
+        child: true
+        recurring: true
       options:
         categories: false
         dates: true
@@ -272,28 +388,122 @@ contents:
         summary: true
         status: false
 
-      layout: grid
+      layout: list
       description: >-
-        
+        <p>Vous pouvez créer des événements et les afficher sur la page d'accueil. En cliquant sur l'événement, vous ouvrez sa page.</p>
 
       no_event_message: >-
         
 
       title_link: ""
       events:
-        - permalink: "/fr/agenda/2024/anne-charlotte-finel-respiro/"
-          path: "/events/2024/02/03-20-00-anne-charlotte-finel-respiro"
-          slug: "anne-charlotte-finel-respiro"
-          file: "content/fr/events/2024/02/03-20-00-anne-charlotte-finel-respiro.html"
-        - permalink: "/fr/agenda/2024/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
-          path: "/events/2024/02/03-charbel-joseph-h-boutros-the-sun-is-my-only-ally"
+        - permalink: "/fr/agenda/2026/voici-un-evenement/"
+          path: "/events/2026/06/13-voici-un-evenement"
+          slug: "voici-un-evenement"
+          file: "content/fr/events/2026/06/13-voici-un-evenement.html"
+          name: >-
+            Voici un événement
+        - permalink: "/fr/agenda/2025/creer-son-site-avec-osuny/"
+          path: "/events/2025/09/02-creer-son-site-avec-osuny"
+          slug: "creer-son-site-avec-osuny"
+          file: "content/fr/events/2025/09/02-creer-son-site-avec-osuny.html"
+          name: >-
+            Créer son site avec Osuny
+        - permalink: "/fr/agenda/2026/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
+          path: "/events/2026/11/13-charbel-joseph-h-boutros-the-sun-is-my-only-ally"
           slug: "charbel-joseph-h-boutros-the-sun-is-my-only-ally"
-          file: "content/fr/events/2024/02/03-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
-        - permalink: "/fr/agenda/2025/arte-concert-festival-2023/2025-11-02-koki-nakano-ft-tess-voelker/"
-          path: "/events/2025/11/02-koki-nakano-ft-tess-voelker"
-          slug: "koki-nakano-ft-tess-voelker"
-          file: "content/fr/events/2025/11/02-koki-nakano-ft-tess-voelker.html"
+          file: "content/fr/events/2026/11/13-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
+          name: >-
+            Charbel-joseph H. Boutros
 
+      quantity: 3
+
+  - kind: block
+    template: projects
+    title: >-
+      Projets
+    slug: >-
+      projets
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Projets
+        heading: 2
+    data:
+      mode: selection
+      layout: grid
+      options:
+        categories: true
+        image: false
+        subtitle: true
+        summary: true
+        year: true
+
+      projects:
+        - permalink: "/fr/projets/2025-ceci-est-un-projet/"
+          path: "/projects/2025-ceci-est-un-projet"
+          slug: "ceci-est-un-projet"
+          file: "content/fr/projects/2025-ceci-est-un-projet.html"
+          name: >-
+            Ceci est un projet
+        - permalink: "/fr/projets/2023-dictionnaire-du-climat/"
+          path: "/projects/2023-dictionnaire-du-climat"
+          slug: "dictionnaire-du-climat"
+          file: "content/fr/projects/2023-dictionnaire-du-climat.html"
+          name: >-
+            Dictionnaire du Climat
+
+      quantity: 2
+
+  - kind: block
+    template: call_to_action
+    title: >-
+      Thème v.8
+    slug: >-
+      theme-v-8
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Thème v.8
+        heading: 2
+      description: >-
+        <p>Le site example.osuny.org est maintenant appuyé sur la version 8 du thème Osuny. Si vous voyez des problèmes, n'hésitez pas à les remonter sur GitHub.</p>
+    data:
+      layout: accent_background
+      text: >-
+        <p>Le site example.osuny.org est maintenant appuyé sur la version 8 du thème Osuny. Si vous voyez des problèmes, n'hésitez pas à les remonter sur GitHub.</p>
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+      buttons:
+        - title: >-
+            Thème
+
+          url: >-
+            https://github.com/osunyorg/theme
+
+          target_blank: true
+        - title: >-
+            Template
+
+          url: >-
+            https://github.com/osunyorg/template
+
+          target_blank: true
 
 
 

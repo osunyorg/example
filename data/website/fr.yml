@@ -1,0 +1,50 @@
+about:
+  label: Centre de formation Osuny
+default:
+  image:
+    id: d7e183ad-ea73-44a5-85eb-e67f8327d10e
+contents_reading_time:
+  seconds: 9
+  text: >-
+    moins d'une minute
+contents:
+  - kind: block
+    template: call_to_action
+    title: >-
+      En savoir plus
+    slug: >-
+      en-savoir-plus
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          En savoir plus
+        heading: 2
+      description: >-
+        <p>Sur le commun numérique Osuny.</p><p>Ceci est un bloc de footer, il s'affiche sur l'ensemble du site, au-dessus du pied de page.</p>
+    data:
+      layout: no_background
+      text: >-
+        <p>Sur le commun numérique Osuny.</p><p>Ceci est un bloc de footer, il s'affiche sur l'ensemble du site, au-dessus du pied de page.</p>
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+      buttons:
+        - title: >-
+            www.osuny.org
+
+          url: >-
+            https://www.osuny.org/
+
+          target_blank: true
+
+
+

@@ -3,12 +3,14 @@ breadcrumb_title: >-
   Layout large
 title: >-
   Layout large
+subtitle: >-
+  
 bodyclass: >-
    
 url: "/fr/blocks/layout-large/"
 slug: "layout-large"
 date: 2023-11-20T22:37:27+01:00
-lastmod: 2024-09-29T12:26:06+02:00
+lastmod: 2025-11-10T16:31:18+01:00
 meta:
   hugo:
     permalink: "/fr/blocks/layout-large/"
@@ -17,10 +19,11 @@ meta:
     slug: "layout-large"
   dates:
     created_at: 2023-11-20T18:01:01+01:00
-    updated_at: 2024-09-29T12:26:06+02:00
+    updated_at: 2025-11-10T16:31:18+01:00
     published_at: 2023-11-20T22:37:27+01:00
 search:
   id: "2dc1e7f3-d96a-42c8-9008-46d8beca6255"
+  about_id: "f6110e49-d504-41be-8eac-0d4e01e0a398"
   url: "/fr/blocks/layout-large/"
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
@@ -47,8 +50,9 @@ design:
     present: false
     offcanvas: false
 
-position: 8
-weight: 8
+
+position: 9
+weight: 9
 
 translationKey: communication-website-page-f6110e49-d504-41be-8eac-0d4e01e0a398
 
@@ -63,11 +67,7 @@ summary: >-
 header_text: >-
   
 header_cta:
-  display: false
-  label: >-
-    
-  target: ""
-  external: false
+
 
 contents_reading_time:
   seconds: 3
@@ -100,6 +100,7 @@ contents:
         file: "content/fr/pages/blocks/blocks-de-base/_index.html"
       options:
         image: true
+        categories: false
         main_summary: true
         summary: true
 
@@ -109,11 +110,16 @@ contents:
           path: "/pages/blocks/blocks-de-base/chapitres"
           slug: "chapitres"
           file: "content/fr/pages/blocks/blocks-de-base/chapitres/_index.html"
+          name: >-
+            Les chapitres
         - permalink: "/fr/blocks/blocks-de-base/image/"
           path: "/pages/blocks/blocks-de-base/image"
           slug: "image"
           file: "content/fr/pages/blocks/blocks-de-base/image/_index.html"
+          name: >-
+            Les images
 
+      quantity: 2
 
 
   - kind: block
@@ -147,19 +153,26 @@ contents:
         summary: true
 
       posts:
-        - permalink: "/fr/actualites/2025-03-22-vallee-du-silicium/"
-          path: "/posts/2025/2025-03-22-vallee-du-silicium"
+        - permalink: "/fr/actualites/2025-08-12-voici-comment-apparaissent-les-actualites/"
+          path: "/posts/2025/2025-08-12-voici-comment-apparaissent-les-actualites"
+          slug: "voici-comment-apparaissent-les-actualites"
+          file: "content/fr/posts/2025/2025-08-12-voici-comment-apparaissent-les-actualites.html"
+          name: >-
+            Voici comment apparaissent les actualités
+        - permalink: "/fr/actualites/2025-03-23-vallee-du-silicium/"
+          path: "/posts/2025/2025-03-23-vallee-du-silicium"
           slug: "vallee-du-silicium"
-          file: "content/fr/posts/2025/2025-03-22-vallee-du-silicium.html"
+          file: "content/fr/posts/2025/2025-03-23-vallee-du-silicium.html"
+          name: >-
+            Vallée du silicium
         - permalink: "/fr/actualites/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn/"
           path: "/posts/2023/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn"
           slug: "referentiel-general-decoconception-de-services-numeriques-rgesn"
           file: "content/fr/posts/2023/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn.html"
-        - permalink: "/fr/actualites/2025-04-03-test-de-contrib/"
-          path: "/posts/2025/2025-04-03-test-de-contrib"
-          slug: "test-de-contrib"
-          file: "content/fr/posts/2025/2025-04-03-test-de-contrib.html"
+          name: >-
+            Référentiel général d'écoconception de services numériques (RGESN)
 
+      quantity: 3
 
 
   - kind: block
@@ -189,48 +202,74 @@ contents:
         file: "content/fr/pages/blocks/_index.html"
       options:
         image: true
+        categories: false
         main_summary: true
         summary: true
 
       layout: grid
       pages:
+        - permalink: "/fr/blocks/quest-ce-quun-bloc/"
+          path: "/pages/blocks/quest-ce-quun-bloc"
+          slug: "quest-ce-quun-bloc"
+          file: "content/fr/pages/blocks/quest-ce-quun-bloc/_index.html"
+          name: >-
+            Qu'est-ce qu'un bloc ?
         - permalink: "/fr/blocks/tous-les-blocks/"
           path: "/pages/blocks/tous-les-blocks"
           slug: "tous-les-blocks"
           file: "content/fr/pages/blocks/tous-les-blocks/_index.html"
+          name: >-
+            Aperçu de tous les blocs
         - permalink: "/fr/blocks/tous-les-blocks-pleine-largeur/"
           path: "/pages/blocks/tous-les-blocks-pleine-largeur"
           slug: "tous-les-blocks-pleine-largeur"
           file: "content/fr/pages/blocks/tous-les-blocks-pleine-largeur/_index.html"
+          name: >-
+            Tous les blocs en pleine largeur
         - permalink: "/fr/blocks/blocks-de-base/"
           path: "/pages/blocks/blocks-de-base"
           slug: "blocks-de-base"
           file: "content/fr/pages/blocks/blocks-de-base/_index.html"
+          name: >-
+            Les blocs de base
         - permalink: "/fr/blocks/blocks-narratifs/"
           path: "/pages/blocks/blocks-narratifs"
           slug: "blocks-narratifs"
           file: "content/fr/pages/blocks/blocks-narratifs/_index.html"
+          name: >-
+            Les blocs narratifs
         - permalink: "/fr/blocks/blocs-de-liste/"
           path: "/pages/blocks/blocs-de-liste"
           slug: "blocs-de-liste"
           file: "content/fr/pages/blocks/blocs-de-liste/_index.html"
+          name: >-
+            Les blocs de listes
         - permalink: "/fr/blocks/blocks-techniques/"
           path: "/pages/blocks/blocks-techniques"
           slug: "blocks-techniques"
           file: "content/fr/pages/blocks/blocks-techniques/_index.html"
+          name: >-
+            Les blocs techniques
         - permalink: "/fr/blocks/tous-les-blocks-pleine-largeur-1/"
           path: "/pages/blocks/tous-les-blocks-pleine-largeur-1"
           slug: "tous-les-blocks-pleine-largeur-1"
           file: "content/fr/pages/blocks/tous-les-blocks-pleine-largeur-1/_index.html"
+          name: >-
+            Tous les blocs en pleine largeur - test
         - permalink: "/fr/blocks/layout-large/"
           path: "/pages/blocks/layout-large"
           slug: "layout-large"
           file: "content/fr/pages/blocks/layout-large/_index.html"
+          name: >-
+            Layout large
         - permalink: "/fr/blocks/blocs-de-mise-en-page/"
           path: "/pages/blocks/blocs-de-mise-en-page"
           slug: "blocs-de-mise-en-page"
           file: "content/fr/pages/blocks/blocs-de-mise-en-page/_index.html"
+          name: >-
+            Blocs de mise en page
 
+      quantity: 10
 
 
 

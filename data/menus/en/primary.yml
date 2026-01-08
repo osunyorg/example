@@ -8,6 +8,27 @@ items:
   children: []
   path: "/posts"
   file: content/en/posts/_index.html
+- title: Schools
+  target: "/en/schools/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/schools"
+  file: content/en/schools/_index.html
+- title: Job offers
+  target: "/en/job-offers/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/jobs"
+  file: content/en/jobs/_index.html
+- title: Alumni
+  target: "/en/alumni/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/academic_years"
+  file: content/en/academic_years/_index.html
 - title: Formations
   target: "/en/formations/"
   kind: page

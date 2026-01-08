@@ -3,6 +3,8 @@ breadcrumb_title: >-
   Les formations
 title: >-
   Les formations
+subtitle: >-
+  
 bodyclass: >-
    
 url: "/fr/blocks/blocs-de-liste/programmes/"
@@ -12,7 +14,7 @@ aliases:
   - /blocks/blocs-de-liste/programmes/
   - /blocks/blocks-de-liste/programmes/
 date: 2023-06-26T17:57:16+02:00
-lastmod: 2025-03-10T12:08:16+01:00
+lastmod: 2025-08-11T12:34:45+02:00
 meta:
   hugo:
     permalink: "/fr/blocks/blocs-de-liste/programmes/"
@@ -21,10 +23,11 @@ meta:
     slug: "programmes"
   dates:
     created_at: 2022-11-30T16:28:44+01:00
-    updated_at: 2025-03-10T12:08:16+01:00
+    updated_at: 2025-08-11T12:34:45+02:00
     published_at: 2023-06-26T17:57:16+02:00
 search:
   id: "70882690-ec2e-466f-90a3-b91d2a2c466f"
+  about_id: "961e60a1-99c2-40fd-b6de-5bd0a229efc6"
   url: "/fr/blocks/blocs-de-liste/programmes/"
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
@@ -33,7 +36,7 @@ search:
   summary: >-
     <p>Une sélection de formations</p>
   body: >-
-    <p>Une sélection de formations </p>  <p> Une sélection de formations </p>
+    <p>Format "liste"  <br> Liste avec toutes ses options </p>  <p> Liste avec un affichage minimal </p>  <p> Format "grille"  <br> Grille avec toutes ses options </p>  <p> Grille avec un affichage minimal </p>
 
 breadcrumbs:
   - title: >-
@@ -51,8 +54,9 @@ breadcrumbs:
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
+
 
 position: 7
 weight: 7
@@ -90,33 +94,93 @@ summary: >-
 header_text: >-
   
 header_cta:
-  display: false
-  label: >-
-    
-  target: ""
-  external: false
+
 
 contents_reading_time:
-  seconds: 3
+  seconds: 6
   text: >-
     moins d'une minute
 contents:
   - kind: block
-    template: programs
+    template: title
     title: >-
-      Une sélection de formations
+      Format "liste"
     slug: >-
-      une-selection-de-formations
+      format-liste
     ranks:
       base: 2
       self: 2
-      children: 3
     top:
       active: true
       title: 
         value: >-
-          Une sélection de formations
+          Format "liste"
         heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: programs
+    title: >-
+      Liste avec toutes ses options
+    slug: >-
+      liste-avec-toutes-ses-options
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Liste avec toutes ses options
+        heading: 3
+    data:
+      layout: list
+      options:
+        diploma: true
+        image: true
+        summary: true
+
+      programs:
+        - permalink: "/fr/offre-de-formation/coordination-de-projets-de-developpement-social-et-culturel/"
+          path: "/programs/coordination-de-projets-de-developpement-social-et-culturel"
+          slug: "coordination-de-projets-de-developpement-social-et-culturel"
+          file: "content/fr/programs/coordination-de-projets-de-developpement-social-et-culturel/_index.html"
+          name: >-
+            Coordination de projets de développement social et culturel
+        - permalink: "/fr/offre-de-formation/animation-sociale-et-socioculturelle/"
+          path: "/programs/animation-sociale-et-socioculturelle"
+          slug: "animation-sociale-et-socioculturelle"
+          file: "content/fr/programs/animation-sociale-et-socioculturelle/_index.html"
+          name: >-
+            Animation sociale et socioculturelle
+        - permalink: "/fr/offre-de-formation/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
+          path: "/programs/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables"
+          slug: "developpement-de-sites-web-eco-concus-accessibles-et-responsables"
+          file: "content/fr/programs/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables/_index.html"
+          name: >-
+            Développement de sites web éco-conçus, accessibles et responsables
+
+      quantity: 3
+
+  - kind: block
+    template: programs
+    title: >-
+      Liste avec un affichage minimal
+    slug: >-
+      liste-avec-un-affichage-minimal
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Liste avec un affichage minimal
+        heading: 3
     data:
       layout: list
       options:
@@ -129,33 +193,109 @@ contents:
           path: "/programs/coordination-de-projets-de-developpement-social-et-culturel"
           slug: "coordination-de-projets-de-developpement-social-et-culturel"
           file: "content/fr/programs/coordination-de-projets-de-developpement-social-et-culturel/_index.html"
+          name: >-
+            Coordination de projets de développement social et culturel
         - permalink: "/fr/offre-de-formation/animation-sociale-et-socioculturelle/"
           path: "/programs/animation-sociale-et-socioculturelle"
           slug: "animation-sociale-et-socioculturelle"
           file: "content/fr/programs/animation-sociale-et-socioculturelle/_index.html"
+          name: >-
+            Animation sociale et socioculturelle
         - permalink: "/fr/offre-de-formation/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
           path: "/programs/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables"
           slug: "developpement-de-sites-web-eco-concus-accessibles-et-responsables"
           file: "content/fr/programs/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables/_index.html"
+          name: >-
+            Développement de sites web éco-conçus, accessibles et responsables
 
+      quantity: 3
+
+  - kind: block
+    template: title
+    title: >-
+      Format "grille"
+    slug: >-
+      format-grille
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Format "grille"
+        heading: 2
+    data:
+      layout: classic
 
 
   - kind: block
     template: programs
     title: >-
-      Une sélection de formations
+      Grille avec toutes ses options
     slug: >-
-      une-selection-de-formations
+      grille-avec-toutes-ses-options
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
-          Une sélection de formations
-        heading: 2
+          Grille avec toutes ses options
+        heading: 3
+    data:
+      layout: grid
+      options:
+        diploma: true
+        image: true
+        summary: true
+
+      programs:
+        - permalink: "/fr/offre-de-formation/coordination-de-projets-de-developpement-social-et-culturel/"
+          path: "/programs/coordination-de-projets-de-developpement-social-et-culturel"
+          slug: "coordination-de-projets-de-developpement-social-et-culturel"
+          file: "content/fr/programs/coordination-de-projets-de-developpement-social-et-culturel/_index.html"
+          name: >-
+            Coordination de projets de développement social et culturel
+        - permalink: "/fr/offre-de-formation/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
+          path: "/programs/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables"
+          slug: "developpement-de-sites-web-eco-concus-accessibles-et-responsables"
+          file: "content/fr/programs/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables/_index.html"
+          name: >-
+            Développement de sites web éco-conçus, accessibles et responsables
+        - permalink: "/fr/offre-de-formation/coordination-de-projets-de-developpement-social-et-culturel/"
+          path: "/programs/coordination-de-projets-de-developpement-social-et-culturel"
+          slug: "coordination-de-projets-de-developpement-social-et-culturel"
+          file: "content/fr/programs/coordination-de-projets-de-developpement-social-et-culturel/_index.html"
+          name: >-
+            Coordination de projets de développement social et culturel
+        - permalink: "/fr/offre-de-formation/animation-sociale-et-socioculturelle/"
+          path: "/programs/animation-sociale-et-socioculturelle"
+          slug: "animation-sociale-et-socioculturelle"
+          file: "content/fr/programs/animation-sociale-et-socioculturelle/_index.html"
+          name: >-
+            Animation sociale et socioculturelle
+
+      quantity: 4
+
+  - kind: block
+    template: programs
+    title: >-
+      Grille avec un affichage minimal
+    slug: >-
+      grille-avec-un-affichage-minimal
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Grille avec un affichage minimal
+        heading: 3
     data:
       layout: grid
       options:
@@ -168,24 +308,34 @@ contents:
           path: "/programs/coordination-de-projets-de-developpement-social-et-culturel"
           slug: "coordination-de-projets-de-developpement-social-et-culturel"
           file: "content/fr/programs/coordination-de-projets-de-developpement-social-et-culturel/_index.html"
+          name: >-
+            Coordination de projets de développement social et culturel
         - permalink: "/fr/offre-de-formation/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
           path: "/programs/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables"
           slug: "developpement-de-sites-web-eco-concus-accessibles-et-responsables"
           file: "content/fr/programs/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables/_index.html"
+          name: >-
+            Développement de sites web éco-conçus, accessibles et responsables
         - permalink: "/fr/offre-de-formation/doctorat-sciences-de-linformation-et-de-la-communication/"
           path: "/programs/doctorat-sciences-de-linformation-et-de-la-communication"
           slug: "doctorat-sciences-de-linformation-et-de-la-communication"
           file: "content/fr/programs/doctorat-sciences-de-linformation-et-de-la-communication/_index.html"
+          name: >-
+            Sciences de l'Information et de la Communication
         - permalink: "/fr/offre-de-formation/coordination-de-projets-de-developpement-social-et-culturel/"
           path: "/programs/coordination-de-projets-de-developpement-social-et-culturel"
           slug: "coordination-de-projets-de-developpement-social-et-culturel"
           file: "content/fr/programs/coordination-de-projets-de-developpement-social-et-culturel/_index.html"
+          name: >-
+            Coordination de projets de développement social et culturel
         - permalink: "/fr/offre-de-formation/animation-sociale-et-socioculturelle/"
           path: "/programs/animation-sociale-et-socioculturelle"
           slug: "animation-sociale-et-socioculturelle"
           file: "content/fr/programs/animation-sociale-et-socioculturelle/_index.html"
+          name: >-
+            Animation sociale et socioculturelle
 
-
+      quantity: 5
 
 
 ---

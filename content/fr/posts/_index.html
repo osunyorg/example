@@ -3,6 +3,8 @@ breadcrumb_title: >-
   Actualités
 title: >-
   Actualités
+subtitle: >-
+  
 bodyclass: >-
    
 url: "/fr/actualites/"
@@ -10,7 +12,7 @@ slug: "actualites"
 aliases:
   - /actualites/
 date: 2022-12-02T07:25:54+01:00
-lastmod: 2025-03-27T17:40:22+01:00
+lastmod: 2025-10-16T15:49:32+02:00
 meta:
   hugo:
     permalink: "/fr/actualites/"
@@ -19,10 +21,11 @@ meta:
     slug: "actualites"
   dates:
     created_at: 2022-04-08T12:05:44+02:00
-    updated_at: 2025-03-27T17:40:22+01:00
+    updated_at: 2025-10-16T15:49:32+02:00
     published_at: 2022-12-02T07:25:54+01:00
 search:
   id: "894e1def-9f80-4192-9c4d-737daea604a3"
+  about_id: "139f7c66-5ee3-4ba9-82e1-04ab05fd7ca6"
   url: "/fr/actualites/"
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
@@ -46,6 +49,8 @@ design:
     present: false
     offcanvas: true
 
+
+
 position: 1
 weight: 1
 
@@ -53,8 +58,6 @@ translationKey: communication-website-page-139f7c66-5ee3-4ba9-82e1-04ab05fd7ca6
 
 
 
-children:
-  - "pages/actualites/nouvelle-page/_index.html"
 meta_description: >-
   
 
@@ -64,11 +67,7 @@ summary: >-
 header_text: >-
   
 header_cta:
-  display: false
-  label: >-
-    
-  target: ""
-  external: false
+
 section_taxonomies:
   - name: >-
       Catégories
@@ -82,20 +81,13 @@ section_taxonomies:
         name: >-
           Propositions de lois
         count: 1
-      - permalink: "/fr/actualites/litterature/science-fiction/"
-        path: "/posts_categories/litterature/science-fiction"
-        slug: "litterature/science-fiction"
-        file: "content/fr/posts_categories/litterature/science-fiction/_index.html"
-        name: >-
-          Science-fiction
-        count: 1
       - permalink: "/fr/actualites/a-la-une/"
         path: "/posts_categories/a-la-une"
         slug: "a-la-une"
         file: "content/fr/posts_categories/a-la-une/_index.html"
         name: >-
           À la une
-        count: 3
+        count: 4
       - permalink: "/fr/actualites/vie-etudiante/"
         path: "/posts_categories/vie-etudiante"
         slug: "vie-etudiante"
@@ -110,6 +102,48 @@ section_taxonomies:
         name: >-
           Littérature
         count: 1
+        children:
+          - permalink: "/fr/actualites/litterature/science-fiction/"
+            path: "/posts_categories/litterature/science-fiction"
+            slug: "litterature/science-fiction"
+            file: "content/fr/posts_categories/litterature/science-fiction/_index.html"
+            name: >-
+              Science-fiction
+            count: 1
+
+      - permalink: "/fr/actualites/osuny/"
+        path: "/posts_categories/osuny"
+        slug: "osuny"
+        file: "content/fr/posts_categories/osuny/_index.html"
+        name: >-
+          Osuny
+        count: 5
+        children:
+          - permalink: "/fr/actualites/osuny/fonctionnalite/"
+            path: "/posts_categories/osuny/fonctionnalite"
+            slug: "osuny/fonctionnalite"
+            file: "content/fr/posts_categories/osuny/fonctionnalite/_index.html"
+            name: >-
+              Fonctionnalité
+            count: 3
+            children:
+              - permalink: "/fr/actualites/osuny/fonctionnalite/avancee/"
+                path: "/posts_categories/osuny/fonctionnalite/avancee"
+                slug: "osuny/fonctionnalite/avancee"
+                file: "content/fr/posts_categories/osuny/fonctionnalite/avancee/_index.html"
+                name: >-
+                  Avancée
+                count: 2
+
+              - permalink: "/fr/actualites/osuny/fonctionnalite/fondamentale/"
+                path: "/posts_categories/osuny/fonctionnalite/fondamentale"
+                slug: "osuny/fonctionnalite/fondamentale"
+                file: "content/fr/posts_categories/osuny/fonctionnalite/fondamentale/_index.html"
+                name: >-
+                  Fondamentale
+                count: 1
+
+
 
   - name: >-
       Offre de formation
@@ -123,13 +157,6 @@ section_taxonomies:
         name: >-
           Animation sociale et socioculturelle
         count: 4
-      - permalink: "/fr/actualites/offre-de-formation/lorem-ipsum/"
-        path: "/posts_categories/offre-de-formation/lorem-ipsum"
-        slug: "offre-de-formation/lorem-ipsum"
-        file: "content/fr/posts_categories/offre-de-formation/lorem-ipsum/_index.html"
-        name: >-
-          Lorem ipsum
-        count: 1
       - permalink: "/fr/actualites/offre-de-formation/contribuer-avec-osuny/"
         path: "/posts_categories/offre-de-formation/contribuer-avec-osuny"
         slug: "offre-de-formation/contribuer-avec-osuny"
@@ -144,13 +171,6 @@ section_taxonomies:
         name: >-
           Coordination de projets de développement social et culturel
         count: 1
-      - permalink: "/fr/actualites/offre-de-formation/information-communication/"
-        path: "/posts_categories/offre-de-formation/information-communication"
-        slug: "offre-de-formation/information-communication"
-        file: "content/fr/posts_categories/offre-de-formation/information-communication/_index.html"
-        name: >-
-          Information - Communication
-        count: 1
       - permalink: "/fr/actualites/offre-de-formation/metiers-du-multimedia-et-de-l-internet/"
         path: "/posts_categories/offre-de-formation/metiers-du-multimedia-et-de-l-internet"
         slug: "offre-de-formation/metiers-du-multimedia-et-de-l-internet"
@@ -158,6 +178,23 @@ section_taxonomies:
         name: >-
           Métiers du Multimédia et de l'Internet
         count: 1
+      - permalink: "/fr/actualites/offre-de-formation/information-communication/"
+        path: "/posts_categories/offre-de-formation/information-communication"
+        slug: "offre-de-formation/information-communication"
+        file: "content/fr/posts_categories/offre-de-formation/information-communication/_index.html"
+        name: >-
+          Information - Communication
+        count: 2
+        children:
+
+          - permalink: "/fr/actualites/offre-de-formation/information-communication/lorem-ipsum/"
+            path: "/posts_categories/offre-de-formation/information-communication/lorem-ipsum"
+            slug: "offre-de-formation/information-communication/lorem-ipsum"
+            file: "content/fr/posts_categories/offre-de-formation/information-communication/lorem-ipsum/_index.html"
+            name: >-
+              Éco-conception de service numérique
+            count: 1
+
   - name: >-
       Type d'article
     slug: "type-darticle"
@@ -169,14 +206,38 @@ section_taxonomies:
         file: "content/fr/posts_categories/type-darticle/billet/_index.html"
         name: >-
           Billet
-        count: 2
+        count: 4
+        children:
+          - permalink: "/fr/actualites/type-darticle/billet/caricature/"
+            path: "/posts_categories/type-darticle/billet/caricature"
+            slug: "type-darticle/billet/caricature"
+            file: "content/fr/posts_categories/type-darticle/billet/caricature/_index.html"
+            name: >-
+              Caricature
+            count: 1
+
+          - permalink: "/fr/actualites/type-darticle/billet/politique/"
+            path: "/posts_categories/type-darticle/billet/politique"
+            slug: "type-darticle/billet/politique"
+            file: "content/fr/posts_categories/type-darticle/billet/politique/_index.html"
+            name: >-
+              Politique
+            count: 1
+
+      - permalink: "/fr/actualites/type-darticle/chronique/"
+        path: "/posts_categories/type-darticle/chronique"
+        slug: "type-darticle/chronique"
+        file: "content/fr/posts_categories/type-darticle/chronique/_index.html"
+        name: >-
+          Chronique
+        count: 1
       - permalink: "/fr/actualites/type-darticle/reportage/"
         path: "/posts_categories/type-darticle/reportage"
         slug: "type-darticle/reportage"
         file: "content/fr/posts_categories/type-darticle/reportage/_index.html"
         name: >-
           Reportage
-        count: 1
+        count: 3
   - name: >-
       Sujet
     slug: "sujet"
@@ -188,14 +249,16 @@ section_taxonomies:
         file: "content/fr/posts_categories/sujet/numerique-responsable/_index.html"
         name: >-
           Numérique responsable
-        count: 2
+        count: 3
+        children:
+
       - permalink: "/fr/actualites/sujet/veille/"
         path: "/posts_categories/sujet/veille"
         slug: "sujet/veille"
         file: "content/fr/posts_categories/sujet/veille/_index.html"
         name: >-
           Veille
-        count: 2
+        count: 3
       - permalink: "/fr/actualites/sujet/education/"
         path: "/posts_categories/sujet/education"
         slug: "sujet/education"

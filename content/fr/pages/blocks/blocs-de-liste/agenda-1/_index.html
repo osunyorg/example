@@ -3,12 +3,14 @@ breadcrumb_title: >-
   Les événements
 title: >-
   Les événements
+subtitle: >-
+  
 bodyclass: >-
    
 url: "/fr/blocks/blocs-de-liste/agenda-1/"
 slug: "agenda-1"
 date: 2023-12-27T16:13:59+01:00
-lastmod: 2025-01-31T15:03:36+01:00
+lastmod: 2025-12-08T17:36:04+01:00
 meta:
   hugo:
     permalink: "/fr/blocks/blocs-de-liste/agenda-1/"
@@ -17,10 +19,11 @@ meta:
     slug: "agenda-1"
   dates:
     created_at: 2023-09-18T15:54:04+02:00
-    updated_at: 2025-01-31T15:03:36+01:00
+    updated_at: 2025-12-08T17:36:04+01:00
     published_at: 2023-12-27T16:13:59+01:00
 search:
   id: "aaf63fbe-8114-48be-86b8-7dee881922f0"
+  about_id: "8c404715-aa43-4206-855d-c3f8c63ff9fc"
   url: "/fr/blocks/blocs-de-liste/agenda-1/"
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
@@ -29,7 +32,7 @@ search:
   summary: >-
     <p>Une liste d'événements, avec image, description et lien vers la page d'événement.</p>
   body: >-
-    <p>Agenda  <br> Les prochains événements </p>  <p> Agenda - Description  <br>  </p>  <p>Donec scelerisque vulputate vestibulum. Praesent blandit facilisis risus non vestibulum. Curabitur iaculis eros sem, in interdum urna posuere vel. Integer fringilla sollicitudin purus, id tristique risus placerat varius.</p>  <p> Agenda - Mise en avant  <br> À la une </p>  <p> Agenda - Grand  <br> Dans les murs </p>  <p> Agenda - Grille  <br> Agenda - Liste  <br> Agenda - Grand - 2  <br> Agenda - Grille - 2  <br>  </p>  <p>Pas d'événements à venir</p>  <p> Un agenda vide </p>  <p>Pas d'événements à venir</p>  <p> Agenda - Grand - Catégorie  <br> Événements terminés, archivés </p>
+    <p>  <br>Le bloc agenda permet de lister les éléments, qu'ils soient issus d'une sélection de votre choix ou d'une même catégorie. Vous pouvez décider du statut des items à afficher, selon qu'il s'agit d'une archive, d'un événement en cours ou encore d'une programmation à venir. Lorsqu'aucun événement ne correspond à la sélection demandée dans le bloc, vous pouvez choisir quelle phrase afficher (par défaut : "Pas d'événement à venir").</p>  <p> Layout "grille"  <br> Avec toutes les options </p>  <p> Version minimale </p>  <p>Avec image, titre, date et sous-titre.</p>  <p> Avec peu d'options </p>  <p>Avec uniquement le titre et la date.</p>  <p> Layout "liste"  <br> Avec toutes les options </p>  <p> Version minimale </p>  <p>Avec image, titre, date et sous-titre.</p>  <p> Avec peu d'options </p>  <p>Avec uniquement le titre et la date.</p>  <p> Layout "grand"  <br> Avec toutes les options </p>  <p>Pas d'événements à venir</p>  <p> Affichage minimal </p>  <p>Pas d'événements à venir</p>  <p> Avec seulement la date </p>  <p>Pas d'événements à venir</p>
 
 breadcrumbs:
   - title: >-
@@ -49,6 +52,7 @@ design:
   toc:
     present: true
     offcanvas: false
+
 
 position: 9
 weight: 9
@@ -70,6 +74,11 @@ taxonomies:
 
 translationKey: communication-website-page-8c404715-aa43-4206-855d-c3f8c63ff9fc
 
+image:
+  id: "4df45a25-95b6-4041-9c13-4b0d1b0c799a"
+  alt: ""
+  credit: >-
+    
 
 
 meta_description: >-
@@ -81,23 +90,46 @@ summary: >-
 header_text: >-
   
 header_cta:
-  display: false
-  label: >-
-    
-  target: ""
-  external: false
+
 
 contents_reading_time:
-  seconds: 23
+  seconds: 41
   text: >-
-    moins d'une minute
+    1 minute
 contents:
   - kind: block
+    template: chapter
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 2
+    top:
+      active: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Le bloc agenda permet de lister les éléments, qu'ils soient issus d'une sélection de votre choix ou d'une même catégorie. Vous pouvez décider du statut des items à afficher, selon qu'il s'agit d'une archive, d'un événement en cours ou encore d'une programmation à venir.</p><p>Lorsqu'aucun événement ne correspond à la sélection demandée dans le bloc, vous pouvez choisir quelle phrase afficher (par défaut : "Pas d'événement à venir").</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
     template: title
     title: >-
-      Agenda
+      Layout "grille"
     slug: >-
-      agenda
+      layout-grille
     ranks:
       base: 2
       self: 2
@@ -105,7 +137,7 @@ contents:
       active: true
       title: 
         value: >-
-          Agenda
+          Layout "grille"
         heading: 2
     data:
       layout: classic
@@ -114,9 +146,9 @@ contents:
   - kind: block
     template: agenda
     title: >-
-      Les prochains événements
+      Avec toutes les options
     slug: >-
-      les-prochains-evenements
+      avec-toutes-les-options
     ranks:
       base: 3
       self: 3
@@ -125,147 +157,15 @@ contents:
       active: true
       title: 
         value: >-
-          Les prochains événements
+          Avec toutes les options
         heading: 3
         link: "/fr/agenda/"
     data:
       mode: all
-      options:
-        categories: false
-        dates: true
-        image: true
-        subtitle: true
-        summary: false
-        status: false
-
-      layout: grid
-      description: >-
-        
-
-      no_event_message: >-
-        
-
-      title_link: "/fr/agenda/"
-      events:
-        - permalink: "/fr/agenda/2024/anne-charlotte-finel-respiro/"
-          path: "/events/2024/02/03-20-00-anne-charlotte-finel-respiro"
-          slug: "anne-charlotte-finel-respiro"
-          file: "content/fr/events/2024/02/03-20-00-anne-charlotte-finel-respiro.html"
-        - permalink: "/fr/agenda/2024/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
-          path: "/events/2024/02/03-charbel-joseph-h-boutros-the-sun-is-my-only-ally"
-          slug: "charbel-joseph-h-boutros-the-sun-is-my-only-ally"
-          file: "content/fr/events/2024/02/03-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
-        - permalink: "/fr/agenda/2025/arte-concert-festival-2023/2025-11-02-koki-nakano-ft-tess-voelker/"
-          path: "/events/2025/11/02-koki-nakano-ft-tess-voelker"
-          slug: "koki-nakano-ft-tess-voelker"
-          file: "content/fr/events/2025/11/02-koki-nakano-ft-tess-voelker.html"
-
-
-
-  - kind: block
-    template: title
-    title: >-
-      Agenda - Description
-    slug: >-
-      agenda-description
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Agenda - Description
-        heading: 2
-    data:
-      layout: classic
-
-
-  - kind: block
-    template: agenda
-    title: >-
-      
-    slug: >-
-      
-    ranks:
-      base: 3
-      children: 3
-    top:
-      active: true
-      description: >-
-        <p>Donec scelerisque vulputate vestibulum. Praesent blandit facilisis risus non vestibulum. Curabitur iaculis eros sem, in interdum urna posuere vel. Integer fringilla sollicitudin purus, id tristique risus placerat varius.</p>
-    data:
-      mode: all
-      options:
-        categories: false
-        dates: true
-        image: true
-        subtitle: true
-        summary: false
-        status: false
-
-      layout: grid
-      description: >-
-        <p>Donec scelerisque vulputate vestibulum. Praesent blandit facilisis risus non vestibulum. Curabitur iaculis eros sem, in interdum urna posuere vel. Integer fringilla sollicitudin purus, id tristique risus placerat varius.</p>
-
-      no_event_message: >-
-        
-
-      title_link: "/fr/agenda/"
-      events:
-        - permalink: "/fr/agenda/2024/anne-charlotte-finel-respiro/"
-          path: "/events/2024/02/03-20-00-anne-charlotte-finel-respiro"
-          slug: "anne-charlotte-finel-respiro"
-          file: "content/fr/events/2024/02/03-20-00-anne-charlotte-finel-respiro.html"
-        - permalink: "/fr/agenda/2024/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
-          path: "/events/2024/02/03-charbel-joseph-h-boutros-the-sun-is-my-only-ally"
-          slug: "charbel-joseph-h-boutros-the-sun-is-my-only-ally"
-          file: "content/fr/events/2024/02/03-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
-        - permalink: "/fr/agenda/2025/arte-concert-festival-2023/2025-11-02-koki-nakano-ft-tess-voelker/"
-          path: "/events/2025/11/02-koki-nakano-ft-tess-voelker"
-          slug: "koki-nakano-ft-tess-voelker"
-          file: "content/fr/events/2025/11/02-koki-nakano-ft-tess-voelker.html"
-
-
-
-  - kind: block
-    template: title
-    title: >-
-      Agenda - Mise en avant
-    slug: >-
-      agenda-mise-en-avant
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Agenda - Mise en avant
-        heading: 2
-    data:
-      layout: classic
-
-
-  - kind: block
-    template: agenda
-    title: >-
-      À la une
-    slug: >-
-      a-la-une
-    ranks:
-      base: 3
-      self: 3
-      children: 4
-    top:
-      active: true
-      title: 
-        value: >-
-          À la une
-        heading: 3
-        link: "/fr/agenda/"
-    data:
-      mode: all
+      kinds:
+        parent: false
+        child: true
+        recurring: true
       options:
         categories: true
         dates: true
@@ -274,7 +174,7 @@ contents:
         summary: true
         status: true
 
-      layout: large
+      layout: grid
       description: >-
         
 
@@ -283,38 +183,39 @@ contents:
 
       title_link: "/fr/agenda/"
       events:
+        - permalink: "/fr/agenda/2026/anne-charlotte-finel-respiro-1/"
+          path: "/events/2026/02/03-anne-charlotte-finel-respiro-1"
+          slug: "anne-charlotte-finel-respiro-1"
+          file: "content/fr/events/2026/02/03-anne-charlotte-finel-respiro-1.html"
+          name: >-
+            Un événement sobre
+        - permalink: "/fr/agenda/2026/voici-un-evenement/"
+          path: "/events/2026/06/13-voici-un-evenement"
+          slug: "voici-un-evenement"
+          file: "content/fr/events/2026/06/13-voici-un-evenement.html"
+          name: >-
+            Voici un événement
         - permalink: "/fr/agenda/2024/anne-charlotte-finel-respiro/"
-          path: "/events/2024/02/03-20-00-anne-charlotte-finel-respiro"
+          path: "/events/2026/11/01-20-00-anne-charlotte-finel-respiro"
           slug: "anne-charlotte-finel-respiro"
-          file: "content/fr/events/2024/02/03-20-00-anne-charlotte-finel-respiro.html"
+          file: "content/fr/events/2026/11/01-20-00-anne-charlotte-finel-respiro.html"
+          name: >-
+            Anne-Charlotte Finel
+        - permalink: "/fr/agenda/2026/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
+          path: "/events/2026/11/13-charbel-joseph-h-boutros-the-sun-is-my-only-ally"
+          slug: "charbel-joseph-h-boutros-the-sun-is-my-only-ally"
+          file: "content/fr/events/2026/11/13-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
+          name: >-
+            Charbel-joseph H. Boutros
 
-
-
-  - kind: block
-    template: title
-    title: >-
-      Agenda - Grand
-    slug: >-
-      agenda-grand
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Agenda - Grand
-        heading: 2
-    data:
-      layout: classic
-
+      quantity: 4
 
   - kind: block
     template: agenda
     title: >-
-      Dans les murs
+      Version minimale
     slug: >-
-      dans-les-murs
+      version-minimale
     ranks:
       base: 3
       self: 3
@@ -323,74 +224,17 @@ contents:
       active: true
       title: 
         value: >-
-          Dans les murs
+          Version minimale
         heading: 3
-    data:
-      mode: category
-      options:
-        categories: false
-        dates: true
-        image: true
-        subtitle: true
-        summary: false
-        status: false
-
-      layout: large
+        link: "/fr/agenda/"
       description: >-
-        
-
-      no_event_message: >-
-        
-
-      title_link: ""
-      events:
-        - permalink: "/fr/agenda/2024/anne-charlotte-finel-respiro/"
-          path: "/events/2024/02/03-20-00-anne-charlotte-finel-respiro"
-          slug: "anne-charlotte-finel-respiro"
-          file: "content/fr/events/2024/02/03-20-00-anne-charlotte-finel-respiro.html"
-        - permalink: "/fr/agenda/2024/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
-          path: "/events/2024/02/03-charbel-joseph-h-boutros-the-sun-is-my-only-ally"
-          slug: "charbel-joseph-h-boutros-the-sun-is-my-only-ally"
-          file: "content/fr/events/2024/02/03-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
-        - permalink: "/fr/agenda/2025/arte-concert-festival-2023/2025-11-02-koki-nakano-ft-tess-voelker/"
-          path: "/events/2025/11/02-koki-nakano-ft-tess-voelker"
-          slug: "koki-nakano-ft-tess-voelker"
-          file: "content/fr/events/2025/11/02-koki-nakano-ft-tess-voelker.html"
-
-
-
-  - kind: block
-    template: title
-    title: >-
-      Agenda - Grille
-    slug: >-
-      agenda-grille
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Agenda - Grille
-        heading: 2
-    data:
-      layout: classic
-
-
-  - kind: block
-    template: agenda
-    title: >-
-      
-    slug: >-
-      
-    ranks:
-      base: 3
-      children: 3
-    top:
-      active: false
+        <p>Avec image, titre, date et sous-titre.</p>
     data:
       mode: all
+      kinds:
+        parent: false
+        child: true
+        recurring: true
       options:
         categories: false
         dates: true
@@ -401,34 +245,115 @@ contents:
 
       layout: grid
       description: >-
-        
+        <p>Avec image, titre, date et sous-titre.</p>
 
       no_event_message: >-
         
 
       title_link: "/fr/agenda/"
       events:
+        - permalink: "/fr/agenda/2026/anne-charlotte-finel-respiro-1/"
+          path: "/events/2026/02/03-anne-charlotte-finel-respiro-1"
+          slug: "anne-charlotte-finel-respiro-1"
+          file: "content/fr/events/2026/02/03-anne-charlotte-finel-respiro-1.html"
+          name: >-
+            Un événement sobre
+        - permalink: "/fr/agenda/2026/voici-un-evenement/"
+          path: "/events/2026/06/13-voici-un-evenement"
+          slug: "voici-un-evenement"
+          file: "content/fr/events/2026/06/13-voici-un-evenement.html"
+          name: >-
+            Voici un événement
         - permalink: "/fr/agenda/2024/anne-charlotte-finel-respiro/"
-          path: "/events/2024/02/03-20-00-anne-charlotte-finel-respiro"
+          path: "/events/2026/11/01-20-00-anne-charlotte-finel-respiro"
           slug: "anne-charlotte-finel-respiro"
-          file: "content/fr/events/2024/02/03-20-00-anne-charlotte-finel-respiro.html"
-        - permalink: "/fr/agenda/2024/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
-          path: "/events/2024/02/03-charbel-joseph-h-boutros-the-sun-is-my-only-ally"
+          file: "content/fr/events/2026/11/01-20-00-anne-charlotte-finel-respiro.html"
+          name: >-
+            Anne-Charlotte Finel
+        - permalink: "/fr/agenda/2026/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
+          path: "/events/2026/11/13-charbel-joseph-h-boutros-the-sun-is-my-only-ally"
           slug: "charbel-joseph-h-boutros-the-sun-is-my-only-ally"
-          file: "content/fr/events/2024/02/03-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
-        - permalink: "/fr/agenda/2025/arte-concert-festival-2023/2025-11-02-koki-nakano-ft-tess-voelker/"
-          path: "/events/2025/11/02-koki-nakano-ft-tess-voelker"
-          slug: "koki-nakano-ft-tess-voelker"
-          file: "content/fr/events/2025/11/02-koki-nakano-ft-tess-voelker.html"
+          file: "content/fr/events/2026/11/13-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
+          name: >-
+            Charbel-joseph H. Boutros
 
+      quantity: 4
 
+  - kind: block
+    template: agenda
+    title: >-
+      Avec peu d'options
+    slug: >-
+      avec-peu-d-options
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Avec peu d'options
+        heading: 3
+        link: "/fr/agenda/"
+      description: >-
+        <p>Avec uniquement le titre et la date.</p>
+    data:
+      mode: all
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: false
+        dates: true
+        image: false
+        subtitle: false
+        summary: false
+        status: false
+
+      layout: grid
+      description: >-
+        <p>Avec uniquement le titre et la date.</p>
+
+      no_event_message: >-
+        
+
+      title_link: "/fr/agenda/"
+      events:
+        - permalink: "/fr/agenda/2026/anne-charlotte-finel-respiro-1/"
+          path: "/events/2026/02/03-anne-charlotte-finel-respiro-1"
+          slug: "anne-charlotte-finel-respiro-1"
+          file: "content/fr/events/2026/02/03-anne-charlotte-finel-respiro-1.html"
+          name: >-
+            Un événement sobre
+        - permalink: "/fr/agenda/2026/voici-un-evenement/"
+          path: "/events/2026/06/13-voici-un-evenement"
+          slug: "voici-un-evenement"
+          file: "content/fr/events/2026/06/13-voici-un-evenement.html"
+          name: >-
+            Voici un événement
+        - permalink: "/fr/agenda/2024/anne-charlotte-finel-respiro/"
+          path: "/events/2026/11/01-20-00-anne-charlotte-finel-respiro"
+          slug: "anne-charlotte-finel-respiro"
+          file: "content/fr/events/2026/11/01-20-00-anne-charlotte-finel-respiro.html"
+          name: >-
+            Anne-Charlotte Finel
+        - permalink: "/fr/agenda/2026/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
+          path: "/events/2026/11/13-charbel-joseph-h-boutros-the-sun-is-my-only-ally"
+          slug: "charbel-joseph-h-boutros-the-sun-is-my-only-ally"
+          file: "content/fr/events/2026/11/13-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
+          name: >-
+            Charbel-joseph H. Boutros
+
+      quantity: 4
 
   - kind: block
     template: title
     title: >-
-      Agenda - Liste
+      Layout "liste"
     slug: >-
-      agenda-liste
+      layout-liste
     ranks:
       base: 2
       self: 2
@@ -436,7 +361,7 @@ contents:
       active: true
       title: 
         value: >-
-          Agenda - Liste
+          Layout "liste"
         heading: 2
     data:
       layout: classic
@@ -445,22 +370,32 @@ contents:
   - kind: block
     template: agenda
     title: >-
-      
+      Avec toutes les options
     slug: >-
-      
+      avec-toutes-les-options
     ranks:
       base: 3
-      children: 3
+      self: 3
+      children: 4
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Avec toutes les options
+        heading: 3
+        link: "/fr/agenda/"
     data:
       mode: all
+      kinds:
+        parent: false
+        child: true
+        recurring: true
       options:
         categories: true
         dates: true
         image: true
         subtitle: true
-        summary: false
+        summary: true
         status: true
 
       layout: list
@@ -472,203 +407,39 @@ contents:
 
       title_link: "/fr/agenda/"
       events:
+        - permalink: "/fr/agenda/2026/anne-charlotte-finel-respiro-1/"
+          path: "/events/2026/02/03-anne-charlotte-finel-respiro-1"
+          slug: "anne-charlotte-finel-respiro-1"
+          file: "content/fr/events/2026/02/03-anne-charlotte-finel-respiro-1.html"
+          name: >-
+            Un événement sobre
+        - permalink: "/fr/agenda/2026/voici-un-evenement/"
+          path: "/events/2026/06/13-voici-un-evenement"
+          slug: "voici-un-evenement"
+          file: "content/fr/events/2026/06/13-voici-un-evenement.html"
+          name: >-
+            Voici un événement
         - permalink: "/fr/agenda/2024/anne-charlotte-finel-respiro/"
-          path: "/events/2024/02/03-20-00-anne-charlotte-finel-respiro"
+          path: "/events/2026/11/01-20-00-anne-charlotte-finel-respiro"
           slug: "anne-charlotte-finel-respiro"
-          file: "content/fr/events/2024/02/03-20-00-anne-charlotte-finel-respiro.html"
-        - permalink: "/fr/agenda/2024/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
-          path: "/events/2024/02/03-charbel-joseph-h-boutros-the-sun-is-my-only-ally"
+          file: "content/fr/events/2026/11/01-20-00-anne-charlotte-finel-respiro.html"
+          name: >-
+            Anne-Charlotte Finel
+        - permalink: "/fr/agenda/2026/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
+          path: "/events/2026/11/13-charbel-joseph-h-boutros-the-sun-is-my-only-ally"
           slug: "charbel-joseph-h-boutros-the-sun-is-my-only-ally"
-          file: "content/fr/events/2024/02/03-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
-        - permalink: "/fr/agenda/2025/arte-concert-festival-2023/2025-11-02-koki-nakano-ft-tess-voelker/"
-          path: "/events/2025/11/02-koki-nakano-ft-tess-voelker"
-          slug: "koki-nakano-ft-tess-voelker"
-          file: "content/fr/events/2025/11/02-koki-nakano-ft-tess-voelker.html"
+          file: "content/fr/events/2026/11/13-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
+          name: >-
+            Charbel-joseph H. Boutros
 
-
-
-  - kind: block
-    template: title
-    title: >-
-      Agenda - Grand - 2
-    slug: >-
-      agenda-grand-2
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Agenda - Grand - 2
-        heading: 2
-    data:
-      layout: classic
-
+      quantity: 4
 
   - kind: block
     template: agenda
     title: >-
-      
+      Version minimale
     slug: >-
-      
-    ranks:
-      base: 3
-      children: 3
-    top:
-      active: false
-    data:
-      mode: all
-      options:
-        categories: false
-        dates: true
-        image: true
-        subtitle: true
-        summary: false
-        status: false
-
-      layout: large
-      description: >-
-        
-
-      no_event_message: >-
-        
-
-      title_link: "/fr/agenda/"
-      events:
-        - permalink: "/fr/agenda/2024/anne-charlotte-finel-respiro/"
-          path: "/events/2024/02/03-20-00-anne-charlotte-finel-respiro"
-          slug: "anne-charlotte-finel-respiro"
-          file: "content/fr/events/2024/02/03-20-00-anne-charlotte-finel-respiro.html"
-        - permalink: "/fr/agenda/2024/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
-          path: "/events/2024/02/03-charbel-joseph-h-boutros-the-sun-is-my-only-ally"
-          slug: "charbel-joseph-h-boutros-the-sun-is-my-only-ally"
-          file: "content/fr/events/2024/02/03-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
-
-
-
-  - kind: block
-    template: title
-    title: >-
-      Agenda - Grille - 2
-    slug: >-
-      agenda-grille-2
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Agenda - Grille - 2
-        heading: 2
-    data:
-      layout: classic
-
-
-  - kind: block
-    template: agenda
-    title: >-
-      
-    slug: >-
-      
-    ranks:
-      base: 3
-      children: 3
-    top:
-      active: false
-    data:
-      mode: all
-      options:
-        categories: false
-        dates: true
-        image: true
-        subtitle: true
-        summary: false
-        status: false
-
-      layout: grid
-      description: >-
-        
-
-      no_event_message: >-
-        Pas d'événements à venir
-
-      title_link: "/fr/agenda/"
-      events:
-        - permalink: "/fr/agenda/2024/anne-charlotte-finel-respiro/"
-          path: "/events/2024/02/03-20-00-anne-charlotte-finel-respiro"
-          slug: "anne-charlotte-finel-respiro"
-          file: "content/fr/events/2024/02/03-20-00-anne-charlotte-finel-respiro.html"
-        - permalink: "/fr/agenda/2024/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
-          path: "/events/2024/02/03-charbel-joseph-h-boutros-the-sun-is-my-only-ally"
-          slug: "charbel-joseph-h-boutros-the-sun-is-my-only-ally"
-          file: "content/fr/events/2024/02/03-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
-
-
-
-  - kind: block
-    template: agenda
-    title: >-
-      Un agenda vide
-    slug: >-
-      un-agenda-vide
-    ranks:
-      base: 3
-      self: 3
-    top:
-      active: true
-      title: 
-        value: >-
-          Un agenda vide
-        heading: 3
-    data:
-      mode: selection
-      options:
-        categories: false
-        dates: true
-        image: true
-        subtitle: true
-        summary: false
-        status: false
-
-      layout: grid
-      description: >-
-        
-
-      no_event_message: >-
-        Pas d'événements à venir
-
-      title_link: ""
-      events:
-
-
-
-  - kind: block
-    template: title
-    title: >-
-      Agenda - Grand - Catégorie
-    slug: >-
-      agenda-grand-categorie
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Agenda - Grand - Catégorie
-        heading: 2
-    data:
-      layout: classic
-
-
-  - kind: block
-    template: agenda
-    title: >-
-      Événements terminés, archivés
-    slug: >-
-      evenements-termines-archives
+      version-minimale
     ranks:
       base: 3
       self: 3
@@ -677,11 +448,171 @@ contents:
       active: true
       title: 
         value: >-
-          Événements terminés, archivés
+          Version minimale
         heading: 3
         link: "/fr/agenda/"
+      description: >-
+        <p>Avec image, titre, date et sous-titre.</p>
     data:
       mode: all
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: false
+        dates: true
+        image: true
+        subtitle: true
+        summary: false
+        status: false
+
+      layout: list
+      description: >-
+        <p>Avec image, titre, date et sous-titre.</p>
+
+      no_event_message: >-
+        
+
+      title_link: "/fr/agenda/"
+      events:
+        - permalink: "/fr/agenda/2026/anne-charlotte-finel-respiro-1/"
+          path: "/events/2026/02/03-anne-charlotte-finel-respiro-1"
+          slug: "anne-charlotte-finel-respiro-1"
+          file: "content/fr/events/2026/02/03-anne-charlotte-finel-respiro-1.html"
+          name: >-
+            Un événement sobre
+        - permalink: "/fr/agenda/2026/voici-un-evenement/"
+          path: "/events/2026/06/13-voici-un-evenement"
+          slug: "voici-un-evenement"
+          file: "content/fr/events/2026/06/13-voici-un-evenement.html"
+          name: >-
+            Voici un événement
+        - permalink: "/fr/agenda/2024/anne-charlotte-finel-respiro/"
+          path: "/events/2026/11/01-20-00-anne-charlotte-finel-respiro"
+          slug: "anne-charlotte-finel-respiro"
+          file: "content/fr/events/2026/11/01-20-00-anne-charlotte-finel-respiro.html"
+          name: >-
+            Anne-Charlotte Finel
+        - permalink: "/fr/agenda/2026/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
+          path: "/events/2026/11/13-charbel-joseph-h-boutros-the-sun-is-my-only-ally"
+          slug: "charbel-joseph-h-boutros-the-sun-is-my-only-ally"
+          file: "content/fr/events/2026/11/13-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
+          name: >-
+            Charbel-joseph H. Boutros
+
+      quantity: 4
+
+  - kind: block
+    template: agenda
+    title: >-
+      Avec peu d'options
+    slug: >-
+      avec-peu-d-options
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Avec peu d'options
+        heading: 3
+        link: "/fr/agenda/"
+      description: >-
+        <p>Avec uniquement le titre et la date.</p>
+    data:
+      mode: all
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: false
+        dates: true
+        image: false
+        subtitle: false
+        summary: false
+        status: false
+
+      layout: list
+      description: >-
+        <p>Avec uniquement le titre et la date.</p>
+
+      no_event_message: >-
+        
+
+      title_link: "/fr/agenda/"
+      events:
+        - permalink: "/fr/agenda/2026/anne-charlotte-finel-respiro-1/"
+          path: "/events/2026/02/03-anne-charlotte-finel-respiro-1"
+          slug: "anne-charlotte-finel-respiro-1"
+          file: "content/fr/events/2026/02/03-anne-charlotte-finel-respiro-1.html"
+          name: >-
+            Un événement sobre
+        - permalink: "/fr/agenda/2026/voici-un-evenement/"
+          path: "/events/2026/06/13-voici-un-evenement"
+          slug: "voici-un-evenement"
+          file: "content/fr/events/2026/06/13-voici-un-evenement.html"
+          name: >-
+            Voici un événement
+        - permalink: "/fr/agenda/2024/anne-charlotte-finel-respiro/"
+          path: "/events/2026/11/01-20-00-anne-charlotte-finel-respiro"
+          slug: "anne-charlotte-finel-respiro"
+          file: "content/fr/events/2026/11/01-20-00-anne-charlotte-finel-respiro.html"
+          name: >-
+            Anne-Charlotte Finel
+        - permalink: "/fr/agenda/2026/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
+          path: "/events/2026/11/13-charbel-joseph-h-boutros-the-sun-is-my-only-ally"
+          slug: "charbel-joseph-h-boutros-the-sun-is-my-only-ally"
+          file: "content/fr/events/2026/11/13-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
+          name: >-
+            Charbel-joseph H. Boutros
+
+      quantity: 4
+
+  - kind: block
+    template: title
+    title: >-
+      Layout "grand"
+    slug: >-
+      layout-grand
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Layout "grand"
+        heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: agenda
+    title: >-
+      Avec toutes les options
+    slug: >-
+      avec-toutes-les-options
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Avec toutes les options
+        heading: 3
+    data:
+      mode: selection
+      kinds:
+        parent: false
+        child: true
+        recurring: true
       options:
         categories: true
         dates: true
@@ -695,65 +626,150 @@ contents:
         
 
       no_event_message: >-
-        
+        Pas d'événements à venir
 
-      title_link: "/fr/agenda/"
+      title_link: ""
       events:
-        - permalink: "/fr/agenda/2025/arte-concert-festival-2024/gonzales/"
-          path: "/events/2025/04/22-20-00-gonzales"
-          slug: "gonzales"
-          file: "content/fr/events/2025/04/22-20-00-gonzales.html"
-        - permalink: "/fr/agenda/2025/anne-charlotte-finel-respiro-1/"
-          path: "/events/2025/02/03-anne-charlotte-finel-respiro-1"
+        - permalink: "/fr/agenda/2024/anne-charlotte-finel-respiro/"
+          path: "/events/2024/02/03-20-00-anne-charlotte-finel-respiro"
+          slug: "anne-charlotte-finel-respiro"
+          file: "content/fr/events/2024/02/03-20-00-anne-charlotte-finel-respiro.html"
+          name: >-
+            Anne-Charlotte Finel
+        - permalink: "/fr/agenda/2025/arte-concert-festival-2023/kara-jackson/"
+          path: "/events/2025/11/03-20-00-kara-jackson"
+          slug: "kara-jackson"
+          file: "content/fr/events/2025/11/03-20-00-kara-jackson.html"
+          name: >-
+            Kara Jackson
+        - permalink: "/fr/agenda/2026/anne-charlotte-finel-respiro-1/"
+          path: "/events/2026/02/03-anne-charlotte-finel-respiro-1"
           slug: "anne-charlotte-finel-respiro-1"
-          file: "content/fr/events/2025/02/03-anne-charlotte-finel-respiro-1.html"
+          file: "content/fr/events/2026/02/03-anne-charlotte-finel-respiro-1.html"
+          name: >-
+            Un événement sobre
 
-
+      quantity: 3
 
   - kind: block
     template: agenda
     title: >-
-      
+      Affichage minimal
     slug: >-
-      
+      affichage-minimal
     ranks:
       base: 3
-      children: 3
+      self: 3
+      children: 4
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Affichage minimal
+        heading: 3
     data:
-      mode: all
+      mode: selection
+      kinds:
+        parent: false
+        child: true
+        recurring: true
       options:
-        categories: false
+        categories: true
         dates: true
         image: true
         subtitle: true
         summary: false
         status: false
 
-      layout: grid
+      layout: large
       description: >-
         
 
       no_event_message: >-
-        
+        Pas d'événements à venir
 
-      title_link: "/fr/agenda/"
+      title_link: ""
       events:
         - permalink: "/fr/agenda/2024/anne-charlotte-finel-respiro/"
           path: "/events/2024/02/03-20-00-anne-charlotte-finel-respiro"
           slug: "anne-charlotte-finel-respiro"
           file: "content/fr/events/2024/02/03-20-00-anne-charlotte-finel-respiro.html"
-        - permalink: "/fr/agenda/2024/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
-          path: "/events/2024/02/03-charbel-joseph-h-boutros-the-sun-is-my-only-ally"
-          slug: "charbel-joseph-h-boutros-the-sun-is-my-only-ally"
-          file: "content/fr/events/2024/02/03-charbel-joseph-h-boutros-the-sun-is-my-only-ally.html"
-        - permalink: "/fr/agenda/2025/arte-concert-festival-2023/2025-11-02-koki-nakano-ft-tess-voelker/"
-          path: "/events/2025/11/02-koki-nakano-ft-tess-voelker"
-          slug: "koki-nakano-ft-tess-voelker"
-          file: "content/fr/events/2025/11/02-koki-nakano-ft-tess-voelker.html"
+          name: >-
+            Anne-Charlotte Finel
+        - permalink: "/fr/agenda/2025/arte-concert-festival-2023/kara-jackson/"
+          path: "/events/2025/11/03-20-00-kara-jackson"
+          slug: "kara-jackson"
+          file: "content/fr/events/2025/11/03-20-00-kara-jackson.html"
+          name: >-
+            Kara Jackson
+        - permalink: "/fr/agenda/2026/anne-charlotte-finel-respiro-1/"
+          path: "/events/2026/02/03-anne-charlotte-finel-respiro-1"
+          slug: "anne-charlotte-finel-respiro-1"
+          file: "content/fr/events/2026/02/03-anne-charlotte-finel-respiro-1.html"
+          name: >-
+            Un événement sobre
 
+      quantity: 3
 
+  - kind: block
+    template: agenda
+    title: >-
+      Avec seulement la date
+    slug: >-
+      avec-seulement-la-date
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Avec seulement la date
+        heading: 3
+    data:
+      mode: selection
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: false
+        dates: true
+        image: false
+        subtitle: false
+        summary: false
+        status: false
+
+      layout: large
+      description: >-
+        
+
+      no_event_message: >-
+        Pas d'événements à venir
+
+      title_link: ""
+      events:
+        - permalink: "/fr/agenda/2024/anne-charlotte-finel-respiro/"
+          path: "/events/2024/02/03-20-00-anne-charlotte-finel-respiro"
+          slug: "anne-charlotte-finel-respiro"
+          file: "content/fr/events/2024/02/03-20-00-anne-charlotte-finel-respiro.html"
+          name: >-
+            Anne-Charlotte Finel
+        - permalink: "/fr/agenda/2025/arte-concert-festival-2023/kara-jackson/"
+          path: "/events/2025/11/03-20-00-kara-jackson"
+          slug: "kara-jackson"
+          file: "content/fr/events/2025/11/03-20-00-kara-jackson.html"
+          name: >-
+            Kara Jackson
+        - permalink: "/fr/agenda/2026/anne-charlotte-finel-respiro-1/"
+          path: "/events/2026/02/03-anne-charlotte-finel-respiro-1"
+          slug: "anne-charlotte-finel-respiro-1"
+          file: "content/fr/events/2026/02/03-anne-charlotte-finel-respiro-1.html"
+          name: >-
+            Un événement sobre
+
+      quantity: 3
 
 
 ---
