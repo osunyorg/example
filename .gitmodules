@@ -1,6 +1,6 @@
 [submodule "themes/osuny"]
 	path = themes/osuny
-	url = git@github.com:osunyorg/theme.git
+	url = https://github.com/osunyorg/theme
 	branch = main
 [submodule "themes/gl"]
 	path = themes/gl
