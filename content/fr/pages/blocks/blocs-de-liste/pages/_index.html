@@ -14,7 +14,7 @@ aliases:
   - /blocks/blocs-de-liste/pages/
   - /blocks/blocks-de-liste/pages/
 date: 2023-11-23T12:43:18+01:00
-lastmod: 2025-11-25T17:58:45+01:00
+lastmod: 2026-01-29T15:31:36+01:00
 meta:
   hugo:
     permalink: "/fr/blocks/blocs-de-liste/pages/"
@@ -23,7 +23,7 @@ meta:
     slug: "pages"
   dates:
     created_at: 2022-05-24T14:16:28+02:00
-    updated_at: 2025-11-25T17:58:45+01:00
+    updated_at: 2026-01-29T15:31:36+01:00
     published_at: 2023-11-23T12:43:18+01:00
 search:
   id: "d6dd1451-db3e-422f-985e-9aefc63a3221"
@@ -36,7 +36,7 @@ search:
   summary: >-
     <p>Ajoutez des liens vers d'autres pages.</p>
   body: >-
-    <p>Mise en page "liste"  <br> Sans image ni catégories </p>  <p> Avec toutes les options </p>  <p> Sans option pour les pages enfant </p>  <p> Aucune option </p>  <p> Mise en page "grille"  <br> Avec toutes les options </p>  <p> Sans image </p>  <p> Mise en page "cartes"  <br> Avec toutes les options </p>  <p> Avec seulement le résumé </p>  <p> Mise en page "alternance"  <br> Avec toutes les options </p>  <p> Sans page principale et avec peu d'option </p>  <p> Pages en layout "grand"  <br> Un seul bloc </p>  <p> Plusieurs pages </p>  <p> Pages d'une catégorie  </p>
+    <p>Mise en page "liste"  <br> Sans image ni catégories </p>  <p> Avec toutes les options </p>  <p> Aucune option </p>  <p> Mise en page "grille"  <br> Avec toutes les options </p>  <p> Sans image </p>  <p> Mise en page "cartes"  <br> Avec toutes les options </p>  <p> Avec seulement le résumé </p>  <p> Mise en page "alternance"  <br> Avec toutes les options </p>  <p> Sans page principale et avec peu d'option </p>  <p> Pages en layout "grand"  <br> Un seul bloc </p>  <p> Plusieurs pages </p>  <p> Pages d'une catégorie  <br> Pages avec des sous-titres  <br> Pages avec des sous-titres </p>
 
 breadcrumbs:
   - title: >-
@@ -265,34 +265,6 @@ contents:
             Les liens
 
       quantity: 6
-
-
-  - kind: block
-    template: pages
-    title: >-
-      Sans option pour les pages enfant
-    slug: >-
-      sans-option-pour-les-pages-enfant
-    ranks:
-      base: 3
-      self: 3
-    top:
-      active: true
-      title: 
-        value: >-
-          Sans option pour les pages enfant
-        heading: 3
-    data:
-      options:
-        image: false
-        categories: false
-        main_summary: true
-        summary: false
-
-      layout: grid
-      pages:
-
-      quantity: 0
 
 
   - kind: block
@@ -1018,6 +990,72 @@ contents:
             Une rubrique de pages
 
       quantity: 14
+
+
+  - kind: block
+    template: title
+    title: >-
+      Pages avec des sous-titres
+    slug: >-
+      pages-avec-des-sous-titres
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Pages avec des sous-titres
+        heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: pages
+    title: >-
+      Pages avec des sous-titres
+    slug: >-
+      pages-avec-des-sous-titres
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    top:
+      active: true
+      title: 
+        value: >-
+          Pages avec des sous-titres
+        heading: 3
+    data:
+      options:
+        image: true
+        categories: true
+        main_summary: true
+        summary: true
+
+      layout: grid
+      pages:
+        - permalink: "/fr/blocks/quest-ce-quun-bloc/quels-sont-les-avantages-des-blocs/"
+          path: "/pages/blocks/quest-ce-quun-bloc/quels-sont-les-avantages-des-blocs"
+          slug: "quels-sont-les-avantages-des-blocs"
+          file: "content/fr/pages/blocks/quest-ce-quun-bloc/quels-sont-les-avantages-des-blocs/_index.html"
+          name: >-
+            Quels sont les avantages des blocs ?
+        - permalink: "/fr/blocks/quest-ce-quun-bloc/"
+          path: "/pages/blocks/quest-ce-quun-bloc"
+          slug: "quest-ce-quun-bloc"
+          file: "content/fr/pages/blocks/quest-ce-quun-bloc/_index.html"
+          name: >-
+            Qu'est-ce qu'un bloc ?
+        - permalink: "/fr/une-rubrique-de-pages/"
+          path: "/pages/une-rubrique-de-pages"
+          slug: "une-rubrique-de-pages"
+          file: "content/fr/pages/une-rubrique-de-pages/_index.html"
+          name: >-
+            Une rubrique de pages
+
+      quantity: 3
 
 
 
