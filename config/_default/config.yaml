@@ -1,5 +1,7 @@
 theme: gl
 _merge: deep
+ignoreFiles:
+  - themes/gaitelyrique-www/content
 params:
   debug:
     active: true
