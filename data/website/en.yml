@@ -30,14 +30,11 @@ contents:
       text: >-
         <p>About Osuny</p>
 
-
       buttons:
         - title: >-
             www.osuny.org
-
           url: >-
             https://www.osuny.org/
-
           target_blank: true
 
 
