@@ -31,7 +31,8 @@ contents:
         <p>About Osuny</p>
 
       buttons:
-        - title: >-
+        - 
+          title: >-
             www.osuny.org
           url: >-
             https://www.osuny.org/

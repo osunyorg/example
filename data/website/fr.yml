@@ -31,7 +31,8 @@ contents:
         <p>Sur le commun numérique Osuny.</p><p>Ceci est un bloc de footer, il s'affiche sur l'ensemble du site, au-dessus du pied de page.</p>
 
       buttons:
-        - title: >-
+        - 
+          title: >-
             www.osuny.org
           url: >-
             https://www.osuny.org/
