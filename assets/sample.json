@@ -8,8 +8,13 @@
           {{- $paths = $paths | append . -}}
         {{- end -}}
       {{- end -}}
+      {{ if eq .Type "pages" }}
+        {{- with $page.Params.url -}}
+          {{- $paths = $paths | append . -}}
+        {{- end -}}
+      {{ end }}
     {{- end -}}
   {{- end -}}
 {{- end -}}
-{{- $paths | jsonify -}}
+{{- $paths | uniq | jsonify -}}
 
