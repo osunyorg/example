@@ -2,8 +2,10 @@
 title: menu test
 items:
 - title: Un contenu textuel
+  slug: un-contenu-textuel
   target: ''
   kind: blank
   new_tab: false
   children: []
+  descendants_targets: []
 

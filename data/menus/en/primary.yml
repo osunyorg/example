@@ -2,94 +2,120 @@
 title: Main menu
 items:
 - title: Actualités
+  slug: actualites
   target: "/en/actualites-1/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts"
   file: content/en/posts/_index.html
 - title: Schools
+  slug: schools
   target: "/en/schools/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/schools"
   file: content/en/schools/_index.html
 - title: Job offers
+  slug: job-offers
   target: "/en/job-offers/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/jobs"
   file: content/en/jobs/_index.html
 - title: Alumni
+  slug: alumni
   target: "/en/alumni/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/academic_years"
   file: content/en/academic_years/_index.html
 - title: Formations
+  slug: formations
   target: "/en/formations/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/programs"
   file: content/en/programs/_index.html
 - title: Équipe
+  slug: equipe
   target: "/en/equipe/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/persons"
   file: content/en/persons/_index.html
 - title: Organisations
+  slug: organisations
   target: "/en/organisations/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/organizations"
   file: content/en/organizations/_index.html
 - title: Diplomas
+  slug: diplomas
   target: "/en/diplomas/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/diplomas"
   file: content/en/diplomas/_index.html
 - title: Publications HAL
+  slug: publications-hal
   target: "/en/publications/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/publications"
   file: content/en/publications/_index.html
 - title: Agenda
+  slug: agenda
   target: "/en/agenda/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/events"
   file: content/en/events/_index.html
 - title: Campus
+  slug: campus
   target: "/en/campus/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/locations"
   file: content/en/locations/_index.html
 - title: Projects
+  slug: projects
   target: "/en/projects/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/projects"
   file: content/en/projects/_index.html
 - title: Exhibitions
+  slug: exhibitions
   target: "/en/exhibitions/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/exhibitions"
   file: content/en/exhibitions/_index.html
 

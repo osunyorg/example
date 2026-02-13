@@ -2,28 +2,38 @@
 title: Upper menu
 items:
 - title: Découvrir Osuny
+  slug: decouvrir-osuny
   target: https://www.osuny.org
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 - title: Site support
+  slug: site-support
   target: https://support.osuny.org
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 - title: Sites fièrement produits avec Osuny
+  slug: sites-fierement-produits-avec-osuny
   target: https://showcase.osuny.org
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 - title: Transparence financière
+  slug: transparence-financiere
   target: https://transparence.osuny.org
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 - title: Roadmap
+  slug: roadmap
   target: https://roadmap.osuny.org
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 
