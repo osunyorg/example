@@ -2,8 +2,8 @@
 title: Menu principal
 items:
 - title: Blocs
-  target: ''
-  kind: blank
+  target: "/fr/blocks/"
+  kind: page
   new_tab: false
   children:
   - title: Les blocs de base
@@ -265,6 +265,8 @@ items:
     children: []
     path: "/pages/exemples"
     file: content/fr/pages/exemples/_index.html
+  path: "/pages/blocks"
+  file: content/fr/pages/blocks/_index.html
 - title: Pages spéciales
   target: ''
   kind: blank
