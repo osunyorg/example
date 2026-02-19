@@ -24,4 +24,4 @@ deployment:
   workers: 4
   targets:
     - name: "production"
-      URL: "s3://example.osuny.org?endpoint=garage.deuxfleurs.fr&s3ForcePathStyle=true&region=garage&awssdk=v1"
+      URL: "s3://example.osuny.org?endpoint=garage.deuxfleurs.fr&s3ForcePathStyle=true&region=garage"
