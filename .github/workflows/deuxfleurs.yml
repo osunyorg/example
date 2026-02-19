@@ -36,9 +36,12 @@ jobs:
 
     - name: Compilation du site
       run: yarn osuny build
+    
+    - name: Installation du CLI Deuxfleurs
+      run: npm install -g dxfl
 
     - name: Déploiement Garage
-      run: hugo deploy --force --maxDeletes -1
+      run: dxfl deploy example.osuny.org public
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.DEUXFLEURS_ACCESS_KEY }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.DEUXFLEURS_SECRET }}
