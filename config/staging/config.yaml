@@ -8,4 +8,4 @@ defaultContentLanguageInSubdir: true
 deployment:
   targets:
     - name: "production"
-      URL: "s3://example.osuny.org?endpoint=garage.deuxfleurs.fr&s3ForcePathStyle=true&region=garage&awssdk=v1"
+      URL: "s3://example.osuny.org?endpoint=garage.deuxfleurs.fr&awssdk=v2&use_path_style=true&region=garage&disable_https=false"
