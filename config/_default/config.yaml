@@ -1,4 +1,6 @@
-theme: osuny
+theme: 
+  - osuny
+  - osuny-plugin-pagedjs
 _merge: deep
 params:
   debug:
