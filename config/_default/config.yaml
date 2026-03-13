@@ -4,7 +4,6 @@ theme:
 _merge: deep
 params:
   debug:
-    active: true
     productionUrl: https://example.osuny.org
   logo:
     header:
