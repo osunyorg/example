@@ -17,6 +17,10 @@ params:
     positions:
       - primary
       - footer
+  events:
+    index:
+      options:
+        place: true
   organizations:
     single:
       backlinks: true
