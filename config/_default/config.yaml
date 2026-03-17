@@ -7,11 +7,11 @@ params:
     productionUrl: https://example.osuny.org
   logo:
     header:
-      default: "/assets/images/logo.svg"
-      darkmode: "/assets/images/logo-white.svg"
+      default: "/assets/images/logo-osuny.svg"
+      darkmode: "/assets/images/logo-osuny-white.svg"
     footer:
-      default: "/assets/images/logo.svg"
-      darkmode: "/assets/images/logo-white.svg"
+      default: "/assets/images/logo-osuny.svg"
+      darkmode: "/assets/images/logo-osuny-white.svg"
   search:
     active: true
     positions:
