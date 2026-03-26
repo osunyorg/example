@@ -10,7 +10,7 @@ bodyclass: >-
 url: "/fr/projets/"
 slug: "projets"
 date: 2024-03-11T13:58:02+01:00
-lastmod: 2025-05-26T23:45:35+02:00
+lastmod: 2026-03-26T11:28:54+01:00
 meta:
   hugo:
     permalink: "/fr/projets/"
@@ -19,7 +19,7 @@ meta:
     slug: "projets"
   dates:
     created_at: 2024-03-11T13:58:02+01:00
-    updated_at: 2025-05-26T23:45:35+02:00
+    updated_at: 2026-03-26T11:28:54+01:00
     published_at: 2024-03-11T13:58:02+01:00
 search:
   id: "80603678-ba11-4b0e-a2f0-b7374aa37da9"
@@ -31,7 +31,7 @@ search:
     Projets
 
   body: >-
-    <p>Le plus récent </p>
+    <p>Un bloc pour mettre l'accent sur un projet  <br> Le plus récent </p>  <p> Tous les projets  </p>
 
 breadcrumbs:
   - title: >-
@@ -43,7 +43,7 @@ breadcrumbs:
 design:
   full_width: true
   toc:
-    present: false
+    present: true
     offcanvas: true
 
 
@@ -181,10 +181,30 @@ section_taxonomies:
         count: 1
 
 contents_reading_time:
-  seconds: 1
+  seconds: 4
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: title
+    title: >-
+      Un bloc pour mettre l'accent sur un projet
+    slug: >-
+      un-bloc-pour-mettre-l-accent-sur-un-projet
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Un bloc pour mettre l'accent sur un projet
+        heading: 2
+
+    data:
+      layout: classic
+
+
   - kind: block
     template: projects
     title: >-
@@ -192,15 +212,15 @@ contents:
     slug: >-
       le-plus-recent
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
           Le plus récent
-        heading: 2
+        heading: 3
         link: "/fr/projets/"
 
     data:
@@ -223,6 +243,26 @@ contents:
             Ceci est un projet
 
       quantity: 1
+
+  - kind: block
+    template: title
+    title: >-
+      Tous les projets
+    slug: >-
+      tous-les-projets
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Tous les projets
+        heading: 2
+
+    data:
+      layout: classic
+
 
 
 ---
