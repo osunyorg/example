@@ -29,5 +29,7 @@ params:
       options:
         categories: true
   persons:
+    index: 
+      layout: list # grid | list
     single:
       backlinks: true
