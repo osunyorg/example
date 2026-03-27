@@ -9,7 +9,7 @@ breadcrumb_title: >-
 url: "/fr/blocks/blocs-de-liste/campus-1/"
 slug: "campus-1"
 date: 2024-05-28T17:20:37+02:00
-lastmod: 2025-09-16T15:07:06+02:00
+lastmod: 2026-03-27T20:16:29+01:00
 meta:
   hugo:
     permalink: "/fr/blocks/blocs-de-liste/campus-1/"
@@ -18,7 +18,7 @@ meta:
     slug: "campus-1"
   dates:
     created_at: 2024-05-28T17:20:37+02:00
-    updated_at: 2025-09-16T15:07:06+02:00
+    updated_at: 2026-03-27T20:16:29+01:00
     published_at: 2024-05-28T17:20:37+02:00
 search:
   id: "a6f152b8-91b4-4407-b60e-dada5a146fb7"
@@ -31,7 +31,7 @@ search:
   summary: >-
     <p>Présentez vos campus sur votre site web grâce à ce bloc</p>
   body: >-
-    <p>Liste des campus - Layout grille </p>  <p> Liste des campus - Layout liste </p>
+    <p>Liste des campus - Layout grille </p>  <p> Liste des campus - Layout carte </p>  <p> Liste des campus - Layout liste </p>
 
 breadcrumbs:
   - title: >-
@@ -71,7 +71,7 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 3
+  seconds: 5
   text: >-
     moins d'une minute
 contents:
@@ -94,6 +94,58 @@ contents:
 
     data:
       layout: grid
+      options:
+        image: true
+        summary: true
+
+      locations:
+        - permalink: "/fr/campus/iut-bordeaux-montaigne/"
+          path: "/locations/iut-bordeaux-montaigne"
+          slug: "iut-bordeaux-montaigne"
+          file: "content/fr/locations/iut-bordeaux-montaigne/_index.html"
+          name: >-
+            IUT Bordeaux Montaigne
+        - permalink: "/fr/campus/osuny/"
+          path: "/locations/osuny"
+          slug: "osuny"
+          file: "content/fr/locations/osuny/_index.html"
+          name: >-
+            Osuny
+        - permalink: "/fr/campus/iut-bordeaux-montaigne/"
+          path: "/locations/iut-bordeaux-montaigne"
+          slug: "iut-bordeaux-montaigne"
+          file: "content/fr/locations/iut-bordeaux-montaigne/_index.html"
+          name: >-
+            IUT Bordeaux Montaigne
+        - permalink: "/fr/campus/osuny/"
+          path: "/locations/osuny"
+          slug: "osuny"
+          file: "content/fr/locations/osuny/_index.html"
+          name: >-
+            Osuny
+
+      quantity: 4
+
+
+  - kind: block
+    template: locations
+    title: >-
+      Liste des campus - Layout carte
+    slug: >-
+      liste-des-campus-layout-carte
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Liste des campus - Layout carte
+        heading: 2
+
+    data:
+      layout: map
       options:
         image: true
         summary: true
