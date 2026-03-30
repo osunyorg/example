@@ -34,3 +34,11 @@ params:
       layout: list # grid | list
     single:
       backlinks: true
+
+  diplomas:
+    single:
+      programs:
+        layout: list
+        options:
+          image: false
+          summary: true
