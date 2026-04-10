@@ -1,16 +1,19 @@
 ---
-breadcrumb_title: >-
-  Une page avec des catégories
 title: >-
   Une page avec des catégories
+breadcrumb_title: >-
+  Une page avec des catégories
+
+
 bodyclass: >-
-   category-osuny-style
+  category-osuny-style
 url: "/fr/une-rubrique-de-pages/une-page-avec-des-categories/"
 slug: "une-page-avec-des-categories"
 aliases:
-  - /fr/une-page-avec-des-categories/
+  - /../fr/une-page-avec-des-categories/
+  - /../fr/test-de-categorie-avec-un-alias/
 date: 2025-01-23T14:58:19+01:00
-lastmod: 2025-01-24T15:48:12+01:00
+lastmod: 2026-01-19T14:50:02+01:00
 meta:
   hugo:
     permalink: "/fr/une-rubrique-de-pages/une-page-avec-des-categories/"
@@ -19,10 +22,11 @@ meta:
     slug: "une-page-avec-des-categories"
   dates:
     created_at: 2025-01-23T14:58:20+01:00
-    updated_at: 2025-01-24T15:48:12+01:00
+    updated_at: 2026-01-19T14:50:02+01:00
     published_at: 2025-01-23T14:58:19+01:00
 search:
   id: "b506a894-17b1-4d9c-8890-8f3e7a9b33de"
+  about_id: "1b0b682b-3583-42de-9c0e-f7172e358bba"
   url: "/fr/une-rubrique-de-pages/une-page-avec-des-categories/"
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
@@ -31,7 +35,7 @@ search:
   summary: >-
     <p>Une catégorie de taxonomie et une catégorie libre.</p>
   body: >-
-    <p>Titre  <br>   <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Titre  <br>   <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  <p> Nous proposons plusieurs types d'événements  </p>
 
 breadcrumbs:
   - title: >-
@@ -46,19 +50,23 @@ breadcrumbs:
 design:
   full_width: false
   toc:
-    present: false
+    present: true
     offcanvas: false
+
 
 position: 19
 weight: 19
 pages_categories:
   - "sujet/osuny"
   - "les-communs-numeriques"
+  - "test-de-categorie-avec-un-alias"
 taxonomies:
-  - name: >-
-      Catégories
-    slug: ""
+  - permalink: ""
     path: ""
+    slug: ""
+    file: ""
+    name: >-
+      Catégories
     categories:
       - permalink: "/fr/les-communs-numeriques/"
         path: "/pages_categories/les-communs-numeriques"
@@ -66,11 +74,19 @@ taxonomies:
         file: "content/fr/pages_categories/les-communs-numeriques/_index.html"
         name: >-
           Les communs numériques
+      - permalink: "/fr/test-de-categorie-avec-un-alias/"
+        path: "/pages_categories/test-de-categorie-avec-un-alias"
+        slug: "test-de-categorie-avec-un-alias"
+        file: "content/fr/pages_categories/test-de-categorie-avec-un-alias/_index.html"
+        name: >-
+          Test de catégorie avec un alias
 
-  - name: >-
-      Sujet
-    slug: "sujet"
+  - permalink: "/fr/sujet/"
     path: "/pages_categories/sujet"
+    slug: "sujet"
+    file: "content/fr/pages_categories/sujet/_index.html"
+    name: >-
+      Sujet
     categories:
       - permalink: "/fr/sujet/osuny/"
         path: "/pages_categories/sujet/osuny"
@@ -89,23 +105,14 @@ image:
     <p>Photo by <a href="https://www.pexels.com/@jnovphoto">Jakub Novacek</a> on <a href="https://www.pexels.com">Pexels</a></p>
 
 
-meta_description: >-
-  
 
 summary: >-
   <p>Une catégorie de taxonomie et une catégorie libre.</p>
-
-header_text: >-
-  
 header_cta:
-  display: false
-  label: >-
-    
-  target: ""
-  external: false
+
 
 contents_reading_time:
-  seconds: 35
+  seconds: 37
   text: >-
     1 minute
 contents:
@@ -124,35 +131,131 @@ contents:
         value: >-
           Titre
         heading: 2
+
     data:
       layout: classic
 
 
   - kind: block
     template: chapter
-    title: >-
-      
-    slug: >-
-      
+
+
     ranks:
       base: 3
     top:
       active: false
+
     data:
       layout: no_background
       text: >-
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-      notes: >-
-        
 
 
-      alt: >-
-        
 
-      credit: >-
-        
 
+
+  - kind: block
+    template: title
+    title: >-
+      Nous proposons plusieurs types d'événements
+    slug: >-
+      nous-proposons-plusieurs-types-d-evenements
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Nous proposons plusieurs types d'événements
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: categories
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+      layout: grid
+
+      options:
+        count: false
+        image: true
+        summary: true
+
+      category_kind: agenda
+      taxonomy_id: 8cf0c2e5-a705-4e4c-83a3-0145880c072a
+      taxonomy:
+        permalink: "/fr/agenda/type-devenement/"
+        path: "/events_categories/type-devenement"
+        slug: "type-devenement"
+        file: "content/fr/events_categories/type-devenement/_index.html"
+        name: "Type d'événement"
+      categories:
+        - permalink: "/fr/agenda/type-devenement/concert/"
+          path: "/events_categories/type-devenement/concert"
+          slug: "type-devenement/concert"
+          file: "content/fr/events_categories/type-devenement/concert/_index.html"
+          name: "Type d'événement"
+          count: 6
+        - permalink: "/fr/agenda/type-devenement/atelier/"
+          path: "/events_categories/type-devenement/atelier"
+          slug: "type-devenement/atelier"
+          file: "content/fr/events_categories/type-devenement/atelier/_index.html"
+          name: "Type d'événement"
+          count: 3
+
+
+
+  - kind: block
+    template: categories
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+      layout: grid
+
+      options:
+        count: true
+        image: true
+        summary: true
+
+      category_kind: pages
+      taxonomy_id: 
+      categories:
+        - permalink: "/fr/les-communs-numeriques/"
+          path: "/pages_categories/les-communs-numeriques"
+          slug: "les-communs-numeriques"
+          file: "content/fr/pages_categories/les-communs-numeriques/_index.html"
+          name: ""
+          count: 8
+        - permalink: "/fr/types-de-blocs/"
+          path: "/pages_categories/types-de-blocs"
+          slug: "types-de-blocs"
+          file: "content/fr/pages_categories/types-de-blocs/_index.html"
+          name: ""
+          count: 10
+        - permalink: "/fr/test-de-categorie-avec-un-alias/"
+          path: "/pages_categories/test-de-categorie-avec-un-alias"
+          slug: "test-de-categorie-avec-un-alias"
+          file: "content/fr/pages_categories/test-de-categorie-avec-un-alias/_index.html"
+          name: ""
+          count: 1
 
 
 

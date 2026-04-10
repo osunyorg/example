@@ -1,10 +1,11 @@
 ---
-breadcrumb_title: >-
-  Équipe
 title: >-
   Équipe
-bodyclass: >-
-   
+breadcrumb_title: >-
+  Équipe
+
+
+
 url: "/en/equipe/"
 slug: "equipe"
 date: 2023-06-15T15:08:53+02:00
@@ -21,6 +22,7 @@ meta:
     published_at: 2023-06-15T15:08:53+02:00
 search:
   id: "c2be0919-c0da-43c4-8593-601223006182"
+  about_id: "25e2de40-4616-4e52-928a-aff80ddba030"
   url: "/en/equipe/"
   kind: "Communication::Website::Page::Localization"
   lang: "en"
@@ -28,8 +30,7 @@ search:
     Équipe
   summary: >-
     <p>Liste des membres de l'équipe</p>
-  body: >-
-    
+
 
 breadcrumbs:
   - title: >-
@@ -39,18 +40,19 @@ breadcrumbs:
       Équipe
 
 design:
-  full_width: true
+  full_width: false
   toc:
     present: false
-    offcanvas: true
+    offcanvas: false
 
 has:
   administrators: true
   authors: true
   researchers: true
   teachers: true
-position: 7
-weight: 7
+
+position: 9
+weight: 9
 
 translationKey: communication-website-page-25e2de40-4616-4e52-928a-aff80ddba030
 
@@ -61,20 +63,28 @@ children:
   - "teachers/_index.html"
   - "authors/_index.html"
   - "administrators/_index.html"
-meta_description: >-
-  
+child_pages:
+  - permalink: "/en/equipe/equipe-de-recherche/"
+    path: "/researchers"
+    slug: "equipe-de-recherche"
+    file: "content/en/researchers/_index.html"
+  - permalink: "/en/equipe/equipe-pedagogique/"
+    path: "/teachers"
+    slug: "equipe-pedagogique"
+    file: "content/en/teachers/_index.html"
+  - permalink: "/en/equipe/editors/"
+    path: "/authors"
+    slug: "editors"
+    file: "content/en/authors/_index.html"
+  - permalink: "/en/equipe/administrators/"
+    path: "/administrators"
+    slug: "administrators"
+    file: "content/en/administrators/_index.html"
 
 summary: >-
   <p>Liste des membres de l'équipe</p>
-
-header_text: >-
-  
 header_cta:
-  display: false
-  label: >-
-    
-  target: ""
-  external: false
+
 section_taxonomies:
 
 contents_reading_time:
