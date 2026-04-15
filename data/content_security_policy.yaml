@@ -20,6 +20,8 @@ allowed_domains:
   - "youtube-nocookie.com"
   - "www.youtube-nocookie.com"
   - "canal-u.tv"
+  - "www.canal-u.tv"
+  - "vod.canal-u.tv"
   - "odysee.com"
   - "peertube.fr"
   - "www.google.com"
