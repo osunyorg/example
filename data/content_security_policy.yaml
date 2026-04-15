@@ -19,6 +19,7 @@ allowed_domains:
   - "youtu.be"
   - "youtube-nocookie.com"
   - "www.youtube-nocookie.com"
+  - "canal-u.tv"
   - "peertube.fr"
   - "player.twitch.tv"
   - "odysee.com"
