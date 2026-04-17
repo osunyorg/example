@@ -4,6 +4,11 @@ allowed_methods = ["GET", "POST"]
 allowed_headers = "*"
 
 [[headers]]
+for = ["**/*.html"]
+[headers.values]
+Cache-Control = "max-age=0, no-transform, public"
+
+[[headers]]
 for = ["**/*.woff2", "**/*.woff", "**/*.svg", "**/*.ttf", "**/*.otf", "**/*.eot", "**/*.js", "**/*.css"]
 compress = "gzip"
 [headers.values]
