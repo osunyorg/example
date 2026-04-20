@@ -1,4 +1,5 @@
 theme: 
+  - osuny-plugin-reading-progress
   - osuny
   - osuny-plugin-pagedjs
 _merge: deep
@@ -34,7 +35,8 @@ params:
       layout: list # grid | list
     single:
       backlinks: true
-
+      taxonomies:
+        position: content
   diplomas:
     single:
       programs:
