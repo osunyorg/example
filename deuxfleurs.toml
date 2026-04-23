@@ -4,11 +4,6 @@ allowed_methods = ["GET", "POST"]
 allowed_headers = "*"
 
 [[headers]]
-for = ["**/*.html"]
-[headers.values]
-Cache-Control = "max-age=0, no-transform, public"
-
-[[headers]]
 for = ["**/*.woff2", "**/*.woff", "**/*.svg", "**/*.ttf", "**/*.otf", "**/*.eot", "**/*.js", "**/*.css"]
 compress = "gzip"
 [headers.values]
@@ -18,3 +13,1060 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/fr/organisations/categories/commoners/"
+to = "/fr/organisations/categories/implication/soutiens-osuny/"
+
+[[redirects]]
+from = "/blocks/blocs-de-liste/partenaires/"
+to = "/fr/blocks/blocs-de-liste/organisations-1/"
+
+[[redirects]]
+from = "/fr/organisations/categories/secteur/"
+to = "/fr/organisations/categories/secteurs-organisation/"
+
+[[redirects]]
+from = "/fr/agenda/2023-11-09-comite-scientifique-osuny-2/"
+to = "/fr/agenda/2023/comite-scientifique-osuny-2/"
+
+[[redirects]]
+from = "/en/agenda/formation-test/"
+to = "/en/agenda/programs/formation-test/"
+
+[[redirects]]
+from = "/actualites/offre-de-formation/lorem-ipsum/"
+to = "/fr/actualites/offre-de-formation/information-communication/lorem-ipsum/"
+
+[[redirects]]
+from = "/fr/equipe/categories/implication/comites-osuny/scientifique/"
+to = "/fr/equipe/categories/implication/comites-osuny/comite-scientifique/"
+
+[[redirects]]
+from = "/fr/equipe/categories/metier/"
+to = "/fr/equipe/categories/metiers/"
+
+[[redirects]]
+from = "/fr/blocks/blocks-techniques/les-liens/"
+to = "/fr/blocks/blocks-techniques/liens/"
+
+[[redirects]]
+from = "/fr/equipe/categories/dev/"
+to = "/fr/equipe/categories/metiers/"
+
+[[redirects]]
+from = "/fr/agenda/2025/arte-concert-festival-2023/2025-11-03-kara-jackson/"
+to = "/fr/agenda/2025/arte-concert-festival-2023/kara-jackson/"
+
+[[redirects]]
+from = "/fr/agenda/2023-1/06/"
+to = "/fr/agenda/2023/06/"
+
+[[redirects]]
+from = "/en/actualites/a-la-une/"
+to = "/en/actualites-1/a-la-une/"
+
+[[redirects]]
+from = "/offre-de-formation/animation-sociale-et-socioculturelle/"
+to = "/fr/offre-de-formation/animation-sociale-et-socioculturelle/"
+
+[[redirects]]
+from = "/actualites/offre-de-formation/information-communication-information-communication/"
+to = "/fr/actualites/offre-de-formation/information-communication/"
+
+[[redirects]]
+from = "/fr/equipe/categories/commoners/"
+to = "/fr/equipe/categories/implication/commoners/"
+
+[[redirects]]
+from = "/blocks/tous-les-blocks/"
+to = "/fr/blocks/tous-les-blocks/"
+
+[[redirects]]
+from = "/fr/actualites/offre-de-formation/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
+to = "/fr/actualites/offre-de-formation/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
+
+[[redirects]]
+from = "/equipe/sebastien-moulene/"
+to = "/fr/equipe/sebastien-moulene/"
+
+[[redirects]]
+from = "/actualites/2022/12/01/referentiel-general-decoconception-de-services-numeriques-rgesn/"
+to = "/fr/actualites/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn/"
+
+[[redirects]]
+from = "/plan-du-site/"
+to = "/fr/plan-du-site/"
+
+[[redirects]]
+from = "/fr/agenda/animation-sociale-et-socioculturelle/"
+to = "/fr/agenda/offre-de-formation/animation-sociale-et-socioculturelle/"
+
+[[redirects]]
+from = "/blocks/blocs-de-liste/actualites-1/"
+to = "/fr/blocks/blocs-de-liste/actualites-1/"
+
+[[redirects]]
+from = "/fr/equipe/alex-ben/actualites/"
+to = "/fr/equipe/alex-ben-2/actualites/"
+
+[[redirects]]
+from = "/offre-de-formation/metiers-du-multimedia-et-de-linternet/"
+to = "/fr/offre-de-formation/metiers-du-multimedia-et-de-linternet/"
+
+[[redirects]]
+from = "/fr/organisations/categories/secteurs/associations/"
+to = "/fr/organisations/categories/secteurs-organisation/associations/"
+
+[[redirects]]
+from = "/fr/equipe/arnaud-levy/papers/"
+to = "/fr/equipe/arnaud-levy/publications/"
+
+[[redirects]]
+from = "/en/agenda/contribuer-avec-osuny/"
+to = "/en/agenda/programs/contribuer-avec-osuny/"
+
+[[redirects]]
+from = "/offre-de-formation/coordination-de-projets-de-developpement-social-et-culturel/"
+to = "/fr/offre-de-formation/coordination-de-projets-de-developpement-social-et-culturel/"
+
+[[redirects]]
+from = "/blocks/blocks-techniques/definitions/"
+to = "/fr/blocks/blocks-techniques/definitions/"
+
+[[redirects]]
+from = "/fr/tierces-parties/"
+to = "/fr/organisations/"
+
+[[redirects]]
+from = "/equipe/equipe-administrative/"
+to = "/fr/equipe/equipe-administrative/"
+
+[[redirects]]
+from = "/fr/organisations/categories/secteurs/service-public/"
+to = "/fr/organisations/categories/secteurs-organisation/service-public/"
+
+[[redirects]]
+from = "/fr/une-page-avec-des-categories/"
+to = "/fr/une-rubrique-de-pages/une-page-avec-des-categories/"
+
+[[redirects]]
+from = "/fr/organisations/categories/monde-associatif/"
+to = "/fr/organisations/categories/secteurs-organisation/associations/"
+
+[[redirects]]
+from = "/fr/organisations/categories/secteur/monde-associatif/"
+to = "/fr/organisations/categories/secteurs-organisation/associations/"
+
+[[redirects]]
+from = "/fr/equipe/categories/comites/scientifique/"
+to = "/fr/equipe/categories/implication/comites-osuny/comite-scientifique/"
+
+[[redirects]]
+from = "/fr/organisations/categories/secteur/public/"
+to = "/fr/organisations/categories/secteurs-organisation/service-public/"
+
+[[redirects]]
+from = "/fr/actualites/osuny-2/"
+to = "/fr/actualites/osuny/"
+
+[[redirects]]
+from = "/politique-de-confidentialite/"
+to = "/fr/politique-de-confidentialite/"
+
+[[redirects]]
+from = "/equipe/arnaud-levy/programs/"
+to = "/fr/equipe/arnaud-levy/programs/"
+
+[[redirects]]
+from = "/fr/actualites/2023-08-02-proposition-de-loi-relative-a-la-responsabilite-des-medias-dans-le-traitement-des-enjeux-environnementaux-et-de-durabilite/"
+to = "/fr/actualites/2023-08-02-proposition-de-loi-relative-a-la-responsabilite-des-medias-dans-le-traitement-des-enjeux-environneme/"
+
+[[redirects]]
+from = "/fr/equipe/categories/comite/"
+to = "/fr/equipe/categories/implication/comites-osuny/"
+
+[[redirects]]
+from = "/offre-de-formation/contribuer-avec-osuny/"
+to = "/fr/offre-de-formation/contribuer-avec-osuny/"
+
+[[redirects]]
+from = "/fr/agenda/2023-1/11/"
+to = "/fr/agenda/2023/11/"
+
+[[redirects]]
+from = "/blocks/blocs-de-liste/organigramme/"
+to = "/fr/blocks/blocs-de-liste/organigramme/"
+
+[[redirects]]
+from = "/fr/agenda/2023-10-19-numerique-en-communs/"
+to = "/fr/agenda/2023/numerique-en-communs/"
+
+[[redirects]]
+from = "/organisations/degrowth-journal/"
+to = "/fr/organisations/degrowth-journal/"
+
+[[redirects]]
+from = "/actualites/2022/02/02/lorem-ipsum/"
+to = "/fr/actualites/2022-02-02-lorem-ipsum/"
+
+[[redirects]]
+from = "/fr/agenda/2025/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
+to = "/fr/agenda/2026/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
+
+[[redirects]]
+from = "/fr/offres-d-emploi/2025/accompagnante-educatifve-et-social/"
+to = "/fr/offres-d-emploi/2025/accompagnement-educatif-et-social/"
+
+[[redirects]]
+from = "/fr/blocks/blocks-de-liste/"
+to = "/fr/blocks/blocs-de-liste/"
+
+[[redirects]]
+from = "/fr/agenda/2025/anne-charlotte-finel-respiro-1/"
+to = "/fr/agenda/2026/anne-charlotte-finel-respiro-1/"
+
+[[redirects]]
+from = "/fr/actualites/offre-de-formation/contribuer-avec-osuny/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
+to = "/fr/actualites/offre-de-formation/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
+
+[[redirects]]
+from = "/fr/organisations/categories/commoners/agences-osuny/"
+to = "/fr/organisations/categories/implication/agences-osuny/"
+
+[[redirects]]
+from = "/actualites/"
+to = "/fr/actualites/"
+
+[[redirects]]
+from = "/tierces-parties/universite-bordeaux-montaigne/"
+to = "/fr/organisations/universite-bordeaux-montaigne/"
+
+[[redirects]]
+from = "/fr/blocks/blocs-de-liste/partenaires/"
+to = "/fr/blocks/blocs-de-liste/organisations-1/"
+
+[[redirects]]
+from = "/blocks/blocks-techniques/fichiers/"
+to = "/fr/blocks/blocks-techniques/fichiers/"
+
+[[redirects]]
+from = "/equipe/equipe-pedagogique/"
+to = "/fr/equipe/equipe-pedagogique/"
+
+[[redirects]]
+from = "/fr/agenda/2025-02-03-anne-charlotte-finel-respiro-1/"
+to = "/fr/agenda/2026/anne-charlotte-finel-respiro-1/"
+
+[[redirects]]
+from = "/fr/organisations/categories/secteur/mediation/"
+to = "/fr/organisations/categories/secteurs/mediation/"
+
+[[redirects]]
+from = "/en/actualites/offre-de-formation/lorem-ipsum/"
+to = "/en/actualites-1/offre-de-formation/information-communication/lorem-ipsum/"
+
+[[redirects]]
+from = "/fr/organisations/categories/secteurs/prive/"
+to = "/fr/organisations/categories/secteurs-organisation/culture/"
+
+[[redirects]]
+from = "/fr/offre-de-formation/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
+to = "/fr/offre-de-formation/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
+
+[[redirects]]
+from = "/actualites/2022/02/21/covid-19-informations-vaccination/"
+to = "/fr/actualites/2022-02-21-lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique/"
+
+[[redirects]]
+from = "/diplomes/doctorat/"
+to = "/fr/diplomes/doctorat/"
+
+[[redirects]]
+from = "/fr/expositions/2025-04-14-pulse/"
+to = "/fr/expositions/2025-03-14-pulse/"
+
+[[redirects]]
+from = "/tierces-parties/mit-anthropology/"
+to = "/fr/organisations/mit-anthropology/"
+
+[[redirects]]
+from = "/fr/organisations/categories/localisation/"
+to = "/fr/organisations/categories/lieu/"
+
+[[redirects]]
+from = "/fr/organisations/nouvelle-aquitaine/"
+to = "/fr/organisations/categories/lieu/france/nouvelle-aquitaine/"
+
+[[redirects]]
+from = "/fr/equipe/categories/comites/design-1/"
+to = "/fr/equipe/categories/implication/comites-osuny/comite-design/"
+
+[[redirects]]
+from = "/fr/organisations/categories/ile-de-france/"
+to = "/fr/organisations/categories/lieu/france/ile-de-france/"
+
+[[redirects]]
+from = "/equipe/alexis-benoit/"
+to = "/fr/equipe/alexis-benoit/"
+
+[[redirects]]
+from = "/blocks/blocks-de-liste/pages/"
+to = "/fr/blocks/blocs-de-liste/pages/"
+
+[[redirects]]
+from = "/fr/equipe/magali-angles/papers/"
+to = "/fr/equipe/magali-angles/publications/"
+
+[[redirects]]
+from = "/blocks/blocks-de-liste/organigramme/"
+to = "/fr/blocks/blocs-de-liste/organigramme/"
+
+[[redirects]]
+from = "/fr/agenda/formation-test/"
+to = "/fr/agenda/offre-de-formation/formation-test/"
+
+[[redirects]]
+from = "/fr/organisations/categories/secteur/service-public/"
+to = "/fr/organisations/categories/secteurs-organisation/service-public/"
+
+[[redirects]]
+from = "/actualites/2022/12/01/les-cooperatives-energetiques-citoyennes-des-modeles-originaux-pour-plus-de-sobriete/"
+to = "/fr/actualites/2022-12-01-les-cooperatives-energetiques-citoyennes-des-modeles-originaux-pour-plus-de-sobriete/"
+
+[[redirects]]
+from = "/blocks/blocks-de-base/les-sons/"
+to = "/fr/blocks/blocks-de-base/les-sons/"
+
+[[redirects]]
+from = "/blocks/blocks-narratifs/chiffre-cles/"
+to = "/fr/blocks/blocks-narratifs/chiffre-cles/"
+
+[[redirects]]
+from = "/fr/organisations/categories/region/"
+to = "/fr/organisations/categories/lieu/"
+
+[[redirects]]
+from = "/fr/organisations/categories/secteurs/culture/"
+to = "/fr/organisations/categories/secteurs-organisation/culture/"
+
+[[redirects]]
+from = "/fr/agenda/2023-1/04/"
+to = "/fr/agenda/2023/04/"
+
+[[redirects]]
+from = "/diplomes/"
+to = "/fr/diplomes/"
+
+[[redirects]]
+from = "/fr/agenda/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
+to = "/fr/agenda/offre-de-formation/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
+
+[[redirects]]
+from = "/fr/equipe/categories/commoners/freelance/"
+to = "/fr/equipe/categories/implication/freelances/"
+
+[[redirects]]
+from = "/tierces-parties/noesya/"
+to = "/fr/organisations/noesya/"
+
+[[redirects]]
+from = "/fr/agenda/2023-1/05/"
+to = "/fr/agenda/2023/05/"
+
+[[redirects]]
+from = "/fr/centre-de-formation-osuny/"
+to = "/fr/ecoles/centre-de-formation-osuny/"
+
+[[redirects]]
+from = "/en/blocs-de-mise-en-page/"
+to = "/en/blocks/blocs-de-mise-en-page/"
+
+[[redirects]]
+from = "/fr/agenda/2024-02-03-anne-charlotte-finel-respiro/"
+to = "/fr/agenda/2024/anne-charlotte-finel-respiro/"
+
+[[redirects]]
+from = "/fr/agenda/2023-1/12/"
+to = "/fr/agenda/2023/12/"
+
+[[redirects]]
+from = "/actualites/2022-02-03-inscriptions-administratives/"
+to = "/fr/actualites/2022-02-03-inscriptions-administratives/"
+
+[[redirects]]
+from = "/fr/un-sous-page-da-propos/"
+to = "/fr/test/test-1/un-sous-page-da-propos/"
+
+[[redirects]]
+from = "/organisations/mit-anthropology/"
+to = "/fr/organisations/mit-anthropology/"
+
+[[redirects]]
+from = "/fr/blocks/blocks-de-liste/organigramme/"
+to = "/fr/blocks/blocs-de-liste/organigramme/"
+
+[[redirects]]
+from = "/fr/agenda/atelier/"
+to = "/fr/agenda/type-devenement/atelier/"
+
+[[redirects]]
+from = "/fr/agenda/2025/arte-concert-festival-2023/"
+to = "/fr/agenda/2026/arte-concert-festival-2023/"
+
+[[redirects]]
+from = "/blocks/tous-les-blocks-pleine-largeur/"
+to = "/fr/blocks/tous-les-blocks-pleine-largeur/"
+
+[[redirects]]
+from = "/equipe/sebastien-gaya/"
+to = "/fr/equipe/sebastien-gaya/"
+
+[[redirects]]
+from = "/fr/agenda/2025/arte-concert-festival-2023/2025-11-02-koki-nakano-ft-tess-voelker/"
+to = "/fr/agenda/2026/arte-concert-festival-2023/koki-nakano-ft-tess-voelker/"
+
+[[redirects]]
+from = "/fr/equipe/categories/region/nouvelle-aquitaine/"
+to = "/fr/equipe/categories/regions/nouvelle-aquitaine/"
+
+[[redirects]]
+from = "/actualites/2023-07-01-referentiel-general-decoconception-de-services-numeriques-rgesn/"
+to = "/fr/actualites/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn/"
+
+[[redirects]]
+from = "/organisations/scaleway/"
+to = "/fr/organisations/scaleway/"
+
+[[redirects]]
+from = "/organisations/rose-primaire/"
+to = "/fr/organisations/rose-primaire/"
+
+[[redirects]]
+from = "/blocks/blocs-de-liste/pages/"
+to = "/fr/blocks/blocs-de-liste/pages/"
+
+[[redirects]]
+from = "/equipe/magali-angles/roles/"
+to = "/fr/equipe/magali-angles/roles/"
+
+[[redirects]]
+from = "/fr/organisations/categories/nouvelle-aquitaine/"
+to = "/fr/organisations/categories/lieu/france/nouvelle-aquitaine/"
+
+[[redirects]]
+from = "/offre-de-formation/information-communication/"
+to = "/fr/offre-de-formation/information-communication/"
+
+[[redirects]]
+from = "/fr/actualites/offre-de-formation/information-communication-information-communication/"
+to = "/fr/actualites/offre-de-formation/information-communication/"
+
+[[redirects]]
+from = "/equipe/arnaud-levy/roles/"
+to = "/fr/equipe/arnaud-levy/roles/"
+
+[[redirects]]
+from = "/fr/equipe/categories/commoners/freelance-osuny/"
+to = "/fr/equipe/categories/implication/freelances/"
+
+[[redirects]]
+from = "/fr/equipe/categories/comite/dev-back/"
+to = "/fr/equipe/categories/implication/comites-osuny/dev-back/"
+
+[[redirects]]
+from = "/actualites/a-la-une/"
+to = "/fr/actualites/a-la-une/"
+
+[[redirects]]
+from = "/blocks/blocks-de-liste/partenaires/"
+to = "/fr/blocks/blocs-de-liste/organisations-1/"
+
+[[redirects]]
+from = "/fr/equipe/categories/dev/back/"
+to = "/fr/equipe/categories/metiers/developpement/"
+
+[[redirects]]
+from = "/fr/blocks/blocks-de-liste/programmes/"
+to = "/fr/blocks/blocs-de-liste/programmes/"
+
+[[redirects]]
+from = "/fr/equipe/categories/commoners/makers/"
+to = "/fr/equipe/categories/implication/makers/"
+
+[[redirects]]
+from = "/blocks/blocs-de-liste/"
+to = "/fr/blocks/blocs-de-liste/"
+
+[[redirects]]
+from = "/fr/equipe/categories/comite/scientifique/"
+to = "/fr/equipe/categories/implication/comites-osuny/comite-scientifique/"
+
+[[redirects]]
+from = "/blocks/blocks-techniques/integration-html/"
+to = "/fr/blocks/blocks-techniques/integration-html/"
+
+[[redirects]]
+from = "/fr/agenda/2024-02-03-anne-charlotte-finel-respiro-1/"
+to = "/fr/agenda/2026/anne-charlotte-finel-respiro-1/"
+
+[[redirects]]
+from = "/actualites/2022-02-02-lorem-ipsum/"
+to = "/fr/actualites/2022-02-02-lorem-ipsum/"
+
+[[redirects]]
+from = "/fr/organisations/categories/implication/organisations-contributrices/"
+to = "/fr/organisations/categories/implication/contribs-osuny/"
+
+[[redirects]]
+from = "/equipe/arnaud-levy/"
+to = "/fr/equipe/arnaud-levy/"
+
+[[redirects]]
+from = "/fr/organisations/opcd/"
+to = "/fr/organisations/observatoire-de-la-decroissance-et-de-la-post-croissance-opcd/"
+
+[[redirects]]
+from = "/fr/agenda/2024/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
+to = "/fr/agenda/2026/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
+
+[[redirects]]
+from = "/fr/agenda/2023-1/01/"
+to = "/fr/agenda/2023/01/"
+
+[[redirects]]
+from = "/fr/equipe/alex-ben/"
+to = "/fr/equipe/alex-ben-2/"
+
+[[redirects]]
+from = "/blocks/blocks-de-liste/actualites-1/"
+to = "/fr/blocks/blocs-de-liste/actualites-1/"
+
+[[redirects]]
+from = "/accessibilite/"
+to = "/fr/accessibilite/"
+
+[[redirects]]
+from = "/organisations/universite-bordeaux-montaigne/"
+to = "/fr/organisations/universite-bordeaux-montaigne/"
+
+[[redirects]]
+from = "/organisations/mica/"
+to = "/fr/organisations/mica/"
+
+[[redirects]]
+from = "/en/actualites/offre-de-formation/"
+to = "/en/actualites-1/offre-de-formation/"
+
+[[redirects]]
+from = "/organisations/classcode/"
+to = "/fr/organisations/class-code/"
+
+[[redirects]]
+from = "/blocks/blocks-narratifs/frise/"
+to = "/fr/blocks/blocks-narratifs/frise/"
+
+[[redirects]]
+from = "/organisations/"
+to = "/fr/organisations/"
+
+[[redirects]]
+from = "/tierces-parties/mica/"
+to = "/fr/organisations/mica/"
+
+[[redirects]]
+from = "/fr/equipe/categories/design/"
+to = "/fr/equipe/categories/metiers/design/"
+
+[[redirects]]
+from = "/blocks/blocks-narratifs/les-fonctionnalites/"
+to = "/fr/blocks/blocks-narratifs/les-fonctionnalites/"
+
+[[redirects]]
+from = "/fr/organisations/categories/secteur/assocations/"
+to = "/fr/organisations/categories/secteurs-organisation/associations/"
+
+[[redirects]]
+from = "/fr/projets/2023-degrowth-journal/"
+to = "/fr/projets/2024-degrowth-journal/"
+
+[[redirects]]
+from = "/fr/equipe/categories/metier/gestion-de-projet/"
+to = "/fr/equipe/categories/metiers/gestion-de-projet/"
+
+[[redirects]]
+from = "/fr/actualites/osuny/fondamentale/"
+to = "/fr/actualites/osuny/fonctionnalite/fondamentale/"
+
+[[redirects]]
+from = "/blocks/blocks-de-base/"
+to = "/fr/blocks/blocks-de-base/"
+
+[[redirects]]
+from = "/en/agenda/coordination-de-projets-de-developpement-social-et-culturel/"
+to = "/en/agenda/programs/coordination-de-projets-de-developpement-social-et-culturel/"
+
+[[redirects]]
+from = "/tierces-parties/scaleway/"
+to = "/fr/organisations/scaleway/"
+
+[[redirects]]
+from = "/fr/agenda/2025-11-02-arte-concert-festival-2023/"
+to = "/fr/agenda/2026/arte-concert-festival-2023/"
+
+[[redirects]]
+from = "/fr/blocks/blocks-de-base/les-titres/"
+to = "/fr/blocks/blocks-de-base/titres/"
+
+[[redirects]]
+from = "/fr/offre-de-formation/eco-conception-de-service-numerique/"
+to = "/fr/offre-de-formation/information-communication/eco-conception-de-service-numerique/"
+
+[[redirects]]
+from = "/fr/equipe/categories/region/ile-de-france/"
+to = "/fr/equipe/categories/regions/ile-de-france/"
+
+[[redirects]]
+from = "/fr/organisations/categories/secteurs/enseignement-1/"
+to = "/fr/organisations/categories/secteurs-organisation/enseignement/"
+
+[[redirects]]
+from = "/test/test-1/un-sous-page-da-propos/"
+to = "/fr/test/test-1/un-sous-page-da-propos/"
+
+[[redirects]]
+from = "/actualites/vie-etudiante/"
+to = "/fr/actualites/vie-etudiante/"
+
+[[redirects]]
+from = "/fr/organisations/categories/localisation/ile-de-france/"
+to = "/fr/organisations/categories/lieu/france/ile-de-france/"
+
+[[redirects]]
+from = "/diplomes/licence-profesionnelle/"
+to = "/fr/diplomes/licence-profesionnelle/"
+
+[[redirects]]
+from = "/fr/organisations/categories/commoners/makers/"
+to = "/fr/organisations/categories/implication/agences-osuny/"
+
+[[redirects]]
+from = "/fr/agenda/2023-1/08/"
+to = "/fr/agenda/2023/08/"
+
+[[redirects]]
+from = "/fr/equipe/gestion-de-projet/"
+to = "/fr/equipe/categories/metiers/gestion-de-projet/"
+
+[[redirects]]
+from = "/en/actualites/vie-etudiante/"
+to = "/en/actualites-1/vie-etudiante/"
+
+[[redirects]]
+from = "/fr/blocks/blocks-de-liste/actualites-1/"
+to = "/fr/blocks/blocs-de-liste/actualites-1/"
+
+[[redirects]]
+from = "/fr/blocks/blocks-de-liste/pages/"
+to = "/fr/blocks/blocs-de-liste/pages/"
+
+[[redirects]]
+from = "/en/agenda/animation-sociale-et-socioculturelle/"
+to = "/en/agenda/programs/animation-sociale-et-socioculturelle/"
+
+[[redirects]]
+from = "/fr/agenda/information-communication/"
+to = "/fr/agenda/offre-de-formation/information-communication/"
+
+[[redirects]]
+from = "/fr/equipe/categories/dev/front/"
+to = "/fr/equipe/categories/metiers/developpement-front/"
+
+[[redirects]]
+from = "/fr/actualites/2025-03-22-vallee-du-silicium/"
+to = "/fr/actualites/2025-03-23-vallee-du-silicium/"
+
+[[redirects]]
+from = "/fr/agenda/202023-09-28-troisieme-edition-du-cafe-guichet-vert-numerique-responsable/"
+to = "/fr/agenda/2023/troisieme-edition-du-cafe-guichet-vert-numerique-responsable/"
+
+[[redirects]]
+from = "/equipe/magali-angles/"
+to = "/fr/equipe/magali-angles/"
+
+[[redirects]]
+from = "/tierces-parties/rose-primaire/"
+to = "/fr/organisations/rose-primaire/"
+
+[[redirects]]
+from = "/equipe/magali-angles/actualites/"
+to = "/fr/equipe/magali-angles/actualites/"
+
+[[redirects]]
+from = "/actualites/2022-02-21-lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique/"
+to = "/fr/actualites/2022-02-21-lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique/"
+
+[[redirects]]
+from = "/equipe/arnaud-levy/papers/"
+to = "/fr/equipe/arnaud-levy/publications/"
+
+[[redirects]]
+from = "/fr/equipe/categories/comite/dev-front/"
+to = "/fr/equipe/categories/implication/comites-osuny/dev-front/"
+
+[[redirects]]
+from = "/actualites/2022/02/03/inscriptions-administratives/"
+to = "/fr/actualites/2022-02-03-inscriptions-administratives/"
+
+[[redirects]]
+from = "/fr/agenda/2025/arte-concert-festival-2023/koki-nakano-ft-tess-voelker/"
+to = "/fr/agenda/2026/arte-concert-festival-2023/koki-nakano-ft-tess-voelker/"
+
+[[redirects]]
+from = "/fr/agenda/2023-06-14-la-numerisation-des-societes/"
+to = "/fr/agenda/2023/la-numerisation-des-societes/"
+
+[[redirects]]
+from = "/fr/blocks/blocks-techniques/les-licences/"
+to = "/fr/blocks/blocks-techniques/licences/"
+
+[[redirects]]
+from = "/fr/organisations/categories/secteur/associations/"
+to = "/fr/organisations/categories/secteurs-organisation/associations/"
+
+[[redirects]]
+from = "/fr/organisations/categories/region/ile-de-france/"
+to = "/fr/organisations/categories/lieu/france/ile-de-france/"
+
+[[redirects]]
+from = "/fr/agenda/contribuer-avec-osuny/"
+to = "/fr/agenda/offre-de-formation/contribuer-avec-osuny/"
+
+[[redirects]]
+from = "/blocks/blocks-narratifs/"
+to = "/fr/blocks/blocks-narratifs/"
+
+[[redirects]]
+from = "/fr/equipe/categories/implication/comites-osuny/design-1/"
+to = "/fr/equipe/categories/implication/comites-osuny/comite-design/"
+
+[[redirects]]
+from = "/fr/actualites/reportage/"
+to = "/fr/actualites/type-darticle/reportage/"
+
+[[redirects]]
+from = "/diplomes/bachelor-universitaire-de-technologie/"
+to = "/fr/diplomes/bachelor-universitaire-de-technologie/"
+
+[[redirects]]
+from = "/fr/equipe/categories/metiers/developpement-back/"
+to = "/fr/equipe/categories/metiers/developpement/"
+
+[[redirects]]
+from = "/actualites/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn/"
+to = "/fr/actualites/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn/"
+
+[[redirects]]
+from = "/actualites/2022-12-01-les-cooperatives-energetiques-citoyennes-des-modeles-originaux-pour-plus-de-sobriete/"
+to = "/fr/actualites/2022-12-01-les-cooperatives-energetiques-citoyennes-des-modeles-originaux-pour-plus-de-sobriete/"
+
+[[redirects]]
+from = "/fr/equipe/categories/comites/dev-front/"
+to = "/fr/equipe/categories/implication/comites-osuny/dev-front/"
+
+[[redirects]]
+from = "/fr/blocks/blocks-de-liste/partenaires/"
+to = "/fr/blocks/blocs-de-liste/organisations-1/"
+
+[[redirects]]
+from = "/offre-de-formation/"
+to = "/fr/offre-de-formation/"
+
+[[redirects]]
+from = "/actualites/2022-02-21-covid-19-informations-vaccination/"
+to = "/fr/actualites/2022-02-21-lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique/"
+
+[[redirects]]
+from = "/fr/organisations/categories/region/nouvelle-aquitaine/"
+to = "/fr/organisations/categories/lieu/france/nouvelle-aquitaine/"
+
+[[redirects]]
+from = "/fr/agenda/2024-02-03-charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
+to = "/fr/agenda/2026/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
+
+[[redirects]]
+from = "/blocks/blocks-techniques/"
+to = "/fr/blocks/blocks-techniques/"
+
+[[redirects]]
+from = "/actualites/offre-de-formation/doctorat-sciences-de-l-information-et-de-la-communication/"
+to = "/fr/actualites/offre-de-formation/doctorat-sciences-de-l-information-et-de-la-communication/"
+
+[[redirects]]
+from = "/blocks/blocks-narratifs/appels-a-action/"
+to = "/fr/blocks/blocks-narratifs/appels-a-action/"
+
+[[redirects]]
+from = "/fr/equipe/categories/gestion-de-projet/"
+to = "/fr/equipe/categories/metiers/gestion-de-projet/"
+
+[[redirects]]
+from = "/tierces-parties/degrowth-journal/"
+to = "/fr/organisations/degrowth-journal/"
+
+[[redirects]]
+from = "/fr/actualites/fondamentale/"
+to = "/fr/actualites/osuny/fonctionnalite/fondamentale/"
+
+[[redirects]]
+from = "/fr/equipe/categories/implication/comites-osuny/gestion-de-contenu/"
+to = "/fr/equipe/categories/implication/comites-osuny/comite-gestion-de-contenu/"
+
+[[redirects]]
+from = "/offre-de-formation/eco-conception-de-service-numerique/"
+to = "/fr/offre-de-formation/information-communication/eco-conception-de-service-numerique/"
+
+[[redirects]]
+from = "/en/actualites/offre-de-formation/animation-sociale-et-socioculturelle/"
+to = "/en/actualites-1/offre-de-formation/animation-sociale-et-socioculturelle/"
+
+[[redirects]]
+from = "/equipe/olivia-simonet/"
+to = "/fr/equipe/olivia-simonet/"
+
+[[redirects]]
+from = "/diplomes/master/"
+to = "/fr/diplomes/master/"
+
+[[redirects]]
+from = "/fr/equipe/categories/comites/dev-back/"
+to = "/fr/equipe/categories/implication/comites-osuny/dev-back/"
+
+[[redirects]]
+from = "/fr/agenda/2025/arte-concert-festival-2023/2025-11-03-alice-phoebe-lou/"
+to = "/fr/agenda/2025/arte-concert-festival-2023/alice-phoebe-lou/"
+
+[[redirects]]
+from = "/actualites/2022-12-01-referentiel-general-decoconception-de-services-numeriques-rgesn/"
+to = "/fr/actualites/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn/"
+
+[[redirects]]
+from = "/mentions-legales/"
+to = "/fr/mentions-legales/"
+
+[[redirects]]
+from = "/offre-de-formation/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
+to = "/fr/offre-de-formation/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
+
+[[redirects]]
+from = "/equipe/equipe-de-recherche/"
+to = "/fr/equipe/equipe-de-recherche/"
+
+[[redirects]]
+from = "/fr/agenda/2023-09-28-troisieme-edition-du-cafe-guichet-vert-numerique-responsable/"
+to = "/fr/agenda/2023/troisieme-edition-du-cafe-guichet-vert-numerique-responsable/"
+
+[[redirects]]
+from = "/fr/agenda/2023-1/03/"
+to = "/fr/agenda/2023/03/"
+
+[[redirects]]
+from = "/blocks/blocs-de-liste/programmes/"
+to = "/fr/blocks/blocs-de-liste/programmes/"
+
+[[redirects]]
+from = "/fr/organisations/categories/secteur/prive/"
+to = "/fr/organisations/categories/secteurs-organisation/culture/"
+
+[[redirects]]
+from = "/blocks/blocks-techniques/contact/"
+to = "/fr/blocks/blocks-techniques/contact/"
+
+[[redirects]]
+from = "/equipe/"
+to = "/fr/equipe/"
+
+[[redirects]]
+from = "/test-1/un-sous-page-da-propos/"
+to = "/fr/test/test-1/un-sous-page-da-propos/"
+
+[[redirects]]
+from = "/fr/organisations/categories/secteurs/recherche/"
+to = "/fr/organisations/categories/secteurs-organisation/recherche/"
+
+[[redirects]]
+from = "/blocks/blocks-de-liste/programmes/"
+to = "/fr/blocks/blocs-de-liste/programmes/"
+
+[[redirects]]
+from = "/en/actualites-1/offre-de-formation/lorem-ipsum/"
+to = "/en/actualites-1/offre-de-formation/information-communication/lorem-ipsum/"
+
+[[redirects]]
+from = "/blocks/blocks-de-base/chapitres/"
+to = "/fr/blocks/blocks-de-base/chapitres/"
+
+[[redirects]]
+from = "/fr/equipe/categories/implication/comites-osuny/ecoconception/"
+to = "/fr/equipe/categories/implication/comites-osuny/comite-ecoconception/"
+
+[[redirects]]
+from = "/fr/organisations/ile-de-france/"
+to = "/fr/organisations/categories/lieu/france/ile-de-france/"
+
+[[redirects]]
+from = "/fr/actualites/2024-11-28-les-carousels-dosuny/"
+to = "/fr/actualites/2024-11-28-les-carrousels-dosuny/"
+
+[[redirects]]
+from = "/fr/equipe/categories/commoners/freelances/"
+to = "/fr/equipe/categories/implication/freelances/"
+
+[[redirects]]
+from = "/blocks/blocks-de-base/tableau/"
+to = "/fr/blocks/blocks-de-base/tableau/"
+
+[[redirects]]
+from = "/blocks/"
+to = "/fr/blocks/"
+
+[[redirects]]
+from = "/fr/agenda/2023-1/09/"
+to = "/fr/agenda/2023/09/"
+
+[[redirects]]
+from = "/fr/agenda/2025/arte-concert-festival-2024/2025-04-22-gonzales/"
+to = "/fr/agenda/2025/arte-concert-festival-2024/gonzales/"
+
+[[redirects]]
+from = "/fr/agenda/2025/voici-un-evenement/"
+to = "/fr/agenda/2026/voici-un-evenement/"
+
+[[redirects]]
+from = "/fr/agenda/2023-1/10/"
+to = "/fr/agenda/2023/10/"
+
+[[redirects]]
+from = "/fr/agenda/concert/"
+to = "/fr/agenda/type-devenement/concert/"
+
+[[redirects]]
+from = "/blocks/blocks-narratifs/temoignages/"
+to = "/fr/blocks/blocks-narratifs/temoignages/"
+
+[[redirects]]
+from = "/fr/agenda/2023-1/"
+to = "/fr/agenda/2023/"
+
+[[redirects]]
+from = "/fr/organisations/categories/secteur/publique/"
+to = "/fr/organisations/categories/secteurs-organisation/service-public/"
+
+[[redirects]]
+from = "/fr/offres-d-emploi/2025/offre-demploi-test/"
+to = "/fr/offres-d-emploi/2025/accompagnement-educatif-et-social/"
+
+[[redirects]]
+from = "/offre-de-formation/doctorat-sciences-de-linformation-et-de-la-communication/"
+to = "/fr/offre-de-formation/doctorat-sciences-de-linformation-et-de-la-communication/"
+
+[[redirects]]
+from = "/blocks/blocks-de-liste/"
+to = "/fr/blocks/blocs-de-liste/"
+
+[[redirects]]
+from = "/blocks/blocks-de-base/image/"
+to = "/fr/blocks/blocks-de-base/image/"
+
+[[redirects]]
+from = "/fr/organisations/categories/secteurs/"
+to = "/fr/organisations/categories/secteurs-organisation/"
+
+[[redirects]]
+from = "/en/agenda/information-communication/"
+to = "/en/agenda/programs/information-communication/"
+
+[[redirects]]
+from = "/en/agenda/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
+to = "/en/agenda/programs/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
+
+[[redirects]]
+from = "/fr/organisations/classcode/"
+to = "/fr/organisations/class-code/"
+
+[[redirects]]
+from = "/organisations/noesya/"
+to = "/fr/organisations/noesya/"
+
+[[redirects]]
+from = "/equipe/equipe-editoriale/"
+to = "/fr/equipe/equipe-editoriale/"
+
+[[redirects]]
+from = "/blocks/blocks-de-base/videos/"
+to = "/fr/blocks/blocks-de-base/videos/"
+
+[[redirects]]
+from = "/fr/organisations/categories/mediation/"
+to = "/fr/organisations/categories/secteurs/mediation/"
+
+[[redirects]]
+from = "/fr/agenda/2023-1/07/"
+to = "/fr/agenda/2023/07/"
+
+[[redirects]]
+from = "/fr/equipe/categories/region/"
+to = "/fr/equipe/categories/regions/"
+
+[[redirects]]
+from = "/fr/agenda/2023-1/02/"
+to = "/fr/agenda/2023/02/"
+
+[[redirects]]
+from = "/equipe/pierre-andre-boissinot/"
+to = "/fr/equipe/pierre-andre-boissinot/"
+
+[[redirects]]
+from = "/equipe/alexis-benoit/programs/"
+to = "/fr/equipe/alexis-benoit/programs/"
+
+[[redirects]]
+from = "/tierces-parties/classcode/"
+to = "/fr/organisations/class-code/"
+
+[[redirects]]
+from = "/equipe/magali-angles/papers/"
+to = "/fr/equipe/magali-angles/publications/"
+
+[[redirects]]
+from = "/fr/agenda/coordination-de-projets-de-developpement-social-et-culturel/"
+to = "/fr/agenda/offre-de-formation/coordination-de-projets-de-developpement-social-et-culturel/"
+
+[[redirects]]
+from = "/fr/organisations/categories/localisation/nouvelle-aquitaine/"
+to = "/fr/organisations/categories/lieu/france/nouvelle-aquitaine/"
+
+[[redirects]]
+from = "/fr/test-1/un-sous-page-da-propos/"
+to = "/fr/test/test-1/un-sous-page-da-propos/"
+
+[[redirects]]
+from = "/tierces-parties/"
+to = "/fr/organisations/"
+
+[[redirects]]
+from = "/fr/equipe/categories/comites/"
+to = "/fr/equipe/categories/implication/comites-osuny/"
+
+[[redirects]]
+from = "/fr/actualites/offre-de-formation/lorem-ipsum/"
+to = "/fr/actualites/offre-de-formation/information-communication/lorem-ipsum/"
+
+[[redirects]]
+from = "/blocks/tous-les-blocks-pleine-largeur-1/"
+to = "/fr/blocks/tous-les-blocks-pleine-largeur-1/"
+
+[[redirects]]
+from = "/blocks/blocks-narratifs/galeries/"
+to = "/fr/blocks/blocks-narratifs/galeries/"
+
