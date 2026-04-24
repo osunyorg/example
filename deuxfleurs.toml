@@ -15,1058 +15,1058 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/fr/organisations/categories/commoners/"
+from = "/fr/organisations/categories/commoners/index.html"
 to = "/fr/organisations/categories/implication/soutiens-osuny/"
 
 [[redirects]]
-from = "/blocks/blocs-de-liste/partenaires/"
+from = "/blocks/blocs-de-liste/partenaires/index.html"
 to = "/fr/blocks/blocs-de-liste/organisations-1/"
 
 [[redirects]]
-from = "/fr/organisations/categories/secteur/"
+from = "/fr/organisations/categories/secteur/index.html"
 to = "/fr/organisations/categories/secteurs-organisation/"
 
 [[redirects]]
-from = "/fr/agenda/2023-11-09-comite-scientifique-osuny-2/"
+from = "/fr/agenda/2023-11-09-comite-scientifique-osuny-2/index.html"
 to = "/fr/agenda/2023/comite-scientifique-osuny-2/"
 
 [[redirects]]
-from = "/en/agenda/formation-test/"
+from = "/en/agenda/formation-test/index.html"
 to = "/en/agenda/programs/formation-test/"
 
 [[redirects]]
-from = "/actualites/offre-de-formation/lorem-ipsum/"
+from = "/actualites/offre-de-formation/lorem-ipsum/index.html"
 to = "/fr/actualites/offre-de-formation/information-communication/lorem-ipsum/"
 
 [[redirects]]
-from = "/fr/equipe/categories/implication/comites-osuny/scientifique/"
+from = "/fr/equipe/categories/implication/comites-osuny/scientifique/index.html"
 to = "/fr/equipe/categories/implication/comites-osuny/comite-scientifique/"
 
 [[redirects]]
-from = "/fr/equipe/categories/metier/"
+from = "/fr/equipe/categories/metier/index.html"
 to = "/fr/equipe/categories/metiers/"
 
 [[redirects]]
-from = "/fr/blocks/blocks-techniques/les-liens/"
+from = "/fr/blocks/blocks-techniques/les-liens/index.html"
 to = "/fr/blocks/blocks-techniques/liens/"
 
 [[redirects]]
-from = "/fr/equipe/categories/dev/"
+from = "/fr/equipe/categories/dev/index.html"
 to = "/fr/equipe/categories/metiers/"
 
 [[redirects]]
-from = "/fr/agenda/2025/arte-concert-festival-2023/2025-11-03-kara-jackson/"
+from = "/fr/agenda/2025/arte-concert-festival-2023/2025-11-03-kara-jackson/index.html"
 to = "/fr/agenda/2025/arte-concert-festival-2023/kara-jackson/"
 
 [[redirects]]
-from = "/fr/agenda/2023-1/06/"
+from = "/fr/agenda/2023-1/06/index.html"
 to = "/fr/agenda/2023/06/"
 
 [[redirects]]
-from = "/en/actualites/a-la-une/"
+from = "/en/actualites/a-la-une/index.html"
 to = "/en/actualites-1/a-la-une/"
 
 [[redirects]]
-from = "/offre-de-formation/animation-sociale-et-socioculturelle/"
+from = "/offre-de-formation/animation-sociale-et-socioculturelle/index.html"
 to = "/fr/offre-de-formation/animation-sociale-et-socioculturelle/"
 
 [[redirects]]
-from = "/actualites/offre-de-formation/information-communication-information-communication/"
+from = "/actualites/offre-de-formation/information-communication-information-communication/index.html"
 to = "/fr/actualites/offre-de-formation/information-communication/"
 
 [[redirects]]
-from = "/fr/equipe/categories/commoners/"
+from = "/fr/equipe/categories/commoners/index.html"
 to = "/fr/equipe/categories/implication/commoners/"
 
 [[redirects]]
-from = "/blocks/tous-les-blocks/"
+from = "/blocks/tous-les-blocks/index.html"
 to = "/fr/blocks/tous-les-blocks/"
 
 [[redirects]]
-from = "/fr/actualites/offre-de-formation/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
+from = "/fr/actualites/offre-de-formation/developpement-de-sites-web-eco-concus-accessibles-et-responsables/index.html"
 to = "/fr/actualites/offre-de-formation/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
 
 [[redirects]]
-from = "/equipe/sebastien-moulene/"
+from = "/equipe/sebastien-moulene/index.html"
 to = "/fr/equipe/sebastien-moulene/"
 
 [[redirects]]
-from = "/actualites/2022/12/01/referentiel-general-decoconception-de-services-numeriques-rgesn/"
+from = "/actualites/2022/12/01/referentiel-general-decoconception-de-services-numeriques-rgesn/index.html"
 to = "/fr/actualites/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn/"
 
 [[redirects]]
-from = "/plan-du-site/"
+from = "/plan-du-site/index.html"
 to = "/fr/plan-du-site/"
 
 [[redirects]]
-from = "/fr/agenda/animation-sociale-et-socioculturelle/"
+from = "/fr/agenda/animation-sociale-et-socioculturelle/index.html"
 to = "/fr/agenda/offre-de-formation/animation-sociale-et-socioculturelle/"
 
 [[redirects]]
-from = "/blocks/blocs-de-liste/actualites-1/"
+from = "/blocks/blocs-de-liste/actualites-1/index.html"
 to = "/fr/blocks/blocs-de-liste/actualites-1/"
 
 [[redirects]]
-from = "/fr/equipe/alex-ben/actualites/"
+from = "/fr/equipe/alex-ben/actualites/index.html"
 to = "/fr/equipe/alex-ben-2/actualites/"
 
 [[redirects]]
-from = "/offre-de-formation/metiers-du-multimedia-et-de-linternet/"
+from = "/offre-de-formation/metiers-du-multimedia-et-de-linternet/index.html"
 to = "/fr/offre-de-formation/metiers-du-multimedia-et-de-linternet/"
 
 [[redirects]]
-from = "/fr/organisations/categories/secteurs/associations/"
+from = "/fr/organisations/categories/secteurs/associations/index.html"
 to = "/fr/organisations/categories/secteurs-organisation/associations/"
 
 [[redirects]]
-from = "/fr/equipe/arnaud-levy/papers/"
+from = "/fr/equipe/arnaud-levy/papers/index.html"
 to = "/fr/equipe/arnaud-levy/publications/"
 
 [[redirects]]
-from = "/en/agenda/contribuer-avec-osuny/"
+from = "/en/agenda/contribuer-avec-osuny/index.html"
 to = "/en/agenda/programs/contribuer-avec-osuny/"
 
 [[redirects]]
-from = "/offre-de-formation/coordination-de-projets-de-developpement-social-et-culturel/"
+from = "/offre-de-formation/coordination-de-projets-de-developpement-social-et-culturel/index.html"
 to = "/fr/offre-de-formation/coordination-de-projets-de-developpement-social-et-culturel/"
 
 [[redirects]]
-from = "/blocks/blocks-techniques/definitions/"
+from = "/blocks/blocks-techniques/definitions/index.html"
 to = "/fr/blocks/blocks-techniques/definitions/"
 
 [[redirects]]
-from = "/fr/tierces-parties/"
+from = "/fr/tierces-parties/index.html"
 to = "/fr/organisations/"
 
 [[redirects]]
-from = "/equipe/equipe-administrative/"
+from = "/equipe/equipe-administrative/index.html"
 to = "/fr/equipe/equipe-administrative/"
 
 [[redirects]]
-from = "/fr/organisations/categories/secteurs/service-public/"
+from = "/fr/organisations/categories/secteurs/service-public/index.html"
 to = "/fr/organisations/categories/secteurs-organisation/service-public/"
 
 [[redirects]]
-from = "/fr/une-page-avec-des-categories/"
+from = "/fr/une-page-avec-des-categories/index.html"
 to = "/fr/une-rubrique-de-pages/une-page-avec-des-categories/"
 
 [[redirects]]
-from = "/fr/organisations/categories/monde-associatif/"
+from = "/fr/organisations/categories/monde-associatif/index.html"
 to = "/fr/organisations/categories/secteurs-organisation/associations/"
 
 [[redirects]]
-from = "/fr/organisations/categories/secteur/monde-associatif/"
+from = "/fr/organisations/categories/secteur/monde-associatif/index.html"
 to = "/fr/organisations/categories/secteurs-organisation/associations/"
 
 [[redirects]]
-from = "/fr/equipe/categories/comites/scientifique/"
+from = "/fr/equipe/categories/comites/scientifique/index.html"
 to = "/fr/equipe/categories/implication/comites-osuny/comite-scientifique/"
 
 [[redirects]]
-from = "/fr/organisations/categories/secteur/public/"
+from = "/fr/organisations/categories/secteur/public/index.html"
 to = "/fr/organisations/categories/secteurs-organisation/service-public/"
 
 [[redirects]]
-from = "/fr/actualites/osuny-2/"
+from = "/fr/actualites/osuny-2/index.html"
 to = "/fr/actualites/osuny/"
 
 [[redirects]]
-from = "/politique-de-confidentialite/"
+from = "/politique-de-confidentialite/index.html"
 to = "/fr/politique-de-confidentialite/"
 
 [[redirects]]
-from = "/equipe/arnaud-levy/programs/"
+from = "/equipe/arnaud-levy/programs/index.html"
 to = "/fr/equipe/arnaud-levy/programs/"
 
 [[redirects]]
-from = "/fr/actualites/2023-08-02-proposition-de-loi-relative-a-la-responsabilite-des-medias-dans-le-traitement-des-enjeux-environnementaux-et-de-durabilite/"
+from = "/fr/actualites/2023-08-02-proposition-de-loi-relative-a-la-responsabilite-des-medias-dans-le-traitement-des-enjeux-environnementaux-et-de-durabilite/index.html"
 to = "/fr/actualites/2023-08-02-proposition-de-loi-relative-a-la-responsabilite-des-medias-dans-le-traitement-des-enjeux-environneme/"
 
 [[redirects]]
-from = "/fr/equipe/categories/comite/"
+from = "/fr/equipe/categories/comite/index.html"
 to = "/fr/equipe/categories/implication/comites-osuny/"
 
 [[redirects]]
-from = "/offre-de-formation/contribuer-avec-osuny/"
+from = "/offre-de-formation/contribuer-avec-osuny/index.html"
 to = "/fr/offre-de-formation/contribuer-avec-osuny/"
 
 [[redirects]]
-from = "/fr/agenda/2023-1/11/"
+from = "/fr/agenda/2023-1/11/index.html"
 to = "/fr/agenda/2023/11/"
 
 [[redirects]]
-from = "/blocks/blocs-de-liste/organigramme/"
+from = "/blocks/blocs-de-liste/organigramme/index.html"
 to = "/fr/blocks/blocs-de-liste/organigramme/"
 
 [[redirects]]
-from = "/fr/agenda/2023-10-19-numerique-en-communs/"
+from = "/fr/agenda/2023-10-19-numerique-en-communs/index.html"
 to = "/fr/agenda/2023/numerique-en-communs/"
 
 [[redirects]]
-from = "/organisations/degrowth-journal/"
+from = "/organisations/degrowth-journal/index.html"
 to = "/fr/organisations/degrowth-journal/"
 
 [[redirects]]
-from = "/actualites/2022/02/02/lorem-ipsum/"
+from = "/actualites/2022/02/02/lorem-ipsum/index.html"
 to = "/fr/actualites/2022-02-02-lorem-ipsum/"
 
 [[redirects]]
-from = "/fr/agenda/2025/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
+from = "/fr/agenda/2025/charbel-joseph-h-boutros-the-sun-is-my-only-ally/index.html"
 to = "/fr/agenda/2026/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
 
 [[redirects]]
-from = "/fr/offres-d-emploi/2025/accompagnante-educatifve-et-social/"
+from = "/fr/offres-d-emploi/2025/accompagnante-educatifve-et-social/index.html"
 to = "/fr/offres-d-emploi/2025/accompagnement-educatif-et-social/"
 
 [[redirects]]
-from = "/fr/blocks/blocks-de-liste/"
+from = "/fr/blocks/blocks-de-liste/index.html"
 to = "/fr/blocks/blocs-de-liste/"
 
 [[redirects]]
-from = "/fr/agenda/2025/anne-charlotte-finel-respiro-1/"
+from = "/fr/agenda/2025/anne-charlotte-finel-respiro-1/index.html"
 to = "/fr/agenda/2026/anne-charlotte-finel-respiro-1/"
 
 [[redirects]]
-from = "/fr/actualites/offre-de-formation/contribuer-avec-osuny/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
+from = "/fr/actualites/offre-de-formation/contribuer-avec-osuny/developpement-de-sites-web-eco-concus-accessibles-et-responsables/index.html"
 to = "/fr/actualites/offre-de-formation/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
 
 [[redirects]]
-from = "/fr/organisations/categories/commoners/agences-osuny/"
+from = "/fr/organisations/categories/commoners/agences-osuny/index.html"
 to = "/fr/organisations/categories/implication/agences-osuny/"
 
 [[redirects]]
-from = "/actualites/"
+from = "/actualites/index.html"
 to = "/fr/actualites/"
 
 [[redirects]]
-from = "/tierces-parties/universite-bordeaux-montaigne/"
+from = "/tierces-parties/universite-bordeaux-montaigne/index.html"
 to = "/fr/organisations/universite-bordeaux-montaigne/"
 
 [[redirects]]
-from = "/fr/blocks/blocs-de-liste/partenaires/"
+from = "/fr/blocks/blocs-de-liste/partenaires/index.html"
 to = "/fr/blocks/blocs-de-liste/organisations-1/"
 
 [[redirects]]
-from = "/blocks/blocks-techniques/fichiers/"
+from = "/blocks/blocks-techniques/fichiers/index.html"
 to = "/fr/blocks/blocks-techniques/fichiers/"
 
 [[redirects]]
-from = "/equipe/equipe-pedagogique/"
+from = "/equipe/equipe-pedagogique/index.html"
 to = "/fr/equipe/equipe-pedagogique/"
 
 [[redirects]]
-from = "/fr/agenda/2025-02-03-anne-charlotte-finel-respiro-1/"
+from = "/fr/agenda/2025-02-03-anne-charlotte-finel-respiro-1/index.html"
 to = "/fr/agenda/2026/anne-charlotte-finel-respiro-1/"
 
 [[redirects]]
-from = "/fr/organisations/categories/secteur/mediation/"
+from = "/fr/organisations/categories/secteur/mediation/index.html"
 to = "/fr/organisations/categories/secteurs/mediation/"
 
 [[redirects]]
-from = "/en/actualites/offre-de-formation/lorem-ipsum/"
+from = "/en/actualites/offre-de-formation/lorem-ipsum/index.html"
 to = "/en/actualites-1/offre-de-formation/information-communication/lorem-ipsum/"
 
 [[redirects]]
-from = "/fr/organisations/categories/secteurs/prive/"
+from = "/fr/organisations/categories/secteurs/prive/index.html"
 to = "/fr/organisations/categories/secteurs-organisation/culture/"
 
 [[redirects]]
-from = "/fr/offre-de-formation/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
+from = "/fr/offre-de-formation/developpement-de-sites-web-eco-concus-accessibles-et-responsables/index.html"
 to = "/fr/offre-de-formation/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
 
 [[redirects]]
-from = "/actualites/2022/02/21/covid-19-informations-vaccination/"
+from = "/actualites/2022/02/21/covid-19-informations-vaccination/index.html"
 to = "/fr/actualites/2022-02-21-lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique/"
 
 [[redirects]]
-from = "/diplomes/doctorat/"
+from = "/diplomes/doctorat/index.html"
 to = "/fr/diplomes/doctorat/"
 
 [[redirects]]
-from = "/fr/expositions/2025-04-14-pulse/"
+from = "/fr/expositions/2025-04-14-pulse/index.html"
 to = "/fr/expositions/2025-03-14-pulse/"
 
 [[redirects]]
-from = "/tierces-parties/mit-anthropology/"
+from = "/tierces-parties/mit-anthropology/index.html"
 to = "/fr/organisations/mit-anthropology/"
 
 [[redirects]]
-from = "/fr/organisations/categories/localisation/"
+from = "/fr/organisations/categories/localisation/index.html"
 to = "/fr/organisations/categories/lieu/"
 
 [[redirects]]
-from = "/fr/organisations/nouvelle-aquitaine/"
+from = "/fr/organisations/nouvelle-aquitaine/index.html"
 to = "/fr/organisations/categories/lieu/france/nouvelle-aquitaine/"
 
 [[redirects]]
-from = "/fr/equipe/categories/comites/design-1/"
+from = "/fr/equipe/categories/comites/design-1/index.html"
 to = "/fr/equipe/categories/implication/comites-osuny/comite-design/"
 
 [[redirects]]
-from = "/fr/organisations/categories/ile-de-france/"
+from = "/fr/organisations/categories/ile-de-france/index.html"
 to = "/fr/organisations/categories/lieu/france/ile-de-france/"
 
 [[redirects]]
-from = "/equipe/alexis-benoit/"
+from = "/equipe/alexis-benoit/index.html"
 to = "/fr/equipe/alexis-benoit/"
 
 [[redirects]]
-from = "/blocks/blocks-de-liste/pages/"
+from = "/blocks/blocks-de-liste/pages/index.html"
 to = "/fr/blocks/blocs-de-liste/pages/"
 
 [[redirects]]
-from = "/fr/equipe/magali-angles/papers/"
+from = "/fr/equipe/magali-angles/papers/index.html"
 to = "/fr/equipe/magali-angles/publications/"
 
 [[redirects]]
-from = "/blocks/blocks-de-liste/organigramme/"
+from = "/blocks/blocks-de-liste/organigramme/index.html"
 to = "/fr/blocks/blocs-de-liste/organigramme/"
 
 [[redirects]]
-from = "/fr/agenda/formation-test/"
+from = "/fr/agenda/formation-test/index.html"
 to = "/fr/agenda/offre-de-formation/formation-test/"
 
 [[redirects]]
-from = "/fr/organisations/categories/secteur/service-public/"
+from = "/fr/organisations/categories/secteur/service-public/index.html"
 to = "/fr/organisations/categories/secteurs-organisation/service-public/"
 
 [[redirects]]
-from = "/actualites/2022/12/01/les-cooperatives-energetiques-citoyennes-des-modeles-originaux-pour-plus-de-sobriete/"
+from = "/actualites/2022/12/01/les-cooperatives-energetiques-citoyennes-des-modeles-originaux-pour-plus-de-sobriete/index.html"
 to = "/fr/actualites/2022-12-01-les-cooperatives-energetiques-citoyennes-des-modeles-originaux-pour-plus-de-sobriete/"
 
 [[redirects]]
-from = "/blocks/blocks-de-base/les-sons/"
+from = "/blocks/blocks-de-base/les-sons/index.html"
 to = "/fr/blocks/blocks-de-base/les-sons/"
 
 [[redirects]]
-from = "/blocks/blocks-narratifs/chiffre-cles/"
+from = "/blocks/blocks-narratifs/chiffre-cles/index.html"
 to = "/fr/blocks/blocks-narratifs/chiffre-cles/"
 
 [[redirects]]
-from = "/fr/organisations/categories/region/"
+from = "/fr/organisations/categories/region/index.html"
 to = "/fr/organisations/categories/lieu/"
 
 [[redirects]]
-from = "/fr/organisations/categories/secteurs/culture/"
+from = "/fr/organisations/categories/secteurs/culture/index.html"
 to = "/fr/organisations/categories/secteurs-organisation/culture/"
 
 [[redirects]]
-from = "/fr/agenda/2023-1/04/"
+from = "/fr/agenda/2023-1/04/index.html"
 to = "/fr/agenda/2023/04/"
 
 [[redirects]]
-from = "/diplomes/"
+from = "/diplomes/index.html"
 to = "/fr/diplomes/"
 
 [[redirects]]
-from = "/fr/agenda/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
+from = "/fr/agenda/developpement-de-sites-web-eco-concus-accessibles-et-responsables/index.html"
 to = "/fr/agenda/offre-de-formation/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
 
 [[redirects]]
-from = "/fr/equipe/categories/commoners/freelance/"
+from = "/fr/equipe/categories/commoners/freelance/index.html"
 to = "/fr/equipe/categories/implication/freelances/"
 
 [[redirects]]
-from = "/tierces-parties/noesya/"
+from = "/tierces-parties/noesya/index.html"
 to = "/fr/organisations/noesya/"
 
 [[redirects]]
-from = "/fr/agenda/2023-1/05/"
+from = "/fr/agenda/2023-1/05/index.html"
 to = "/fr/agenda/2023/05/"
 
 [[redirects]]
-from = "/fr/centre-de-formation-osuny/"
+from = "/fr/centre-de-formation-osuny/index.html"
 to = "/fr/ecoles/centre-de-formation-osuny/"
 
 [[redirects]]
-from = "/en/blocs-de-mise-en-page/"
+from = "/en/blocs-de-mise-en-page/index.html"
 to = "/en/blocks/blocs-de-mise-en-page/"
 
 [[redirects]]
-from = "/fr/agenda/2024-02-03-anne-charlotte-finel-respiro/"
+from = "/fr/agenda/2024-02-03-anne-charlotte-finel-respiro/index.html"
 to = "/fr/agenda/2024/anne-charlotte-finel-respiro/"
 
 [[redirects]]
-from = "/fr/agenda/2023-1/12/"
+from = "/fr/agenda/2023-1/12/index.html"
 to = "/fr/agenda/2023/12/"
 
 [[redirects]]
-from = "/actualites/2022-02-03-inscriptions-administratives/"
+from = "/actualites/2022-02-03-inscriptions-administratives/index.html"
 to = "/fr/actualites/2022-02-03-inscriptions-administratives/"
 
 [[redirects]]
-from = "/fr/un-sous-page-da-propos/"
+from = "/fr/un-sous-page-da-propos/index.html"
 to = "/fr/test/test-1/un-sous-page-da-propos/"
 
 [[redirects]]
-from = "/organisations/mit-anthropology/"
+from = "/organisations/mit-anthropology/index.html"
 to = "/fr/organisations/mit-anthropology/"
 
 [[redirects]]
-from = "/fr/blocks/blocks-de-liste/organigramme/"
+from = "/fr/blocks/blocks-de-liste/organigramme/index.html"
 to = "/fr/blocks/blocs-de-liste/organigramme/"
 
 [[redirects]]
-from = "/fr/agenda/atelier/"
+from = "/fr/agenda/atelier/index.html"
 to = "/fr/agenda/type-devenement/atelier/"
 
 [[redirects]]
-from = "/fr/agenda/2025/arte-concert-festival-2023/"
+from = "/fr/agenda/2025/arte-concert-festival-2023/index.html"
 to = "/fr/agenda/2026/arte-concert-festival-2023/"
 
 [[redirects]]
-from = "/blocks/tous-les-blocks-pleine-largeur/"
+from = "/blocks/tous-les-blocks-pleine-largeur/index.html"
 to = "/fr/blocks/tous-les-blocks-pleine-largeur/"
 
 [[redirects]]
-from = "/equipe/sebastien-gaya/"
+from = "/equipe/sebastien-gaya/index.html"
 to = "/fr/equipe/sebastien-gaya/"
 
 [[redirects]]
-from = "/fr/agenda/2025/arte-concert-festival-2023/2025-11-02-koki-nakano-ft-tess-voelker/"
+from = "/fr/agenda/2025/arte-concert-festival-2023/2025-11-02-koki-nakano-ft-tess-voelker/index.html"
 to = "/fr/agenda/2026/arte-concert-festival-2023/koki-nakano-ft-tess-voelker/"
 
 [[redirects]]
-from = "/fr/equipe/categories/region/nouvelle-aquitaine/"
+from = "/fr/equipe/categories/region/nouvelle-aquitaine/index.html"
 to = "/fr/equipe/categories/regions/nouvelle-aquitaine/"
 
 [[redirects]]
-from = "/actualites/2023-07-01-referentiel-general-decoconception-de-services-numeriques-rgesn/"
+from = "/actualites/2023-07-01-referentiel-general-decoconception-de-services-numeriques-rgesn/index.html"
 to = "/fr/actualites/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn/"
 
 [[redirects]]
-from = "/organisations/scaleway/"
+from = "/organisations/scaleway/index.html"
 to = "/fr/organisations/scaleway/"
 
 [[redirects]]
-from = "/organisations/rose-primaire/"
+from = "/organisations/rose-primaire/index.html"
 to = "/fr/organisations/rose-primaire/"
 
 [[redirects]]
-from = "/blocks/blocs-de-liste/pages/"
+from = "/blocks/blocs-de-liste/pages/index.html"
 to = "/fr/blocks/blocs-de-liste/pages/"
 
 [[redirects]]
-from = "/equipe/magali-angles/roles/"
+from = "/equipe/magali-angles/roles/index.html"
 to = "/fr/equipe/magali-angles/roles/"
 
 [[redirects]]
-from = "/fr/organisations/categories/nouvelle-aquitaine/"
+from = "/fr/organisations/categories/nouvelle-aquitaine/index.html"
 to = "/fr/organisations/categories/lieu/france/nouvelle-aquitaine/"
 
 [[redirects]]
-from = "/offre-de-formation/information-communication/"
+from = "/offre-de-formation/information-communication/index.html"
 to = "/fr/offre-de-formation/information-communication/"
 
 [[redirects]]
-from = "/fr/actualites/offre-de-formation/information-communication-information-communication/"
+from = "/fr/actualites/offre-de-formation/information-communication-information-communication/index.html"
 to = "/fr/actualites/offre-de-formation/information-communication/"
 
 [[redirects]]
-from = "/equipe/arnaud-levy/roles/"
+from = "/equipe/arnaud-levy/roles/index.html"
 to = "/fr/equipe/arnaud-levy/roles/"
 
 [[redirects]]
-from = "/fr/equipe/categories/commoners/freelance-osuny/"
+from = "/fr/equipe/categories/commoners/freelance-osuny/index.html"
 to = "/fr/equipe/categories/implication/freelances/"
 
 [[redirects]]
-from = "/fr/equipe/categories/comite/dev-back/"
+from = "/fr/equipe/categories/comite/dev-back/index.html"
 to = "/fr/equipe/categories/implication/comites-osuny/dev-back/"
 
 [[redirects]]
-from = "/actualites/a-la-une/"
+from = "/actualites/a-la-une/index.html"
 to = "/fr/actualites/a-la-une/"
 
 [[redirects]]
-from = "/blocks/blocks-de-liste/partenaires/"
+from = "/blocks/blocks-de-liste/partenaires/index.html"
 to = "/fr/blocks/blocs-de-liste/organisations-1/"
 
 [[redirects]]
-from = "/fr/equipe/categories/dev/back/"
+from = "/fr/equipe/categories/dev/back/index.html"
 to = "/fr/equipe/categories/metiers/developpement/"
 
 [[redirects]]
-from = "/fr/blocks/blocks-de-liste/programmes/"
+from = "/fr/blocks/blocks-de-liste/programmes/index.html"
 to = "/fr/blocks/blocs-de-liste/programmes/"
 
 [[redirects]]
-from = "/fr/equipe/categories/commoners/makers/"
+from = "/fr/equipe/categories/commoners/makers/index.html"
 to = "/fr/equipe/categories/implication/makers/"
 
 [[redirects]]
-from = "/blocks/blocs-de-liste/"
+from = "/blocks/blocs-de-liste/index.html"
 to = "/fr/blocks/blocs-de-liste/"
 
 [[redirects]]
-from = "/fr/equipe/categories/comite/scientifique/"
+from = "/fr/equipe/categories/comite/scientifique/index.html"
 to = "/fr/equipe/categories/implication/comites-osuny/comite-scientifique/"
 
 [[redirects]]
-from = "/blocks/blocks-techniques/integration-html/"
+from = "/blocks/blocks-techniques/integration-html/index.html"
 to = "/fr/blocks/blocks-techniques/integration-html/"
 
 [[redirects]]
-from = "/fr/agenda/2024-02-03-anne-charlotte-finel-respiro-1/"
+from = "/fr/agenda/2024-02-03-anne-charlotte-finel-respiro-1/index.html"
 to = "/fr/agenda/2026/anne-charlotte-finel-respiro-1/"
 
 [[redirects]]
-from = "/actualites/2022-02-02-lorem-ipsum/"
+from = "/actualites/2022-02-02-lorem-ipsum/index.html"
 to = "/fr/actualites/2022-02-02-lorem-ipsum/"
 
 [[redirects]]
-from = "/fr/organisations/categories/implication/organisations-contributrices/"
+from = "/fr/organisations/categories/implication/organisations-contributrices/index.html"
 to = "/fr/organisations/categories/implication/contribs-osuny/"
 
 [[redirects]]
-from = "/equipe/arnaud-levy/"
+from = "/equipe/arnaud-levy/index.html"
 to = "/fr/equipe/arnaud-levy/"
 
 [[redirects]]
-from = "/fr/organisations/opcd/"
+from = "/fr/organisations/opcd/index.html"
 to = "/fr/organisations/observatoire-de-la-decroissance-et-de-la-post-croissance-opcd/"
 
 [[redirects]]
-from = "/fr/agenda/2024/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
+from = "/fr/agenda/2024/charbel-joseph-h-boutros-the-sun-is-my-only-ally/index.html"
 to = "/fr/agenda/2026/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
 
 [[redirects]]
-from = "/fr/agenda/2023-1/01/"
+from = "/fr/agenda/2023-1/01/index.html"
 to = "/fr/agenda/2023/01/"
 
 [[redirects]]
-from = "/fr/equipe/alex-ben/"
+from = "/fr/equipe/alex-ben/index.html"
 to = "/fr/equipe/alex-ben-2/"
 
 [[redirects]]
-from = "/blocks/blocks-de-liste/actualites-1/"
+from = "/blocks/blocks-de-liste/actualites-1/index.html"
 to = "/fr/blocks/blocs-de-liste/actualites-1/"
 
 [[redirects]]
-from = "/accessibilite/"
+from = "/accessibilite/index.html"
 to = "/fr/accessibilite/"
 
 [[redirects]]
-from = "/organisations/universite-bordeaux-montaigne/"
+from = "/organisations/universite-bordeaux-montaigne/index.html"
 to = "/fr/organisations/universite-bordeaux-montaigne/"
 
 [[redirects]]
-from = "/organisations/mica/"
+from = "/organisations/mica/index.html"
 to = "/fr/organisations/mica/"
 
 [[redirects]]
-from = "/en/actualites/offre-de-formation/"
+from = "/en/actualites/offre-de-formation/index.html"
 to = "/en/actualites-1/offre-de-formation/"
 
 [[redirects]]
-from = "/organisations/classcode/"
+from = "/organisations/classcode/index.html"
 to = "/fr/organisations/class-code/"
 
 [[redirects]]
-from = "/blocks/blocks-narratifs/frise/"
+from = "/blocks/blocks-narratifs/frise/index.html"
 to = "/fr/blocks/blocks-narratifs/frise/"
 
 [[redirects]]
-from = "/organisations/"
+from = "/organisations/index.html"
 to = "/fr/organisations/"
 
 [[redirects]]
-from = "/tierces-parties/mica/"
+from = "/tierces-parties/mica/index.html"
 to = "/fr/organisations/mica/"
 
 [[redirects]]
-from = "/fr/equipe/categories/design/"
+from = "/fr/equipe/categories/design/index.html"
 to = "/fr/equipe/categories/metiers/design/"
 
 [[redirects]]
-from = "/blocks/blocks-narratifs/les-fonctionnalites/"
+from = "/blocks/blocks-narratifs/les-fonctionnalites/index.html"
 to = "/fr/blocks/blocks-narratifs/les-fonctionnalites/"
 
 [[redirects]]
-from = "/fr/organisations/categories/secteur/assocations/"
+from = "/fr/organisations/categories/secteur/assocations/index.html"
 to = "/fr/organisations/categories/secteurs-organisation/associations/"
 
 [[redirects]]
-from = "/fr/projets/2023-degrowth-journal/"
+from = "/fr/projets/2023-degrowth-journal/index.html"
 to = "/fr/projets/2024-degrowth-journal/"
 
 [[redirects]]
-from = "/fr/equipe/categories/metier/gestion-de-projet/"
+from = "/fr/equipe/categories/metier/gestion-de-projet/index.html"
 to = "/fr/equipe/categories/metiers/gestion-de-projet/"
 
 [[redirects]]
-from = "/fr/actualites/osuny/fondamentale/"
+from = "/fr/actualites/osuny/fondamentale/index.html"
 to = "/fr/actualites/osuny/fonctionnalite/fondamentale/"
 
 [[redirects]]
-from = "/blocks/blocks-de-base/"
+from = "/blocks/blocks-de-base/index.html"
 to = "/fr/blocks/blocks-de-base/"
 
 [[redirects]]
-from = "/en/agenda/coordination-de-projets-de-developpement-social-et-culturel/"
+from = "/en/agenda/coordination-de-projets-de-developpement-social-et-culturel/index.html"
 to = "/en/agenda/programs/coordination-de-projets-de-developpement-social-et-culturel/"
 
 [[redirects]]
-from = "/tierces-parties/scaleway/"
+from = "/tierces-parties/scaleway/index.html"
 to = "/fr/organisations/scaleway/"
 
 [[redirects]]
-from = "/fr/agenda/2025-11-02-arte-concert-festival-2023/"
+from = "/fr/agenda/2025-11-02-arte-concert-festival-2023/index.html"
 to = "/fr/agenda/2026/arte-concert-festival-2023/"
 
 [[redirects]]
-from = "/fr/blocks/blocks-de-base/les-titres/"
+from = "/fr/blocks/blocks-de-base/les-titres/index.html"
 to = "/fr/blocks/blocks-de-base/titres/"
 
 [[redirects]]
-from = "/fr/offre-de-formation/eco-conception-de-service-numerique/"
+from = "/fr/offre-de-formation/eco-conception-de-service-numerique/index.html"
 to = "/fr/offre-de-formation/information-communication/eco-conception-de-service-numerique/"
 
 [[redirects]]
-from = "/fr/equipe/categories/region/ile-de-france/"
+from = "/fr/equipe/categories/region/ile-de-france/index.html"
 to = "/fr/equipe/categories/regions/ile-de-france/"
 
 [[redirects]]
-from = "/fr/organisations/categories/secteurs/enseignement-1/"
+from = "/fr/organisations/categories/secteurs/enseignement-1/index.html"
 to = "/fr/organisations/categories/secteurs-organisation/enseignement/"
 
 [[redirects]]
-from = "/test/test-1/un-sous-page-da-propos/"
+from = "/test/test-1/un-sous-page-da-propos/index.html"
 to = "/fr/test/test-1/un-sous-page-da-propos/"
 
 [[redirects]]
-from = "/actualites/vie-etudiante/"
+from = "/actualites/vie-etudiante/index.html"
 to = "/fr/actualites/vie-etudiante/"
 
 [[redirects]]
-from = "/fr/organisations/categories/localisation/ile-de-france/"
+from = "/fr/organisations/categories/localisation/ile-de-france/index.html"
 to = "/fr/organisations/categories/lieu/france/ile-de-france/"
 
 [[redirects]]
-from = "/diplomes/licence-profesionnelle/"
+from = "/diplomes/licence-profesionnelle/index.html"
 to = "/fr/diplomes/licence-profesionnelle/"
 
 [[redirects]]
-from = "/fr/organisations/categories/commoners/makers/"
+from = "/fr/organisations/categories/commoners/makers/index.html"
 to = "/fr/organisations/categories/implication/agences-osuny/"
 
 [[redirects]]
-from = "/fr/agenda/2023-1/08/"
+from = "/fr/agenda/2023-1/08/index.html"
 to = "/fr/agenda/2023/08/"
 
 [[redirects]]
-from = "/fr/equipe/gestion-de-projet/"
+from = "/fr/equipe/gestion-de-projet/index.html"
 to = "/fr/equipe/categories/metiers/gestion-de-projet/"
 
 [[redirects]]
-from = "/en/actualites/vie-etudiante/"
+from = "/en/actualites/vie-etudiante/index.html"
 to = "/en/actualites-1/vie-etudiante/"
 
 [[redirects]]
-from = "/fr/blocks/blocks-de-liste/actualites-1/"
+from = "/fr/blocks/blocks-de-liste/actualites-1/index.html"
 to = "/fr/blocks/blocs-de-liste/actualites-1/"
 
 [[redirects]]
-from = "/fr/blocks/blocks-de-liste/pages/"
+from = "/fr/blocks/blocks-de-liste/pages/index.html"
 to = "/fr/blocks/blocs-de-liste/pages/"
 
 [[redirects]]
-from = "/en/agenda/animation-sociale-et-socioculturelle/"
+from = "/en/agenda/animation-sociale-et-socioculturelle/index.html"
 to = "/en/agenda/programs/animation-sociale-et-socioculturelle/"
 
 [[redirects]]
-from = "/fr/agenda/information-communication/"
+from = "/fr/agenda/information-communication/index.html"
 to = "/fr/agenda/offre-de-formation/information-communication/"
 
 [[redirects]]
-from = "/fr/equipe/categories/dev/front/"
+from = "/fr/equipe/categories/dev/front/index.html"
 to = "/fr/equipe/categories/metiers/developpement-front/"
 
 [[redirects]]
-from = "/fr/actualites/2025-03-22-vallee-du-silicium/"
+from = "/fr/actualites/2025-03-22-vallee-du-silicium/index.html"
 to = "/fr/actualites/2025-03-23-vallee-du-silicium/"
 
 [[redirects]]
-from = "/fr/agenda/202023-09-28-troisieme-edition-du-cafe-guichet-vert-numerique-responsable/"
+from = "/fr/agenda/202023-09-28-troisieme-edition-du-cafe-guichet-vert-numerique-responsable/index.html"
 to = "/fr/agenda/2023/troisieme-edition-du-cafe-guichet-vert-numerique-responsable/"
 
 [[redirects]]
-from = "/equipe/magali-angles/"
+from = "/equipe/magali-angles/index.html"
 to = "/fr/equipe/magali-angles/"
 
 [[redirects]]
-from = "/tierces-parties/rose-primaire/"
+from = "/tierces-parties/rose-primaire/index.html"
 to = "/fr/organisations/rose-primaire/"
 
 [[redirects]]
-from = "/equipe/magali-angles/actualites/"
+from = "/equipe/magali-angles/actualites/index.html"
 to = "/fr/equipe/magali-angles/actualites/"
 
 [[redirects]]
-from = "/actualites/2022-02-21-lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique/"
+from = "/actualites/2022-02-21-lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique/index.html"
 to = "/fr/actualites/2022-02-21-lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique/"
 
 [[redirects]]
-from = "/equipe/arnaud-levy/papers/"
+from = "/equipe/arnaud-levy/papers/index.html"
 to = "/fr/equipe/arnaud-levy/publications/"
 
 [[redirects]]
-from = "/fr/equipe/categories/comite/dev-front/"
+from = "/fr/equipe/categories/comite/dev-front/index.html"
 to = "/fr/equipe/categories/implication/comites-osuny/dev-front/"
 
 [[redirects]]
-from = "/actualites/2022/02/03/inscriptions-administratives/"
+from = "/actualites/2022/02/03/inscriptions-administratives/index.html"
 to = "/fr/actualites/2022-02-03-inscriptions-administratives/"
 
 [[redirects]]
-from = "/fr/agenda/2025/arte-concert-festival-2023/koki-nakano-ft-tess-voelker/"
+from = "/fr/agenda/2025/arte-concert-festival-2023/koki-nakano-ft-tess-voelker/index.html"
 to = "/fr/agenda/2026/arte-concert-festival-2023/koki-nakano-ft-tess-voelker/"
 
 [[redirects]]
-from = "/fr/agenda/2023-06-14-la-numerisation-des-societes/"
+from = "/fr/agenda/2023-06-14-la-numerisation-des-societes/index.html"
 to = "/fr/agenda/2023/la-numerisation-des-societes/"
 
 [[redirects]]
-from = "/fr/blocks/blocks-techniques/les-licences/"
+from = "/fr/blocks/blocks-techniques/les-licences/index.html"
 to = "/fr/blocks/blocks-techniques/licences/"
 
 [[redirects]]
-from = "/fr/organisations/categories/secteur/associations/"
+from = "/fr/organisations/categories/secteur/associations/index.html"
 to = "/fr/organisations/categories/secteurs-organisation/associations/"
 
 [[redirects]]
-from = "/fr/organisations/categories/region/ile-de-france/"
+from = "/fr/organisations/categories/region/ile-de-france/index.html"
 to = "/fr/organisations/categories/lieu/france/ile-de-france/"
 
 [[redirects]]
-from = "/fr/agenda/contribuer-avec-osuny/"
+from = "/fr/agenda/contribuer-avec-osuny/index.html"
 to = "/fr/agenda/offre-de-formation/contribuer-avec-osuny/"
 
 [[redirects]]
-from = "/blocks/blocks-narratifs/"
+from = "/blocks/blocks-narratifs/index.html"
 to = "/fr/blocks/blocks-narratifs/"
 
 [[redirects]]
-from = "/fr/equipe/categories/implication/comites-osuny/design-1/"
+from = "/fr/equipe/categories/implication/comites-osuny/design-1/index.html"
 to = "/fr/equipe/categories/implication/comites-osuny/comite-design/"
 
 [[redirects]]
-from = "/fr/actualites/reportage/"
+from = "/fr/actualites/reportage/index.html"
 to = "/fr/actualites/type-darticle/reportage/"
 
 [[redirects]]
-from = "/diplomes/bachelor-universitaire-de-technologie/"
+from = "/diplomes/bachelor-universitaire-de-technologie/index.html"
 to = "/fr/diplomes/bachelor-universitaire-de-technologie/"
 
 [[redirects]]
-from = "/fr/equipe/categories/metiers/developpement-back/"
+from = "/fr/equipe/categories/metiers/developpement-back/index.html"
 to = "/fr/equipe/categories/metiers/developpement/"
 
 [[redirects]]
-from = "/actualites/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn/"
+from = "/actualites/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn/index.html"
 to = "/fr/actualites/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn/"
 
 [[redirects]]
-from = "/actualites/2022-12-01-les-cooperatives-energetiques-citoyennes-des-modeles-originaux-pour-plus-de-sobriete/"
+from = "/actualites/2022-12-01-les-cooperatives-energetiques-citoyennes-des-modeles-originaux-pour-plus-de-sobriete/index.html"
 to = "/fr/actualites/2022-12-01-les-cooperatives-energetiques-citoyennes-des-modeles-originaux-pour-plus-de-sobriete/"
 
 [[redirects]]
-from = "/fr/equipe/categories/comites/dev-front/"
+from = "/fr/equipe/categories/comites/dev-front/index.html"
 to = "/fr/equipe/categories/implication/comites-osuny/dev-front/"
 
 [[redirects]]
-from = "/fr/blocks/blocks-de-liste/partenaires/"
+from = "/fr/blocks/blocks-de-liste/partenaires/index.html"
 to = "/fr/blocks/blocs-de-liste/organisations-1/"
 
 [[redirects]]
-from = "/offre-de-formation/"
+from = "/offre-de-formation/index.html"
 to = "/fr/offre-de-formation/"
 
 [[redirects]]
-from = "/actualites/2022-02-21-covid-19-informations-vaccination/"
+from = "/actualites/2022-02-21-covid-19-informations-vaccination/index.html"
 to = "/fr/actualites/2022-02-21-lancement-d-ara-l-outil-qui-va-simplifier-les-audits-d-accessibilite-numerique/"
 
 [[redirects]]
-from = "/fr/organisations/categories/region/nouvelle-aquitaine/"
+from = "/fr/organisations/categories/region/nouvelle-aquitaine/index.html"
 to = "/fr/organisations/categories/lieu/france/nouvelle-aquitaine/"
 
 [[redirects]]
-from = "/fr/agenda/2024-02-03-charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
+from = "/fr/agenda/2024-02-03-charbel-joseph-h-boutros-the-sun-is-my-only-ally/index.html"
 to = "/fr/agenda/2026/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
 
 [[redirects]]
-from = "/blocks/blocks-techniques/"
+from = "/blocks/blocks-techniques/index.html"
 to = "/fr/blocks/blocks-techniques/"
 
 [[redirects]]
-from = "/actualites/offre-de-formation/doctorat-sciences-de-l-information-et-de-la-communication/"
+from = "/actualites/offre-de-formation/doctorat-sciences-de-l-information-et-de-la-communication/index.html"
 to = "/fr/actualites/offre-de-formation/doctorat-sciences-de-l-information-et-de-la-communication/"
 
 [[redirects]]
-from = "/blocks/blocks-narratifs/appels-a-action/"
+from = "/blocks/blocks-narratifs/appels-a-action/index.html"
 to = "/fr/blocks/blocks-narratifs/appels-a-action/"
 
 [[redirects]]
-from = "/fr/equipe/categories/gestion-de-projet/"
+from = "/fr/equipe/categories/gestion-de-projet/index.html"
 to = "/fr/equipe/categories/metiers/gestion-de-projet/"
 
 [[redirects]]
-from = "/tierces-parties/degrowth-journal/"
+from = "/tierces-parties/degrowth-journal/index.html"
 to = "/fr/organisations/degrowth-journal/"
 
 [[redirects]]
-from = "/fr/actualites/fondamentale/"
+from = "/fr/actualites/fondamentale/index.html"
 to = "/fr/actualites/osuny/fonctionnalite/fondamentale/"
 
 [[redirects]]
-from = "/fr/equipe/categories/implication/comites-osuny/gestion-de-contenu/"
+from = "/fr/equipe/categories/implication/comites-osuny/gestion-de-contenu/index.html"
 to = "/fr/equipe/categories/implication/comites-osuny/comite-gestion-de-contenu/"
 
 [[redirects]]
-from = "/offre-de-formation/eco-conception-de-service-numerique/"
+from = "/offre-de-formation/eco-conception-de-service-numerique/index.html"
 to = "/fr/offre-de-formation/information-communication/eco-conception-de-service-numerique/"
 
 [[redirects]]
-from = "/en/actualites/offre-de-formation/animation-sociale-et-socioculturelle/"
+from = "/en/actualites/offre-de-formation/animation-sociale-et-socioculturelle/index.html"
 to = "/en/actualites-1/offre-de-formation/animation-sociale-et-socioculturelle/"
 
 [[redirects]]
-from = "/equipe/olivia-simonet/"
+from = "/equipe/olivia-simonet/index.html"
 to = "/fr/equipe/olivia-simonet/"
 
 [[redirects]]
-from = "/diplomes/master/"
+from = "/diplomes/master/index.html"
 to = "/fr/diplomes/master/"
 
 [[redirects]]
-from = "/fr/equipe/categories/comites/dev-back/"
+from = "/fr/equipe/categories/comites/dev-back/index.html"
 to = "/fr/equipe/categories/implication/comites-osuny/dev-back/"
 
 [[redirects]]
-from = "/fr/agenda/2025/arte-concert-festival-2023/2025-11-03-alice-phoebe-lou/"
+from = "/fr/agenda/2025/arte-concert-festival-2023/2025-11-03-alice-phoebe-lou/index.html"
 to = "/fr/agenda/2025/arte-concert-festival-2023/alice-phoebe-lou/"
 
 [[redirects]]
-from = "/actualites/2022-12-01-referentiel-general-decoconception-de-services-numeriques-rgesn/"
+from = "/actualites/2022-12-01-referentiel-general-decoconception-de-services-numeriques-rgesn/index.html"
 to = "/fr/actualites/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn/"
 
 [[redirects]]
-from = "/mentions-legales/"
+from = "/mentions-legales/index.html"
 to = "/fr/mentions-legales/"
 
 [[redirects]]
-from = "/offre-de-formation/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
+from = "/offre-de-formation/developpement-de-sites-web-eco-concus-accessibles-et-responsables/index.html"
 to = "/fr/offre-de-formation/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
 
 [[redirects]]
-from = "/equipe/equipe-de-recherche/"
+from = "/equipe/equipe-de-recherche/index.html"
 to = "/fr/equipe/equipe-de-recherche/"
 
 [[redirects]]
-from = "/fr/agenda/2023-09-28-troisieme-edition-du-cafe-guichet-vert-numerique-responsable/"
+from = "/fr/agenda/2023-09-28-troisieme-edition-du-cafe-guichet-vert-numerique-responsable/index.html"
 to = "/fr/agenda/2023/troisieme-edition-du-cafe-guichet-vert-numerique-responsable/"
 
 [[redirects]]
-from = "/fr/agenda/2023-1/03/"
+from = "/fr/agenda/2023-1/03/index.html"
 to = "/fr/agenda/2023/03/"
 
 [[redirects]]
-from = "/blocks/blocs-de-liste/programmes/"
+from = "/blocks/blocs-de-liste/programmes/index.html"
 to = "/fr/blocks/blocs-de-liste/programmes/"
 
 [[redirects]]
-from = "/fr/organisations/categories/secteur/prive/"
+from = "/fr/organisations/categories/secteur/prive/index.html"
 to = "/fr/organisations/categories/secteurs-organisation/culture/"
 
 [[redirects]]
-from = "/blocks/blocks-techniques/contact/"
+from = "/blocks/blocks-techniques/contact/index.html"
 to = "/fr/blocks/blocks-techniques/contact/"
 
 [[redirects]]
-from = "/equipe/"
+from = "/equipe/index.html"
 to = "/fr/equipe/"
 
 [[redirects]]
-from = "/test-1/un-sous-page-da-propos/"
+from = "/test-1/un-sous-page-da-propos/index.html"
 to = "/fr/test/test-1/un-sous-page-da-propos/"
 
 [[redirects]]
-from = "/fr/organisations/categories/secteurs/recherche/"
+from = "/fr/organisations/categories/secteurs/recherche/index.html"
 to = "/fr/organisations/categories/secteurs-organisation/recherche/"
 
 [[redirects]]
-from = "/blocks/blocks-de-liste/programmes/"
+from = "/blocks/blocks-de-liste/programmes/index.html"
 to = "/fr/blocks/blocs-de-liste/programmes/"
 
 [[redirects]]
-from = "/en/actualites-1/offre-de-formation/lorem-ipsum/"
+from = "/en/actualites-1/offre-de-formation/lorem-ipsum/index.html"
 to = "/en/actualites-1/offre-de-formation/information-communication/lorem-ipsum/"
 
 [[redirects]]
-from = "/blocks/blocks-de-base/chapitres/"
+from = "/blocks/blocks-de-base/chapitres/index.html"
 to = "/fr/blocks/blocks-de-base/chapitres/"
 
 [[redirects]]
-from = "/fr/equipe/categories/implication/comites-osuny/ecoconception/"
+from = "/fr/equipe/categories/implication/comites-osuny/ecoconception/index.html"
 to = "/fr/equipe/categories/implication/comites-osuny/comite-ecoconception/"
 
 [[redirects]]
-from = "/fr/organisations/ile-de-france/"
+from = "/fr/organisations/ile-de-france/index.html"
 to = "/fr/organisations/categories/lieu/france/ile-de-france/"
 
 [[redirects]]
-from = "/fr/actualites/2024-11-28-les-carousels-dosuny/"
+from = "/fr/actualites/2024-11-28-les-carousels-dosuny/index.html"
 to = "/fr/actualites/2024-11-28-les-carrousels-dosuny/"
 
 [[redirects]]
-from = "/fr/equipe/categories/commoners/freelances/"
+from = "/fr/equipe/categories/commoners/freelances/index.html"
 to = "/fr/equipe/categories/implication/freelances/"
 
 [[redirects]]
-from = "/blocks/blocks-de-base/tableau/"
+from = "/blocks/blocks-de-base/tableau/index.html"
 to = "/fr/blocks/blocks-de-base/tableau/"
 
 [[redirects]]
-from = "/blocks/"
+from = "/blocks/index.html"
 to = "/fr/blocks/"
 
 [[redirects]]
-from = "/fr/agenda/2023-1/09/"
+from = "/fr/agenda/2023-1/09/index.html"
 to = "/fr/agenda/2023/09/"
 
 [[redirects]]
-from = "/fr/agenda/2025/arte-concert-festival-2024/2025-04-22-gonzales/"
+from = "/fr/agenda/2025/arte-concert-festival-2024/2025-04-22-gonzales/index.html"
 to = "/fr/agenda/2025/arte-concert-festival-2024/gonzales/"
 
 [[redirects]]
-from = "/fr/agenda/2025/voici-un-evenement/"
+from = "/fr/agenda/2025/voici-un-evenement/index.html"
 to = "/fr/agenda/2026/voici-un-evenement/"
 
 [[redirects]]
-from = "/fr/agenda/2023-1/10/"
+from = "/fr/agenda/2023-1/10/index.html"
 to = "/fr/agenda/2023/10/"
 
 [[redirects]]
-from = "/fr/agenda/concert/"
+from = "/fr/agenda/concert/index.html"
 to = "/fr/agenda/type-devenement/concert/"
 
 [[redirects]]
-from = "/blocks/blocks-narratifs/temoignages/"
+from = "/blocks/blocks-narratifs/temoignages/index.html"
 to = "/fr/blocks/blocks-narratifs/temoignages/"
 
 [[redirects]]
-from = "/fr/agenda/2023-1/"
+from = "/fr/agenda/2023-1/index.html"
 to = "/fr/agenda/2023/"
 
 [[redirects]]
-from = "/fr/organisations/categories/secteur/publique/"
+from = "/fr/organisations/categories/secteur/publique/index.html"
 to = "/fr/organisations/categories/secteurs-organisation/service-public/"
 
 [[redirects]]
-from = "/fr/offres-d-emploi/2025/offre-demploi-test/"
+from = "/fr/offres-d-emploi/2025/offre-demploi-test/index.html"
 to = "/fr/offres-d-emploi/2025/accompagnement-educatif-et-social/"
 
 [[redirects]]
-from = "/offre-de-formation/doctorat-sciences-de-linformation-et-de-la-communication/"
+from = "/offre-de-formation/doctorat-sciences-de-linformation-et-de-la-communication/index.html"
 to = "/fr/offre-de-formation/doctorat-sciences-de-linformation-et-de-la-communication/"
 
 [[redirects]]
-from = "/blocks/blocks-de-liste/"
+from = "/blocks/blocks-de-liste/index.html"
 to = "/fr/blocks/blocs-de-liste/"
 
 [[redirects]]
-from = "/blocks/blocks-de-base/image/"
+from = "/blocks/blocks-de-base/image/index.html"
 to = "/fr/blocks/blocks-de-base/image/"
 
 [[redirects]]
-from = "/fr/organisations/categories/secteurs/"
+from = "/fr/organisations/categories/secteurs/index.html"
 to = "/fr/organisations/categories/secteurs-organisation/"
 
 [[redirects]]
-from = "/en/agenda/information-communication/"
+from = "/en/agenda/information-communication/index.html"
 to = "/en/agenda/programs/information-communication/"
 
 [[redirects]]
-from = "/en/agenda/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
+from = "/en/agenda/developpement-de-sites-web-eco-concus-accessibles-et-responsables/index.html"
 to = "/en/agenda/programs/information-communication/developpement-de-sites-web-eco-concus-accessibles-et-responsables/"
 
 [[redirects]]
-from = "/fr/organisations/classcode/"
+from = "/fr/organisations/classcode/index.html"
 to = "/fr/organisations/class-code/"
 
 [[redirects]]
-from = "/organisations/noesya/"
+from = "/organisations/noesya/index.html"
 to = "/fr/organisations/noesya/"
 
 [[redirects]]
-from = "/equipe/equipe-editoriale/"
+from = "/equipe/equipe-editoriale/index.html"
 to = "/fr/equipe/equipe-editoriale/"
 
 [[redirects]]
-from = "/blocks/blocks-de-base/videos/"
+from = "/blocks/blocks-de-base/videos/index.html"
 to = "/fr/blocks/blocks-de-base/videos/"
 
 [[redirects]]
-from = "/fr/organisations/categories/mediation/"
+from = "/fr/organisations/categories/mediation/index.html"
 to = "/fr/organisations/categories/secteurs/mediation/"
 
 [[redirects]]
-from = "/fr/agenda/2023-1/07/"
+from = "/fr/agenda/2023-1/07/index.html"
 to = "/fr/agenda/2023/07/"
 
 [[redirects]]
-from = "/fr/equipe/categories/region/"
+from = "/fr/equipe/categories/region/index.html"
 to = "/fr/equipe/categories/regions/"
 
 [[redirects]]
-from = "/fr/agenda/2023-1/02/"
+from = "/fr/agenda/2023-1/02/index.html"
 to = "/fr/agenda/2023/02/"
 
 [[redirects]]
-from = "/equipe/pierre-andre-boissinot/"
+from = "/equipe/pierre-andre-boissinot/index.html"
 to = "/fr/equipe/pierre-andre-boissinot/"
 
 [[redirects]]
-from = "/equipe/alexis-benoit/programs/"
+from = "/equipe/alexis-benoit/programs/index.html"
 to = "/fr/equipe/alexis-benoit/programs/"
 
 [[redirects]]
-from = "/tierces-parties/classcode/"
+from = "/tierces-parties/classcode/index.html"
 to = "/fr/organisations/class-code/"
 
 [[redirects]]
-from = "/equipe/magali-angles/papers/"
+from = "/equipe/magali-angles/papers/index.html"
 to = "/fr/equipe/magali-angles/publications/"
 
 [[redirects]]
-from = "/fr/agenda/coordination-de-projets-de-developpement-social-et-culturel/"
+from = "/fr/agenda/coordination-de-projets-de-developpement-social-et-culturel/index.html"
 to = "/fr/agenda/offre-de-formation/coordination-de-projets-de-developpement-social-et-culturel/"
 
 [[redirects]]
-from = "/fr/organisations/categories/localisation/nouvelle-aquitaine/"
+from = "/fr/organisations/categories/localisation/nouvelle-aquitaine/index.html"
 to = "/fr/organisations/categories/lieu/france/nouvelle-aquitaine/"
 
 [[redirects]]
-from = "/fr/test-1/un-sous-page-da-propos/"
+from = "/fr/test-1/un-sous-page-da-propos/index.html"
 to = "/fr/test/test-1/un-sous-page-da-propos/"
 
 [[redirects]]
-from = "/tierces-parties/"
+from = "/tierces-parties/index.html"
 to = "/fr/organisations/"
 
 [[redirects]]
-from = "/fr/equipe/categories/comites/"
+from = "/fr/equipe/categories/comites/index.html"
 to = "/fr/equipe/categories/implication/comites-osuny/"
 
 [[redirects]]
-from = "/fr/actualites/offre-de-formation/lorem-ipsum/"
+from = "/fr/actualites/offre-de-formation/lorem-ipsum/index.html"
 to = "/fr/actualites/offre-de-formation/information-communication/lorem-ipsum/"
 
 [[redirects]]
-from = "/blocks/tous-les-blocks-pleine-largeur-1/"
+from = "/blocks/tous-les-blocks-pleine-largeur-1/index.html"
 to = "/fr/blocks/tous-les-blocks-pleine-largeur-1/"
 
 [[redirects]]
-from = "/blocks/blocks-narratifs/galeries/"
+from = "/blocks/blocks-narratifs/galeries/index.html"
 to = "/fr/blocks/blocks-narratifs/galeries/"
 
