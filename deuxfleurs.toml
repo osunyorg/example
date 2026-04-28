@@ -203,6 +203,10 @@ from = "/fr/agenda/2023-10-19-numerique-en-communs/index.html"
 to = "/fr/agenda/2023/numerique-en-communs/"
 
 [[redirects]]
+from = "/fr/types-de-blocs/index.html"
+to = "/fr/pages-principales/types-de-blocs/"
+
+[[redirects]]
 from = "/organisations/degrowth-journal/index.html"
 to = "/fr/organisations/degrowth-journal/"
 
