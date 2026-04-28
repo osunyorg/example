@@ -163,6 +163,10 @@ from = "/fr/equipe/categories/comites/scientifique/index.html"
 to = "/fr/equipe/categories/implication/comites-osuny/comite-scientifique/"
 
 [[redirects]]
+from = "/fr/offres-d-emploi/soin/index.html"
+to = "/fr/offres-d-emploi/domaine/soin/"
+
+[[redirects]]
 from = "/fr/organisations/categories/secteur/public/index.html"
 to = "/fr/organisations/categories/secteurs-organisation/service-public/"
 
@@ -875,6 +879,10 @@ from = "/fr/agenda/2023-1/03/index.html"
 to = "/fr/agenda/2023/03/"
 
 [[redirects]]
+from = "/fr/offres-d-emploi/solidarite/index.html"
+to = "/fr/offres-d-emploi/domaine/solidarite/"
+
+[[redirects]]
 from = "/blocks/blocs-de-liste/programmes/index.html"
 to = "/fr/blocks/blocs-de-liste/programmes/"
 
@@ -897,6 +905,10 @@ to = "/fr/test/test-1/un-sous-page-da-propos/"
 [[redirects]]
 from = "/fr/organisations/categories/secteurs/recherche/index.html"
 to = "/fr/organisations/categories/secteurs-organisation/recherche/"
+
+[[redirects]]
+from = "/fr/offres-d-emploi/aide/index.html"
+to = "/fr/offres-d-emploi/domaine/aide/"
 
 [[redirects]]
 from = "/blocks/blocks-de-liste/programmes/index.html"
