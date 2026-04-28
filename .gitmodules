@@ -8,3 +8,12 @@
 [submodule "themes/osuny-plugin-reading-progress"]
 	path = themes/osuny-plugin-reading-progress
 	url = git@github.com:osunyorg/osuny-plugin-reading-progress.git
+[submodule "themes/osuny-plugin-centered-header"]
+	path = themes/osuny-plugin-centered-header
+	url = git@github.com:osunyorg/osuny-plugin-centered-header.git
+[submodule "themes/osuny-plugin-centered-footer"]
+	path = themes/osuny-plugin-centered-footer
+	url = git@github.com:osunyorg/osuny-plugin-centered-footer.git
+[submodule "themes/osuny-plugin-centered-layout"]
+	path = themes/osuny-plugin-centered-layout
+	url = git@github.com:osunyorg/osuny-plugin-centered-layout.git

@@ -2,6 +2,9 @@ theme:
   - osuny-plugin-reading-progress
   - osuny
   - osuny-plugin-pagedjs
+  # - osuny-plugin-centered-header
+  # - osuny-plugin-centered-footer
+  # - osuny-plugin-centered-layout
 _merge: deep
 params:
   debug:
