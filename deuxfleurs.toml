@@ -271,6 +271,10 @@ from = "/fr/agenda/2025-02-03-anne-charlotte-finel-respiro-1/index.html"
 to = "/fr/agenda/2026/anne-charlotte-finel-respiro-1/"
 
 [[redirects]]
+from = "/fr/support/index.html"
+to = "https://support.osuny.org"
+
+[[redirects]]
 from = "/fr/organisations/categories/secteur/mediation/index.html"
 to = "/fr/organisations/categories/secteurs/mediation/"
 
