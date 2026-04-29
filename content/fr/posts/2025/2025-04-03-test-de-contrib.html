@@ -8,7 +8,7 @@ title: >-
 url: "/fr/actualites/2025-04-03-test-de-contrib/"
 slug: "test-de-contrib"
 date: 2025-04-03T00:00:00+02:00
-lastmod: 2025-11-06T15:11:28+01:00
+lastmod: 2026-04-29T10:31:37+02:00
 meta:
   hugo:
     permalink: "/fr/actualites/2025-04-03-test-de-contrib/"
@@ -17,7 +17,7 @@ meta:
     slug: "test-de-contrib"
   dates:
     created_at: 2025-04-03T10:10:38+02:00
-    updated_at: 2025-11-06T15:11:28+01:00
+    updated_at: 2026-04-29T10:31:37+02:00
     published_at: 2025-04-03T00:00:00+02:00
 search:
   id: "5a375bdb-62cb-456c-a9d5-ab5e08bd95b9"
@@ -29,7 +29,8 @@ search:
     Test de contrib
   summary: >-
     <p>Test de résumé 2</p>
-
+  body: >-
+    <p>Un premier titre  <br>   <br>Nous testons ici l'affichage en pleine largeur d'une actualité. La table des matières est masquée mais un bouton pour l'ouvrir s'affiche en haut de l'article.</p>  <p> Des blocs pour enrichir  </p>
 
 breadcrumbs:
   - title: >-
@@ -42,10 +43,10 @@ breadcrumbs:
       Test de contrib
 
 design:
-  full_width: false
+  full_width: true
   toc:
-    present: false
-    offcanvas: false
+    present: true
+    offcanvas: true
 
 authors:
   - "pierre-andre-boissinot"
@@ -82,32 +83,67 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 0
+  seconds: 10
   text: >-
     moins d'une minute
 contents:
   - kind: block
-    template: pages
+    template: title
+    title: >-
+      Un premier titre
+    slug: >-
+      un-premier-titre
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Un premier titre
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: chapter
 
 
     ranks:
-      base: 2
+      base: 3
     top:
       active: false
 
     data:
-      category: "offre-de-formation/contribuer-avec-osuny"
-      options:
-        image: true
-        subtitle: true
-        categories: false
-        main_summary: true
-        summary: true
+      layout: no_background
+      text: >-
+        <p>Nous testons ici l'affichage en pleine largeur d'une actualité.</p><p>La table des matières est masquée mais un bouton pour l'ouvrir s'affiche en haut de l'article.</p>
 
-      layout: list
-      pages:
 
-      quantity: 0
+
+
+
+
+  - kind: block
+    template: title
+    title: >-
+      Des blocs pour enrichir
+    slug: >-
+      des-blocs-pour-enrichir
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Des blocs pour enrichir
+        heading: 2
+
+    data:
+      layout: classic
 
 
   - kind: block
@@ -115,8 +151,8 @@ contents:
 
 
     ranks:
-      base: 2
-      children: 2
+      base: 3
+      children: 3
     top:
       active: false
 
