@@ -40,6 +40,12 @@ params:
       backlinks: true
       taxonomies:
         position: content
+  posts:
+    single:
+      meta:
+        options:
+          with_labels: true
+        position: hero
   diplomas:
     single:
       programs:
