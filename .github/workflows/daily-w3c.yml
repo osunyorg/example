@@ -1,9 +1,15 @@
+# on:
+#   push:
+#     branches:
+#       - main
+  # schedule:
+  #   - cron: '0 2 * * *'
+
 on:
-  push:
-    branches:
-      - main
-#   # schedule:
-#   #   - cron: '0 2 * * *'
+  workflow_run:
+    workflows: [deuxfleurs]
+    types:
+      - completed
 
 name: 'Daily W3C Validation'
 
@@ -37,7 +43,6 @@ jobs:
           - https://example.osuny.org/fr/offres-d-emploi/2025/offre-demploi-test-1/
 
     steps:
-      - uses: ./.github/workflows/deuxfleurs.yml
       - name: Send request to W3C with URL to validate
         run: |
           curl -G "https://validator.w3.org/nu/" --data-urlencode "doc=${{ matrix.url }}" --data-urlencode "out=json" > w3c-response.json
