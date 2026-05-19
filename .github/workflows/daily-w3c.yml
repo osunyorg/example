@@ -37,7 +37,7 @@ jobs:
           - https://example.osuny.org/fr/offres-d-emploi/2025/offre-demploi-test-1/
 
     steps:
-      - uses: ./.github/workflows/deuxfleurs
+      - uses: ./.github/workflows/deuxfleurs.yml
       - name: Send request to W3C with URL to validate
         run: |
           curl -G "https://validator.w3.org/nu/" --data-urlencode "doc=${{ matrix.url }}" --data-urlencode "out=json" > w3c-response.json
