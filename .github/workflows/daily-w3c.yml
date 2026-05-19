@@ -23,8 +23,19 @@ jobs:
           - https://example.osuny.org/fr/actualites/2023-03-04-referentiel-general-decoconception-de-services-numeriques-rgesn/
           - https://example.osuny.org/fr/equipe/
           - https://example.osuny.org/fr/equipe/arnaud-levy/
+          - https://example.osuny.org/fr/organisations/
           - https://example.osuny.org/fr/organisations/noesya/
           - https://example.osuny.org/fr/blocks/tous-les-blocks/
+          - https://example.osuny.org/fr/agenda/
+          - https://example.osuny.org/fr/agenda/2026/voici-un-evenement/
+          - https://example.osuny.org/fr/expositions/2025-06-10-entre-deux-eaux/
+          - https://example.osuny.org/fr/projets/
+          - https://example.osuny.org/fr/projets/2025-ceci-est-un-projet/
+          - https://example.osuny.org/fr/campus/
+          - https://example.osuny.org/fr/campus/iut-bordeaux-montaigne/
+          - https://example.osuny.org/fr/offres-d-emploi/
+          - https://example.osuny.org/fr/offres-d-emploi/2025/offre-demploi-test-1/
+
     steps:
       - name: Send request to W3C with URL to validate
         run: |
