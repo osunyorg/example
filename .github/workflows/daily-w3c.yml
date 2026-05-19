@@ -1,16 +1,10 @@
-# on:
-#   push:
-#     branches:
-#       - main
-  # schedule:
-  #   - cron: '0 2 * * *'
-
 on:
   workflow_run:
     workflows: [deuxfleurs]
     types:
       - completed
-
+# schedule:
+#   - cron: '0 2 * * *'
 name: 'Daily W3C Validation'
 
 jobs:
