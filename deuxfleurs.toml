@@ -547,6 +547,10 @@ from = "/fr/agenda/2023-1/01/index.html"
 to = "/fr/agenda/2023/01/"
 
 [[redirects]]
+from = "/fr/projets/2022-alt-shift/index.html"
+to = "/fr/projets/2020-alt-shift/"
+
+[[redirects]]
 from = "/fr/equipe/alex-ben/index.html"
 to = "/fr/equipe/alex-ben-2/"
 
