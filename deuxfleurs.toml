@@ -131,6 +131,10 @@ from = "/offre-de-formation/coordination-de-projets-de-developpement-social-et-c
 to = "/fr/offre-de-formation/coordination-de-projets-de-developpement-social-et-culturel/"
 
 [[redirects]]
+from = "/fr/agenda/2026/anne-charlotte-finel-respiro-1/index.html"
+to = "/fr/agenda/2026/un-evenement-sobre/"
+
+[[redirects]]
 from = "/blocks/blocks-techniques/definitions/index.html"
 to = "/fr/blocks/blocks-techniques/definitions/"
 
@@ -236,7 +240,7 @@ to = "/fr/blocks/blocs-de-liste/"
 
 [[redirects]]
 from = "/fr/agenda/2025/anne-charlotte-finel-respiro-1/index.html"
-to = "/fr/agenda/2026/anne-charlotte-finel-respiro-1/"
+to = "/fr/agenda/2026/un-evenement-sobre/"
 
 [[redirects]]
 from = "/fr/actualites/offre-de-formation/contribuer-avec-osuny/developpement-de-sites-web-eco-concus-accessibles-et-responsables/index.html"
@@ -268,7 +272,7 @@ to = "/fr/equipe/equipe-pedagogique/"
 
 [[redirects]]
 from = "/fr/agenda/2025-02-03-anne-charlotte-finel-respiro-1/index.html"
-to = "/fr/agenda/2026/anne-charlotte-finel-respiro-1/"
+to = "/fr/agenda/2026/un-evenement-sobre/"
 
 [[redirects]]
 from = "/fr/support/index.html"
@@ -520,7 +524,7 @@ to = "/fr/blocks/blocks-techniques/integration-html/"
 
 [[redirects]]
 from = "/fr/agenda/2024-02-03-anne-charlotte-finel-respiro-1/index.html"
-to = "/fr/agenda/2026/anne-charlotte-finel-respiro-1/"
+to = "/fr/agenda/2026/un-evenement-sobre/"
 
 [[redirects]]
 from = "/actualites/2022-02-02-lorem-ipsum/index.html"
