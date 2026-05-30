@@ -19,8 +19,10 @@ params:
       darkmode: "/assets/images/logo-osuny-white.svg"
   search:
     active: true
+    max_results: 20
     positions:
       - primary
+      - taxonomies
       - footer
   events:
     index:
