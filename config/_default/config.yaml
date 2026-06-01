@@ -19,7 +19,8 @@ params:
       darkmode: "/assets/images/logo-osuny-white.svg"
   default:
     index:
-      search: true
+      search:
+        active: true
   search:
     active: true
     max_results: 20
@@ -44,12 +45,6 @@ params:
       backlinks: true
       taxonomies:
         position: content
-  posts:
-    single:
-      meta:
-        options:
-          with_labels: true
-        position: hero
   diplomas:
     single:
       programs:
