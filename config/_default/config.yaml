@@ -22,7 +22,6 @@ params:
     max_results: 20
     positions:
       - primary
-      - taxonomies
       - footer
   events:
     index:
