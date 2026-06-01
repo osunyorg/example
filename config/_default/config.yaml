@@ -17,6 +17,9 @@ params:
     footer:
       default: "/assets/images/logo-osuny.svg"
       darkmode: "/assets/images/logo-osuny-white.svg"
+  default:
+    index:
+      search: true
   search:
     active: true
     max_results: 20
