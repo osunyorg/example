@@ -1,2 +1,4 @@
-theme: osuny
 _merge: deep
+theme: 
+  - osuny
+  - univ-rennes-enssat
