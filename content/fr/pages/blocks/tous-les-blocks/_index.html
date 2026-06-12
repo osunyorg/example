@@ -9,10 +9,8 @@ bodyclass: >-
   category-osuny-style
 url: "/fr/blocks/tous-les-blocks/"
 slug: "tous-les-blocks"
-aliases:
-  - /../blocks/tous-les-blocks/
 date: 2023-11-23T11:25:17+01:00
-lastmod: 2025-11-10T16:31:41+01:00
+lastmod: 2026-04-28T15:54:19+02:00
 meta:
   hugo:
     permalink: "/fr/blocks/tous-les-blocks/"
@@ -21,7 +19,7 @@ meta:
     slug: "tous-les-blocks"
   dates:
     created_at: 2022-11-21T11:04:56+01:00
-    updated_at: 2025-11-10T16:31:41+01:00
+    updated_at: 2026-04-28T15:54:19+02:00
     published_at: 2023-11-23T11:25:17+01:00
 search:
   id: "fe58141c-bded-4534-bf03-df9d66037ba5"
@@ -59,7 +57,8 @@ pages_categories:
   - "sujet/test"
   - "sujet/osuny"
   - "les-communs-numeriques"
-  - "types-de-blocs"
+  - "pages-principales"
+  - "pages-principales/types-de-blocs"
 taxonomies:
   - permalink: ""
     path: ""
@@ -74,10 +73,16 @@ taxonomies:
         file: "content/fr/pages_categories/les-communs-numeriques/_index.html"
         name: >-
           Les communs numériques
-      - permalink: "/fr/types-de-blocs/"
-        path: "/pages_categories/types-de-blocs"
-        slug: "types-de-blocs"
-        file: "content/fr/pages_categories/types-de-blocs/_index.html"
+      - permalink: "/fr/pages-principales/"
+        path: "/pages_categories/pages-principales"
+        slug: "pages-principales"
+        file: "content/fr/pages_categories/pages-principales/_index.html"
+        name: >-
+          Pages principales
+      - permalink: "/fr/pages-principales/types-de-blocs/"
+        path: "/pages_categories/pages-principales/types-de-blocs"
+        slug: "pages-principales/types-de-blocs"
+        file: "content/fr/pages_categories/pages-principales/types-de-blocs/_index.html"
         name: >-
           Types de blocs
 
@@ -635,7 +640,7 @@ contents:
       description: >-
         <p>Ajoutez des chiffres clés pour décrire des faits de manière percutante.</p>
       figures:
-        - number: 69.6
+        - number: 69
           unit: >-
             millions
           description: >-
@@ -901,22 +906,22 @@ contents:
 
       title_link: "/fr/agenda/"
       events:
-        - permalink: "/fr/agenda/2026/anne-charlotte-finel-respiro-1/"
-          path: "/events/2026/02/03-anne-charlotte-finel-respiro-1"
-          slug: "anne-charlotte-finel-respiro-1"
-          file: "content/fr/events/2026/02/03-anne-charlotte-finel-respiro-1.html"
-          name: >-
-            Un événement sobre
         - permalink: "/fr/agenda/2026/voici-un-evenement/"
-          path: "/events/2026/06/13-voici-un-evenement"
+          path: "/events/2026/06/13-12-00-voici-un-evenement"
           slug: "voici-un-evenement"
-          file: "content/fr/events/2026/06/13-voici-un-evenement.html"
+          file: "content/fr/events/2026/06/13-12-00-voici-un-evenement.html"
+          name: >-
+            Voici un événement
+        - permalink: "/fr/agenda/2026/voici-un-evenement/"
+          path: "/events/2026/06/13-16-00-voici-un-evenement"
+          slug: "voici-un-evenement"
+          file: "content/fr/events/2026/06/13-16-00-voici-un-evenement.html"
           name: >-
             Voici un événement
         - permalink: "/fr/agenda/2024/anne-charlotte-finel-respiro/"
-          path: "/events/2026/11/01-20-00-anne-charlotte-finel-respiro"
+          path: "/events/2026/07/01-20-00-anne-charlotte-finel-respiro"
           slug: "anne-charlotte-finel-respiro"
-          file: "content/fr/events/2026/11/01-20-00-anne-charlotte-finel-respiro.html"
+          file: "content/fr/events/2026/07/01-20-00-anne-charlotte-finel-respiro.html"
           name: >-
             Anne-Charlotte Finel
 
@@ -1000,18 +1005,6 @@ contents:
         Il n'y a aucune exposition pour le moment
       title_link: "/fr/expositions/"
       exhibitions:
-        - permalink: "/fr/expositions/2025-03-14-pulse/"
-          path: "/exhibitions/2025-03-14-pulse"
-          slug: "pulse"
-          file: "content/fr/exhibitions/2025-03-14-pulse.html"
-          name: >-
-            Pulse
-        - permalink: "/fr/expositions/2025-04-10-test-expo/"
-          path: "/exhibitions/2025-04-10-test-expo"
-          slug: "test-expo"
-          file: "content/fr/exhibitions/2025-04-10-test-expo.html"
-          name: >-
-            Une exposition
         - permalink: "/fr/expositions/2025-06-10-entre-deux-eaux/"
           path: "/exhibitions/2025-06-10-entre-deux-eaux"
           slug: "entre-deux-eaux"
@@ -1019,7 +1012,7 @@ contents:
           name: >-
             Entre deux eaux
 
-      quantity: 3
+      quantity: 1
 
   - kind: block
     template: title
@@ -1154,6 +1147,9 @@ contents:
 
     data:
       layout: grid
+
+      options:
+        icons: false
 
       elements:
         - 
@@ -1845,7 +1841,7 @@ contents:
         image: true
         subtitle: true
         categories: false
-        date: false
+        dates: false
         summary: true
 
       layout: grid
@@ -2026,6 +2022,7 @@ contents:
         file: "content/fr/persons/_index.html"
       options:
         image: true
+        subtitle: true
         categories: false
         main_summary: true
         summary: true

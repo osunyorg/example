@@ -16,7 +16,7 @@ meta:
     slug: "offre-demploi-test-1"
   dates:
     created_at: 2025-06-27T11:17:27+02:00
-    updated_at: 2025-08-11T12:59:56+02:00
+    updated_at: 2026-05-11T11:33:03+02:00
     published_at: 2025-06-27T11:17:27+02:00
 search:
   id: "332be36a-adc3-45e5-b35f-284b288e2ebb"
@@ -28,7 +28,7 @@ search:
     Chargé⸱e d'animation et de communication Débutant⸱e accepté⸱e
 
   body: >-
-    <p>  <br>test offre d'emploi</p>
+    <p>Mission  <br>   <br>Vous serez rattaché(e) à la Direction des Ressources Humaines. Votre principale mission sera d'accompagner le développement CM, grâce aux actions suivantes :  <br> Aider à l'organisation d'event internes (séminaire, conférences, ateliers)  <br> Concevoir et rédiger des supports de communication (articles pour newsletters, intranet, vidéo, interview)  <br> Contribuer au rayonnement de nos communautés (post sur notre réseau interne teams)  <br> Participer à l'accompagnement des managers dans la mise en œuvre d'ateliers de réflexion sur des thèmes : cadrage, préparation et coanimation, restitution  <br> Collaborer à l'élaboration d'un plan de développement managérial annuel afin d'accompagner les managers dans leur quotidien  <br> Faire de la veille sur l'évolution des pratiques managériales au sein des entreprises </p>  <p> Profil  <br>   <br>Compétences recherchées :  <br> Maîtrise du Pack Office (Power Point, Excel, outil de sondage)  <br> Maîtrise des outils de conception et montage vidéo  <br> Capacité à communiquer à l'oral et à l'écrit : tu as une belle plume, et tu veilles à la bonne orthographe !  <br> Rigueur  <br> Créativité et curiosité  <br> Capacité à collaborer </p>
 
 breadcrumbs:
   - title: >-
@@ -41,10 +41,10 @@ breadcrumbs:
       Chargé⸱e d'animation et de communication
 
 design:
-  full_width: false
+  full_width: true
   toc:
-    present: false
-    offcanvas: false
+    present: true
+    offcanvas: true
 
 dates:
   computed:
@@ -77,7 +77,8 @@ header_cta:
 jobs_categories:
   - "type-de-poste/cdi"
   - "lieu/bordeaux"
-  - "solidarite"
+  - "domaine"
+  - "domaine/solidarite"
 taxonomies:
   - permalink: ""
     path: ""
@@ -86,10 +87,16 @@ taxonomies:
     name: >-
       Catégories
     categories:
-      - permalink: "/fr/offres-d-emploi/solidarite/"
-        path: "/jobs_categories/solidarite"
-        slug: "solidarite"
-        file: "content/fr/jobs_categories/solidarite/_index.html"
+      - permalink: "/fr/offres-d-emploi/domaine/"
+        path: "/jobs_categories/domaine"
+        slug: "domaine"
+        file: "content/fr/jobs_categories/domaine/_index.html"
+        name: >-
+          Domaine
+      - permalink: "/fr/offres-d-emploi/domaine/solidarite/"
+        path: "/jobs_categories/domaine/solidarite"
+        slug: "domaine/solidarite"
+        file: "content/fr/jobs_categories/domaine/solidarite/_index.html"
         name: >-
           Solidarité
 
@@ -123,23 +130,82 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 1
+  seconds: 44
   text: >-
-    moins d'une minute
+    1 minute
 contents:
+  - kind: block
+    template: title
+    title: >-
+      Mission
+    slug: >-
+      mission
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Mission
+        heading: 2
+
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
 
 
     ranks:
-      base: 2
+      base: 3
     top:
       active: false
 
     data:
       layout: no_background
       text: >-
-        <p>test offre d'emploi</p>
+        <p>Vous serez rattaché(e) à la Direction des Ressources Humaines. Votre principale mission sera d'accompagner le développement CM, grâce aux actions suivantes :</p><ul> <li>Aider à l'organisation d'event internes (séminaire, conférences, ateliers)</li> <li>Concevoir et rédiger des supports de communication (articles pour newsletters, intranet, vidéo, interview)</li> <li>Contribuer au rayonnement de nos communautés (post sur notre réseau interne teams)</li> <li>Participer à l'accompagnement des managers dans la mise en œuvre d'ateliers de réflexion sur des thèmes : cadrage, préparation et coanimation, restitution</li> <li>Collaborer à l'élaboration d'un plan de développement managérial annuel afin d'accompagner les managers dans leur quotidien</li> <li>Faire de la veille sur l'évolution des pratiques managériales au sein des entreprises</li> </ul>
+
+
+
+
+
+
+  - kind: block
+    template: title
+    title: >-
+      Profil
+    slug: >-
+      profil
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Profil
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: chapter
+
+
+    ranks:
+      base: 3
+    top:
+      active: false
+
+    data:
+      layout: no_background
+      text: >-
+        <p>Compétences recherchées :</p><ul> <li>Maîtrise du Pack Office (Power Point, Excel, outil de sondage)</li> <li>Maîtrise des outils de conception et montage vidéo</li> <li>Capacité à communiquer à l'oral et à l'écrit : tu as une belle plume, et tu veilles à la bonne orthographe !</li> <li>Rigueur</li> <li>Créativité et curiosité</li> <li>Capacité à collaborer</li> </ul>
 
 
 

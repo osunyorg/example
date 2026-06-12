@@ -65,27 +65,38 @@ section_taxonomies:
     slug: ""
     path: ""
     categories:
-      - permalink: "/fr/offres-d-emploi/aide/"
-        path: "/jobs_categories/aide"
-        slug: "aide"
-        file: "content/fr/jobs_categories/aide/_index.html"
+      - permalink: "/fr/offres-d-emploi/domaine/"
+        path: "/jobs_categories/domaine"
+        slug: "domaine"
+        file: "content/fr/jobs_categories/domaine/_index.html"
         name: >-
-          Aide
-        count: 1
-      - permalink: "/fr/offres-d-emploi/soin/"
-        path: "/jobs_categories/soin"
-        slug: "soin"
-        file: "content/fr/jobs_categories/soin/_index.html"
-        name: >-
-          Soin
-        count: 1
-      - permalink: "/fr/offres-d-emploi/solidarite/"
-        path: "/jobs_categories/solidarite"
-        slug: "solidarite"
-        file: "content/fr/jobs_categories/solidarite/_index.html"
-        name: >-
-          Solidarité
-        count: 2
+          Domaine
+        count: 3
+        children:
+          - permalink: "/fr/offres-d-emploi/domaine/aide/"
+            path: "/jobs_categories/domaine/aide"
+            slug: "domaine/aide"
+            file: "content/fr/jobs_categories/domaine/aide/_index.html"
+            name: >-
+              Aide
+            count: 1
+
+          - permalink: "/fr/offres-d-emploi/domaine/soin/"
+            path: "/jobs_categories/domaine/soin"
+            slug: "domaine/soin"
+            file: "content/fr/jobs_categories/domaine/soin/_index.html"
+            name: >-
+              Soin
+            count: 1
+
+          - permalink: "/fr/offres-d-emploi/domaine/solidarite/"
+            path: "/jobs_categories/domaine/solidarite"
+            slug: "domaine/solidarite"
+            file: "content/fr/jobs_categories/domaine/solidarite/_index.html"
+            name: >-
+              Solidarité
+            count: 2
+
 
   - name: >-
       Type de poste
