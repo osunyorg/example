@@ -1,2 +1,3 @@
 _merge: deep
-theme: osuny
+theme: univ-rennes-enssat
+ignoreFiles: "themes/univ-rennes-enssat/content"

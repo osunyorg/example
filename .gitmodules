@@ -17,3 +17,7 @@
 [submodule "themes/osuny-plugin-centered-layout"]
 	path = themes/osuny-plugin-centered-layout
 	url = git@github.com:osunyorg/osuny-plugin-centered-layout.git
+
+[submodule "themes/univ-rennes-enssat"]
+	path = themes/univ-rennes-enssat
+	url = https://github.com/osunyorg/univ-rennes-enssat
