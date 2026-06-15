@@ -227,6 +227,10 @@ from = "/actualites/2022/02/02/lorem-ipsum/index.html"
 to = "/fr/actualites/2022-02-02-lorem-ipsum/"
 
 [[redirects]]
+from = "/fr/diplomes/licence-profesionnelle/index.html"
+to = "/fr/diplomes/licence-professionnelle/"
+
+[[redirects]]
 from = "/fr/agenda/2025/charbel-joseph-h-boutros-the-sun-is-my-only-ally/index.html"
 to = "/fr/agenda/2026/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
 
@@ -668,7 +672,7 @@ to = "/fr/organisations/categories/lieu/france/ile-de-france/"
 
 [[redirects]]
 from = "/diplomes/licence-profesionnelle/index.html"
-to = "/fr/diplomes/licence-profesionnelle/"
+to = "/fr/diplomes/licence-professionnelle/"
 
 [[redirects]]
 from = "/fr/organisations/categories/commoners/makers/index.html"
