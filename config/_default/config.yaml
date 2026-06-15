@@ -23,7 +23,7 @@ params:
         active: true
     # single:
     #   meta:
-    #     # position: hero
+    #     position: hero
   search:
     active: true
     max_results: 20
@@ -41,6 +41,16 @@ params:
     index:
       options:
         categories: true
+    single:
+      meta:
+        options:
+          authors: false
+          dates: false
+          published_at: false
+          reading_time: false
+          share: false
+          taxonomies: true
+          updated_at: false
   persons:
     index: 
       layout: list # grid | list
