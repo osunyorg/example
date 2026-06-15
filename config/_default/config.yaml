@@ -21,6 +21,9 @@ params:
     index:
       search:
         active: true
+    # single:
+    #   meta:
+    #     # position: hero
   search:
     active: true
     max_results: 20
