@@ -2,6 +2,8 @@ theme:
   - osuny-plugin-reading-progress
   - osuny
   - osuny-plugin-pagedjs
+  - osuny-plugin-news-sitemap
+
   # - osuny-plugin-centered-header
   # - osuny-plugin-centered-footer
   # - osuny-plugin-centered-layout
