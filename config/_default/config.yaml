@@ -19,6 +19,15 @@ params:
     footer:
       default: "/assets/images/logo-osuny.svg"
       darkmode: "/assets/images/logo-osuny-white.svg"
+  share_links:
+    enabled: true
+    email: true
+    facebook: true
+    linkedin: true
+    mastodon: true
+    telegram: false
+    twitter: false
+    whatsapp: true
   default:
     index:
       search:
