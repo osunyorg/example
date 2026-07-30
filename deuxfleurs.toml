@@ -1047,6 +1047,10 @@ from = "/organisations/noesya/index.html"
 to = "/fr/organisations/noesya/"
 
 [[redirects]]
+from = "/fr/expositions/2025-04-10-test-expo/index.html"
+to = "/fr/expositions/2026-04-10-test-expo/"
+
+[[redirects]]
 from = "/equipe/equipe-editoriale/index.html"
 to = "/fr/equipe/equipe-editoriale/"
 
