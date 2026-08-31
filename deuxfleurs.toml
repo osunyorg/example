@@ -199,6 +199,10 @@ from = "/fr/equipe/categories/comite/index.html"
 to = "/fr/equipe/categories/implication/comites-osuny/"
 
 [[redirects]]
+from = "/fr/agenda/2025/arte-concert-festival-2024/gonzales/index.html"
+to = "/fr/agenda/2025/arte-concert-festival-2025/gonzales/"
+
+[[redirects]]
 from = "/offre-de-formation/contribuer-avec-osuny/index.html"
 to = "/fr/offre-de-formation/contribuer-avec-osuny/"
 
@@ -980,7 +984,7 @@ to = "/fr/agenda/2023/09/"
 
 [[redirects]]
 from = "/fr/agenda/2025/arte-concert-festival-2024/2025-04-22-gonzales/index.html"
-to = "/fr/agenda/2025/arte-concert-festival-2024/gonzales/"
+to = "/fr/agenda/2025/arte-concert-festival-2025/gonzales/"
 
 [[redirects]]
 from = "/fr/agenda/2025/voici-un-evenement/index.html"
