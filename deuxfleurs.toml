@@ -620,7 +620,7 @@ to = "/fr/organisations/categories/secteurs-organisation/associations/"
 
 [[redirects]]
 from = "/fr/projets/2023-degrowth-journal/index.html"
-to = "/fr/projets/2024-degrowth-journal/"
+to = "/fr/projets/2025-degrowth-journal/"
 
 [[redirects]]
 from = "/fr/equipe/categories/metier/gestion-de-projet/index.html"
@@ -1041,6 +1041,10 @@ to = "/en/agenda/programs/information-communication/developpement-de-sites-web-e
 [[redirects]]
 from = "/fr/organisations/classcode/index.html"
 to = "/fr/organisations/class-code/"
+
+[[redirects]]
+from = "/fr/projets/2024-degrowth-journal/index.html"
+to = "/fr/projets/2025-degrowth-journal/"
 
 [[redirects]]
 from = "/organisations/noesya/index.html"
