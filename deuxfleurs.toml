@@ -591,6 +591,10 @@ from = "/organisations/mica/index.html"
 to = "/fr/organisations/mica/"
 
 [[redirects]]
+from = "/fr/fichiers-1/2026/index.html"
+to = "/fr/fichiers-1/2026/home-again-blues--1921-sound-recordingmp3/"
+
+[[redirects]]
 from = "/en/actualites/offre-de-formation/index.html"
 to = "/en/actualites-1/offre-de-formation/"
 
@@ -921,6 +925,10 @@ to = "/fr/blocks/blocs-de-liste/programmes/"
 [[redirects]]
 from = "/fr/organisations/categories/secteur/prive/index.html"
 to = "/fr/organisations/categories/secteurs-organisation/culture/"
+
+[[redirects]]
+from = "/en/2026/index.html"
+to = "/en/2026/ytmp3free-cc-youn-sun-nah-mystic-river-official-audio-youtubemp3free-orgmp3/"
 
 [[redirects]]
 from = "/blocks/blocks-techniques/contact/index.html"
