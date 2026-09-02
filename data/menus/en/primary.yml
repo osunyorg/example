@@ -118,4 +118,13 @@ items:
   descendants_targets: []
   path: "/exhibitions"
   file: content/en/exhibitions/_index.html
+- title: Files
+  slug: files
+  target: "/en/files/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/files"
+  file: content/en/files/_index.html
 

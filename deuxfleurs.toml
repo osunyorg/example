@@ -239,6 +239,10 @@ from = "/fr/diplomes/licence-profesionnelle/index.html"
 to = "/fr/diplomes/licence-professionnelle/"
 
 [[redirects]]
+from = "/en/2026/jessimages-1072jpg/index.html"
+to = "/en/files/2026/jessimages-1072jpg/"
+
+[[redirects]]
 from = "/fr/agenda/2025/charbel-joseph-h-boutros-the-sun-is-my-only-ally/index.html"
 to = "/fr/agenda/2026/charbel-joseph-h-boutros-the-sun-is-my-only-ally/"
 
@@ -355,6 +359,10 @@ from = "/blocks/blocks-de-liste/organigramme/index.html"
 to = "/fr/blocks/blocs-de-liste/organigramme/"
 
 [[redirects]]
+from = "/en/2026/rgaa-v4pdf/index.html"
+to = "/en/files/2026/rgaa-v4pdf/"
+
+[[redirects]]
 from = "/fr/agenda/formation-test/index.html"
 to = "/fr/agenda/offre-de-formation/formation-test/"
 
@@ -447,6 +455,14 @@ from = "/fr/agenda/atelier/index.html"
 to = "/fr/agenda/type-devenement/atelier/"
 
 [[redirects]]
+from = "/en/2026/rc-refonte-site-webpdf/index.html"
+to = "/en/files/2026/rc-refonte-site-webpdf/"
+
+[[redirects]]
+from = "/en/2026/rapport-sur-les-communs-en-anglaispdf/index.html"
+to = "/en/files/2026/rapport-sur-les-communs-en-anglaispdf/"
+
+[[redirects]]
 from = "/blocks/tous-les-blocks-pleine-largeur/index.html"
 to = "/fr/blocks/tous-les-blocks-pleine-largeur/"
 
@@ -493,6 +509,10 @@ to = "/fr/actualites/offre-de-formation/information-communication/"
 [[redirects]]
 from = "/equipe/arnaud-levy/roles/index.html"
 to = "/fr/equipe/arnaud-levy/roles/"
+
+[[redirects]]
+from = "/en/2026/ytmp3free-cc-youn-sun-nah-mystic-river-official-audio-youtubemp3free-orgmp3/index.html"
+to = "/en/files/2026/ytmp3free-cc-youn-sun-nah-mystic-river-official-audio-youtubemp3free-orgmp3/"
 
 [[redirects]]
 from = "/fr/equipe/categories/commoners/freelance-osuny/index.html"
@@ -928,7 +948,7 @@ to = "/fr/organisations/categories/secteurs-organisation/culture/"
 
 [[redirects]]
 from = "/en/2026/index.html"
-to = "/en/2026/ytmp3free-cc-youn-sun-nah-mystic-river-official-audio-youtubemp3free-orgmp3/"
+to = "/en/files/2026/ytmp3free-cc-youn-sun-nah-mystic-river-official-audio-youtubemp3free-orgmp3/"
 
 [[redirects]]
 from = "/blocks/blocks-techniques/contact/index.html"
@@ -1005,6 +1025,10 @@ to = "/fr/agenda/2023/10/"
 [[redirects]]
 from = "/fr/agenda/concert/index.html"
 to = "/fr/agenda/type-devenement/concert/"
+
+[[redirects]]
+from = "/en/2026/workshop-mmi-2024pdf/index.html"
+to = "/en/files/2026/workshop-mmi-2024pdf/"
 
 [[redirects]]
 from = "/blocks/blocks-narratifs/temoignages/index.html"
