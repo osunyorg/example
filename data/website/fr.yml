@@ -29,6 +29,7 @@ contents:
       layout: no_background
       text: >-
         <p>Sur le commun numérique Osuny.</p><p>Ceci est un bloc de footer, il s'affiche sur l'ensemble du site, au-dessus du pied de page.</p>
+
       buttons:
         - 
           title: >-
@@ -36,3 +37,6 @@ contents:
           url: >-
             https://www.osuny.org/
           target_blank: true
+
+
+
