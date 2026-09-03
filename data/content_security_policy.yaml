@@ -27,6 +27,7 @@ allowed_domains:
   - "www.arte.tv"
   - "api-cdn.arte.tv"
   - "peertube.fr"
+  - "tally.so"
   - "www.google.com"
   - "www.figma.com"
   - "www.fablabimagesloiretaines.fr"
