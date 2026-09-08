@@ -36,8 +36,8 @@ jobs:
     - name: Compilation du site
       run: yarn osuny build
 
-    - name: Purge du style CSS
-      run: yarn osuny purgecss
+    # - name: Purge du style CSS
+    #   run: yarn osuny purgecss
 
     - name: Déploiement Garage
       run: npx --yes dxfl deploy example.osuny.org public/ --yes
