@@ -24,6 +24,7 @@ allowed_domains:
   - "www.arte.tv"
   - "api-cdn.arte.tv"
   - "peertube.fr"
+  - "instagram.com"
   - "www.instagram.com"
   - "canal-u.tv"
   - "www.canal-u.tv"
