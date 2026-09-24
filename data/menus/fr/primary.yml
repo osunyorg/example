@@ -324,11 +324,21 @@ items:
       descendants_targets: []
       path: "/pages/blocks/blocks-techniques/liens"
       file: content/fr/pages/blocks/blocks-techniques/liens/_index.html
+    - title: Les formulaires
+      slug: les-formulaires
+      target: "/fr/blocks/blocks-techniques/les-formulaires/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/blocks/blocks-techniques/les-formulaires"
+      file: content/fr/pages/blocks/blocks-techniques/les-formulaires/_index.html
     descendants_targets:
     - "/fr/blocks/blocks-techniques/contact/"
     - "/fr/blocks/blocks-techniques/definitions/"
     - "/fr/blocks/blocks-techniques/fichiers/"
     - "/fr/blocks/blocks-techniques/integration-html/"
+    - "/fr/blocks/blocks-techniques/les-formulaires/"
     - "/fr/blocks/blocks-techniques/licences/"
     - "/fr/blocks/blocks-techniques/liens/"
     path: "/pages/blocks/blocks-techniques"
@@ -391,6 +401,7 @@ items:
   - "/fr/blocks/blocks-techniques/definitions/"
   - "/fr/blocks/blocks-techniques/fichiers/"
   - "/fr/blocks/blocks-techniques/integration-html/"
+  - "/fr/blocks/blocks-techniques/les-formulaires/"
   - "/fr/blocks/blocks-techniques/licences/"
   - "/fr/blocks/blocks-techniques/liens/"
   - "/fr/blocks/blocs-de-liste/"
