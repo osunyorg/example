@@ -11,9 +11,9 @@ contents:
   - kind: block
     template: call_to_action
     title: >-
-      En savoir plus
+      En savoir plus sur le commun numérique Osuny.
     slug: >-
-      en-savoir-plus
+      en-savoir-plus-sur-le-commun-numerique-osuny
     ranks:
       base: 2
       self: 2
@@ -21,14 +21,14 @@ contents:
       active: true
       title: 
         value: >-
-          En savoir plus
+          En savoir plus sur le commun numérique Osuny.
         heading: 2
       description: >-
-        <p>Sur le commun numérique Osuny.</p><p>Ceci est un bloc de footer, il s'affiche sur l'ensemble du site, au-dessus du pied de page.</p>
+        <p>Ceci est un bloc de footer, il s'affiche sur l'ensemble du site, au-dessus du pied de page.</p>
     data:
       layout: no_background
       text: >-
-        <p>Sur le commun numérique Osuny.</p><p>Ceci est un bloc de footer, il s'affiche sur l'ensemble du site, au-dessus du pied de page.</p>
+        <p>Ceci est un bloc de footer, il s'affiche sur l'ensemble du site, au-dessus du pied de page.</p>
       buttons:
         - 
           title: >-

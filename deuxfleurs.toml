@@ -592,7 +592,7 @@ to = "/fr/equipe/alex-ben-2/"
 
 [[redirects]]
 from = "/fr/agenda/2025/arte-concert-festival-2023/alice-phoebe-lou/index.html"
-to = "/fr/agenda/2026/arte-concert-festival-2023/alice-phoebe-lou/"
+to = "/fr/agenda/2026/arte-concert-festival-2026/alice-phoebe-lou/"
 
 [[redirects]]
 from = "/blocks/blocks-de-liste/actualites-1/index.html"
@@ -900,7 +900,7 @@ to = "/fr/equipe/categories/implication/comites-osuny/dev-back/"
 
 [[redirects]]
 from = "/fr/agenda/2025/arte-concert-festival-2023/2025-11-03-alice-phoebe-lou/index.html"
-to = "/fr/agenda/2026/arte-concert-festival-2023/alice-phoebe-lou/"
+to = "/fr/agenda/2026/arte-concert-festival-2026/alice-phoebe-lou/"
 
 [[redirects]]
 from = "/actualites/2022-12-01-referentiel-general-decoconception-de-services-numeriques-rgesn/index.html"
@@ -941,6 +941,10 @@ to = "/fr/expositions/2026-03-09-mamlouks/"
 [[redirects]]
 from = "/blocks/blocs-de-liste/programmes/index.html"
 to = "/fr/blocks/blocs-de-liste/programmes/"
+
+[[redirects]]
+from = "/fr/agenda/2026/arte-concert-festival-2023/alice-phoebe-lou/index.html"
+to = "/fr/agenda/2026/arte-concert-festival-2026/alice-phoebe-lou/"
 
 [[redirects]]
 from = "/fr/organisations/categories/secteur/prive/index.html"
